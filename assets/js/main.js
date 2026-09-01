@@ -428,6 +428,8 @@
     "We reply within one business day":"نرد خلال يوم عمل واحد",
     "Follow us on Instagram":"تابعنا على إنستقرام",
     "Follow us on Facebook":"تابعنا على فيسبوك",
+    "Follow us on TikTok":"تابعنا على تيك توك",
+    "Follow us on X":"تابعنا على إكس",
     "Full name":"الاسم الكامل","Phone / WhatsApp":"الهاتف / واتساب","Address":"العنوان",
     "Service needed":"الخدمة المطلوبة","What's going on?":"ما هي المشكلة؟",
     "Request My Free Visit":"اطلب زيارتي المجانية",

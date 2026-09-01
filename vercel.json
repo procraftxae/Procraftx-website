@@ -9,7 +9,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'sha256-oTzjtZWpJrSd6of5cK/vhsYoxX2IP/nEmfYN8uDlRdw=' 'sha256-E2PEslsXb5MNDrftDFm6bEr61v3x9aLUsckvL+pz3Ps='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://fonts.googleapis.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+          "value": "default-src 'self'; script-src 'self' 'sha256-zhC3PzQr1tckD7U3i7roCoJLRmfdZyQVqC8mx9Bopj4=' 'sha256-E2PEslsXb5MNDrftDFm6bEr61v3x9aLUsckvL+pz3Ps='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://fonts.googleapis.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
         },
         {
           "key": "X-Frame-Options",
