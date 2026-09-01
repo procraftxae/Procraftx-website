@@ -435,11 +435,6 @@
     "Please enter your name.":"يرجى إدخال اسمك.",
     "Please enter a valid phone number.":"يرجى إدخال رقم هاتف صحيح.",
     "Not sure yet":"غير متأكد بعد",
-    "All services in one — core home maintenance, furniture care, and home clearing & sanitization from one trusted crew.":"كل الخدمات في مكان واحد — الصيانة المنزلية الأساسية، والعناية بالأثاث، وتفريغ المنزل وتعقيمه من فريق واحد موثوق.",
-    "Company":"الشركة","FAQ":"الأسئلة الشائعة","Contact":"تواصل معنا",
-    "See all specialties and services →":"عرض جميع التخصصات والخدمات ←",
-    "© 2026 Procraftx. All Services In One.":"© 2026 بروكرافتكس. كل الخدمات في مكان واحد.",
-    "Privacy · Terms · Careers":"الخصوصية · الشروط · الوظائف",
     "Skip to content":"تخطَّ إلى المحتوى"
   };
 

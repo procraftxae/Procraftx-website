@@ -146,12 +146,6 @@
     "We're happy to talk it through.":"يسعدنا أن نناقشه معك.",
     "Didn't find what you were looking for? Message us on WhatsApp or call — a real person answers, not a bot.":"لم تجد ما كنت تبحث عنه؟ راسلنا على واتساب أو اتصل بنا — يرد عليك شخص حقيقي، وليس روبوتًا.",
     "Chat on WhatsApp":"تواصل عبر واتساب",
-    "All services in one — core home maintenance, furniture care, and home clearing & sanitization from one trusted crew.":"كل الخدمات في مكان واحد — الصيانة المنزلية الأساسية، والعناية بالأثاث، وتفريغ المنزل وتعقيمه من فريق واحد موثوق.",
-    "AC Services":"خدمات التكييف","Plumbing Support":"خدمات السباكة","Electrical Work":"الأعمال الكهربائية","Home Cleaning":"تنظيف المنزل",
-    "See all specialties and services →":"عرض جميع التخصصات والخدمات ←",
-    "Company":"الشركة","FAQ":"الأسئلة الشائعة","Contact":"تواصل معنا",
-    "© 2026 Procraftx. All Services In One.":"© 2026 بروكرافتكس. كل الخدمات في مكان واحد.",
-    "Privacy · Terms · Careers":"الخصوصية · الشروط · الوظائف",
     "Skip to content":"تخطَّ إلى المحتوى"
   };
 

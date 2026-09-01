@@ -110,7 +110,6 @@
   header{position:sticky;top:0;z-index:100;background:rgba(222,50,38,0.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,0,0,0.12);box-shadow:0 4px 18px -8px rgba(20,10,8,0.35);}
   nav{display:flex;align-items:center;justify-content:space-between;padding:16px 32px;max-width:1240px;margin:0 auto;}
   .logo{font-family:'Montserrat',sans-serif;font-weight:800;font-size:21px;display:flex;align-items:center;gap:9px;color:#fff;}
-  .logo .dot{color:var(--ink);}
   .nav-links{display:flex;gap:30px;align-items:center;}
   /* inline-block + padding so the tap target clears the 24px WCAG 2.5.8 minimum
      (text alone rendered only 22px tall) */
@@ -289,31 +288,6 @@
   .btn[disabled]{opacity:.6;cursor:not-allowed;transform:none !important;}
   .confirm{display:none;margin-top:14px;font-size:15px;color:var(--ink);}
 
-  /* ---------- FOOTER ---------- */
-  footer{padding:70px 0 26px;}
-  .footer-about{font-size:16px;max-width:260px;color:var(--ink);}
-  .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:50px;}
-  .footer-grid h4{font-family:'Montserrat',sans-serif;font-weight:700;font-size:15px;margin-bottom:16px;}
-  .footer-grid li{padding:2px 0;font-size:16px;color:var(--ink);}
-  /* inline-block + padding keeps each footer link at/above the 24px WCAG 2.5.8
-     minimum (text alone rendered 22px tall) without changing the visual rhythm */
-  .footer-grid li a{display:inline-block;padding:5px 0;}
-  .footer-grid li a:hover{color:var(--red);}
-  .footer-view-all{display:inline-block;margin-top:8px;font-weight:700;font-size:16px;color:var(--red);}
-  .footer-view-all:hover{color:var(--red-dark);}
-  .footer-logo{font-family:'Montserrat',sans-serif;font-weight:800;font-size:22px;margin-bottom:14px;}
-  .footer-social{display:flex;gap:10px;margin-top:16px;}
-  .footer-social a{
-    width:36px;height:36px;border-radius:50%;background:var(--bg-soft);
-    display:flex;align-items:center;justify-content:center;
-  }
-  .footer-social svg{width:16px;height:16px;stroke:var(--ink);}
-  .footer-bottom{
-    border-top:1px solid var(--line);padding-top:22px;
-    display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
-    font-size:15px;color:var(--ink);
-  }
-
   /* ---------- REVEAL ---------- */
   .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease, transform .7s ease;}
   .reveal.in{opacity:1;transform:translateY(0);}
@@ -339,7 +313,6 @@
   @media (max-width:980px){
     .testi-grid{grid-template-columns:1fr;}
     .cta-section .wrap{grid-template-columns:1fr;}
-    .footer-grid{grid-template-columns:1fr 1fr;}
     .cta-section{margin:0 16px;padding:50px 28px;}
   }
   @media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important;}}
@@ -458,7 +431,6 @@
   html[dir="rtl"] .hero-ctas,
   html[dir="rtl"] .trust-row,
   html[dir="rtl"] .contact-info .row,
-  html[dir="rtl"] .footer-social,
   html[dir="rtl"] .category-head{
     direction:rtl;
   }
@@ -473,14 +445,12 @@
   @media (max-width:720px){
     /* ---- Shinex-style mobile header: flat red bar, inline nav, no hamburger ---- */
     header{background:#DE3226;backdrop-filter:none;border-bottom:none;box-shadow:none;}
-    nav{padding:10px 14px;gap:10px;}
-    .logo{font-size:16px;flex:none;}
+    nav{padding:8px 12px;gap:8px;}
+    .logo{font-size:14px;flex:none;}
     .nav-links{
-      display:flex;flex:1 1 auto;gap:14px;overflow-x:auto;
-      -ms-overflow-style:none;scrollbar-width:none;
+      display:flex;flex:1 1 auto;gap:8px;overflow-x:hidden;
     }
-    .nav-links::-webkit-scrollbar{display:none;}
-    .nav-links a{font-size:15px;white-space:nowrap;}
+    .nav-links a{font-size:12.5px;white-space:nowrap;}
     .nav-links a:hover::after{display:none;}
     .nav-phone{display:none;}
     .header-cta{display:none;}
@@ -488,9 +458,12 @@
     .nav-cta{flex:none;gap:0;}
     .lang-toggle{
       display:flex;flex-direction:column;align-items:center;gap:0;
-      padding:6px 10px;font-size:15px;line-height:1.2;border-radius:12px;
+      padding:4px 8px;font-size:11px;line-height:1.2;border-radius:10px;
     }
     .lang-toggle .lang-sep{display:none;}
+    .lang-toggle .lang-ar{flex-direction:column;gap:2px;}
+    html[lang="ar"] .lang-toggle .lang-en{flex-direction:column;gap:2px;}
+    .lang-toggle .flag-icon{width:15px;height:11px;}
 
     /* ---- Shinex-style mobile hero: full-bleed image only, no text overlay ---- */
     .hero{min-height:0;aspect-ratio:16/10;overflow:hidden;}
@@ -507,7 +480,6 @@
     .trust-card .item:nth-child(n+3){border-bottom:none;}
     .trust-card .item b{font-size:15px;}
     .trust-card .item span{font-size:15px;}
-    .footer-grid{grid-template-columns:1fr;}
     .banner .content{padding:24px 20px;}
     .wrap{padding:0 16px;}
     /* tighter vertical rhythm on mobile */
