@@ -21,8 +21,27 @@ vercel.json         security headers (incl. CSP)
 ```
 
 No `package.json`, no `node_modules`, no bundler. Edit files directly.
-Host: **Vercel** (team `procraftx`, project `procraftx`). Domain **procraftx.ae**,
-DNS at **Tasjeel** (no API access — DNS changes must be done by the user).
+
+Host: **Vercel**, account `procraftxae-2417` (login: `procraftx.ae@gmail.com`),
+project `procraftx-website`. Domain **procraftx.ae** (production domain is
+actually `www.procraftx.ae` — apex 308-redirects to it). DNS at **Tasjeel**
+(no API access — DNS changes must be done by the user).
+
+**Git-connected deploys (since 2026-09-01):** this repo is pushed to
+`https://github.com/procraftxae/Procraftx-website.git` (private, branch
+`main`). Pushing to `main` triggers an automatic Vercel production deploy —
+there is no more `vercel --prod` step. Local git identity for this repo is
+set **locally** (`Procraftx` / `Procraftx.ae@gmail.com`), not globally — the
+machine's global git identity belongs to an unrelated project (ShineX) and
+must never be used here. Check with `git config user.email` (no `--global`)
+if unsure.
+
+There used to be a separate, older Vercel project (team `procraftx`, account
+`abdullahalhashmi1`, CLI-only deploys, no Git). It has been fully retired —
+domains were removed from it on 2026-09-01 and everything now lives under
+`procraftxae-2417`. **Do not deploy there or try to relink `.vercel/` to
+it** — if a stray `.vercel/project.json` in this folder still points to the
+old `orgId`/`projectId`, delete it; it's stale.
 
 ---
 
@@ -78,18 +97,24 @@ then silently stays English in Arabic mode.
 
 ## Deploying
 
-**Always ask the user for explicit confirmation before deploying.** Never run it
-unprompted, even when a deploy is the obvious next step.
+**Always ask the user for explicit confirmation before pushing to `main`.**
+A push to `main` IS a production deploy now (auto-triggered by Vercel's
+GitHub integration) — never push unprompted, even when it's the obvious next
+step.
 
 ```
-vercel --prod        # from project root
+git push origin main        # this is the deploy — no separate vercel command
 ```
 
-Changes are local until deployed. `styles.css` and `main.js` cache hard in
-browsers — use a cache-busting query string when verifying, or the old file
-will appear to "not work".
+`git push` has been observed to get silently blocked by this environment's
+own permission layer regardless of retries — if that happens, hand the exact
+command to the user to run from their own terminal rather than looping on it.
 
-### Pre-deploy checklist
+Changes are local (uncommitted/unpushed) until pushed. `styles.css` and
+`main.js` cache hard in browsers — use a cache-busting query string when
+verifying, or the old file will appear to "not work".
+
+### Pre-deploy (pre-push) checklist
 
 1. CSP hashes MATCH (script above)
 2. `node --check assets/js/main.js && node --check assets/js/faq.js`
@@ -97,14 +122,18 @@ will appear to "not work".
 4. No duplicate `id`s, no dead `#anchors`
 5. New English strings have `AR` entries
 6. Internal/SEO working files still excluded (see below)
+7. `git status` — confirm nothing unintended is staged (check `.env.local`,
+   `.vercel`, `.claude` are NOT in the diff; they're gitignored but verify)
 
-### After deploying, verify against the live site
+### After pushing, verify against the live site
 
-Local files being right does not prove the deploy is right.
+Local files being right does not prove the deploy is right. **Note: `procraftx.ae`
+(apex) always 308-redirects to `www.procraftx.ae` — test paths against `www`,
+not the apex, or you'll just see the redirect.**
 
 ```
-curl -sSI https://procraftx.ae/                       # 200 + headers
-curl -sS -o /dev/null -w "%{http_code}" https://procraftx.ae/procraftx-keywords.csv   # must be 404
+curl -sSI https://www.procraftx.ae/                       # 200 + headers
+curl -sS -o /dev/null -w "%{http_code}" https://www.procraftx.ae/procraftx-keywords.csv   # must be 404
 ```
 
 ---
@@ -143,6 +172,14 @@ DNS lives at Tasjeel and **must be changed by the user** — give exact
 Type/Host/Target/TTL values. Their panel labels the value field **"Target"**, and
 the root host is **`@`** (using the domain name creates a subdomain — this has
 bitten us before).
+
+Two `_vercel` TXT records exist (added 2026-09-01) for Vercel domain-ownership
+verification during the account migration. They can stay indefinitely — no
+need to remove them. Note: Tasjeel's panel had a bug where two TXT records
+sharing the exact same host name (`_vercel`) both showed in the UI but only
+one was actually served by their nameservers; if a future TXT record needs a
+name already in use, verify with `nslookup -type=TXT <name> ns3.tasjeel.ae`
+that it's actually being served, don't trust the panel alone.
 
 ---
 
