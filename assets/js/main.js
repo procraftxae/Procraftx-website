@@ -423,7 +423,6 @@
     "Get Started":"ابدأ الآن",
     "Let's take a look before it becomes a bigger job.":"دعنا نلقي نظرة قبل أن تتفاقم المشكلة.",
     "Fill out the form and a real person will call to confirm your appointment — usually within the hour.":"املأ النموذج وسيتصل بك شخص حقيقي لتأكيد موعدك — عادةً خلال ساعة.",
-    "Call, All Week, 9am – 9pm":"اتصل، طوال أيام الأسبوع، 9ص - 9م",
     "WhatsApp us anytime":"راسلنا على واتساب في أي وقت",
     "We reply within one business day":"نرد خلال يوم عمل واحد",
     "Follow us on Instagram":"تابعنا على إنستقرام",
