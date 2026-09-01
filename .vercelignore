@@ -1,0 +1,21 @@
+.claude
+.git
+*.md
+
+# Local credentials (Vercel CLI already skips these, but make it explicit)
+.env
+.env.*
+.vercel
+
+# Internal SEO working files — not referenced by any page, and publishing them
+# would expose keyword strategy and competitor analysis
+keywords.txt
+procraftx-keywords.csv
+rank_tracker.py
+
+# Raw/scratch media exports not referenced by the site (only assets/ is served)
+Air_conditioning_unit_cleaning_l…_202607180547.jpeg
+Female_plumber_tightening_pipe_202607181559.mp4
+Home Maintenance Animation.mp4
+Home maintenance animation.zip
+Workers_doing_work_small_movements_202607181613.mp4

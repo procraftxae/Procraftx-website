@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="_IPAHV06IH3jP_eau1n5NKWp9_Zfgb3BOBFFXUx4otM">
+<title>AC, Plumbing & Home Maintenance Dubai & Sharjah | Procraftx</title>
+<meta name="description" content="Free walkthrough, flat quote, 100% guarantee. AC, plumbing, electrical, handyman, furniture care & home cleaning in Dubai & Sharjah. Call 050 791 7075. Also pools, window tinting, interior design, majlis, carports & landscaping.">
+<link rel="canonical" href="https://procraftx.ae/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Procraftx">
+<meta property="og:title" content="AC, Plumbing, Electrical & Home Maintenance Services | Procraftx">
+<meta property="og:description" content="All services in one — core home maintenance, furniture care, and home clearing & sanitization. Based in Dubai and Sharjah, also serving Ajman and Abu Dhabi. Flat quote before we start, 100% guarantee.">
+<meta property="og:url" content="https://procraftx.ae/">
+<meta property="og:image" content="https://procraftx.ae/assets/images/service-promo-poster.jpg">
+<meta property="og:locale" content="en_AE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AC, Plumbing, Electrical & Home Maintenance Services | Procraftx">
+<meta name="twitter:description" content="Based in Dubai and Sharjah, also serving Ajman and Abu Dhabi. Flat quote before we start, 100% guarantee.">
+<meta name="twitter:image" content="https://procraftx.ae/assets/images/service-promo-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Procraftx",
+  "description": "AC, plumbing, electrical, handyman, furniture care, home clearing & sanitization, outdoor majlis construction, car garage construction, window & glass installation, residential window tinting, interior design, swimming pool construction, and gardening & irrigation services.",
+  "url": "https://procraftx.ae/",
+  "telephone": "+971507917075",
+  "email": "Procraftx.ae@gmail.com",
+  "priceRange": "$$",
+  "areaServed": [
+    {"@type": "City", "name": "Dubai"},
+    {"@type": "City", "name": "Sharjah"},
+    {"@type": "City", "name": "Ajman"},
+    {"@type": "City", "name": "Abu Dhabi"}
+  ],
+  "sameAs": [
+    "https://instagram.com/Procraftx.ae",
+    "https://facebook.com/Procraftx"
+  ]
+}
+</script>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header>
+  <nav>
+    <a class="logo" href="#top">PROCRAFTX<span class="dot">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="faq.html">FAQs</a></li>
+    </ul>
+    <div class="nav-cta">
+      <button class="lang-toggle" id="langToggle" type="button"><span class="lang-en">EN</span><span class="lang-sep"> / </span><span class="lang-ar">عربي</span></button>
+      <a href="tel:+971507917075" class="nav-phone"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2z"/></svg>050 791 7075</a>
+      <a href="#contact" class="btn btn-dark header-cta">Book a Visit</a>
+    </div>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="bg">
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" disablePictureInPicture disableRemotePlayback aria-label="Maintenance workers at work">
+      <source src="assets/hero-workers.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-chips" aria-hidden="true">
+    <div class="hero-chip c1"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M14.7 6.3a4 4 0 0 0-5.66 5.66L3 18v3h3l6.04-6.04a4 4 0 0 0 5.66-5.66l-2.5 2.5-2-2 2.5-2.5z"/></svg></div>
+    <div class="hero-chip c2"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg></div>
+    <div class="hero-chip c3"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2v20M4.5 5.5l15 13M19.5 5.5l-15 13"/><circle cx="12" cy="12" r="9"/></svg></div>
+    <div class="hero-chip c4"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 17l6-6 3 3 8-8M20 6h-4V2"/><circle cx="7" cy="19" r="2"/></svg></div>
+  </div>
+  <a href="#services" class="hero-mobile-link" aria-label="See all services"></a>
+  <div class="wrap hero-content">
+    <span class="eyebrow">Licensed · Insured · 7 specialties, 14 services</span>
+    <h1>All services. <span>In one.</span></h1>
+    <p>Core home maintenance, specialized furniture care, and full home clearing &amp; sanitization — one trusted crew handles it all, with a flat quote before we start and a guarantee behind every job.</p>
+    <div class="hero-ctas">
+      <a href="#contact" class="btn btn-red pulse-cta">Book a Free Visit</a>
+      <a href="#services" class="btn btn-outline">See All Services</a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap trust-float reveal">
+  <div class="trust-card">
+    <div class="item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+      <b>Expert Crews</b><span>Licensed &amp; background-checked</span>
+    </div>
+    <div class="item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M20 6L9 17l-5-5"/></svg>
+      <b>100% Guarantee</b><span>Parts &amp; labor covered</span>
+    </div>
+    <div class="item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+      <b>All Services In One</b><span>One team, every job</span>
+    </div>
+    <div class="item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+      <b>24/7 Support</b><span>Real people, real fast</span>
+    </div>
+  </div>
+</div>
+
+<div class="marquee-strip" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack"></div>
+</div>
+
+<div class="stats-band">
+  <div class="wrap stats-grid">
+    <div class="stat"><div class="num" data-count="2000" data-suffix="+">0</div><div class="label">Repairs completed</div></div>
+    <div class="stat"><div class="num" data-count="2" data-suffix=" hrs">0</div><div class="label">Typical arrival window</div></div>
+    <div class="stat"><div class="num" data-count="21">0</div><div class="label">Services &amp; specialties</div></div>
+  </div>
+</div>
+
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our Services</span>
+      <h2>7 specialties. 14 services. One number to call.</h2>
+      <p>From a leaking tap to a full move-out clean — Procraftx covers it, tap any service to request a quote.</p>
+    </div>
+
+    <!-- 1. Core Home Maintenance -->
+    <div class="category-block">
+      <div class="category-head reveal">
+        <div><h3>Core Home Maintenance</h3><p>The everyday repairs that keep your home running — AC, plumbing, electrical, handyman and painting, handled by trained pros.</p></div>
+      </div>
+      <div class="subservice-grid">
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/ac-service.jpg" alt="Technician pressure-washing an AC unit" loading="lazy">
+          </div>
+          <div class="body"><h4>Air Conditioning (AC) Services</h4><p>Filters cleaned, gas refilled, and leaks fixed to keep your cooling efficient.</p><a href="#contact" class="link" data-service="Air Conditioning (AC) Services">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb"><img src="assets/images/plumbing-service.jpg" alt="Plumber repairing a leaking pipe under a sink" loading="lazy"></div>
+          <div class="body"><h4>Plumbing Support</h4><p>Pipe leaks repaired, drains unclogged, and fixtures like taps or toilets installed.</p><a href="#contact" class="link" data-service="Plumbing Support">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/electrical-service.jpg" alt="Electrician testing wiring at a light fixture and outlet with a multimeter" loading="lazy">
+          </div>
+          <div class="body"><h4>Electrical Work</h4><p>Light fixtures mounted, faulty wiring fixed, and power sockets safely replaced.</p><a href="#contact" class="link" data-service="Electrical Work">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb"><img src="assets/images/handyman-service.jpg" alt="Handyman mounting a wall shelf with a drill" loading="lazy"></div>
+          <div class="body"><h4>Handyman Tasks</h4><p>Hanging shelves, mounting TVs, fixing door hinges, and small everyday repairs.</p><a href="#contact" class="link" data-service="Handyman Tasks">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/wall-painting-service.jpg" alt="Worker patching a wall and repointing brickwork" loading="lazy">
+          </div>
+          <div class="body"><h4>Wall Painting &amp; Masonry</h4><p>Fresh wall coatings applied, drywall cracks repaired, and tile or brickwork fixed.</p><a href="#contact" class="link" data-service="Wall Painting & Masonry">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Our Furniture Services -->
+    <div class="category-block">
+      <div class="category-head reveal">
+        <div><h3>Our Furniture Services</h3><p>From deep cleans to full restoration — we take care of the furniture other companies won't touch.</p></div>
+      </div>
+      <div class="subservice-grid">
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/upholstery-service.jpg" alt="Technicians steam-cleaning a sofa and restuffing cushions" loading="lazy">
+          </div>
+          <div class="body"><h4>Upholstery &amp; Mattress Services</h4><p>Sofa fabrics deep cleaned, cushions restuffed, and mattresses sanitized for freshness.</p><a href="#contact" class="link" data-service="Upholstery & Mattress Services">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/disassembly-service.jpg" alt="Workers disassembling a large wardrobe" loading="lazy">
+          </div>
+          <div class="body"><h4>Disassembly &amp; Reassembly</h4><p>Heavy furniture safely taken apart for moving and put back together correctly.</p><a href="#contact" class="link" data-service="Disassembly & Reassembly">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/restoration-service.jpg" alt="Furniture specialist sanding and painting a wooden chair" loading="lazy">
+          </div>
+          <div class="body"><h4>Restoration &amp; Furniture Painting</h4><p>Old wooden furniture sanded, varnished, painted, or repaired to look brand new.</p><a href="#contact" class="link" data-service="Restoration & Furniture Painting">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/furniture-cleaning-service.jpg" alt="Furniture cleaning specialist steam-cleaning a stained sofa" loading="lazy">
+          </div>
+          <div class="body"><h4>Furniture Cleaning</h4><p>Specialized stain removal and steam cleaning for delicate leather, fabric and carpets.</p><a href="#contact" class="link" data-service="Furniture Cleaning">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Home Clearing & Sanitization -->
+    <div class="category-block">
+      <div class="category-head reveal">
+        <div><h3>Home Clearing &amp; Sanitization</h3><p>Moving in, moving out, or just resetting the house — cleaning, clearing and pest-proofing in one call.</p></div>
+      </div>
+      <div class="subservice-grid">
+        <div class="sub-card reveal">
+          <div class="thumb"><img src="assets/images/move-in-out-service.jpg" alt="Cleaning crew scrubbing cabinets, oven, and windows in an empty home" loading="lazy"></div>
+          <div class="body"><h4>Move-In &amp; Move-Out Clean</h4><p>Deep scrubbing of empty homes, including inside cabinets, ovens, and windows.</p><a href="#contact" class="link" data-service="Move-In & Move-Out Clean">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/decluttering-service.jpg" alt="Crew member sorting boxes into donate and recycle bins" loading="lazy">
+          </div>
+          <div class="body"><h4>Decluttering &amp; Property Clearing</h4><p>Sorting through unwanted items, organizing spaces, and hauling away junk.</p><a href="#contact" class="link" data-service="Decluttering & Property Clearing">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/disinfection-service.jpg" alt="Technician disinfecting a room and treating a bedbug and ant infestation" loading="lazy">
+          </div>
+          <div class="body"><h4>Disinfection &amp; Pest Management</h4><p>Eradicating bugs like bedbugs or ants, and sanitizing surfaces against bacteria.</p><a href="#contact" class="link" data-service="Disinfection & Pest Management">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb">
+            <img src="assets/images/packers-movers-service.jpg" alt="Procraftx crew wrapping furniture and loading a moving truck" loading="lazy">
+          </div>
+          <div class="body"><h4>Packers &amp; Movers</h4><p>Securely wrapping your belongings, loading trucks, and transporting to a new home.</p><a href="#contact" class="link" data-service="Packers & Movers">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+        <div class="sub-card reveal">
+          <div class="thumb"><img src="assets/images/home-cleaning-service.jpg" alt="Cleaner vacuuming a rug in a living room" loading="lazy"></div>
+          <div class="body"><h4>Home Cleaning</h4><p>Routine dusting, vacuuming, mopping, and bathroom cleaning for standard upkeep.</p><a href="#contact" class="link" data-service="Home Cleaning">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Outdoor Majlis Services -->
+    <div class="category-block">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide reveal">
+          <div class="thumb thumb-slideshow">
+            <img src="assets/images/majlis-1.jpg" alt="Modern glass majlis with sheer curtains and lounge seating" loading="lazy">
+            <img src="assets/images/majlis-2.jpg" alt="Outdoor pergola majlis with modern lounge furniture" loading="lazy" style="display:none">
+            <img src="assets/images/majlis-3.jpg" alt="Traditional majlis annex with tiled roof and glass doors" loading="lazy" style="display:none">
+            <img src="assets/images/majlis-4.jpg" alt="Ornate traditional Arabic majlis tent with gold detailing" loading="lazy" style="display:none">
+            <img src="assets/images/majlis-5.jpg" alt="Modern sandwich panel guest annex with garden lighting" loading="lazy" style="display:none">
+            <button type="button" class="thumb-nav thumb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="thumb-nav thumb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+            <div class="thumb-dots"></div>
+          </div>
+          <div class="body">
+            <h3>Outdoor Majlis Services</h3>
+            <p>Custom-built glass majlis, traditional Arabic majlis, sandwich panel majlis, pergolas, and guest annexes — designed, built, and maintained from the ground up.</p>
+            <h4>Majlis Design, Construction &amp; Renovation</h4><p>Design, construction, renovation, and expansion of glass majlis, traditional Arabic majlis, sandwich panel majlis, pergolas, and guest annexes, including complete interior fit-out — custom seating, flooring, wall cladding, ceilings, lighting, curtains, insulation, and décor. Ongoing maintenance covers roof repairs, waterproofing, repainting, AC servicing, electrical and plumbing work, glass replacement, structural repairs, aluminium doors and windows, sliding glass systems, weatherproof enclosures, stone cladding, decorative façades, paving, boundary walls, and outdoor lighting — plus bespoke features like smart lighting, sound systems, fireplaces, coffee stations, TV units, and custom storage.</p><a href="#contact" class="link" data-service="Outdoor Majlis Services">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Outdoor Car Garage Construction -->
+    <div class="category-block">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide reveal">
+          <div class="thumb thumb-slideshow">
+            <img src="assets/images/garage-1.jpg" alt="Curved fabric carport shade beside a villa garage" loading="lazy">
+            <img src="assets/images/garage-2.jpg" alt="Modern louvered aluminum carport over two SUVs" loading="lazy" style="display:none">
+            <img src="assets/images/garage-3.jpg" alt="Steel slat carport with ambient lighting over a car" loading="lazy" style="display:none">
+            <img src="assets/images/garage-4.jpg" alt="Tensioned fabric shade sail carport over a sedan" loading="lazy" style="display:none">
+            <img src="assets/images/garage-5.jpg" alt="Wooden pergola-style carport shading two vehicles" loading="lazy" style="display:none">
+            <button type="button" class="thumb-nav thumb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="thumb-nav thumb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+            <div class="thumb-dots"></div>
+          </div>
+          <div class="body">
+            <h3>Outdoor Car Garage Construction</h3>
+            <p>Custom car garages, carports, parking shades, steel structures, aluminum garages, and sandwich panel garages for residential properties.</p>
+            <h4>Custom Car Garage &amp; Carport Construction</h4><p>Design and build of custom car garages, carports, and parking shades — steel structures, aluminum garages, and sandwich panel garages built to protect vehicles and suit residential properties.</p><a href="#contact" class="link" data-service="Outdoor Car Garage Construction">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Window & Glass Installations -->
+    <div class="category-block">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide reveal">
+          <div class="thumb thumb-slideshow">
+            <img src="assets/images/window-install-1.jpg" alt="Technician installing a casement window indoors" loading="lazy">
+            <img src="assets/images/window-install-2.jpg" alt="Two workers fitting a window into a framed opening" loading="lazy" style="display:none">
+            <img src="assets/images/window-install-3.jpg" alt="Workers measuring and installing a window on a brick house" loading="lazy" style="display:none">
+            <img src="assets/images/window-install-4.jpg" alt="Technician installing a window from inside a home" loading="lazy" style="display:none">
+            <img src="assets/images/shower-glass-1.jpg" alt="Technician installing a glass shower enclosure" loading="lazy" style="display:none">
+            <button type="button" class="thumb-nav thumb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="thumb-nav thumb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+            <div class="thumb-dots"></div>
+          </div>
+          <div class="body">
+            <h3>Window &amp; Glass Installations</h3>
+            <p>Aluminium, uPVC, sliding, casement and double-glazed windows, plus shower glass — installed, replaced, or repaired for a durable, weather-tight fit.</p>
+            <h4>Home Window &amp; Shower Glass Installation</h4><p>Installation, replacement, and repair of aluminium, uPVC, sliding, casement, and double-glazed windows, plus shower glass — built for durability, weather protection, and a watertight fit.</p><a href="#contact" class="link" data-service="Home Window Installation">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Residential Window Tinting -->
+    <div class="category-block">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide reveal">
+          <div class="thumb thumb-slideshow">
+            <img src="assets/images/tinting-1.jpg" alt="Technician applying tinting film to a villa window" loading="lazy">
+            <img src="assets/images/tinting-2.jpg" alt="Living room with heat-rejection tinted windows" loading="lazy" style="display:none">
+            <img src="assets/images/tinting-3.jpg" alt="Frosted privacy film on a bathroom window" loading="lazy" style="display:none">
+            <img src="assets/images/tinting-4.jpg" alt="Decorative patterned film on a glass partition" loading="lazy" style="display:none">
+            <img src="assets/images/tinting-5.jpg" alt="Installer smoothing tint film with a squeegee" loading="lazy" style="display:none">
+            <button type="button" class="thumb-nav thumb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="thumb-nav thumb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+            <div class="thumb-dots"></div>
+          </div>
+          <div class="body">
+            <h3>Residential Window Tinting</h3>
+            <p>Heat-rejection, UV-blocking, privacy, security and decorative films — professionally applied to villa and apartment glass.</p>
+            <h4>Home Window Film &amp; Tinting</h4><p>Supply and installation of residential window films — heat-rejection and solar-control tint to cut cooling costs, UV-blocking film that stops furniture and flooring from fading, and glare-reduction film for bright rooms. Privacy options include one-way mirror, frosted, and decorative patterned film for bathrooms, partitions, and street-facing windows, plus safety and security film that holds glass together on impact. Every job includes glass preparation, precision cut-to-fit application, bubble-free finishing, and removal or replacement of old peeling tint.</p><a href="#contact" class="link" data-service="Residential Window Tinting">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. Interior Design -->
+    <div class="category-block">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide reveal">
+          <div class="thumb thumb-slideshow">
+            <img src="assets/images/interior-1.jpg" alt="Modern styled living room interior" loading="lazy">
+            <img src="assets/images/interior-2.jpg" alt="Designer reviewing material and finish samples" loading="lazy" style="display:none">
+            <img src="assets/images/interior-3.jpg" alt="Custom joinery and built-in storage wall" loading="lazy" style="display:none">
+            <img src="assets/images/interior-4.jpg" alt="Bedroom with coordinated lighting and furnishings" loading="lazy" style="display:none">
+            <img src="assets/images/interior-5.jpg" alt="Majlis seating area styled with décor and lighting" loading="lazy" style="display:none">
+            <button type="button" class="thumb-nav thumb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="thumb-nav thumb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+            <div class="thumb-dots"></div>
+          </div>
+          <div class="body">
+            <h3>Interior Design</h3>
+            <p>Concept design, space planning, custom joinery and full styling — from a single room refresh to a complete home fit-out.</p>
+            <h4>Interior Design &amp; Fit-Out</h4><p>Full interior design service covering concept development, space planning, and layout optimisation, with mood boards and 3D visuals so you can see the result before work begins. We handle material, finish and colour selection, flooring and wall treatments, false ceilings and gypsum work, lighting design, curtains and blinds, and custom joinery including wardrobes, TV units, and kitchen cabinetry. Delivery covers furniture sourcing and placement, décor and accessory styling, and complete supervised fit-out — for single rooms, majlis areas, or whole villas and apartments.</p><a href="#contact" class="link" data-service="Interior Design">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9. Swimming Pool Construction & Design -->
+    <div class="category-block">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide reveal">
+          <div class="thumb thumb-slideshow">
+            <img src="assets/images/pool-1.jpg" alt="Newly built villa swimming pool with blue tiling" loading="lazy">
+            <img src="assets/images/pool-2.jpg" alt="Pool under construction with rebar and shell formed" loading="lazy" style="display:none">
+            <img src="assets/images/pool-3.jpg" alt="Infinity-edge pool with landscaped deck" loading="lazy" style="display:none">
+            <img src="assets/images/pool-4.jpg" alt="Technician servicing pool filtration equipment" loading="lazy" style="display:none">
+            <img src="assets/images/pool-5.jpg" alt="Illuminated pool with underwater lighting at dusk" loading="lazy" style="display:none">
+            <button type="button" class="thumb-nav thumb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="thumb-nav thumb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+            <div class="thumb-dots"></div>
+          </div>
+          <div class="body">
+            <h3>Swimming Pool Construction &amp; Design</h3>
+            <p>Custom pool design and construction, renovation and resurfacing, plus ongoing cleaning and equipment maintenance.</p>
+            <h4>Pool Design, Construction &amp; Maintenance</h4><p>End-to-end swimming pool projects — design and 3D planning, excavation, shell construction, waterproofing, and tiling or mosaic finishes, including infinity-edge, overflow, and plunge pool designs. Installation covers filtration and pump systems, heating and chilling units, underwater lighting, jacuzzis and water features, plus surrounding decking, coping stones, and landscaping. We also handle renovation and resurfacing of ageing pools, leak detection and structural repair, tile and grout replacement, and equipment upgrades — backed by scheduled maintenance covering cleaning, water testing and chemical balancing, and filter servicing.</p><a href="#contact" class="link" data-service="Swimming Pool Construction &amp; Design">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 10. Gardening & Irrigation Systems -->
+    <div class="category-block">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide reveal">
+          <div class="thumb thumb-slideshow">
+            <img src="assets/images/garden-1.jpg" alt="Pop-up sprinklers watering the lawn of a modern villa garden" loading="lazy">
+            <img src="assets/images/garden-2.jpg" alt="Gardener planting flowers in a mulched bed beside a modern home" loading="lazy" style="display:none">
+            <img src="assets/images/garden-3.jpg" alt="Gardener mowing a striped villa lawn lined with palm trees" loading="lazy" style="display:none">
+            <img src="assets/images/garden-4.jpg" alt="Gardener trimming a hedge with a powered hedge trimmer" loading="lazy" style="display:none">
+            <img src="assets/images/garden-5.jpg" alt="Finished villa garden with manicured lawn, palm trees and flower beds" loading="lazy" style="display:none">
+            <button type="button" class="thumb-nav thumb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button type="button" class="thumb-nav thumb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+            <div class="thumb-dots"></div>
+          </div>
+          <div class="body">
+            <h3>Gardening &amp; Irrigation Systems</h3>
+            <p>Garden design and planting, automatic irrigation installation and repair, and regular upkeep to keep everything green year-round.</p>
+            <h4>Landscaping &amp; Irrigation</h4><p>Complete garden and landscaping work — design and soft landscaping, natural lawns and artificial grass, tree, shrub and seasonal flower planting, plus hard landscaping such as pathways, pergolas, decking, and decorative gravel. Irrigation covers full system design and installation, automatic sprinkler and drip-line setup, smart timers and controllers, pump and valve fitting, and repair of leaks, blockages, and broken sprinkler heads. Ongoing maintenance includes mowing, hedge and tree trimming, weed and pest control, fertilisation, seasonal replanting, and irrigation system checks.</p><a href="#contact" class="link" data-service="Gardening &amp; Irrigation Systems">Request quote <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight-top bg-soft">
+  <div class="wrap">
+    <div class="banner reveal" id="promoBanner">
+      <div class="banner-media">
+        <video class="banner-video" autoplay muted loop playsinline webkit-playsinline="true" poster="assets/images/service-promo-poster.jpg" preload="auto" disablePictureInPicture disableRemotePlayback aria-label="Procraftx services animation">
+          <source src="assets/service-promo.mp4" type="video/mp4">
+        </video>
+        <button type="button" class="mute-toggle" id="muteToggle" aria-label="Unmute video" aria-pressed="false">
+          <svg class="icon-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M23 9l-6 6M17 9l6 6"/></svg>
+          <svg class="icon-unmuted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+        </button>
+      </div>
+      <div class="content">
+        <a href="https://wa.me/971507917075" class="btn btn-red" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="cta-section reveal">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Get Started</span>
+        <h2>Let's take a look before it becomes a bigger job.</h2>
+        <p class="lead">Fill out the form and a real person will call to confirm your appointment — usually within the hour.</p>
+        <div class="contact-info">
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2z"/></svg><div><b>050 791 7075</b><span>Call, All Week, 9am – 9pm</span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M3 21l1.4-4.2A8.9 8.9 0 1 1 8.2 20L3 21z"/><path d="M8.5 8.5c0 4 3 7 7 7 .6 0 1-.4.9-1l-.4-1.7a1 1 0 0 0-1.2-.7l-1.4.4a6 6 0 0 1-3-3l.4-1.4a1 1 0 0 0-.7-1.2L8.2 6.5c-.6-.1-1 .3-1 .9z"/></svg><div><b>050 791 7075</b><span>WhatsApp us anytime</span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg><div><b>Procraftx.ae@gmail.com</b><span>We reply within one business day</span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg><div><b>@Procraftx.ae</b><span>Follow us on Instagram</span></div></div>
+          <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg><div><b>Procraftx</b><span>Follow us on Facebook</span></div></div>
+        </div>
+      </div>
+      <form class="book-form" id="bookForm" novalidate>
+        <div class="field-row">
+          <div class="field" id="nameField">
+            <label for="name">Full name</label><input id="name" type="text" placeholder="Jordan Smith" maxlength="100" autocomplete="name" required aria-required="true" aria-describedby="nameErr">
+            <span class="error-msg" id="nameErr" role="alert">Please enter your name.</span>
+          </div>
+          <div class="field" id="phoneField">
+            <label for="phone">Phone / WhatsApp</label><input id="phone" type="tel" placeholder="050 791 7075" maxlength="20" autocomplete="tel" required aria-required="true" aria-describedby="phoneErr">
+            <span class="error-msg" id="phoneErr" role="alert">Please enter a valid phone number.</span>
+          </div>
+        </div>
+        <div class="field"><label for="address">Address</label><input id="address" type="text" placeholder="Street, Area, City" maxlength="200" autocomplete="street-address"></div>
+        <div class="field">
+          <label for="service">Service needed</label>
+          <select id="service">
+            <optgroup label="Core Home Maintenance">
+              <option>Air Conditioning (AC) Services</option>
+              <option>Plumbing Support</option>
+              <option>Electrical Work</option>
+              <option>Handyman Tasks</option>
+              <option>Wall Painting &amp; Masonry</option>
+            </optgroup>
+            <optgroup label="Our Furniture Services">
+              <option>Upholstery &amp; Mattress Services</option>
+              <option>Disassembly &amp; Reassembly</option>
+              <option>Restoration &amp; Furniture Painting</option>
+              <option>Furniture Cleaning</option>
+            </optgroup>
+            <optgroup label="Home Clearing &amp; Sanitization">
+              <option>Move-In &amp; Move-Out Clean</option>
+              <option>Decluttering &amp; Property Clearing</option>
+              <option>Disinfection &amp; Pest Management</option>
+              <option>Packers &amp; Movers</option>
+              <option>Home Cleaning</option>
+            </optgroup>
+            <optgroup label="Outdoor Majlis Services">
+              <option>Outdoor Majlis Services</option>
+            </optgroup>
+            <optgroup label="Outdoor Car Garage Construction">
+              <option>Outdoor Car Garage Construction</option>
+            </optgroup>
+            <optgroup label="Window &amp; Glass Installations">
+              <option>Home Window Installation</option>
+              <option>Shower Glass Replacement</option>
+            </optgroup>
+            <optgroup label="Residential Window Tinting">
+              <option>Residential Window Tinting</option>
+            </optgroup>
+            <optgroup label="Interior Design">
+              <option>Interior Design</option>
+            </optgroup>
+            <optgroup label="Swimming Pool Construction &amp; Design">
+              <option>Swimming Pool Construction &amp; Design</option>
+            </optgroup>
+            <optgroup label="Gardening &amp; Irrigation Systems">
+              <option>Gardening &amp; Irrigation Systems</option>
+            </optgroup>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field"><label for="notes">What's going on?</label><textarea id="notes" placeholder="Tell us what you're noticing..." maxlength="1000"></textarea></div>
+        <button type="submit" class="btn btn-red">Request My Free Visit</button>
+        <p class="confirm" role="status">We've opened WhatsApp with your request filled in — just hit send to confirm your booking.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">PROCRAFTX</div>
+        <p class="footer-about">All services in one — core home maintenance, furniture care, and home clearing &amp; sanitization from one trusted crew.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/Procraftx.ae" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="https://facebook.com/Procraftx" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://wa.me/971507917075" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M3 21l1.4-4.2A8.9 8.9 0 1 1 8.2 20L3 21z"/><path d="M8.5 8.5c0 4 3 7 7 7 .6 0 1-.4.9-1l-.4-1.7a1 1 0 0 0-1.2-.7l-1.4.4a6 6 0 0 1-3-3l.4-1.4a1 1 0 0 0-.7-1.2L8.2 6.5c-.6-.1-1 .3-1 .9z"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Services</h4><ul>
+        <li><a href="#services">AC Services</a></li><li><a href="#services">Plumbing Support</a></li>
+        <li><a href="#services">Electrical Work</a></li><li><a href="#services">Home Cleaning</a></li>
+        <li><a href="#services" class="footer-view-all">See all specialties and services &rarr;</a></li>
+      </ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="tel:+971507917075">050 791 7075</a></li><li><a href="mailto:Procraftx.ae@gmail.com">Procraftx.ae@gmail.com</a></li><li>@Procraftx.ae · Procraftx</li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Procraftx. All Services In One.</span>
+      <span>Privacy · Terms · Careers</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<a href="https://wa.me/971507917075" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.62-1.3 1.2-1.8 1.28-.46.07-1.04.1-1.68-.1-.39-.12-.89-.29-1.53-.57-2.7-1.17-4.46-3.9-4.6-4.08-.13-.18-1.1-1.46-1.1-2.78 0-1.32.7-1.97.95-2.24.24-.27.53-.34.7-.34h.5c.16 0 .38-.06.6.45.22.53.75 1.83.82 1.96.07.14.11.3.02.48-.09.18-.14.29-.27.45-.13.16-.28.35-.4.47-.13.13-.27.28-.12.55.16.27.7 1.16 1.5 1.87 1.03.92 1.9 1.2 2.17 1.34.27.13.43.11.6-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.6-.13.25.09 1.55.73 1.82.87.27.13.44.2.51.31.07.11.07.65-.15 1.27z"/></svg>
+</a>
+</body>
+</html>
