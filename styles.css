@@ -195,7 +195,7 @@
   .banner .content{position:relative;z-index:2;padding:32px;color:#fff;text-align:center;}
   .banner .eyebrow{color:#F2B3AC;}
   .banner h2{font-size:clamp(26px,3.4vw,38px);margin-bottom:16px;}
-  .banner p{color:#fff;margin-bottom:26px;font-size:16px;}
+  .banner p{color:#fff;margin:0 auto 26px;font-size:16px;max-width:640px;}
   .mute-toggle{
     position:absolute;z-index:3;top:20px;right:20px;width:42px;height:42px;border-radius:50%;
     background:rgba(10,10,8,0.55);border:1.5px solid rgba(255,255,255,0.4);color:#fff;
