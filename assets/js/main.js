@@ -436,6 +436,22 @@
     "Please enter your name.":"يرجى إدخال اسمك.",
     "Please enter a valid phone number.":"يرجى إدخال رقم هاتف صحيح.",
     "Not sure yet":"غير متأكد بعد",
+    "Got Questions?":"عندك أسئلة؟",
+    "Answers before you even ask.":"إجابات قبل ما تسأل حتى.",
+    "The most common questions about booking, pricing, and how we work.":"أكثر الأسئلة شيوعًا حول الحجز والأسعار وطريقة عملنا.",
+    "Do you charge for the initial quote?":"هل تتقاضون رسومًا مقابل عرض السعر الأولي؟",
+    "Are your technicians licensed and insured?":"هل الفنيون لديكم مرخّصون ومؤمَّنون؟",
+    "What areas do you service?":"ما هي المناطق التي تغطونها؟",
+    "How quickly can someone come out?":"ما مدى سرعة وصول أحد الفنيين؟",
+    "How do I find out what a job will cost?":"كيف أعرف تكلفة عملي؟",
+    "What payment methods do you accept?":"ما هي طرق الدفع التي تقبلونها؟",
+    "No. The walkthrough and quote are free — you only pay once you approve the price, with no obligation to book with us afterward.":"لا. المعاينة وعرض السعر مجانيان — تدفع فقط بعد موافقتك على السعر، دون أي التزام بالحجز معنا لاحقًا.",
+    "Yes. Every technician we send is licensed for their trade, background-checked, and covered by liability insurance, so you're protected from the first knock on the door.":"نعم. كل فني نرسله مرخّص في مجاله، وتم التحقق من خلفيته، ومغطى بتأمين المسؤولية، فأنت محمي منذ أول طرقة على الباب.",
+    "We're based in Dubai and Sharjah, and also take jobs in Ajman and Abu Dhabi. There's no fixed service radius — call or WhatsApp us with your location and we'll confirm we can get a technician to you.":"نحن مقرّنا في دبي والشارقة، كما نغطي عجمان وأبوظبي أيضًا. لا يوجد نطاق خدمة محدد — اتصل بنا أو راسلنا على واتساب بموقعك وسنؤكد لك إمكانية وصول فني إليك.",
+    "Most requests get an appointment within the same week, and many are same-visit once a technician is on site. Call or WhatsApp us and we'll give you the next available slot.":"تحصل معظم الطلبات على موعد خلال نفس الأسبوع، والعديد منها يُنجز في نفس الزيارة بمجرد وصول الفني. اتصل بنا أو راسلنا على واتساب وسنمنحك أقرب موعد متاح.",
+    "Every home and job is different, so we don't publish flat rates. Send us the details on WhatsApp or by phone and we'll get back to you with a clear price before any work starts.":"كل منزل ومهمة مختلفان، لذا لا ننشر أسعارًا ثابتة. أرسل لنا التفاصيل عبر واتساب أو الهاتف وسنعود إليك بسعر واضح قبل بدء أي عمل.",
+    "We accept cash, card, and bank transfer. You'll always see the price before we start, so there are no surprises on the invoice.":"نقبل الدفع النقدي والبطاقة والتحويل البنكي. سترى السعر دائمًا قبل أن نبدأ، فلا مفاجآت في الفاتورة.",
+    "Learn More":"اعرف المزيد",
     "Skip to content":"تخطَّ إلى المحتوى"
   };
 
