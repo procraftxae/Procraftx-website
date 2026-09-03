@@ -352,7 +352,7 @@
     "All Services In One":"كل الخدمات في مكان واحد","Our Services":"خدماتنا",
     "Our Specialties":"تخصصاتنا",
     "Bigger builds, designed and delivered.":"مشاريع أكبر، تصميمًا وتنفيذًا.",
-    "Custom construction and design projects — majlis, carports, glass, tinting, interiors, pools and landscaping.":"مشاريع بناء وتصميم مخصصة — مجالس، ومظلات سيارات، وزجاج، وتظليل، وتصميم داخلي، وحمامات سباحة، وتنسيق حدائق.",
+    "Custom construction and design projects — interiors, majlis, carports, glass, tinting, pools and landscaping.":"مشاريع بناء وتصميم مخصصة — تصميم داخلي، ومجالس، ومظلات سيارات، وزجاج، وتظليل، وحمامات سباحة، وتنسيق حدائق.",
     "Specialties":"التخصصات",
     "11 services. 7 specialties. One number to call.":"11 خدمة. 7 تخصصات. رقم واحد تتصل عليه.",
     "From a leaking tap to a full home clean — Procraftx covers it, tap any service to request a quote.":"من حنفية تسرّب إلى تنظيف كامل للمنزل — بروكرافتكس تغطي كل ذلك، اضغط على أي خدمة لطلب عرض سعر.",

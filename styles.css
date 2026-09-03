@@ -470,7 +470,7 @@
     }
     .lang-toggle .lang-sep{display:none;}
     .lang-toggle .lang-ar{flex-direction:column;gap:2px;}
-    html[lang="ar"] .lang-toggle .lang-en{flex-direction:column;gap:2px;}
+    html[lang="ar"] .lang-toggle .lang-en{flex-direction:column;gap:4px;}
     .lang-toggle .flag-icon{width:15px;height:11px;}
 
     /* ---- Shinex-style mobile hero: full-bleed image only, no text overlay ---- */
