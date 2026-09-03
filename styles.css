@@ -273,6 +273,7 @@
   .contact-info .row:hover{opacity:.8;}
   .contact-info svg{width:20px;height:20px;stroke:var(--red);flex:none;margin-top:2px;}
   .contact-info b{display:block;font-size:16px;}
+  .contact-info b[dir="ltr"]{text-align:right;}
   .contact-info span{font-size:15px;color:#fff;}
 
   form.book-form{background:#fff;border-radius:20px;padding:30px;color:var(--ink);}
@@ -427,7 +428,7 @@
   html[lang="ar"] .lang-toggle{
     font-family:'Tajawal',sans-serif;
   }
-  html[lang="ar"] h1,html[lang="ar"] h2,html[lang="ar"] h3,html[lang="ar"] h4,html[lang="ar"] h5{
+  html[lang="ar"] h1,html[lang="ar"] h2,html[lang="ar"] h3,html[lang="ar"] h4,html[lang="ar"] h5,html[lang="ar"] .logo{
     font-family:'Tajawal',sans-serif;font-weight:800;letter-spacing:0;
   }
   html[dir="rtl"] body{direction:rtl;}

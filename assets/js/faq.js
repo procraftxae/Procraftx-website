@@ -39,6 +39,7 @@
 
   /* ---------------- EN / AR TRANSLATION ---------------- */
   const AR = {
+    "PROCRAFTX":"بروكرافتكس",
     "Services":"خدماتنا","Specialties":"التخصصات","Reviews":"التقييمات","FAQs":"الأسئلة الشائعة",
     "See our core home maintenance services →":"اطّلع على خدمات الصيانة المنزلية الأساسية ←",
     "See our furniture services →":"اطّلع على خدمات الأثاث لدينا ←",
@@ -209,6 +210,8 @@
       const key = original.trim();
       node.data = lang === 'ar' ? (AR[key] || original) : original;
     });
+    const logoEl = document.querySelector('.logo');
+    if(logoEl) logoEl.textContent = lang === 'ar' ? AR['PROCRAFTX'] : 'PROCRAFTX';
     langToggle.setAttribute('aria-pressed', lang === 'ar' ? 'true' : 'false');
     // the button now shows only the target language, so spell the action out
     // for screen readers, in the language currently being read
