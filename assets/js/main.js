@@ -50,7 +50,8 @@
     {n:'Furniture Cleaning', d:'M12 2C9 6 5 8 5 13a7 7 0 0 0 14 0c0-5-4-7-7-11z'},
     {n:'Disinfection & Pest Management', d:'M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3zM9 12l2 2 4-4'},
     {n:'Packers & Movers', d:'M3 7h11v8H3zM14 10h4l3 3v2h-7v-5z'},
-    {n:'Home Cleaning', d:'M3 7l9-4 9 4-9 4-9-4zM3 7v10l9 4 9-4V7M12 11v10'}
+    {n:'Home Cleaning', d:'M3 7l9-4 9 4-9 4-9-4zM3 7v10l9 4 9-4V7M12 11v10'},
+    {n:'Water Tank Cleaning', d:'M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6'}
   ];
   const track = document.getElementById('marqueeTrack');
   if(track){
@@ -340,7 +341,7 @@
     "PROCRAFTX":"بروكرافتكس",
     "Services":"خدماتنا","FAQs":"الأسئلة الشائعة",
     "Book a Visit":"احجز زيارة",
-    "Licensed · Insured · 7 specialties, 11 services":"مرخّص · مؤمَّن · 7 تخصصات، 11 خدمة",
+    "Licensed · Insured · 7 specialties, 12 services":"مرخّص · مؤمَّن · 7 تخصصات، 12 خدمة",
     "All services.":"كل الخدمات.","In one.":"في مكان واحد.",
     "Core home maintenance, specialized furniture care, and full home clearing & sanitization — one trusted crew handles it all, with a flat quote before we start and a guarantee behind every job.":"الصيانة المنزلية الأساسية، والعناية المتخصصة بالأثاث، وتفريغ المنزل وتعقيمه بالكامل — فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل.",
     "Book a Free Visit":"احجز زيارة مجانية","See All Services":"استعرض جميع الخدمات",
@@ -354,7 +355,7 @@
     "Bigger builds, designed and delivered.":"مشاريع أكبر، تصميمًا وتنفيذًا.",
     "Custom construction and design projects — interiors, majlis, carports, glass, tinting, pools and landscaping.":"مشاريع بناء وتصميم مخصصة — تصميم داخلي، ومجالس، ومظلات سيارات، وزجاج، وتظليل، وحمامات سباحة، وتنسيق حدائق.",
     "Specialties":"التخصصات",
-    "11 services. 7 specialties. One number to call.":"11 خدمة. 7 تخصصات. رقم واحد تتصل عليه.",
+    "12 services. 7 specialties. One number to call.":"12 خدمة. 7 تخصصات. رقم واحد تتصل عليه.",
     "From a leaking tap to a full home clean — Procraftx covers it, tap any service to request a quote.":"من حنفية تسرّب إلى تنظيف كامل للمنزل — بروكرافتكس تغطي كل ذلك، اضغط على أي خدمة لطلب عرض سعر.",
     "Core Home Maintenance":"الصيانة المنزلية الأساسية",
     "The everyday repairs that keep your home running — AC, plumbing, electrical, handyman and painting, handled by trained pros.":"الإصلاحات اليومية التي تُبقي منزلك يعمل بسلاسة — تكييف، سباكة، كهرباء، صيانة عامة ودهانات، على يد فنيين مدربين.",
@@ -385,6 +386,8 @@
     "Securely wrapping your belongings, loading trucks, and transporting to a new home.":"تغليف ممتلكاتك بأمان، تحميلها على الشاحنات، ونقلها إلى المنزل الجديد.",
     "Home Cleaning":"تنظيف المنزل",
     "Routine dusting, vacuuming, mopping, and bathroom cleaning for standard upkeep.":"إزالة الغبار والتنظيف بالمكنسة الكهربائية والمسح وتنظيف الحمامات للصيانة الدورية.",
+    "Water Tank Cleaning":"تنظيف خزانات المياه",
+    "High-pressure cleaning and disinfection of overhead and underground water tanks to keep your supply safe.":"تنظيف وتعقيم بالضغط العالي لخزانات المياه العلوية والأرضية للحفاظ على سلامة مصدر المياه.",
     "Window & Glass Installations":"تركيبات النوافذ والزجاج",
     "Aluminium, uPVC, sliding, casement and double-glazed windows, plus shower glass — installed, replaced, or repaired for a durable, weather-tight fit.":"نوافذ الألمنيوم، واليو بي في سي، والسحّاب، والمفصلية، والمزدوجة الزجاج، بالإضافة إلى زجاج الحمام — تركيب واستبدال وإصلاح لضمان ثبات ومقاومة للعوامل الجوية.",
     "Home Window Installation":"تركيب نوافذ المنزل",
