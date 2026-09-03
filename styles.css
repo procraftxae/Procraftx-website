@@ -180,7 +180,11 @@
   /* ---------- SECTION ---------- */
   .section{padding:110px 0 96px;}
   .section.tight-top{padding-top:70px;}
-  .section-head{max-width:640px;margin:0 auto 52px;text-align:center;}
+  .section-head{max-width:640px;margin:0 auto 52px;text-align:center;position:relative;padding-bottom:32px;}
+  .section-head::after{
+    content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);
+    width:56px;height:3px;background:var(--red);border-radius:3px;
+  }
   .section-head h1, .section-head h2{font-size:clamp(30px,3.8vw,44px);}
   #services .section-head h2{font-size:26px;}
   .section-head p{color:var(--ink);margin-top:14px;font-size:16px;}
@@ -492,7 +496,7 @@
     .wrap{padding:0 16px;}
     /* tighter vertical rhythm on mobile */
     .section{padding:64px 0 56px;}
-    .section-head{margin-bottom:34px;}
+    .section-head{margin-bottom:40px;padding-bottom:26px;}
     .category-block{margin-bottom:44px;}
     .category-head{margin-bottom:20px;padding-bottom:16px;flex-direction:column;gap:8px;}
     .field-row{grid-template-columns:1fr;}
