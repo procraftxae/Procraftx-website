@@ -123,7 +123,8 @@
   .lang-toggle{
     font-family:'Montserrat',sans-serif;font-weight:600;font-size:15px;
     background:#fff;border:1.5px solid #fff;border-radius:100px;
-    padding:9px 16px;cursor:pointer;color:var(--red);transition:opacity .2s ease;
+    padding:9px 12px;cursor:pointer;color:var(--red);transition:opacity .2s ease;
+    min-width:112px;display:inline-flex;justify-content:center;
   }
   .lang-toggle:hover{opacity:0.88;}
   /* the toggle shows the language you'd switch TO, not the one you're reading:
@@ -273,7 +274,7 @@
   .contact-info .row:hover{opacity:.8;}
   .contact-info svg{width:20px;height:20px;stroke:var(--red);flex:none;margin-top:2px;}
   .contact-info b{display:block;font-size:16px;}
-  .contact-info b[dir="ltr"]{text-align:right;}
+  html[dir="rtl"] .contact-info b[dir="ltr"]{text-align:right;}
   .contact-info span{font-size:15px;color:#fff;}
 
   form.book-form{background:#fff;border-radius:20px;padding:30px;color:var(--ink);}
@@ -451,8 +452,8 @@
   @media (max-width:720px){
     /* ---- Shinex-style mobile header: flat red bar, inline nav, no hamburger ---- */
     header{background:#DE3226;backdrop-filter:none;border-bottom:none;box-shadow:none;}
-    nav{padding:8px 12px;gap:8px;}
-    .logo{font-size:14px;flex:none;}
+    nav{padding:8px 10px;gap:6px;}
+    .logo{font-size:12px;flex:none;}
     .nav-links{
       display:flex;flex:1 1 auto;gap:8px;overflow-x:hidden;
     }
@@ -465,6 +466,7 @@
     .lang-toggle{
       display:flex;flex-direction:column;align-items:center;gap:0;
       padding:4px 8px;font-size:11px;line-height:1.2;border-radius:10px;
+      min-width:62px;
     }
     .lang-toggle .lang-sep{display:none;}
     .lang-toggle .lang-ar{flex-direction:column;gap:2px;}
