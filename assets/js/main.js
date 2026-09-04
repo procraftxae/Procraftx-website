@@ -439,8 +439,6 @@
     "About Us":"من نحن",
     "One trusted crew for everything your home needs.":"فريق موثوق واحد لكل ما يحتاجه منزلك.",
     "Welcome to Procraftx! Our mission is to give every home in Dubai and Sharjah one trusted crew for everything it needs, instead of a different contractor for every job. We believe your home deserves the same care and attention to detail as any showroom — so our licensed, background-checked technicians handle it that way, backed by a 100% guarantee on every visit. Whether it's a leaking tap, a full furniture restoration, or a custom-built majlis, we quote fairly, show up on time, and get it right the first time.":"مرحبًا بك في بروكرافتكس! مهمتنا هي أن نمنح كل منزل في دبي والشارقة فريقًا موثوقًا واحدًا لكل ما يحتاجه، بدلاً من مقاول مختلف لكل مهمة. نؤمن أن منزلك يستحق نفس العناية والاهتمام بالتفاصيل التي يحظى بها أي صالة عرض — لذا يتعامل فنيونا المرخّصون والمدقّق في خلفياتهم بهذه الروح، مدعومين بضمان 100% على كل زيارة. سواء كانت حنفية تسرّب، أو ترميم أثاث كامل، أو مجلس مبني حسب الطلب، نقدّم عرض سعر عادل، ونصل في الوقت المحدد، وننجز العمل بشكل صحيح من أول مرة.",
-    "Answers before you even ask.":"إجابات قبل ما تسأل حتى.",
-    "The most common questions about booking, pricing, and how we work.":"أكثر الأسئلة شيوعًا حول الحجز والأسعار وطريقة عملنا.",
     "Do you charge for the initial quote?":"هل تتقاضون رسومًا مقابل عرض السعر الأولي؟",
     "Are your technicians licensed and insured?":"هل الفنيون لديكم مرخّصون ومؤمَّنون؟",
     "What areas do you service?":"ما هي المناطق التي تغطونها؟",
