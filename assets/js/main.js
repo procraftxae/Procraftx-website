@@ -352,7 +352,6 @@
     "Repairs completed":"إصلاح مكتمل","Typical arrival window":"وقت الوصول المعتاد","Services & specialties":"خدمات وتخصصات",
     "All Services In One":"كل الخدمات في مكان واحد","Our Services":"خدماتنا",
     "Our Specialties":"تخصصاتنا",
-    "Bigger builds, designed and delivered.":"مشاريع أكبر، تصميمًا وتنفيذًا.",
     "Specialties":"التخصصات",
     "Core Home Maintenance":"الصيانة المنزلية الأساسية",
     "The everyday repairs that keep your home running — AC, plumbing, electrical, handyman and painting, handled by trained pros.":"الإصلاحات اليومية التي تُبقي منزلك يعمل بسلاسة — تكييف، سباكة، كهرباء، صيانة عامة ودهانات، على يد فنيين مدربين.",
