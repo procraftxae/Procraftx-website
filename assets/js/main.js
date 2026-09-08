@@ -339,7 +339,7 @@
   /* ---------------- EN / AR TRANSLATION ---------------- */
   const AR = {
     "PROCRAFTX":"بروكرافتكس",
-    "Services":"خدماتنا","FAQs":"الأسئلة الشائعة",
+    "Services":"خدماتنا","FAQs":"الأسئلة",
     "Book a Visit":"احجز زيارة",
     "Licensed · Insured · 7 specialties, 12 services":"مرخّص · مؤمَّن · 7 تخصصات، 12 خدمة",
     "All services.":"كل الخدمات.","In one.":"في مكان واحد.",
@@ -488,6 +488,8 @@
     });
     const logoEl = document.querySelector('.logo');
     if(logoEl) logoEl.textContent = lang === 'ar' ? AR['PROCRAFTX'] : 'PROCRAFTX';
+    const faqEyebrowEl = document.querySelector('#faq-preview .eyebrow');
+    if(faqEyebrowEl) faqEyebrowEl.textContent = lang === 'ar' ? 'الأسئلة الشائعة' : 'FAQs';
     document.querySelectorAll('optgroup[label]').forEach(og=>{
       const enLabel = og.dataset.enLabel || og.getAttribute('label');
       if(!og.dataset.enLabel) og.dataset.enLabel = enLabel;

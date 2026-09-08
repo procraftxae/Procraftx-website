@@ -40,7 +40,7 @@
   /* ---------------- EN / AR TRANSLATION ---------------- */
   const AR = {
     "PROCRAFTX":"بروكرافتكس",
-    "Services":"خدماتنا","Specialties":"التخصصات","Reviews":"التقييمات","FAQs":"الأسئلة الشائعة",
+    "Services":"خدماتنا","Specialties":"التخصصات","Reviews":"التقييمات","FAQs":"الأسئلة",
     "See our core home maintenance services →":"اطّلع على خدمات الصيانة المنزلية الأساسية ←",
     "See our furniture services →":"اطّلع على خدمات الأثاث لدينا ←",
     "See home clearing & sanitization →":"اطّلع على تفريغ المنزل والتعقيم ←",
