@@ -383,6 +383,13 @@
   .sub-card .body{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1;}
   .sub-card-wide .body h3{font-size:21px;margin-bottom:8px;font-family:'Montserrat',sans-serif;font-weight:700;}
   .sub-card-wide .body h3 + p{font-size:20px;padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--line);}
+  /* text-only catch-all card: no photo, centered, CTA button instead of a text link */
+  .sub-card-cta .body{text-align:center;padding:44px 32px;}
+  .sub-card-cta .body h3{font-size:26px;}
+  .sub-card-cta .body h3 + p{border-bottom:none;padding-bottom:0;margin-bottom:18px;}
+  .sub-card-cta .body p + p{font-size:16px;max-width:520px;margin:0 auto 24px;}
+  .sub-card-cta .btn{align-self:center;margin-top:auto;}
+  .sub-card-cta .btn svg{width:18px;height:18px;stroke:currentColor;}
   .sub-card h4{font-size:16px;margin-bottom:6px;font-family:'Montserrat',sans-serif;font-weight:600;}
   .sub-card p{font-size:15px;color:var(--ink);margin-bottom:12px;}
   .sub-card .link{display:inline-flex;align-items:center;gap:6px;font-family:'Montserrat',sans-serif;font-weight:600;font-size:16px;color:var(--red);margin-top:auto;}

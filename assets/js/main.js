@@ -208,8 +208,10 @@
   });
   window.matchMedia('(min-width:721px)').addEventListener('change', (e)=>{ if(e.matches) closeMenu(); });
 
-  // clicking "Request quote" on a service card pre-selects it in the booking form
-  document.querySelectorAll('.sub-card .link[data-service]').forEach(link=>{
+  // clicking "Request quote" on a service card pre-selects it in the booking form.
+  // matches any [data-service] element so it works for both the text links on
+  // regular cards and the CTA button on the text-only catch-all card
+  document.querySelectorAll('.sub-card [data-service]').forEach(link=>{
     link.addEventListener('click', ()=>{
       const select = document.getElementById('service');
       const wanted = link.dataset.service;
@@ -342,7 +344,7 @@
     "PROCRAFTX":"بروكرافتكس",
     "Services":"خدماتنا","FAQs":"الأسئلة",
     "Book a Visit":"احجز زيارة",
-    "Licensed · Insured · 7 specialties, 13 services":"مرخّص · مؤمَّن · 7 تخصصات، 13 خدمة",
+    "Licensed · Insured · 8 specialties, 13 services":"مرخّص · مؤمَّن · 8 تخصصات، 13 خدمة",
     "All services.":"كل الخدمات.","In one.":"في مكان واحد.",
     "Core home maintenance, specialized furniture care, and full home clearing & sanitization — one trusted crew handles it all, with a flat quote before we start and a guarantee behind every job.":"الصيانة المنزلية الأساسية، والعناية المتخصصة بالأثاث، وتفريغ المنزل وتعقيمه بالكامل — فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل.",
     "Book a Free Visit":"احجز زيارة مجانية","See All Services":"استعرض جميع الخدمات",
@@ -415,6 +417,9 @@
     "Pool Design, Construction & Maintenance":"تصميم وإنشاء وصيانة حمامات السباحة",
     "End-to-end swimming pool projects — design and 3D planning, excavation, shell construction, waterproofing, and tiling or mosaic finishes, including infinity-edge, overflow, and plunge pool designs. Installation covers filtration and pump systems, heating and chilling units, underwater lighting, jacuzzis and water features, plus surrounding decking, coping stones, and landscaping. We also handle renovation and resurfacing of ageing pools, leak detection and structural repair, tile and grout replacement, and equipment upgrades — backed by scheduled maintenance covering cleaning, water testing and chemical balancing, and filter servicing.":"مشاريع حمامات سباحة متكاملة — التصميم والتخطيط ثلاثي الأبعاد، والحفر، وبناء الهيكل، والعزل المائي، وتشطيبات البلاط أو الفسيفساء، بما في ذلك تصاميم الحواف اللامتناهية والفائضة وأحواض الغطس. ويشمل التركيب أنظمة الفلترة والمضخات، ووحدات التسخين والتبريد، والإضاءة تحت الماء، والجاكوزي والنوافير، بالإضافة إلى الأسطح المحيطة وأحجار الحواف وتنسيق الحدائق. كما نتولى تجديد وإعادة تشطيب الحمامات القديمة، وكشف التسربات والإصلاحات الإنشائية، واستبدال البلاط والجَبَّانة، وترقية المعدات — مدعومة بصيانة دورية تشمل التنظيف وفحص المياه وموازنة المواد الكيميائية وصيانة الفلاتر.",
     "Landscaping & Gardening":"تنسيق الحدائق والبستنة",
+    "All Customize Works":"كل الأعمال المخصصة",
+    "Have something specific in mind? If it can be designed and built, we can do it.":"عندك فكرة معينة في بالك؟ إذا كان بالإمكان تصميمها وتنفيذها، فنحن نقدر نسويها.",
+    "Whatever you need that isn't on this list — custom-built storage, a bespoke feature wall, a one-off outdoor structure, or a modification to something you already own. Tell us the idea and we'll design it, quote it, and build it.":"أي شيء تحتاجه وغير موجود في هذه القائمة — خزائن مصنوعة حسب الطلب، أو جدار مميز بتصميم خاص، أو هيكل خارجي فريد، أو تعديل على شيء تملكه بالفعل. أخبرنا بالفكرة وسنصممها ونقدّم لك عرض السعر وننفّذها.",
     "Garden design and planting, automatic irrigation installation and repair, and regular upkeep to keep everything green year-round.":"تصميم الحدائق والزراعة، وتركيب وإصلاح أنظمة الري الأوتوماتيكية، وصيانة دورية للحفاظ على الخضرة طوال العام.",
     "Landscaping & Irrigation":"تنسيق الحدائق والري",
     "Complete garden and landscaping work — design and soft landscaping, natural lawns and artificial grass, tree, shrub and seasonal flower planting, plus hard landscaping such as pathways, pergolas, decking, and decorative gravel. Irrigation covers full system design and installation, automatic sprinkler and drip-line setup, smart timers and controllers, pump and valve fitting, and repair of leaks, blockages, and broken sprinkler heads. Ongoing maintenance includes mowing, hedge and tree trimming, weed and pest control, fertilisation, seasonal replanting, and irrigation system checks.":"أعمال حدائق وتنسيق متكاملة — التصميم والتنسيق الأخضر، والمسطحات الطبيعية والعشب الصناعي، وزراعة الأشجار والشجيرات والزهور الموسمية، بالإضافة إلى التنسيق الصلب مثل الممرات والبرجولات والأسطح الخشبية والحصى الزخرفي. ويشمل الري تصميم وتركيب النظام بالكامل، وتركيب الرشاشات الأوتوماتيكية وخطوط التنقيط، والمؤقتات وأجهزة التحكم الذكية، وتركيب المضخات والصمامات، وإصلاح التسربات والانسدادات ورؤوس الرشاشات التالفة. وتشمل الصيانة المستمرة قص العشب، وتشذيب الأسيجة والأشجار، ومكافحة الأعشاب والآفات، والتسميد، وإعادة الزراعة الموسمية، وفحص أنظمة الري.",
