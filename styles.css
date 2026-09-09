@@ -109,7 +109,9 @@
 
   /* ---------- NAV ---------- */
   header{position:sticky;top:0;z-index:100;background:rgba(222,50,38,0.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,0,0,0.12);box-shadow:0 4px 18px -8px rgba(20,10,8,0.35);}
-  nav{display:flex;align-items:center;justify-content:space-between;padding:16px 32px;max-width:1240px;margin:0 auto;}
+  /* logo + nav links sit together on the leading edge; the lang toggle is
+     pushed to the far edge by the margin-inline-start:auto on .nav-cta below */
+  nav{display:flex;align-items:center;gap:36px;padding:16px 32px;max-width:1240px;margin:0 auto;}
   .logo{font-family:'Montserrat',sans-serif;font-weight:800;font-size:21px;display:flex;align-items:center;gap:9px;color:#fff;}
   .nav-links{display:flex;gap:30px;align-items:center;}
   /* inline-block + padding so the tap target clears the 24px WCAG 2.5.8 minimum
@@ -117,7 +119,7 @@
   .nav-links a{font-size:16px;font-weight:700;color:#fff;position:relative;display:inline-block;padding:5px 2px;}
   .nav-links a:hover{color:#fff;}
   .nav-links a:hover::after{content:"";position:absolute;left:2px;right:2px;bottom:1px;height:2px;background:#fff;border-radius:2px;}
-  .nav-cta{display:flex;gap:12px;align-items:center;}
+  .nav-cta{display:flex;gap:12px;align-items:center;margin-inline-start:auto;}
   .nav-phone{font-weight:600;font-size:16px;display:flex;align-items:center;gap:8px;color:#fff;}
   .nav-phone svg{width:17px;height:17px;stroke:#fff;}
   .lang-toggle{
