@@ -366,12 +366,12 @@
   .sub-card-wide .thumb{height:320px;}
   .sub-card .thumb.icon-thumb{
     display:flex;align-items:center;justify-content:center;
-    background:linear-gradient(135deg, var(--red) 0%, #7a140d 100%);
+    background:var(--red);
   }
   .sub-card .thumb.icon-thumb svg{width:40px;height:40px;stroke:#fff;}
   .sub-card .thumb.img-fallback,
   .banner .img-fallback{
-    background:linear-gradient(135deg, var(--red) 0%, #7a140d 100%);
+    background:var(--red);
     display:flex;align-items:center;justify-content:center;
   }
   .sub-card .thumb.img-fallback::after{
