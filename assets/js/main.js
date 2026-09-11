@@ -134,7 +134,8 @@
       iconMuted.style.display = muted ? '' : 'none';
       iconUnmuted.style.display = muted ? 'none' : '';
       muteBtn.setAttribute('aria-pressed', String(!muted));
-      muteBtn.setAttribute('aria-label', muted ? 'Unmute video' : 'Mute video');
+      const isAr = document.documentElement.lang === 'ar';
+      muteBtn.setAttribute('aria-label', muted ? (isAr ? 'تشغيل صوت الفيديو' : 'Unmute video') : (isAr ? 'كتم صوت الفيديو' : 'Mute video'));
     }
     video.addEventListener('volumechange', syncIcon);
 
@@ -157,7 +158,7 @@
     const playFallback = document.createElement('button');
     playFallback.type = 'button';
     playFallback.className = 'banner-play-fallback';
-    playFallback.setAttribute('aria-label', 'Play video');
+    playFallback.setAttribute('aria-label', document.documentElement.lang === 'ar' ? 'تشغيل الفيديو' : 'Play video');
     playFallback.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
     media.appendChild(playFallback);
 
@@ -304,15 +305,19 @@
         (nameField.classList.contains('has-error') ? nameInput : phoneInput).focus();
         return;
       }
+      const isAr = document.documentElement.lang === 'ar';
+      const labels = isAr
+        ? {intro:'طلب حجز جديد من الموقع:', name:'الاسم', phone:'الهاتف', address:'العنوان', service:'الخدمة', notes:'ملاحظات'}
+        : {intro:'New booking request from the website:', name:'Name', phone:'Phone', address:'Address', service:'Service', notes:'Notes'};
       const lines = [
-        'New booking request from the website:',
+        labels.intro,
         '',
-        `Name: ${nameInput.value.trim()}`,
-        `Phone: ${phoneInput.value.trim()}`
+        `${labels.name}: ${nameInput.value.trim()}`,
+        `${labels.phone}: ${phoneInput.value.trim()}`
       ];
-      if(addressInput.value.trim()) lines.push(`Address: ${addressInput.value.trim()}`);
-      if(serviceSelect.value) lines.push(`Service: ${serviceSelect.value}`);
-      if(notesInput.value.trim()) lines.push(`Notes: ${notesInput.value.trim()}`);
+      if(addressInput.value.trim()) lines.push(`${labels.address}: ${addressInput.value.trim()}`);
+      if(serviceSelect.value) lines.push(`${labels.service}: ${serviceSelect.value}`);
+      if(notesInput.value.trim()) lines.push(`${labels.notes}: ${notesInput.value.trim()}`);
       const waUrl = `https://wa.me/${BOOKING_WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`;
 
       // opened synchronously, still inside the click's event handler — a delay
@@ -323,9 +328,9 @@
 
       const submitBtn = bookForm.querySelector('button[type="submit"]');
       submitBtn.disabled = true;
-      submitBtn.textContent = 'Opening WhatsApp…';
+      submitBtn.textContent = isAr ? 'جارٍ فتح واتساب…' : 'Opening WhatsApp…';
       setTimeout(()=>{
-        submitBtn.textContent = 'Request My Free Visit';
+        submitBtn.textContent = isAr ? 'اطلب زيارتي المجانية' : 'Request My Free Visit';
         submitBtn.disabled = false;
         bookForm.querySelector('.confirm').style.display = 'block';
         bookForm.reset();
@@ -339,193 +344,13 @@
     });
   }
 
-  /* ---------------- EN / AR TRANSLATION ---------------- */
-  const AR = {
-    "PROCRAFTX":"بروكرافتكس",
-    "Services":"خدماتنا","FAQs":"الأسئلة",
-    "Book a Visit":"احجز زيارة",
-    "Licensed · Insured · 8 specialties, 13 services":"مرخّص · مؤمَّن · 8 تخصصات، 13 خدمة",
-    "All services.":"كل الخدمات.","In one.":"في مكان واحد.",
-    "Core home maintenance, specialized furniture care, and deep cleaning & sanitization — one trusted crew handles it all, with a flat quote before we start and a guarantee behind every job.":"الصيانة المنزلية الأساسية، والعناية المتخصصة بالأثاث، والتنظيف العميق والتعقيم — فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل.",
-    "Book a Free Visit":"احجز زيارة مجانية","See All Services":"استعرض جميع الخدمات",
-    "Expert Crews":"فرق عمل محترفة","Licensed & background-checked":"مرخّصة وموثّقة الخلفية",
-    "100% Guarantee":"ضمان 100%","Parts & labor covered":"القطع والعمالة مشمولة",
-    "One team, every job":"فريق واحد لكل الأعمال",
-    "24/7 Support":"دعم على مدار الساعة","Real people, real fast":"فريق حقيقي، استجابة سريعة",
-    "Repairs completed":"إصلاح مكتمل","Typical arrival window":"وقت الوصول المعتاد","Services & specialties":"خدمات وتخصصات",
-    "All Services In One":"كل الخدمات في مكان واحد","Our Services":"خدماتنا",
-    "Home Maintenance, Furniture & Moving, and Deep Cleaning Services in Dubai, Sharjah & Abu Dhabi":"صيانة منزلية، خدمات أثاث ونقل، وتنظيف عميق في دبي والشارقة وأبوظبي",
-    "Our Specialties":"تخصصاتنا",
-    "Interior Design, Majlis Construction, Swimming Pool & Landscaping Specialties in Dubai, Sharjah & Abu Dhabi":"تصميم داخلي، إنشاء مجالس، ومسابح وتنسيق حدائق في دبي والشارقة وأبوظبي",
-    "Specialties":"التخصصات",
-    "Core Home Maintenance":"الصيانة المنزلية الأساسية",
-    "The everyday repairs that keep your home running — AC, plumbing, electrical, handyman and painting, handled by trained pros.":"الإصلاحات اليومية التي تُبقي منزلك يعمل بسلاسة — تكييف، سباكة، كهرباء، صيانة عامة ودهانات، على يد فنيين مدربين.",
-    "Air Conditioning (AC) Services":"خدمات تكييف الهواء",
-    "Filters cleaned, gas refilled, and leaks fixed to keep your cooling efficient.":"تنظيف الفلاتر، تعبئة الغاز، وإصلاح التسريبات للحفاظ على كفاءة التبريد.",
-    "AC Services":"خدمات التكييف",
-    "Plumbing Support":"خدمات السباكة",
-    "Pipe leaks repaired, drains unclogged, and fixtures like taps or toilets installed.":"إصلاح تسريبات الأنابيب، تسليك المصارف، وتركيب التجهيزات مثل الحنفيات والمراحيض.",
-    "Electrical Work":"الأعمال الكهربائية",
-    "Light fixtures mounted, faulty wiring fixed, and power sockets safely replaced.":"تركيب تجهيزات الإضاءة، إصلاح الأسلاك التالفة، واستبدال المقابس الكهربائية بأمان.",
-    "Handyman Tasks":"أعمال الصيانة العامة",
-    "Hanging shelves, mounting TVs, fixing door hinges, and small everyday repairs.":"تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة.",
-    "Wall Painting & Masonry":"دهان الجدران والبناء",
-    "Fresh wall coatings applied, drywall cracks repaired, and tile or brickwork fixed.":"طلاء جدران جديد، إصلاح شقوق الجدران الجصية، وإصلاح البلاط أو الطوب.",
-    "Our Furniture & Moving Services":"خدمات الأثاث والنقل لدينا",
-    "Disassembly and reassembly, packing and moving, restoration, and custom builds — every furniture job, handled by one team.":"تفكيك وتركيب، تغليف ونقل، ترميم، وتصميم مخصص — كل ما يخص أثاثك بفريق واحد.",
-    "Disassembly & Reassembly":"الفك وإعادة التركيب",
-    "Heavy furniture safely taken apart for moving and put back together correctly.":"فك الأثاث الثقيل بأمان لنقله وإعادة تركيبه بشكل صحيح.",
-    "Restoration & Furniture Painting":"ترميم ودهان الأثاث",
-    "Old wooden furniture sanded, varnished, painted, or repaired to look brand new.":"صنفرة الأثاث الخشبي القديم وطلاؤه بالورنيش أو الدهان أو إصلاحه ليبدو جديدًا.",
-    "Furniture Cleaning":"تنظيف الأثاث",
-    "Specialized stain removal and steam cleaning for delicate leather, fabric and carpets.":"إزالة متخصصة للبقع وتنظيف بالبخار للجلد والأقمشة والسجاد الحساس.",
-    "Custom Furniture Design & Build":"تصميم وتصنيع الأثاث المخصص",
-    "Custom furniture designed, built, and installed to fit your space and style exactly.":"أثاث مخصص يُصمَّم ويُصنَّع ويُركَّب ليناسب مساحتك وأسلوبك تمامًا.",
-    "Deep Cleaning & Sanitization":"التنظيف العميق والتعقيم",
-    "Deep cleaning, pest control, and sanitizing for your home and furniture — all in one call.":"تنظيف عميق، مكافحة حشرات، وتعقيم لمنزلك وأثاثك — كل ذلك بمكالمة واحدة.",
-    "Disinfection & Pest Management":"التعقيم ومكافحة الحشرات",
-    "Eradicating bugs like bedbugs or ants, and sanitizing surfaces against bacteria.":"القضاء على الحشرات مثل بق الفراش والنمل، وتعقيم الأسطح من البكتيريا.",
-    "Packers & Movers":"التغليف والنقل",
-    "Securely wrapping your belongings, loading trucks, and transporting to a new home.":"تغليف ممتلكاتك بأمان، تحميلها على الشاحنات، ونقلها إلى المنزل الجديد.",
-    "Home Cleaning":"تنظيف المنزل",
-    "Routine dusting, vacuuming, mopping, and bathroom cleaning for standard upkeep.":"إزالة الغبار والتنظيف بالمكنسة الكهربائية والمسح وتنظيف الحمامات للصيانة الدورية.",
-    "Water Tank Cleaning":"تنظيف خزانات المياه",
-    "High-pressure cleaning and disinfection of overhead and underground water tanks to keep your supply safe.":"تنظيف وتعقيم بالضغط العالي لخزانات المياه العلوية والأرضية للحفاظ على سلامة مصدر المياه.",
-    "Window & Glass Installations":"تركيبات النوافذ والزجاج",
-    "Aluminium, uPVC, sliding, casement and double-glazed windows, plus shower glass — installed, replaced, or repaired for a durable, weather-tight fit.":"نوافذ الألمنيوم، واليو بي في سي، والسحّاب، والمفصلية، والمزدوجة الزجاج، بالإضافة إلى زجاج الحمام — تركيب واستبدال وإصلاح لضمان ثبات ومقاومة للعوامل الجوية.",
-    "Home Window Installation":"تركيب نوافذ المنزل",
-    "Shower Glass Replacement":"استبدال زجاج الحمام",
-    "Cracked, foggy, or outdated shower glass replaced with a precise, watertight fit.":"استبدال زجاج الحمام المكسور أو الضبابي أو القديم بتركيب دقيق ومقاوم للماء.",
-    "Home Window & Shower Glass Installation":"تركيب نوافذ المنزل وزجاج الحمام",
-    "Installation, replacement, and repair of aluminium, uPVC, sliding, casement, and double-glazed windows, plus shower glass — built for durability, weather protection, and a watertight fit.":"تركيب واستبدال وإصلاح نوافذ الألمنيوم، واليو بي في سي، والسحّاب، والمفصلية، والمزدوجة الزجاج، بالإضافة إلى زجاج الحمام — مصممة لتدوم طويلاً وتحمي من العوامل الجوية وتمنع تسرب الماء.",
-    "Outdoor Majlis Services":"خدمات المجالس الخارجية",
-    "Custom-built glass majlis, traditional Arabic majlis, sandwich panel majlis, pergolas, and guest annexes — designed, built, and maintained from the ground up.":"مجالس زجاجية مخصصة، ومجالس عربية تقليدية، ومجالس بالألواح الساندويتش، وبرجولات، وملحقات ضيافة — تصميم وبناء وصيانة من الألف إلى الياء.",
-    "Majlis Design, Construction & Renovation":"تصميم وبناء وتجديد المجالس",
-    "Design, construction, renovation, and expansion of glass majlis, traditional Arabic majlis, sandwich panel majlis, pergolas, and guest annexes, including complete interior fit-out — custom seating, flooring, wall cladding, ceilings, lighting, curtains, insulation, and décor. Ongoing maintenance covers roof repairs, waterproofing, repainting, AC servicing, electrical and plumbing work, glass replacement, structural repairs, aluminium doors and windows, sliding glass systems, weatherproof enclosures, stone cladding, decorative façades, paving, boundary walls, and outdoor lighting — plus bespoke features like smart lighting, sound systems, fireplaces, coffee stations, TV units, and custom storage.":"تصميم وبناء وتجديد وتوسعة المجالس الزجاجية والمجالس العربية التقليدية ومجالس الألواح الساندويتش والبرجولات وملحقات الضيافة، بما في ذلك التجهيز الداخلي الكامل — مقاعد مخصصة، أرضيات، تكسية جدران، أسقف، إضاءة، ستائر، عزل، وديكور. تشمل الصيانة المستمرة إصلاح الأسقف، العزل المائي، إعادة الطلاء، صيانة التكييف، الأعمال الكهربائية والسباكة، استبدال الزجاج، الإصلاحات الإنشائية، أبواب ونوافذ الألمنيوم، أنظمة الزجاج المنزلق، الحواجز المقاومة للعوامل الجوية، تكسية الحجر، الواجهات الزخرفية، الرصف، الأسوار، والإضاءة الخارجية — بالإضافة إلى ميزات مخصصة مثل الإضاءة الذكية، أنظمة الصوت، المدافئ، محطات القهوة، وحدات التلفزيون، وحلول التخزين المخصصة.",
-    "Outdoor Car Garage Construction":"إنشاء كراجات السيارات الخارجية",
-    "Custom car garages, carports, parking shades, steel structures, aluminum garages, and sandwich panel garages for residential properties.":"كراجات سيارات مخصصة، ومظلات سيارات، ومظلات مواقف، وهياكل فولاذية، وكراجات ألمنيوم، وكراجات بألواح ساندويتش للعقارات السكنية.",
-    "Custom Car Garage & Carport Construction":"إنشاء كراجات ومظلات سيارات مخصصة",
-    "Design and build of custom car garages, carports, and parking shades — steel structures, aluminum garages, and sandwich panel garages built to protect vehicles and suit residential properties.":"تصميم وبناء كراجات سيارات ومظلات مواقف مخصصة — هياكل فولاذية، وكراجات ألمنيوم، وكراجات بألواح ساندويتش مصممة لحماية المركبات وتناسب العقارات السكنية.",
-    "Residential Window Tinting":"تظليل نوافذ المنازل",
-    "Heat-rejection, UV-blocking, privacy, security and decorative films — professionally applied to villa and apartment glass.":"أفلام عازلة للحرارة، وحاجبة للأشعة فوق البنفسجية، وأفلام الخصوصية والحماية والزخرفة — تُركّب باحترافية على زجاج الفلل والشقق.",
-    "Home Window Film & Tinting":"أفلام وتظليل نوافذ المنزل",
-    "Supply and installation of residential window films — heat-rejection and solar-control tint to cut cooling costs, UV-blocking film that stops furniture and flooring from fading, and glare-reduction film for bright rooms. Privacy options include one-way mirror, frosted, and decorative patterned film for bathrooms, partitions, and street-facing windows, plus safety and security film that holds glass together on impact. Every job includes glass preparation, precision cut-to-fit application, bubble-free finishing, and removal or replacement of old peeling tint.":"توريد وتركيب أفلام نوافذ المنازل — تظليل عازل للحرارة ومتحكم في أشعة الشمس لخفض تكاليف التبريد، وفيلم حاجب للأشعة فوق البنفسجية يمنع بهتان الأثاث والأرضيات، وفيلم مقلل للوهج للغرف شديدة الإضاءة. تشمل خيارات الخصوصية الفيلم العاكس أحادي الاتجاه، والفيلم المصنفر، والفيلم المزخرف للحمامات والفواصل والنوافذ المطلة على الشارع، بالإضافة إلى فيلم الأمان والحماية الذي يحافظ على تماسك الزجاج عند الارتطام. يشمل كل عمل تجهيز الزجاج، والقص الدقيق حسب المقاس، وتشطيبًا خاليًا من الفقاعات، وإزالة أو استبدال التظليل القديم المتقشر.",
-    "Interior Design":"التصميم الداخلي",
-    "Concept design, space planning, custom joinery and full styling — from a single room refresh to a complete home fit-out.":"تصميم المفهوم، وتخطيط المساحات، والنجارة المخصصة، والتنسيق الكامل — من تجديد غرفة واحدة إلى تجهيز منزل بالكامل.",
-    "Interior Design & Fit-Out":"التصميم الداخلي والتجهيز",
-    "Full interior design service covering concept development, space planning, and layout optimisation, with mood boards and 3D visuals so you can see the result before work begins. We handle material, finish and colour selection, flooring and wall treatments, false ceilings and gypsum work, lighting design, curtains and blinds, and custom joinery including wardrobes, TV units, and kitchen cabinetry. Delivery covers furniture sourcing and placement, décor and accessory styling, and complete supervised fit-out — for single rooms, majlis areas, or whole villas and apartments.":"خدمة تصميم داخلي متكاملة تشمل تطوير المفهوم، وتخطيط المساحات، وتحسين التوزيع، مع لوحات إلهام ومجسمات ثلاثية الأبعاد لترى النتيجة قبل بدء العمل. نتولى اختيار المواد والتشطيبات والألوان، ومعالجات الأرضيات والجدران، والأسقف المستعارة وأعمال الجبس، وتصميم الإضاءة، والستائر، والنجارة المخصصة بما فيها خزائن الملابس ووحدات التلفزيون وخزائن المطبخ. ويشمل التنفيذ توريد الأثاث وتوزيعه، وتنسيق الديكور والإكسسوارات، والتجهيز الكامل تحت إشراف متخصص — لغرفة واحدة أو مجلس أو فيلا وشقة بالكامل.",
-    "Swimming Pool Construction & Design":"إنشاء وتصميم حمامات السباحة",
-    "Custom pool design and construction, renovation and resurfacing, plus ongoing cleaning and equipment maintenance.":"تصميم وإنشاء حمامات سباحة مخصصة، وتجديد وإعادة تشطيب، بالإضافة إلى التنظيف الدوري وصيانة المعدات.",
-    "Pool Design, Construction & Maintenance":"تصميم وإنشاء وصيانة حمامات السباحة",
-    "End-to-end swimming pool projects — design and 3D planning, excavation, shell construction, waterproofing, and tiling or mosaic finishes, including infinity-edge, overflow, and plunge pool designs. Installation covers filtration and pump systems, heating and chilling units, underwater lighting, jacuzzis and water features, plus surrounding decking, coping stones, and landscaping. We also handle renovation and resurfacing of ageing pools, leak detection and structural repair, tile and grout replacement, and equipment upgrades — backed by scheduled maintenance covering cleaning, water testing and chemical balancing, and filter servicing.":"مشاريع حمامات سباحة متكاملة — التصميم والتخطيط ثلاثي الأبعاد، والحفر، وبناء الهيكل، والعزل المائي، وتشطيبات البلاط أو الفسيفساء، بما في ذلك تصاميم الحواف اللامتناهية والفائضة وأحواض الغطس. ويشمل التركيب أنظمة الفلترة والمضخات، ووحدات التسخين والتبريد، والإضاءة تحت الماء، والجاكوزي والنوافير، بالإضافة إلى الأسطح المحيطة وأحجار الحواف وتنسيق الحدائق. كما نتولى تجديد وإعادة تشطيب الحمامات القديمة، وكشف التسربات والإصلاحات الإنشائية، واستبدال البلاط والجَبَّانة، وترقية المعدات — مدعومة بصيانة دورية تشمل التنظيف وفحص المياه وموازنة المواد الكيميائية وصيانة الفلاتر.",
-    "Landscaping & Gardening":"تنسيق الحدائق والبستنة",
-    "All Customize Works":"كل الأعمال المخصصة",
-    "Have something specific in mind? If it can be designed and built, we can do it.":"عندك فكرة معينة في بالك؟ إذا كان بالإمكان تصميمها وتنفيذها، فنحن نقدر نسويها.",
-    "Whatever you need that isn't on this list — custom-built storage, a bespoke feature wall, a one-off outdoor structure, or a modification to something you already own. Tell us the idea and we'll design it, quote it, and build it.":"أي شيء تحتاجه وغير موجود في هذه القائمة — خزائن مصنوعة حسب الطلب، أو جدار مميز بتصميم خاص، أو هيكل خارجي فريد، أو تعديل على شيء تملكه بالفعل. أخبرنا بالفكرة وسنصممها ونقدّم لك عرض السعر وننفّذها.",
-    "Garden design and planting, automatic irrigation installation and repair, and regular upkeep to keep everything green year-round.":"تصميم الحدائق والزراعة، وتركيب وإصلاح أنظمة الري الأوتوماتيكية، وصيانة دورية للحفاظ على الخضرة طوال العام.",
-    "Landscaping & Irrigation":"تنسيق الحدائق والري",
-    "Complete garden and landscaping work — design and soft landscaping, natural lawns and artificial grass, tree, shrub and seasonal flower planting, plus hard landscaping such as pathways, pergolas, decking, and decorative gravel. Irrigation covers full system design and installation, automatic sprinkler and drip-line setup, smart timers and controllers, pump and valve fitting, and repair of leaks, blockages, and broken sprinkler heads. Ongoing maintenance includes mowing, hedge and tree trimming, weed and pest control, fertilisation, seasonal replanting, and irrigation system checks.":"أعمال حدائق وتنسيق متكاملة — التصميم والتنسيق الأخضر، والمسطحات الطبيعية والعشب الصناعي، وزراعة الأشجار والشجيرات والزهور الموسمية، بالإضافة إلى التنسيق الصلب مثل الممرات والبرجولات والأسطح الخشبية والحصى الزخرفي. ويشمل الري تصميم وتركيب النظام بالكامل، وتركيب الرشاشات الأوتوماتيكية وخطوط التنقيط، والمؤقتات وأجهزة التحكم الذكية، وتركيب المضخات والصمامات، وإصلاح التسربات والانسدادات ورؤوس الرشاشات التالفة. وتشمل الصيانة المستمرة قص العشب، وتشذيب الأسيجة والأشجار، ومكافحة الأعشاب والآفات، والتسميد، وإعادة الزراعة الموسمية، وفحص أنظمة الري.",
-    "Request quote":"اطلب عرض سعر",
-    "Mobile & on-demand":"خدمة متنقلة وفورية",
-    "We come to you — same-week, most jobs same-visit.":"نأتي إليك — خلال نفس الأسبوع، ومعظم الأعمال تُنجز في نفس الزيارة.",
-    "Book online or on WhatsApp, tell us what's wrong, and a fully equipped crew shows up ready to fix it. No waiting weeks for a callback.":"احجز عبر الإنترنت أو واتساب، أخبرنا بالمشكلة، ويصلك فريق مجهز بالكامل جاهز للإصلاح. بلا انتظار أسابيع لأحد يتصل بك.",
-    "Chat on WhatsApp":"تواصل عبر واتساب",
-    "Get Started":"ابدأ الآن",
-    "Let's take a look before it becomes a bigger job.":"دعنا نلقي نظرة قبل أن تتفاقم المشكلة.",
-    "Fill out the form and a real person will call to confirm your appointment — usually within the hour.":"املأ النموذج وسيتصل بك شخص حقيقي لتأكيد موعدك — عادةً خلال ساعة.",
-    "WhatsApp us anytime":"راسلنا على واتساب في أي وقت",
-    "We reply within one business day":"نرد خلال يوم عمل واحد",
-    "Follow us on Instagram":"تابعنا على إنستقرام",
-    "Follow us on Facebook":"تابعنا على فيسبوك",
-    "Follow us on TikTok":"تابعنا على تيك توك",
-    "Follow us on X":"تابعنا على إكس",
-    "Full name":"الاسم الكامل","Phone / WhatsApp":"الهاتف / واتساب","Address":"العنوان",
-    "Service needed":"الخدمة المطلوبة","What's going on?":"ما هي المشكلة؟",
-    "Request My Free Visit":"اطلب زيارتي المجانية",
-    "We've opened WhatsApp with your request filled in — just hit send to confirm your booking.":"لقد فتحنا واتساب مع طلبك جاهزًا — فقط اضغط إرسال لتأكيد حجزك.",
-    "Please enter your name.":"يرجى إدخال اسمك.",
-    "Please enter a valid phone number.":"يرجى إدخال رقم هاتف صحيح.",
-    "Not sure yet":"غير متأكد بعد",
-    "About Us":"من نحن",
-    "One trusted crew for everything your home needs.":"فريق موثوق واحد لكل ما يحتاجه منزلك.",
-    "Answers to Common Questions About Procraftx Home Maintenance Services":"إجابات على الأسئلة الشائعة حول خدمات الصيانة المنزلية لدى بروكرافتكس",
-    "Welcome to Procraftx! Our mission is to give every home in Dubai and Sharjah one trusted crew for everything it needs, instead of a different contractor for every job. We believe your home deserves the same care and attention to detail as any showroom — so our licensed, background-checked technicians handle it that way, backed by a 100% guarantee on every visit. Whether it's a leaking tap, a full furniture restoration, or a custom-built majlis, we quote fairly, show up on time, and get it right the first time.":"مرحبًا بك في بروكرافتكس! مهمتنا هي أن نمنح كل منزل في دبي والشارقة فريقًا موثوقًا واحدًا لكل ما يحتاجه، بدلاً من مقاول مختلف لكل مهمة. نؤمن أن منزلك يستحق نفس العناية والاهتمام بالتفاصيل التي يحظى بها أي صالة عرض — لذا يتعامل فنيونا المرخّصون والمدقّق في خلفياتهم بهذه الروح، مدعومين بضمان 100% على كل زيارة. سواء كانت حنفية تسرّب، أو ترميم أثاث كامل، أو مجلس مبني حسب الطلب، نقدّم عرض سعر عادل، ونصل في الوقت المحدد، وننجز العمل بشكل صحيح من أول مرة.",
-    "Do you charge for the initial quote?":"هل تتقاضون رسومًا مقابل عرض السعر الأولي؟",
-    "Are your technicians licensed and insured?":"هل الفنيون لديكم مرخّصون ومؤمَّنون؟",
-    "What areas do you service?":"ما هي المناطق التي تغطونها؟",
-    "How quickly can someone come out?":"ما مدى سرعة وصول أحد الفنيين؟",
-    "How do I find out what a job will cost?":"كيف أعرف تكلفة عملي؟",
-    "What payment methods do you accept?":"ما هي طرق الدفع التي تقبلونها؟",
-    "No. The walkthrough and quote are free — you only pay once you approve the price, with no obligation to book with us afterward.":"لا. المعاينة وعرض السعر مجانيان — تدفع فقط بعد موافقتك على السعر، دون أي التزام بالحجز معنا لاحقًا.",
-    "Yes. Every technician we send is licensed for their trade, background-checked, and covered by liability insurance, so you're protected from the first knock on the door.":"نعم. كل فني نرسله مرخّص في مجاله، وتم التحقق من خلفيته، ومغطى بتأمين المسؤولية، فأنت محمي منذ أول طرقة على الباب.",
-    "We're based in Dubai, Sharjah and Abu Dhabi. There's no fixed service radius — call or WhatsApp us with your location and we'll confirm we can get a technician to you.":"نحن مقرّنا في دبي والشارقة وأبوظبي. لا يوجد نطاق خدمة محدد — اتصل بنا أو راسلنا على واتساب بموقعك وسنؤكد لك إمكانية وصول فني إليك.",
-    "Most requests get an appointment within the same week, and many are same-visit once a technician is on site. Call or WhatsApp us and we'll give you the next available slot.":"تحصل معظم الطلبات على موعد خلال نفس الأسبوع، والعديد منها يُنجز في نفس الزيارة بمجرد وصول الفني. اتصل بنا أو راسلنا على واتساب وسنمنحك أقرب موعد متاح.",
-    "Every home and job is different, so we don't publish flat rates. Send us the details on WhatsApp or by phone and we'll get back to you with a clear price before any work starts.":"كل منزل ومهمة مختلفان، لذا لا ننشر أسعارًا ثابتة. أرسل لنا التفاصيل عبر واتساب أو الهاتف وسنعود إليك بسعر واضح قبل بدء أي عمل.",
-    "We accept cash, card, and bank transfer. You'll always see the price before we start, so there are no surprises on the invoice.":"نقبل الدفع النقدي والبطاقة والتحويل البنكي. سترى السعر دائمًا قبل أن نبدأ، فلا مفاجآت في الفاتورة.",
-    "Learn More":"اعرف المزيد",
-    "Skip to content":"تخطَّ إلى المحتوى"
-  };
-
-  const PLACEHOLDERS = [
-    {id:'name', en:'Jordan Smith', ar:'مثال: أحمد محمد'},
-    {id:'address', en:'Street, Area, City', ar:'الشارع، المنطقة، المدينة'},
-    {id:'notes', en:"Tell us what you're noticing...", ar:'أخبرنا بما لاحظته...'}
-  ];
-
-  let i18nNodes = [];
-  function collectI18nNodes(){
-    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
-      acceptNode(node){
-        if(!node.data || !node.data.trim()) return NodeFilter.FILTER_REJECT;
-        const p = node.parentElement;
-        if(!p) return NodeFilter.FILTER_REJECT;
-        if(p.closest('svg,script,style,#langToggle')) return NodeFilter.FILTER_REJECT;
-        if(p.closest('.stats-grid .num')) return NodeFilter.FILTER_REJECT;
-        return NodeFilter.FILTER_ACCEPT;
-      }
-    });
-    const nodes = [];
-    let n;
-    while((n = walker.nextNode())) nodes.push({node:n, original:n.data});
-    return nodes;
-  }
-
-  function applyLang(lang){
-    document.documentElement.lang = lang;
-    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
-    i18nNodes.forEach(({node, original})=>{
-      const key = original.trim();
-      node.data = lang === 'ar' ? (AR[key] || original) : original;
-    });
-    const logoEl = document.querySelector('.logo');
-    if(logoEl) logoEl.textContent = lang === 'ar' ? AR['PROCRAFTX'] : 'PROCRAFTX';
-    const faqEyebrowEl = document.querySelector('#faq-preview .eyebrow');
-    if(faqEyebrowEl) faqEyebrowEl.textContent = lang === 'ar' ? 'الأسئلة الشائعة' : 'FAQs';
-    document.querySelectorAll('optgroup[label]').forEach(og=>{
-      const enLabel = og.dataset.enLabel || og.getAttribute('label');
-      if(!og.dataset.enLabel) og.dataset.enLabel = enLabel;
-      og.setAttribute('label', lang === 'ar' ? (AR[og.dataset.enLabel] || og.dataset.enLabel) : og.dataset.enLabel);
-    });
-    PLACEHOLDERS.forEach(p=>{
-      const el = document.getElementById(p.id);
-      if(el) el.placeholder = lang === 'ar' ? p.ar : p.en;
-    });
-    langToggle.setAttribute('aria-pressed', lang === 'ar' ? 'true' : 'false');
-    // the button now shows only the target language, so spell the action out
-    // for screen readers, in the language currently being read
-    langToggle.setAttribute('aria-label', lang === 'ar' ? 'التبديل إلى الإنجليزية' : 'Switch to Arabic');
-  }
-
+  // language toggle: this page is single-language (Arabic content lives at
+  // genuinely separate /ar/ URLs so search engines can index it, instead of
+  // an in-place JS swap), so the button just navigates to the matching page
+  // in the other language.
   const langToggle = document.getElementById('langToggle');
-  let currentLang = 'en';
-  // applyLang() only runs on click, so set the initial label here too
-  langToggle.setAttribute('aria-label', 'Switch to Arabic');
-  // wait one tick so the marquee (built above) is already in the DOM before we capture original text
-  setTimeout(()=>{
-    i18nNodes = collectI18nNodes();
-  }, 0);
+  const isArPage = document.documentElement.lang === 'ar';
+  const isFaqPage = /faq\.html$/.test(location.pathname);
   langToggle.addEventListener('click', ()=>{
-    currentLang = currentLang === 'en' ? 'ar' : 'en';
-    if(!i18nNodes.length) i18nNodes = collectI18nNodes();
-    applyLang(currentLang);
+    location.href = isArPage ? (isFaqPage ? '../faq.html' : '../') : (isFaqPage ? 'ar/faq.html' : 'ar/');
   });
