@@ -40,23 +40,24 @@
 
   // build the trades marquee (duplicated once for a seamless loop)
   const trades = [
-    {n:'AC Services', d:'M12 2v20M4.5 5.5l15 13M19.5 5.5l-15 13'},
-    {n:'Plumbing Support', d:'M14.7 6.3a4 4 0 0 0-5.66 5.66L3 18v3h3l6.04-6.04a4 4 0 0 0 5.66-5.66l-2.5 2.5-2-2 2.5-2.5z'},
-    {n:'Electrical Work', d:'M13 2L4 14h7l-1 8 9-12h-7l1-8z'},
-    {n:'Handyman Tasks', d:'M4 21l7-7M14.5 6.5l3 3L21 6l-3-3-3.5 3.5zM3 21l3.5-1L15 11.5l-2.5-2.5L4 17.5 3 21z'},
-    {n:'Wall Painting & Masonry', d:'M3 17l6-6 3 3 8-8M20 6h-4V2'},
-    {n:'Disassembly & Reassembly', d:'M4 4v5h5M20 20v-5h-5M4 9a9 9 0 0 1 15-6.7L20 4M20 15a9 9 0 0 1-15 6.7L4 20'},
-    {n:'Restoration & Furniture Painting', d:'M6 8h12l-1.5 12h-9L6 8zM8 8V5a4 4 0 0 1 8 0v3'},
-    {n:'Furniture Cleaning', d:'M12 2C9 6 5 8 5 13a7 7 0 0 0 14 0c0-5-4-7-7-11z'},
-    {n:'Disinfection & Pest Management', d:'M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3zM9 12l2 2 4-4'},
-    {n:'Packers & Movers', d:'M3 7h11v8H3zM14 10h4l3 3v2h-7v-5z'},
-    {n:'Home Cleaning', d:'M3 7l9-4 9 4-9 4-9-4zM3 7v10l9 4 9-4V7M12 11v10'},
-    {n:'Water Tank Cleaning', d:'M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6'},
-    {n:'Custom Furniture Design & Build', d:'M4 18v-6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6M4 18v3M20 18v3M2 18h20M6 10V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4'}
+    {n:'AC Services', ar:'خدمات التكييف', d:'M12 2v20M4.5 5.5l15 13M19.5 5.5l-15 13'},
+    {n:'Plumbing Support', ar:'خدمات السباكة', d:'M14.7 6.3a4 4 0 0 0-5.66 5.66L3 18v3h3l6.04-6.04a4 4 0 0 0 5.66-5.66l-2.5 2.5-2-2 2.5-2.5z'},
+    {n:'Electrical Work', ar:'الأعمال الكهربائية', d:'M13 2L4 14h7l-1 8 9-12h-7l1-8z'},
+    {n:'Handyman Tasks', ar:'أعمال الصيانة العامة', d:'M4 21l7-7M14.5 6.5l3 3L21 6l-3-3-3.5 3.5zM3 21l3.5-1L15 11.5l-2.5-2.5L4 17.5 3 21z'},
+    {n:'Wall Painting & Masonry', ar:'دهان الجدران والبناء', d:'M3 17l6-6 3 3 8-8M20 6h-4V2'},
+    {n:'Disassembly & Reassembly', ar:'الفك وإعادة التركيب', d:'M4 4v5h5M20 20v-5h-5M4 9a9 9 0 0 1 15-6.7L20 4M20 15a9 9 0 0 1-15 6.7L4 20'},
+    {n:'Restoration & Furniture Painting', ar:'ترميم ودهان الأثاث', d:'M6 8h12l-1.5 12h-9L6 8zM8 8V5a4 4 0 0 1 8 0v3'},
+    {n:'Furniture Cleaning', ar:'تنظيف الأثاث', d:'M12 2C9 6 5 8 5 13a7 7 0 0 0 14 0c0-5-4-7-7-11z'},
+    {n:'Disinfection & Pest Management', ar:'التعقيم ومكافحة الحشرات', d:'M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3zM9 12l2 2 4-4'},
+    {n:'Packers & Movers', ar:'التغليف والنقل', d:'M3 7h11v8H3zM14 10h4l3 3v2h-7v-5z'},
+    {n:'Home Cleaning', ar:'تنظيف المنزل', d:'M3 7l9-4 9 4-9 4-9-4zM3 7v10l9 4 9-4V7M12 11v10'},
+    {n:'Water Tank Cleaning', ar:'تنظيف خزانات المياه', d:'M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6'},
+    {n:'Custom Furniture Design & Build', ar:'تصميم وتصنيع الأثاث المخصص', d:'M4 18v-6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6M4 18v3M20 18v3M2 18h20M6 10V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4'}
   ];
   const track = document.getElementById('marqueeTrack');
   if(track){
-    const itemsHTML = trades.map(t=>`<span class="marquee-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="${t.d}"/></svg>${t.n}</span>`).join('');
+    const isArMarquee = document.documentElement.lang === 'ar';
+    const itemsHTML = trades.map(t=>`<span class="marquee-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="${t.d}"/></svg>${isArMarquee ? t.ar : t.n}</span>`).join('');
     track.innerHTML = itemsHTML + itemsHTML; // duplicate for seamless looping
   }
 
@@ -236,8 +237,9 @@
     }
 
     if(dotsWrap){
+      const isAr = document.documentElement.lang === 'ar';
       dotsWrap.innerHTML = photos.map((_, i)=>
-        `<button type="button" aria-label="Go to photo ${i + 1}"></button>`
+        `<button type="button" aria-label="${isAr ? `الانتقال إلى الصورة ${i + 1}` : `Go to photo ${i + 1}`}"></button>`
       ).join('');
     }
     const dots = dotsWrap ? [...dotsWrap.children] : [];
