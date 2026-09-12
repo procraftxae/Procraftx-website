@@ -32,7 +32,7 @@
             </optgroup>
             {% endfor %}
             <optgroup label="{{ site.customizeCard.title[lang] | safe }}">
-              <option>{{ site.customizeCard.title[lang] | safe }}</option>
+              <option{{ ' selected' | safe if prefillService and site.customizeCard.title[lang] == prefillService }}>{{ site.customizeCard.title[lang] | safe }}</option>
             </optgroup>
             <option{{ ' selected' | safe if prefillService and site.bookingForm.notSure[lang] == prefillService }}>{{ site.bookingForm.notSure[lang] | safe }}</option>
           </select>

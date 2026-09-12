@@ -242,5 +242,27 @@ module.exports = [
     {qEn:"Can smart irrigation controllers be added to an existing system?", aEn:"Yes — we can retrofit smart timers and controllers onto most existing irrigation setups without redoing the whole system.",
      qAr:"هل يمكن إضافة أجهزة تحكم ري ذكية لنظام قائم؟", aAr:"نعم — يمكننا تركيب مؤقتات وأجهزة تحكم ذكية على معظم أنظمة الري القائمة دون إعادة النظام بأكمله."}
   ]
+},
+{
+  titleEn: "Custom &amp; Bespoke Projects", titleAr: "المشاريع المخصصة وحسب الطلب", anchor:"customize-works",
+  linkEn:"See custom &amp; bespoke projects", linkAr:"اطّلع على المشاريع المخصصة وحسب الطلب",
+  questions: [
+    {qEn:"What kind of custom projects can you take on?", aEn:"Anything that can be designed and built — custom-built storage, a bespoke feature wall, a one-off outdoor structure, or a modification to something you already own. If it doesn't fit our standard service list, this is exactly what we mean by custom work.",
+     qAr:"ما نوع المشاريع المخصصة التي يمكنكم تنفيذها؟", aAr:"أي شيء يمكن تصميمه وتنفيذه — تخزين مصمم خصيصًا، جدار مميز بتصميم خاص، هيكل خارجي فريد، أو تعديل على شيء تملكه بالفعل. إذا لم يكن ضمن قائمة خدماتنا القياسية، فهذا بالضبط ما نقصده بالعمل المخصص."},
+    {qEn:"How does the process work if I don't have a finished design in mind?", aEn:"You don't need one — tell us the idea, even roughly, and we'll help develop it into a workable design, walk you through material and finish options, and give you a clear quote before anything starts.",
+     qAr:"كيف تسير العملية إذا لم يكن لدي تصميم نهائي في ذهني؟", aAr:"لا تحتاج لذلك — أخبرنا بالفكرة، حتى لو كانت تقريبية، وسنساعدك على تطويرها إلى تصميم قابل للتنفيذ، ونعرض عليك خيارات المواد والتشطيبات، ونعطيك عرض سعر واضح قبل بدء أي عمل."},
+    {qEn:"Is there a minimum size for a custom project?", aEn:"No — we take on small one-off pieces as well as larger builds. If it's worth doing well, it's worth quoting properly, regardless of scale.",
+     qAr:"هل يوجد حد أدنى لحجم المشروع المخصص؟", aAr:"لا — نتولى القطع الصغيرة لمرة واحدة وكذلك المشاريع الأكبر. إذا كان يستحق التنفيذ بإتقان، فهو يستحق عرض سعر واضح، بغض النظر عن الحجم."},
+    {qEn:"How is pricing determined for something that doesn't fit a standard service?", aEn:"We assess the design complexity, materials, and labor involved during the site visit or consultation, then give you a flat price before any work starts — same as every other job we quote.",
+     qAr:"كيف يُحدَّد السعر لشيء لا يندرج ضمن خدمة قياسية؟", aAr:"نقيّم تعقيد التصميم والمواد والعمالة المطلوبة أثناء زيارة الموقع أو الاستشارة، ثم نعطيك سعرًا ثابتًا قبل بدء أي عمل — تمامًا مثل أي مهمة أخرى نقدّم لها عرض سعر."},
+    {qEn:"Can you modify or adapt something I already own instead of building from scratch?", aEn:"Yes — modifications and adaptations to existing furniture, fixtures, or structures are common custom requests, and often more cost-effective than a full rebuild.",
+     qAr:"هل يمكنكم تعديل أو تكييف شيء أملكه بدل البناء من الصفر؟", aAr:"نعم — التعديلات والتكييفات على الأثاث أو التجهيزات أو الهياكل القائمة طلبات مخصصة شائعة، وغالبًا أكثر توفيرًا من إعادة البناء الكاملة."},
+    {qEn:"Do you provide design sketches or visuals before starting a custom build?", aEn:"Yes, for anything beyond a small repair or adaptation — we'll sketch or visualize the concept so you can approve it before we commit materials or start work.",
+     qAr:"هل تقدمون رسومات أو تصورات للتصميم قبل بدء العمل المخصص؟", aAr:"نعم، لأي شيء يتجاوز إصلاحًا أو تعديلًا بسيطًا — سنرسم أو نُصوّر الفكرة لتوافق عليها قبل أن نلتزم بالمواد أو نبدأ العمل."},
+    {qEn:"How long does a typical custom project take?", aEn:"It depends entirely on complexity — a simple custom piece might take days, while a larger bespoke structure can take weeks. We'll give you a realistic timeline once we understand the scope.",
+     qAr:"كم يستغرق المشروع المخصص عادةً؟", aAr:"يعتمد ذلك كليًا على التعقيد — قطعة مخصصة بسيطة قد تستغرق أيامًا، بينما هيكل مخصص أكبر قد يستغرق أسابيع. سنعطيك جدولًا زمنيًا واقعيًا بمجرد فهم نطاق العمل."},
+    {qEn:"What trades or materials can a custom project combine?", aEn:"Whatever the idea requires — carpentry, metalwork, electrical, glass, upholstery, or a mix of several. Since we already run crews across all our core trades, we can combine them under one project instead of you coordinating separate contractors.",
+     qAr:"ما الحرف أو المواد التي يمكن دمجها في مشروع مخصص؟", aAr:"أي شيء تتطلبه الفكرة — نجارة، أعمال معدنية، كهرباء، زجاج، تنجيد، أو مزيج من عدة حرف. بما أن لدينا بالفعل فرقًا عبر كل حرفنا الأساسية، يمكننا دمجها ضمن مشروع واحد بدل أن تنسّق مع مقاولين منفصلين."}
+  ]
 }
 ];

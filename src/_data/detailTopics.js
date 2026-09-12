@@ -4,6 +4,7 @@
 // homepage cards — same id, same images, same short/long descriptions.
 const specialties = require("./specialties.js");
 const services = require("./services.js");
+const site = require("./site.js");
 
 const fromSpecialties = specialties.map((sp) => ({
   id: sp.id,
@@ -29,4 +30,20 @@ const fromServices = services.categories.map((cat) => ({
   dataService: cat.title
 }));
 
-module.exports = [...fromSpecialties, ...fromServices];
+// "All Customize Works" isn't in specialties.js or services.js — it's the
+// catch-all CTA card (site.customizeCard), rendered directly in index.njk.
+// It has no photo gallery, so `images` stays empty; detail.njk skips the
+// media block when that's the case. Given as its own topic (not folded
+// into fromSpecialties above) because the business explicitly treats
+// custom/bespoke work as a core focus, not an afterthought.
+const customizeWorks = {
+  id: "customize-works",
+  kind: "specialty",
+  h3: site.customizeCard.title,
+  shortDesc: site.customizeCard.lead,
+  longDesc: site.customizeCard.body,
+  images: [],
+  dataService: site.customizeCard.dataService
+};
+
+module.exports = [...fromSpecialties, ...fromServices, customizeWorks];

@@ -399,6 +399,7 @@
   .sub-card-cta .body h3 + p{border-bottom:none;padding-bottom:0;margin-bottom:18px;}
   .sub-card-cta .body p + p{font-size:16px;max-width:520px;margin:0 auto 24px;}
   .sub-card-cta .btn{align-self:center;margin-top:auto;}
+  .customize-learn-more{align-self:center;margin-top:10px;}
   .sub-card-cta .btn svg{width:18px;height:18px;stroke:currentColor;}
   .sub-card h4{font-size:16px;margin-bottom:6px;font-family:'Montserrat',sans-serif;font-weight:600;}
   .sub-card p{font-size:15px;color:var(--ink);margin-bottom:12px;}

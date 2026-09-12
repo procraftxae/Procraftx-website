@@ -442,5 +442,49 @@ module.exports = {
       ]
     },
     relatedIds: ["furniture-services", "core-home-maintenance"]
+  },
+
+  "customize-works": {
+    h1: { en: "Custom &amp; Bespoke Home Projects in Dubai, Sharjah &amp; Abu Dhabi", ar: "مشاريع منزلية مخصصة وحسب الطلب في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Custom &amp; Bespoke Projects Dubai | Procraftx", ar: "مشاريع مخصصة وحسب الطلب دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Custom-built storage, bespoke feature walls, and one-off structures in Dubai, Sharjah &amp; Abu Dhabi. Tell us the idea — we design, quote, and build it.",
+      ar: "تخزين مصمم خصيصًا، جدران مميزة، وهياكل فريدة في دبي والشارقة وأبوظبي. أخبرنا بفكرتك، ونصممها ونسعّرها وننفّذها."
+    },
+    overview: {
+      en: [
+        "Not every home project fits neatly into a standard category — a wardrobe that needs to fit an odd-shaped alcove, a feature wall combining materials no one else offers as a package, an outdoor structure that's part storage and part seating, or a piece of furniture you already own that just needs the right modification rather than a full replacement. This is what custom work actually means at Procraftx: projects built around your specific idea instead of our fixed service list.",
+        "The process starts the same way regardless of how unusual the request is — tell us what you have in mind, even if it's just a rough idea or a photo of something similar you've seen. We'll walk through the design with you, confirm materials and scope, and give you a flat quote before any work starts, the same as every other job we do. Because our crews already cover carpentry, metalwork, electrical, glass, and upholstery in-house, a custom project that combines several of these doesn't mean coordinating separate contractors — it's one team, one quote, one timeline.",
+        "What's different here compared to our other services: there's no fixed \"what's included\" list, because the scope is defined by your idea, not a template. What stays the same is the guarantee, the licensed and background-checked crew, and the flat pricing — a custom project isn't quoted any less carefully than a standard one."
+      ],
+      ar: [
+        "ليس كل مشروع منزلي يندرج بدقة ضمن فئة قياسية — خزانة يجب أن تناسب فجوة بشكل غير معتاد، جدار مميز يجمع مواد لا يقدمها أحد كحزمة واحدة، هيكل خارجي جزء منه تخزين وجزء منه جلوس، أو قطعة أثاث تملكها بالفعل وتحتاج فقط للتعديل الصحيح بدل الاستبدال الكامل. هذا هو المقصود فعليًا بالعمل المخصص لدى بروكرافتكس: مشاريع تُبنى حول فكرتك المحددة بدل قائمة خدماتنا الثابتة.",
+        "تبدأ العملية بنفس الطريقة بغض النظر عن مدى غرابة الطلب — أخبرنا بما تفكر فيه، حتى لو كانت مجرد فكرة تقريبية أو صورة لشيء مشابه رأيته. سنمر معك على التصميم، ونؤكد المواد والنطاق، ونعطيك عرض سعر ثابت قبل بدء أي عمل، تمامًا مثل أي مهمة أخرى ننفذها. وبما أن فرقنا تغطي بالفعل النجارة والأعمال المعدنية والكهرباء والزجاج والتنجيد داخليًا، فمشروع مخصص يجمع عدة حرف لا يعني التنسيق مع مقاولين منفصلين — بل فريق واحد، وعرض سعر واحد، وجدول زمني واحد.",
+        "ما يختلف هنا مقارنة بخدماتنا الأخرى: لا توجد قائمة ثابتة لـ«ما يشمله العمل»، لأن النطاق تحدده فكرتك وليس قالبًا جاهزًا. ما يبقى كما هو: الضمان، والفريق المرخّص والمدقّق الخلفية، والتسعير الثابت — المشروع المخصص لا يُسعَّر بعناية أقل من الخدمة القياسية."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Custom-built storage solutions for awkward or non-standard spaces",
+        "Bespoke feature walls combining multiple materials and finishes",
+        "One-off outdoor structures — part storage, part seating, or fully custom",
+        "Modifications to furniture or fixtures you already own",
+        "Design sketches or visuals before any work is committed",
+        "Combined trades under one project — carpentry, metalwork, electrical, glass, upholstery",
+        "Flat quote before work starts, same as every standard service",
+        "No project too small to be quoted properly"
+      ],
+      ar: [
+        "حلول تخزين مصممة خصيصًا للمساحات غير المعتادة",
+        "جدران مميزة تجمع عدة مواد وتشطيبات",
+        "هياكل خارجية فريدة — تخزين جزئي، جلوس، أو تصميم مخصص بالكامل",
+        "تعديلات على أثاث أو تجهيزات تملكها بالفعل",
+        "رسومات أو تصورات للتصميم قبل الالتزام بأي عمل",
+        "دمج عدة حرف ضمن مشروع واحد — نجارة، أعمال معدنية، كهرباء، زجاج، تنجيد",
+        "عرض سعر ثابت قبل بدء العمل، تمامًا مثل أي خدمة قياسية",
+        "لا يوجد مشروع صغير جدًا لدرجة عدم استحقاقه عرض سعر دقيق"
+      ]
+    },
+    relatedIds: ["furniture-services", "interior-design"]
   }
 };

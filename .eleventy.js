@@ -32,6 +32,11 @@ function buildOfferCatalog(lang) {
       itemOffered: { "@type": "Service", name: deEnt(sp.h4[lang]), description: deEnt(sp.longDesc[lang]), url: `${prefix}${sp.id}.html` }
     });
   });
+  const cc = siteData.customizeCard;
+  items.push({
+    "@type": "Offer",
+    itemOffered: { "@type": "Service", name: deEnt(cc.title[lang]), description: deEnt(cc.body[lang]), url: `${prefix}customize-works.html` }
+  });
   return items;
 }
 
