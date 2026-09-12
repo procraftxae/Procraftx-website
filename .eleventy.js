@@ -13,19 +13,23 @@ function deEnt(s) {
 }
 
 function buildOfferCatalog(lang) {
+  const prefix = `https://procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
   const items = [];
   servicesData.categories.forEach((cat) => {
+    // the 13 individual services don't each get their own page — only the
+    // 3 categories do — so they point to their category's detail page.
+    const url = `${prefix}${cat.id}.html`;
     cat.services.forEach((s) => {
       items.push({
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: deEnt(s.name[lang]), description: deEnt(s.desc[lang]) }
+        itemOffered: { "@type": "Service", name: deEnt(s.name[lang]), description: deEnt(s.desc[lang]), url }
       });
     });
   });
   specialtiesData.forEach((sp) => {
     items.push({
       "@type": "Offer",
-      itemOffered: { "@type": "Service", name: deEnt(sp.h4[lang]), description: deEnt(sp.longDesc[lang]) }
+      itemOffered: { "@type": "Service", name: deEnt(sp.h4[lang]), description: deEnt(sp.longDesc[lang]), url: `${prefix}${sp.id}.html` }
     });
   });
   return items;
@@ -108,6 +112,21 @@ module.exports = function (eleventyConfig) {
       areaServed: siteData.business.areaServed.map((c) => ({ "@type": "City", name: c[lang] })),
       inLanguage: lang,
       url: `https://procraftx.ae/${lang === "ar" ? "ar/" : ""}${topic.id}.html`
+    };
+    return JSON.stringify(obj, null, 2);
+  });
+
+  // Matches the visible breadcrumb ("Home / Topic") on each detail page.
+  eleventyConfig.addFilter("detailBreadcrumbJsonLd", function (topicId, lang) {
+    const topic = detailTopicsData.find((t) => t.id === topicId);
+    const prefix = `https://procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
+    const obj = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: siteData.detailPage.breadcrumbHome[lang], item: prefix },
+        { "@type": "ListItem", position: 2, name: lang === "ar" ? topic.h3.ar : deEnt(topic.h3.en), item: `${prefix}${topic.id}.html` }
+      ]
     };
     return JSON.stringify(obj, null, 2);
   });

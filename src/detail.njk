@@ -43,6 +43,9 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 <script type="application/ld+json">
 {{ topic.id | detailFaqJsonLd(lang) | safe }}
 </script>
+<script type="application/ld+json">
+{{ topic.id | detailBreadcrumbJsonLd(lang) | safe }}
+</script>
 </head>
 <body>
 
@@ -129,7 +132,8 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
   </div>
 </section>
 
-{{ contactSection(lang, isAr, site, services, specialties, topic.dataService[lang]) }}
+{%- set prefillService = topic.dataService[lang] if topic.kind == "specialty" else site.bookingForm.notSure[lang] -%}
+{{ contactSection(lang, isAr, site, services, specialties, prefillService) }}
 
 </main>
 

@@ -34,7 +34,7 @@
             <optgroup label="{{ site.customizeCard.title[lang] | safe }}">
               <option>{{ site.customizeCard.title[lang] | safe }}</option>
             </optgroup>
-            <option>{{ site.bookingForm.notSure[lang] | safe }}</option>
+            <option{{ ' selected' | safe if prefillService and site.bookingForm.notSure[lang] == prefillService }}>{{ site.bookingForm.notSure[lang] | safe }}</option>
           </select>
         </div>
         <div class="field"><label for="notes">{{ site.bookingForm.notesLabel[lang] | safe }}</label><textarea id="notes" placeholder="{{ site.bookingForm.notesPlaceholder[lang] | safe }}" maxlength="1000"></textarea></div>
