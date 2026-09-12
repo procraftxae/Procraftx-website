@@ -1,4 +1,5 @@
 {% macro card(sp, lang) %}
+{% set isAr = lang == "ar" %}
 <div class="sub-card sub-card-wide reveal">
   <div class="thumb thumb-slideshow">
     {% for img in sp.images %}
@@ -12,6 +13,7 @@
     <h3>{{ sp.h3[lang] | safe }}</h3>
     <p>{{ sp.shortDesc[lang] | safe }}</p>
     <h4>{{ sp.h4[lang] | safe }}</h4><p>{{ sp.longDesc[lang] | safe }}</p><a href="#contact" class="link" data-service="{{ sp.dataService[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="{{ '../' if isAr }}{{ sp.id }}.html" class="link link-secondary">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </div>
 {% endmacro %}

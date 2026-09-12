@@ -1,6 +1,11 @@
-{% set logoHref = "#top" if not onFaqPage else "index.html#top" %}
-{% set servicesHref = "#services" if not onFaqPage else "index.html#services" %}
-{% set specialtiesHref = "#specialties" if not onFaqPage else "index.html#specialties" %}
+{# offHome: true on any page that isn't the homepage itself (faq.html or a
+   detail page) — Services/Specialties links need an "index.html#" prefix.
+   onFaqPage: true only when this IS the FAQ page specifically — controls
+   aria-current="page" on the FAQs link. A detail page is offHome but not
+   onFaqPage; the FAQ page is both. #}
+{% set logoHref = "#top" if not offHome else "index.html#top" %}
+{% set servicesHref = "#services" if not offHome else "index.html#services" %}
+{% set specialtiesHref = "#specialties" if not offHome else "index.html#specialties" %}
 <header>
   <nav>
     <a class="logo" href="{{ logoHref }}">{{ "PROCRAFTX" if lang == "en" else "بروكرافتكس" }}</a>

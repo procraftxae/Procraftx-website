@@ -335,6 +335,14 @@
   .category-block{margin-bottom:64px;scroll-margin-top:90px;}
   .category-block:last-child{margin-bottom:0;}
   .category-head{display:flex;align-items:flex-start;gap:20px;margin-bottom:30px;padding-bottom:22px;border-bottom:1px solid var(--line);}
+  .category-learn-more{
+    display:inline-flex;align-items:center;gap:6px;margin-top:10px;
+    font-family:'Montserrat',sans-serif;font-weight:600;font-size:15px;color:var(--muted);
+  }
+  .category-learn-more svg{width:12px;height:12px;stroke:var(--muted);transition:transform .2s ease;}
+  .category-learn-more:hover{color:var(--red);}
+  .category-learn-more:hover svg{stroke:var(--red);transform:translateX(4px);}
+  html[dir="rtl"] .category-learn-more:hover svg{transform:translateX(-4px);}
   .category-head h3{font-size:26px;margin-bottom:6px;}
   .category-head p{font-size:20px;color:var(--ink);max-width:560px;}
 
@@ -421,6 +429,56 @@
     background:rgba(255,255,255,0.6);transition:width .2s ease, background .2s ease;
   }
   .thumb-dots button.active::before{background:#fff;width:15px;border-radius:3px;}
+
+  /* ---------- DETAIL PAGES (src/detail.njk, one per specialty/service category) ---------- */
+  .breadcrumb{font-size:14px;color:var(--muted);margin-bottom:10px;}
+  .breadcrumb a{color:var(--muted);text-decoration:underline;}
+  .breadcrumb a:hover{color:var(--red);}
+
+  .detail-media{margin-bottom:48px;}
+  .detail-media .thumb{position:relative;height:420px;border-radius:20px;overflow:hidden;box-shadow:var(--card-shadow);}
+
+  .detail-overview{max-width:760px;margin:0 auto 48px;}
+  .detail-overview p{font-size:17px;line-height:1.7;color:var(--ink);margin-bottom:20px;}
+  .detail-overview p:last-child{margin-bottom:0;}
+
+  .detail-included{max-width:760px;margin:0 auto 56px;}
+  .detail-included h2{font-size:26px;margin-bottom:20px;font-family:'Montserrat',sans-serif;font-weight:700;}
+  .detail-included ul{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:12px 24px;}
+  .detail-included li{position:relative;padding-left:28px;font-size:16px;line-height:1.5;color:var(--ink);}
+  html[dir="rtl"] .detail-included li{padding-left:0;padding-right:28px;}
+  .detail-included li::before{
+    content:"";position:absolute;left:0;top:4px;width:18px;height:18px;border-radius:50%;
+    background:var(--red);
+    -webkit-mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>') center/60% no-repeat;
+    mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>') center/60% no-repeat;
+  }
+  html[dir="rtl"] .detail-included li::before{left:auto;right:0;}
+
+  .detail-process{max-width:1040px;margin:0 auto 56px;text-align:center;}
+  .detail-process h2{font-size:26px;margin-bottom:28px;font-family:'Montserrat',sans-serif;font-weight:700;}
+  .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-bottom:28px;text-align:left;}
+  html[dir="rtl"] .process-grid{text-align:right;}
+  .process-step{background:var(--bg-soft);border-radius:16px;padding:24px 20px;}
+  .process-num{
+    display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;
+    border-radius:50%;background:var(--red);color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;
+    margin-bottom:12px;
+  }
+  .process-step h3{font-size:17px;margin-bottom:6px;font-family:'Montserrat',sans-serif;font-weight:700;}
+  .process-step p{font-size:14.5px;color:var(--muted);line-height:1.5;}
+
+  .detail-related{max-width:760px;margin:0 auto;text-align:center;}
+  .detail-related h2{font-size:22px;margin-bottom:16px;font-family:'Montserrat',sans-serif;font-weight:700;}
+  .related-list{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:0;}
+  .related-list a{
+    display:inline-block;padding:10px 20px;border:1.5px solid var(--line);border-radius:100px;
+    font-size:15px;font-weight:600;color:var(--ink);transition:border-color .2s ease, color .2s ease;
+  }
+  .related-list a:hover{border-color:var(--red);color:var(--red);}
+
+  .sub-card .link-secondary{color:var(--muted);margin-top:6px;}
+  .sub-card .link-secondary svg{stroke:var(--muted);}
 
   /* ---------- FLOATING WHATSAPP ---------- */
   .whatsapp-float{
@@ -530,4 +588,10 @@
     .stats-grid .stat{flex:1 1 0;min-width:0;text-align:center;}
     .stats-grid .num{font-size:22px;}
     .stats-grid .label{font-size:10.5px;letter-spacing:0.02em;margin-top:5px;line-height:1.3;}
+
+    /* ---- Detail pages ---- */
+    .detail-media .thumb{height:220px;border-radius:14px;}
+    .detail-overview p{font-size:15.5px;}
+    .detail-included ul{grid-template-columns:1fr;}
+    .process-grid{grid-template-columns:1fr;gap:12px;}
   }

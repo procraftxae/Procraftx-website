@@ -125,5 +125,33 @@ module.exports = {
   ],
 
   whatsappFloatAriaLabel: { en: "Chat on WhatsApp", ar: "تواصل عبر واتساب" },
-  skipLink: { en: "Skip to content", ar: "تخطَّ إلى المحتوى" }
+  skipLink: { en: "Skip to content", ar: "تخطَّ إلى المحتوى" },
+
+  // Shared across all 10 detail pages (src/detail.njk) — same 4-step
+  // process regardless of topic, reused rather than re-authored per page.
+  detailPage: {
+    breadcrumbHome: { en: "Home", ar: "الرئيسية" },
+    whatsIncludedTitle: { en: "What's Included", ar: "ما الذي يشمله العمل" },
+    processTitle: { en: "How It Works", ar: "كيف نعمل" },
+    processSteps: [
+      {
+        title: { en: "Free walkthrough & quote", ar: "معاينة وعرض سعر مجاني" },
+        desc: { en: "We visit, assess the job, and give you a clear price before anything starts — no obligation.", ar: "نزورك، نقيّم العمل، ونعطيك سعرًا واضحًا قبل أي بدء — دون أي التزام." }
+      },
+      {
+        title: { en: "Scope & scheduling", ar: "تحديد النطاق والجدولة" },
+        desc: { en: "Once you approve the quote, we confirm materials, timeline, and book a crew for your job.", ar: "بعد موافقتك على السعر، نؤكد المواد والجدول الزمني ونحجز فريقًا لعملك." }
+      },
+      {
+        title: { en: "The work itself", ar: "تنفيذ العمل" },
+        desc: { en: "A licensed, background-checked crew carries out the job, with you able to check in at any point.", ar: "فريق مرخّص ومدقّق الخلفية ينفّذ العمل، ويمكنك المتابعة في أي وقت." }
+      },
+      {
+        title: { en: "Completion & guarantee", ar: "الإنجاز والضمان" },
+        desc: { en: "We walk you through the finished work — every job is covered by our guarantee on parts and labor.", ar: "نستعرض معك العمل المنجز — كل عمل مغطى بضماننا على القطع والعمالة." }
+      }
+    ],
+    relatedTitle: { en: "Related Services", ar: "خدمات ذات صلة" },
+    learnMore: { en: "Learn more", ar: "اعرف المزيد" }
+  }
 };

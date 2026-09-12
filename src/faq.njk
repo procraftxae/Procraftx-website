@@ -42,6 +42,7 @@ permalink: "{% if lang == 'ar' %}ar/faq.html{% else %}faq.html{% endif %}"
 
 <a href="#main" class="skip-link">{{ site.skipLink[lang] | safe }}</a>
 
+{% set offHome = true %}
 {% set onFaqPage = true %}
 {% include "nav.njk" %}
 

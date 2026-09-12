@@ -7,7 +7,28 @@ const path = require("path");
 const crypto = require("crypto");
 
 const root = path.join(__dirname, "..");
-const pages = ["index.html", "faq.html", path.join("ar", "index.html"), path.join("ar", "faq.html")];
+
+// recursively find every generated *.html page (project root + ar/), not a
+// hardcoded list — the site now has 24 pages (10 specialty/service detail
+// pages x 2 languages, plus index/faq), and that count will keep changing.
+function findHtmlFiles(dir) {
+  const results = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name === "node_modules" || entry.name === "src" || entry.name.startsWith(".")) continue;
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      results.push(...findHtmlFiles(full));
+    } else if (entry.name.endsWith(".html")) {
+      results.push(path.relative(root, full));
+    }
+  }
+  return results;
+}
+
+const pages = findHtmlFiles(root).sort();
+if (pages.length === 0) {
+  throw new Error("No .html files found to hash — did the Eleventy build run first?");
+}
 
 const hashes = [];
 for (const file of pages) {
@@ -40,4 +61,4 @@ cspHeader.value = cspHeader.value.replace(
 );
 
 fs.writeFileSync(vercelJsonPath, JSON.stringify(vercelConfig, null, 2) + "\n");
-console.log(`Patched vercel.json CSP with ${hashes.length} script-src hashes (${pages.join(", ")}).`);
+console.log(`Patched vercel.json CSP with ${hashes.length} script-src hashes across ${pages.length} pages.`);

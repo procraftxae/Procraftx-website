@@ -369,10 +369,17 @@
   // language toggle: this page is single-language (Arabic content lives at
   // genuinely separate /ar/ URLs so search engines can index it, instead of
   // an in-place JS swap), so the button just navigates to the matching page
-  // in the other language.
+  // in the other language. Works for any same-named page in / and /ar/
+  // (index, faq, and every specialty/service detail page), not just the
+  // two it originally shipped with — it preserves whatever filename is
+  // currently loaded rather than hardcoding a faq.html special case.
   const langToggle = document.getElementById('langToggle');
   const isArPage = document.documentElement.lang === 'ar';
-  const isFaqPage = /faq\.html$/.test(location.pathname);
+  const pathParts = location.pathname.split('/').filter(Boolean);
+  const filename = (isArPage ? pathParts.slice(1) : pathParts).pop() || '';
+  const isRoot = filename === '' || filename === 'index.html';
   langToggle.addEventListener('click', ()=>{
-    location.href = isArPage ? (isFaqPage ? '../faq.html' : '../') : (isFaqPage ? 'ar/faq.html' : 'ar/');
+    location.href = isArPage
+      ? (isRoot ? '../' : '../' + filename)
+      : (isRoot ? 'ar/' : 'ar/' + filename);
   });
