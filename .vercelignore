@@ -2,6 +2,16 @@
 .git
 *.md
 
+# Build system source — built locally via `npm run build`, output committed
+# directly into index.html/faq.html/ar/*.html; these source files aren't
+# meant to be served
+node_modules
+src
+scripts
+.eleventy.js
+package.json
+package-lock.json
+
 # Local credentials (Vercel CLI already skips these, but make it explicit)
 .env
 .env.*

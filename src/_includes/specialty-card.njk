@@ -1,0 +1,17 @@
+{% macro card(sp, lang) %}
+<div class="sub-card sub-card-wide reveal">
+  <div class="thumb thumb-slideshow">
+    {% for img in sp.images %}
+    <img src="{{ img.src }}" alt="{{ img.alt[lang] | safe }}" loading="lazy"{{ ' style="display:none"' | safe if not loop.first }}>
+    {% endfor %}
+    <button type="button" class="thumb-nav thumb-prev" aria-label="{{ 'Previous photo' if lang == 'en' else 'الصورة السابقة' }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <button type="button" class="thumb-nav thumb-next" aria-label="{{ 'Next photo' if lang == 'en' else 'الصورة التالية' }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
+    <div class="thumb-dots"></div>
+  </div>
+  <div class="body">
+    <h3>{{ sp.h3[lang] | safe }}</h3>
+    <p>{{ sp.shortDesc[lang] | safe }}</p>
+    <h4>{{ sp.h4[lang] | safe }}</h4><p>{{ sp.longDesc[lang] | safe }}</p><a href="#contact" class="link" data-service="{{ sp.dataService[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+  </div>
+</div>
+{% endmacro %}

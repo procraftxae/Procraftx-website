@@ -1,0 +1,256 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
+---
+{%- from "service-card.njk" import card as serviceCard -%}
+{%- from "specialty-card.njk" import card as specialtyCard -%}
+{%- set isAr = lang == "ar" -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}"{{ ' dir="rtl"' | safe if isAr }}>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="_IPAHV06IH3jP_eau1n5NKWp9_Zfgb3BOBFFXUx4otM">
+<title>{{ pages.index.title[lang] | safe }}</title>
+<meta name="description" content="{{ pages.index.description[lang] | safe }}">
+<link rel="canonical" href="https://procraftx.ae/{{ 'ar/' if isAr }}">
+<link rel="alternate" hreflang="en" href="https://procraftx.ae/">
+<link rel="alternate" hreflang="ar" href="https://procraftx.ae/ar/">
+<link rel="alternate" hreflang="x-default" href="https://procraftx.ae/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Procraftx">
+<meta property="og:title" content="{{ pages.index.ogTitle[lang] | safe }}">
+<meta property="og:description" content="{{ pages.index.ogDescription[lang] | safe }}">
+<meta property="og:url" content="https://procraftx.ae/{{ 'ar/' if isAr }}">
+<meta property="og:image" content="https://procraftx.ae/assets/images/service-promo-poster.jpg">
+<meta property="og:locale" content="{{ 'ar_AE' if isAr else 'en_AE' }}">
+<meta property="og:locale:alternate" content="{{ 'en_AE' if isAr else 'ar_AE' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ pages.index.ogTitle[lang] | safe }}">
+<meta name="twitter:description" content="{{ pages.index.twitterDescription[lang] | safe }}">
+<meta name="twitter:image" content="https://procraftx.ae/assets/images/service-promo-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '../styles.css' if isAr else 'styles.css' }}">
+<script type="application/ld+json">
+{{ lang | indexJsonLd | safe }}
+</script>
+</head>
+<body>
+
+<a href="#main" class="skip-link">{{ site.skipLink[lang] | safe }}</a>
+
+{% include "nav.njk" %}
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="bg">
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" disablePictureInPicture disableRemotePlayback aria-label="{{ site.hero.videoAriaLabel[lang] | safe }}">
+      <source src="{{ '../assets/hero-workers.mp4' if isAr else 'assets/hero-workers.mp4' }}" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-chips" aria-hidden="true">
+    <div class="hero-chip c1"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M14.7 6.3a4 4 0 0 0-5.66 5.66L3 18v3h3l6.04-6.04a4 4 0 0 0 5.66-5.66l-2.5 2.5-2-2 2.5-2.5z"/></svg></div>
+    <div class="hero-chip c2"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg></div>
+    <div class="hero-chip c3"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2v20M4.5 5.5l15 13M19.5 5.5l-15 13"/><circle cx="12" cy="12" r="9"/></svg></div>
+    <div class="hero-chip c4"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 17l6-6 3 3 8-8M20 6h-4V2"/><circle cx="7" cy="19" r="2"/></svg></div>
+  </div>
+  <a href="#services" class="hero-mobile-link" aria-label="{{ site.hero.mobileLinkAriaLabel[lang] | safe }}"></a>
+  <div class="wrap hero-content">
+    <span class="eyebrow">{{ site.hero.eyebrow[lang] | safe }}</span>
+    <h1>{{ site.hero.h1_main[lang] | safe }} <span>{{ site.hero.h1_span[lang] | safe }}</span></h1>
+    <p>{{ site.hero.lead[lang] | safe }}</p>
+    <div class="hero-ctas">
+      <a href="#contact" class="btn btn-red pulse-cta">{{ site.hero.ctaBook[lang] | safe }}</a>
+      <a href="#services" class="btn btn-outline">{{ site.hero.ctaSee[lang] | safe }}</a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap trust-float reveal">
+  <div class="trust-card">
+    {% for t in site.trustCards %}
+    <div class="item">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6">{{ t.iconInner | safe }}</svg>
+      <b>{{ t.title[lang] | safe }}</b><span>{{ t.sub[lang] | safe }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="marquee-strip" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack"></div>
+</div>
+
+<div class="stats-band">
+  <div class="wrap stats-grid">
+    {% for s in site.stats %}
+    <div class="stat"><div class="num" data-count="{{ s.count }}" data-suffix="{{ s.suffix[lang] | safe }}">0</div><div class="label">{{ s.label[lang] | safe }}</div></div>
+    {% endfor %}
+  </div>
+</div>
+
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ site.servicesHead.eyebrow[lang] | safe }}</span>
+      <h2>{{ site.servicesHead.h2[lang] | safe }}</h2>
+    </div>
+
+    {% for cat in services.categories %}
+    <!-- {{ cat.comment[lang] | safe }} -->
+    <div class="category-block" id="{{ cat.id }}">
+      <div class="category-head reveal">
+        <div><h3>{{ cat.title[lang] | safe }}</h3><p>{{ cat.desc[lang] | safe }}</p></div>
+      </div>
+      <div class="subservice-grid">
+        {% for s in cat.services %}
+        {{ serviceCard(s, lang) }}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+    <hr class="section-divider">
+
+    <div class="section-head reveal" id="specialties">
+      <span class="eyebrow">{{ site.specialtiesHead.eyebrow[lang] | safe }}</span>
+      <h2>{{ site.specialtiesHead.h2[lang] | safe }}</h2>
+    </div>
+
+    {% for sp in specialties %}
+    <!-- {{ sp.comment[lang] | safe }} -->
+    <div class="category-block" id="{{ sp.id }}">
+      <div class="subservice-grid">
+        {{ specialtyCard(sp, lang) }}
+      </div>
+    </div>
+    {% endfor %}
+
+    <!-- 11. {{ site.customizeCard.title["en"] | safe }} -->
+    <div class="category-block" id="customize-works">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide sub-card-cta reveal">
+          <div class="body">
+            <h3>{{ site.customizeCard.title[lang] | safe }}</h3>
+            <p>{{ site.customizeCard.lead[lang] | safe }}</p>
+            <p>{{ site.customizeCard.body[lang] | safe }}</p>
+            <a href="#contact" class="btn btn-red" data-service="{{ site.customizeCard.dataService[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight-top bg-soft">
+  <div class="wrap">
+    <div class="banner reveal" id="promoBanner">
+      <div class="banner-media">
+        <video class="banner-video" muted loop playsinline webkit-playsinline="true" poster="{{ '../assets/images/service-promo-poster.jpg' if isAr else 'assets/images/service-promo-poster.jpg' }}" preload="none" disablePictureInPicture disableRemotePlayback aria-label="{{ site.about.videoAriaLabel[lang] | safe }}">
+          <source data-src="{{ '../assets/service-promo.mp4' if isAr else 'assets/service-promo.mp4' }}" type="video/mp4">
+        </video>
+        <button type="button" class="mute-toggle" id="muteToggle" aria-label="Unmute video" aria-pressed="false">
+          <svg class="icon-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M23 9l-6 6M17 9l6 6"/></svg>
+          <svg class="icon-unmuted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+        </button>
+      </div>
+      <div class="content" id="about">
+        <span class="eyebrow">{{ site.about.eyebrow[lang] | safe }}</span>
+        <h2>{{ site.about.h2[lang] | safe }}</h2>
+        <p>{{ site.about.body[lang] | safe }}</p>
+        <a href="{{ site.business.whatsapp }}" class="btn btn-red" target="_blank" rel="noopener">{{ site.about.cta[lang] | safe }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<section class="section" id="faq-preview">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ site.faqPreviewHead.eyebrow[lang] | safe }}</span>
+      <h2>{{ site.faqPreviewHead.h2[lang] | safe }}</h2>
+    </div>
+    <div class="faq-list">
+      {% for q in faq[0].questions.slice(0, 6) %}
+      <details class="faq-item reveal"{{ ' open' | safe if loop.first }}>
+        <summary>{{ (q.qAr if isAr else q.qEn) | safe }}<span class="plus">+</span></summary>
+        <p>{{ (q.aAr if isAr else q.aEn) | safe }}</p>
+      </details>
+      {% endfor %}
+    </div>
+    <a href="faq.html" class="btn btn-red faq-preview-more reveal">{{ site.faqPreviewHead.more[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="cta-section reveal">
+    <div class="wrap">
+      <form class="book-form" id="bookForm" novalidate>
+        <div class="field-row">
+          <div class="field" id="nameField">
+            <label for="name">{{ site.bookingForm.nameLabel[lang] | safe }}</label><input id="name" type="text" placeholder="{{ site.bookingForm.namePlaceholder[lang] | safe }}" maxlength="100" autocomplete="name" required aria-required="true" aria-describedby="nameErr">
+            <span class="error-msg" id="nameErr" role="alert">{{ site.bookingForm.nameError[lang] | safe }}</span>
+          </div>
+          <div class="field" id="phoneField">
+            <label for="phone">{{ site.bookingForm.phoneLabel[lang] | safe }}</label><input id="phone" type="tel" dir="ltr" placeholder="{{ site.business.phoneDisplay }}" maxlength="20" autocomplete="tel" required aria-required="true" aria-describedby="phoneErr">
+            <span class="error-msg" id="phoneErr" role="alert">{{ site.bookingForm.phoneError[lang] | safe }}</span>
+          </div>
+        </div>
+        <div class="field"><label for="address">{{ site.bookingForm.addressLabel[lang] | safe }}</label><input id="address" type="text" placeholder="{{ site.bookingForm.addressPlaceholder[lang] | safe }}" maxlength="200" autocomplete="street-address"></div>
+        <div class="field">
+          <label for="service">{{ site.bookingForm.serviceLabel[lang] | safe }}</label>
+          <select id="service">
+            {% for cat in services.categories %}
+            <optgroup label="{{ cat.title[lang] | safe }}">
+              {% for s in cat.services %}
+              <option>{{ s.name[lang] | safe }}</option>
+              {% endfor %}
+            </optgroup>
+            {% endfor %}
+            {% for sp in specialties | sort(attribute="bookingOrder") %}
+            <optgroup label="{{ sp.bookingGroupLabel[lang] | safe }}">
+              {% for opt in sp.bookingOptions %}
+              <option>{{ opt[lang] | safe }}</option>
+              {% endfor %}
+            </optgroup>
+            {% endfor %}
+            <optgroup label="{{ site.customizeCard.title[lang] | safe }}">
+              <option>{{ site.customizeCard.title[lang] | safe }}</option>
+            </optgroup>
+            <option>{{ site.bookingForm.notSure[lang] | safe }}</option>
+          </select>
+        </div>
+        <div class="field"><label for="notes">{{ site.bookingForm.notesLabel[lang] | safe }}</label><textarea id="notes" placeholder="{{ site.bookingForm.notesPlaceholder[lang] | safe }}" maxlength="1000"></textarea></div>
+        <button type="submit" class="btn btn-red">{{ site.bookingForm.submit[lang] | safe }}</button>
+        <p class="confirm" role="status">{{ site.bookingForm.confirm[lang] | safe }}</p>
+      </form>
+      <div>
+        <span class="eyebrow">{{ site.bookingForm.getStartedEyebrow[lang] | safe }}</span>
+        <h2>{{ site.bookingForm.getStartedH2[lang] | safe }}</h2>
+        <p class="lead">{{ site.bookingForm.getStartedLead[lang] | safe }}</p>
+        <div class="contact-info">
+          <a class="row" href="{{ site.business.whatsapp }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M3 21l1.4-4.2A8.9 8.9 0 1 1 8.2 20L3 21z"/><path d="M8.5 8.5c0 4 3 7 7 7 .6 0 1-.4.9-1l-.4-1.7a1 1 0 0 0-1.2-.7l-1.4.4a6 6 0 0 1-3-3l.4-1.4a1 1 0 0 0-.7-1.2L8.2 6.5c-.6-.1-1 .3-1 .9z"/></svg><div><b dir="ltr">{{ site.business.phoneDisplay }}</b><span>{{ site.contactRows[0].sub[lang] | safe }}</span></div></a>
+          <a class="row" href="mailto:{{ site.business.email }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg><div><b>{{ site.business.email }}</b><span>{{ site.contactRows[1].sub[lang] | safe }}</span></div></a>
+          <a class="row" href="{{ site.business.social.instagram }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg><div><b>@Procraftx.ae</b><span>{{ site.contactRows[2].sub[lang] | safe }}</span></div></a>
+          <a class="row" href="{{ site.business.social.facebook }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg><div><b>Procraftx</b><span>{{ site.contactRows[3].sub[lang] | safe }}</span></div></a>
+          <a class="row" href="{{ site.business.social.tiktok }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="var(--red)"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07Z"/></svg><div><b>@Procraftx.ae</b><span>{{ site.contactRows[4].sub[lang] | safe }}</span></div></a>
+          <a class="row" href="{{ site.business.social.x }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="var(--red)"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg><div><b>@Procraftxae</b><span>{{ site.contactRows[5].sub[lang] | safe }}</span></div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script src="{{ '../assets/js/main.js' if isAr else 'assets/js/main.js' }}"></script>
+{% include "whatsapp-float.njk" %}
+</body>
+</html>

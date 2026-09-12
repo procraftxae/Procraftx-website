@@ -1,0 +1,16 @@
+{% macro group(g, lang, groupIndex) %}
+<div class="faq-group reveal">
+  <h3 class="faq-group-title">{{ (g.titleAr if lang == "ar" else g.titleEn) | safe }}</h3>
+  <div class="faq-list">
+    {% for q in g.questions %}
+    <details class="faq-item reveal"{{ ' open' | safe if groupIndex == 0 and loop.first }}>
+      <summary>{{ (q.qAr if lang == "ar" else q.qEn) | safe }}<span class="plus">+</span></summary>
+      <p>{{ (q.aAr if lang == "ar" else q.aEn) | safe }}</p>
+    </details>
+    {% endfor %}
+  </div>
+  {% if g.anchor %}
+  <a class="faq-group-link" href="index.html#{{ g.anchor }}">{{ (g.linkAr if lang == "ar" else g.linkEn) | safe }} {{ "&rarr;" | safe if lang == "en" else "&larr;" | safe }}</a>
+  {% endif %}
+</div>
+{% endmacro %}

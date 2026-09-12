@@ -1,0 +1,87 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{% if lang == 'ar' %}ar/faq.html{% else %}faq.html{% endif %}"
+---
+{%- from "faq-group.njk" import group as faqGroup -%}
+{%- set isAr = lang == "ar" -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}"{{ ' dir="rtl"' | safe if isAr }}>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="_IPAHV06IH3jP_eau1n5NKWp9_Zfgb3BOBFFXUx4otM">
+<title>{{ pages.faq.title[lang] | safe }}</title>
+<meta name="description" content="{{ pages.faq.description[lang] | safe }}">
+<link rel="canonical" href="https://procraftx.ae/{{ 'ar/' if isAr }}faq.html">
+<link rel="alternate" hreflang="en" href="https://procraftx.ae/faq.html">
+<link rel="alternate" hreflang="ar" href="https://procraftx.ae/ar/faq.html">
+<link rel="alternate" hreflang="x-default" href="https://procraftx.ae/faq.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Procraftx">
+<meta property="og:title" content="{{ pages.faq.ogTitle[lang] | safe }}">
+<meta property="og:description" content="{{ pages.faq.ogDescription[lang] | safe }}">
+<meta property="og:url" content="https://procraftx.ae/{{ 'ar/' if isAr }}faq.html">
+<meta property="og:image" content="https://procraftx.ae/assets/images/service-promo-poster.jpg">
+<meta property="og:locale" content="{{ 'ar_AE' if isAr else 'en_AE' }}">
+<meta property="og:locale:alternate" content="{{ 'en_AE' if isAr else 'ar_AE' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ pages.faq.ogTitle[lang] | safe }}">
+<meta name="twitter:description" content="{{ pages.faq.twitterDescription[lang] | safe }}">
+<meta name="twitter:image" content="https://procraftx.ae/assets/images/service-promo-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '../styles.css' if isAr else 'styles.css' }}">
+<script type="application/ld+json">
+{{ lang | faqJsonLd | safe }}
+</script>
+</head>
+<body>
+
+<a href="#main" class="skip-link">{{ site.skipLink[lang] | safe }}</a>
+
+{% set onFaqPage = true %}
+{% include "nav.njk" %}
+
+<main id="main">
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ pages.faq.heroEyebrow[lang] | safe }}</span>
+      <h1>{{ pages.faq.heroH1[lang] | safe }}</h1>
+      <p>{{ pages.faq.heroLead[lang] | safe }}</p>
+    </div>
+
+    {% for g in faq %}
+    {{ faqGroup(g, lang, loop.index0) }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section tight-top bg-soft">
+  <div class="wrap">
+    <div class="cta-section cta-compact reveal">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow">{{ pages.faq.closingEyebrow[lang] | safe }}</span>
+          <h2>{{ pages.faq.closingH2[lang] | safe }}</h2>
+          <p class="lead">{{ pages.faq.closingLead[lang] | safe }}</p>
+          <div class="hero-ctas">
+            <a href="{{ site.business.whatsapp }}" class="btn btn-red" target="_blank" rel="noopener">{{ pages.faq.closingChat[lang] | safe }}</a>
+            <a href="index.html#contact" class="btn btn-outline">{{ pages.faq.closingBook[lang] | safe }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script src="{{ '../assets/js/faq.js' if isAr else 'assets/js/faq.js' }}"></script>
+{% include "whatsapp-float.njk" %}
+</body>
+</html>
