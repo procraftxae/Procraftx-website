@@ -8,8 +8,8 @@ module.exports = {
     h1: { en: "Interior Design &amp; Fit-Out Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات التصميم الداخلي والتجهيز في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Interior Design &amp; Fit-Out Dubai | Procraftx", ar: "تصميم داخلي وتجهيز دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Full interior design and fit-out for villas and apartments in Dubai, Sharjah &amp; Abu Dhabi — concept to completion, 3D visuals, custom joinery, and supervised execution. Free consultation.",
-      ar: "تصميم داخلي وتجهيز كامل للفلل والشقق في دبي والشارقة وأبوظبي — من الفكرة حتى التنفيذ، تصورات ثلاثية الأبعاد، نجارة مخصصة، وإشراف متخصص. استشارة مجانية."
+      en: "Interior design and fit-out for villas and apartments in Dubai, Sharjah &amp; Abu Dhabi — concept to completion, 3D visuals, and custom joinery.",
+      ar: "تصميم داخلي وتجهيز للفلل والشقق في دبي والشارقة وأبوظبي — من الفكرة حتى التنفيذ، تصورات ثلاثية الأبعاد، ونجارة مخصصة."
     },
     overview: {
       en: [
@@ -52,8 +52,8 @@ module.exports = {
     h1: { en: "Majlis Design, Construction &amp; Renovation in Dubai, Sharjah &amp; Abu Dhabi", ar: "تصميم وبناء وتجديد المجالس في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Majlis Construction &amp; Renovation Dubai | Procraftx", ar: "بناء وتجديد المجالس دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Glass majlis, traditional Arabic majlis, and sandwich-panel majlis — designed, built, and maintained. Serving Dubai, Sharjah &amp; Abu Dhabi. Free site visit and quote.",
-      ar: "مجالس زجاجية، ومجالس عربية تقليدية، ومجالس بألواح ساندويتش — تصميم وبناء وصيانة. نخدم دبي والشارقة وأبوظبي. معاينة موقع وعرض سعر مجانيين."
+      en: "Glass, traditional Arabic, and sandwich-panel majlis — designed, built, and maintained. Serving Dubai, Sharjah &amp; Abu Dhabi.",
+      ar: "مجالس زجاجية، عربية تقليدية، وبألواح ساندويتش — تصميم وبناء وصيانة. نخدم دبي والشارقة وأبوظبي."
     },
     overview: {
       en: [
@@ -184,8 +184,8 @@ module.exports = {
     h1: { en: "Residential Window Tinting in Dubai, Sharjah &amp; Abu Dhabi", ar: "تظليل نوافذ المنازل في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Window Tinting for Homes Dubai | Procraftx", ar: "تظليل نوافذ المنازل دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Heat-rejection, UV-blocking, privacy, and security window film for villas and apartments — Dubai, Sharjah &amp; Abu Dhabi. Cut cooling costs, protect furniture from fading.",
-      ar: "أفلام عازلة للحرارة وحاجبة للأشعة فوق البنفسجية وأفلام الخصوصية والأمان للفلل والشقق — دبي والشارقة وأبوظبي. خفّض تكاليف التبريد واحمِ أثاثك من البهتان."
+      en: "Heat-rejection, UV-blocking, privacy, and security window film for villas and apartments in Dubai, Sharjah &amp; Abu Dhabi.",
+      ar: "أفلام عازلة للحرارة، حاجبة للأشعة فوق البنفسجية، وأفلام الخصوصية والأمان للفلل والشقق في دبي والشارقة وأبوظبي."
     },
     overview: {
       en: [
@@ -272,8 +272,8 @@ module.exports = {
     h1: { en: "Landscaping &amp; Irrigation Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات تنسيق الحدائق والري في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Landscaping &amp; Irrigation Dubai | Procraftx", ar: "تنسيق حدائق وري دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Garden design, planting, automatic irrigation installation and repair, and ongoing maintenance for villas in Dubai, Sharjah &amp; Abu Dhabi — built for the local climate.",
-      ar: "تصميم حدائق، زراعة، تركيب وإصلاح أنظمة ري أوتوماتيكية، وصيانة دورية للفلل في دبي والشارقة وأبوظبي — مصممة للمناخ المحلي."
+      en: "Garden design, planting, irrigation installation and repair, and ongoing maintenance for villas in Dubai, Sharjah &amp; Abu Dhabi.",
+      ar: "تصميم حدائق، زراعة، تركيب وإصلاح أنظمة ري، وصيانة دورية للفلل في دبي والشارقة وأبوظبي."
     },
     overview: {
       en: [
@@ -404,8 +404,8 @@ module.exports = {
     h1: { en: "Deep Cleaning &amp; Sanitization Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات التنظيف العميق والتعقيم في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Deep Cleaning &amp; Pest Control Dubai | Procraftx", ar: "تنظيف عميق ومكافحة حشرات دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Home cleaning, pest control, furniture cleaning, and water tank cleaning — Dubai, Sharjah &amp; Abu Dhabi. Move-in/move-out cleans, recurring service, and one-off deep cleans.",
-      ar: "تنظيف منازل، مكافحة حشرات، تنظيف أثاث، وتنظيف خزانات مياه — دبي والشارقة وأبوظبي. تنظيف عند الانتقال، خدمة متكررة، وتنظيف عميق لمرة واحدة."
+      en: "Home cleaning, pest control, furniture cleaning, and water tank cleaning in Dubai, Sharjah &amp; Abu Dhabi. Move-in/move-out or recurring service.",
+      ar: "تنظيف منازل، مكافحة حشرات، تنظيف أثاث، وخزانات مياه في دبي والشارقة وأبوظبي. تنظيف عند الانتقال أو خدمة متكررة."
     },
     overview: {
       en: [
