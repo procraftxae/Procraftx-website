@@ -166,15 +166,35 @@
     function showPlayFallback(){ playFallback.classList.add('is-visible'); }
     function hidePlayFallback(){ playFallback.classList.remove('is-visible'); }
 
-    const playAttempt = video.play();
-    if(playAttempt && typeof playAttempt.catch === 'function'){
-      playAttempt.catch(showPlayFallback);
+    function startPlayback(){
+      const playAttempt = video.play();
+      if(playAttempt && typeof playAttempt.catch === 'function'){
+        playAttempt.catch(showPlayFallback);
+      }
     }
     video.addEventListener('playing', hidePlayFallback);
     video.addEventListener('pause', ()=>{ if(!video.ended) showPlayFallback(); });
     playFallback.addEventListener('click', ()=>{
       video.play().then(hidePlayFallback).catch(()=>{});
     });
+
+    // the source's real src is withheld (data-src) so the ~2.5MB file isn't
+    // fetched on page load — only once the banner is about to scroll into
+    // view, same principle as the lazy-loaded <img> elements elsewhere.
+    const lazyLoadIO = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(!entry.isIntersecting) return;
+        const source = video.querySelector('source[data-src]');
+        if(source){
+          source.src = source.dataset.src;
+          delete source.dataset.src;
+          video.load();
+        }
+        startPlayback();
+        lazyLoadIO.disconnect();
+      });
+    }, {rootMargin:'400px 0px'});
+    lazyLoadIO.observe(media);
   })();
 
   // mobile nav: toggle open/close, close on link click, close on outside click / Escape

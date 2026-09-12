@@ -9,7 +9,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'sha256-Meyt/KcaNPxkTC7jRh1UB0FRqeM5NpEReZjNIXqSZjA=' 'sha256-DNqrVlJyaBw6jJX/zzqWg6+Xa/8ZB1sHi6HVO6PMo0A=' 'sha256-Zbjo6+fgbUv2yLWZ4MSVZ6wlOO0mSKP1J7gWkvbeDVk=' 'sha256-2s8p1OMKP/8PzhuS+uFtqIz/a643arOAiGcptdowQPQ='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://fonts.googleapis.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+          "value": "default-src 'self'; script-src 'self' 'sha256-Meyt/KcaNPxkTC7jRh1UB0FRqeM5NpEReZjNIXqSZjA=' 'sha256-kff8iC4qp2MzgN01qBwBZgq7ooQYemBc6tY51BtQthI=' 'sha256-Zbjo6+fgbUv2yLWZ4MSVZ6wlOO0mSKP1J7gWkvbeDVk=' 'sha256-CGofR9FmXLGt9G06svvOgD6B8VTLfQSNIyLDcaNZhpM='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://fonts.googleapis.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
         },
         {
           "key": "X-Frame-Options",
