@@ -2,8 +2,8 @@ module.exports = {
   index: {
     title: { en: "AC, Plumbing &amp; Home Maintenance Dubai &amp; Sharjah | Procraftx", ar: "صيانة تكييف وسباكة وصيانة منزلية في دبي والشارقة وأبوظبي | بروكرافتكس" },
     description: {
-      en: "Free walkthrough, flat quote, 100% guarantee. AC, plumbing, electrical, handyman, furniture care &amp; home cleaning in Dubai &amp; Sharjah. Call 050 791 7075. Also pools, window tinting, interior design, majlis, carports &amp; landscaping.",
-      ar: "معاينة مجانية، سعر ثابت، وضمان 100%. صيانة تكييف، سباكة، كهرباء، أعمال صيانة عامة، عناية بالأثاث وتنظيف منازل في دبي والشارقة وأبوظبي. اتصل 050 791 7075. أيضًا مسابح، تظليل نوافذ، تصميم داخلي، مجالس، كراجات وتنسيق حدائق."
+      en: "Free walkthrough, flat quote, 100% guarantee. AC, plumbing, electrical, handyman &amp; furniture care in Dubai, Sharjah &amp; Abu Dhabi. Call 050 791 7075.",
+      ar: "معاينة مجانية، سعر ثابت، وضمان 100%. صيانة تكييف، سباكة، كهرباء، أعمال صيانة عامة، وعناية بالأثاث في دبي والشارقة وأبوظبي. اتصل 050 791 7075."
     },
     ogTitle: { en: "AC, Plumbing, Electrical &amp; Home Maintenance Services | Procraftx", ar: "صيانة تكييف، كهرباء وصيانة منزلية | بروكرافتكس" },
     ogDescription: {
