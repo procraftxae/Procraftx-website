@@ -156,25 +156,47 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Window &amp; Glass Installations", titleAr: "تركيبات النوافذ والزجاج", anchor:"windows-glass",
-  linkEn:"See window &amp; glass installations", linkAr:"اطّلع على تركيبات النوافذ والزجاج",
+  titleEn: "Custom Doors &amp; Windows", titleAr: "الأبواب والنوافذ المخصصة", anchor:"doors-windows",
+  linkEn:"See custom doors &amp; windows", linkAr:"اطّلع على الأبواب والنوافذ المخصصة",
   questions: [
+    {qEn:"Do you design custom doors, or only install standard sizes?", aEn:"We design custom — front, interior, and sliding doors built to your size, material, and style rather than a fixed catalogue, then fitted with matching hardware.",
+     qAr:"هل تصممون أبواب مخصصة، أم فقط تركّبون مقاسات جاهزة؟", aAr:"نصمم أبوابًا مخصصة بالكامل — أمامية وداخلية وسحّابة، حسب المقاس والمادة والطراز الذي تريده، وليس من كتالوج ثابت، ثم نركّبها بأكسسوارات متطابقة."},
+    {qEn:"What door materials and styles can you build?", aEn:"Solid wood, veneer, glass-panel inserts, and modern metal-frame styles — for front doors, interior doors, and wide sliding or pivot openings.",
+     qAr:"ما مواد وطُرز الأبواب التي يمكنكم تصنيعها؟", aAr:"خشب صلب، قشرة خشبية، ألواح زجاجية مدمجة، وطرازات معدنية حديثة — لأبواب أمامية وداخلية وفتحات سحّابة أو محورية واسعة."},
     {qEn:"What types of windows do you install?", aEn:"Aluminium, uPVC, sliding, casement, and double-glazed windows — we'll help you pick the right type for the room and your budget.",
      qAr:"ما أنواع النوافذ التي تركبونها؟", aAr:"نوافذ الألمنيوم، واليو بي في سي، والسحّاب، والمفصلية، والمزدوجة الزجاج — سنساعدك على اختيار النوع المناسب للغرفة وميزانيتك."},
     {qEn:"Can you replace a single cracked window, or do I need to redo the whole set?", aEn:"A single window is no problem — we quote and replace just the unit that needs it, no need to touch the rest.",
      qAr:"هل يمكنكم استبدال نافذة واحدة مكسورة، أم يجب استبدال المجموعة بأكملها؟", aAr:"استبدال نافذة واحدة لا يمثل مشكلة — نقدّم عرض سعر ونستبدل الوحدة التي تحتاج فقط، دون الحاجة للمس البقية."},
-    {qEn:"How long does shower glass replacement take?", aEn:"Most shower glass replacements are finished in a single visit, measured and fitted precisely for a watertight seal.",
-     qAr:"كم يستغرق استبدال زجاج الحمام؟", aAr:"تُنجز معظم عمليات استبدال زجاج الحمام في زيارة واحدة، بقياس وتركيب دقيقين لضمان عزل مقاوم للماء."},
     {qEn:"Is double-glazing worth it for heat and noise here?", aEn:"Yes — double-glazed units noticeably cut outside noise and help keep interiors cooler, which also eases the load on your AC.",
      qAr:"هل يستحق الزجاج المزدوج الاستثمار للحرارة والضوضاء هنا؟", aAr:"نعم — تقلل الوحدات المزدوجة الزجاج الضوضاء الخارجية بشكل ملحوظ وتساعد في إبقاء الأجواء الداخلية أكثر برودة، مما يخفف أيضًا الحمل عن مكيف الهواء."},
     {qEn:"Do you only install new windows, or also repair existing ones?", aEn:"Both — we handle repairs like broken seals, sticking frames, and damaged glass, as well as full installation and replacement.",
      qAr:"هل تركّبون نوافذ جديدة فقط، أم تصلحون الموجودة أيضًا؟", aAr:"كلاهما — نتعامل مع إصلاحات مثل العزل التالف، والإطارات العالقة، والزجاج التالف، بالإضافة إلى التركيب والاستبدال الكامل."},
     {qEn:"Can you install windows in an existing opening without altering the wall?", aEn:"In most cases yes — we measure and fit to your existing opening, only adjusting the frame or wall if the new window requires it.",
      qAr:"هل يمكنكم تركيب نوافذ في فتحة قائمة دون تعديل الجدار؟", aAr:"في معظم الحالات نعم — نقيس ونركّب حسب فتحتك الحالية، ولا نعدّل الإطار أو الجدار إلا إذا تطلبت النافذة الجديدة ذلك."},
-    {qEn:"Do you offer safety or security glass, not just standard panes?", aEn:"Yes — we can fit safety and security glass, including impact-resistant options for shower enclosures and street-facing windows.",
-     qAr:"هل تقدمون زجاجًا أمنيًا أو واقيًا، وليس فقط الزجاج العادي؟", aAr:"نعم — يمكننا تركيب زجاج أمان وحماية، بما في ذلك خيارات مقاومة للصدمات لحواجز الحمام والنوافذ المطلة على الشارع."},
     {qEn:"How do I know if my window needs replacing or just resealing?", aEn:"If the glass itself is intact but you're getting drafts or condensation between panes, resealing or a seal replacement is often enough — we'll inspect and tell you honestly which one your window needs.",
      qAr:"كيف أعرف إذا كانت نافذتي تحتاج استبدالًا أم فقط إعادة عزل؟", aAr:"إذا كان الزجاج نفسه سليمًا لكنك تلاحظ تسرب هواء أو تكثفًا بين الطبقات، فغالبًا يكفي إعادة العزل أو استبداله — سنعاينها ونخبرك بصراحة بما تحتاجه نافذتك فعليًا."}
+  ]
+},
+{
+  titleEn: "Custom Glass Work", titleAr: "أعمال الزجاج المخصصة", anchor:"windows-glass",
+  linkEn:"See custom glass work", linkAr:"اطّلع على أعمال الزجاج المخصصة",
+  questions: [
+    {qEn:"Do you only do shower glass, or other custom glass work too?", aEn:"Shower glass is just one part — we also make and install mirrors, glass partitions, balustrades, tabletops, and shelving, custom-fitted to your space.",
+     qAr:"هل تقدمون زجاج الحمام فقط، أم أعمال زجاج مخصصة أخرى أيضًا؟", aAr:"زجاج الحمام جزء واحد فقط — نصنع ونركّب أيضًا المرايا، والفواصل الزجاجية، والحواجز، والطاولات، والأرفف، مصممة خصيصًا لمساحتك."},
+    {qEn:"How long does shower glass installation take?", aEn:"Most shower glass installations are finished in a single visit, measured and fitted precisely for a watertight seal.",
+     qAr:"كم يستغرق تركيب زجاج الحمام؟", aAr:"تُنجز معظم عمليات تركيب زجاج الحمام في زيارة واحدة، بقياس وتركيب دقيقين لضمان عزل مقاوم للماء."},
+    {qEn:"Can you install a glass partition to divide a room?", aEn:"Yes — we measure and fit glass partitions for offices, majlis areas, or home divisions, in clear or frosted glass.",
+     qAr:"هل يمكنكم تركيب فاصل زجاجي لتقسيم غرفة؟", aAr:"نعم — نقيس ونركّب فواصل زجاجية للمكاتب أو المجالس أو تقسيمات المنزل، بزجاج شفاف أو مصنفر."},
+    {qEn:"Do you make custom mirrors, or only standard sizes?", aEn:"Custom — we cut and fit mirrors to the exact wall or space, including full-height and backlit options.",
+     qAr:"هل تصنعون مرايا مخصصة، أم فقط مقاسات جاهزة؟", aAr:"مخصصة بالكامل — نقص ونركّب المرايا حسب الجدار أو المساحة تمامًا، بما في ذلك خيارات بارتفاع كامل وإضاءة خلفية."},
+    {qEn:"Can you build a glass balustrade or railing for a staircase or balcony?", aEn:"Yes — glass balustrades and railings are a common request, fitted with a secure aluminium or stainless base.",
+     qAr:"هل يمكنكم تصنيع حاجز أو درابزين زجاجي لسلم أو شرفة؟", aAr:"نعم — الحواجز والدرابزين الزجاجي طلب شائع، تُركَّب بقاعدة ألمنيوم أو ستانلس آمنة."},
+    {qEn:"Do you make custom glass tabletops or shelving?", aEn:"Yes — tempered glass tabletops and shelves cut to your exact dimensions, with polished or beveled edges.",
+     qAr:"هل تصنعون طاولات أو أرفف زجاجية مخصصة؟", aAr:"نعم — طاولات وأرفف زجاج مقسّى بمقاساتك الدقيقة، بحواف مصقولة أو مشطوفة."},
+    {qEn:"Do you offer safety or security glass, not just standard panes?", aEn:"Yes — we can fit safety and security glass, including impact-resistant options for shower enclosures, partitions, and balustrades.",
+     qAr:"هل تقدمون زجاجًا أمنيًا أو واقيًا، وليس فقط الزجاج العادي؟", aAr:"نعم — يمكننا تركيب زجاج أمان وحماية، بما في ذلك خيارات مقاومة للصدمات لحواجز الحمام والفواصل والدرابزين."},
+    {qEn:"How do I know if my glass needs replacing or just resealing?", aEn:"If the glass itself is intact but the seal has failed (drafts, leaks, or cloudiness), resealing is often enough — we'll inspect and tell you honestly which one you need.",
+     qAr:"كيف أعرف إذا كان زجاجي يحتاج استبدالًا أم فقط إعادة عزل؟", aAr:"إذا كان الزجاج نفسه سليمًا لكن العزل تلف (تسرب هواء، تسرب ماء، أو تعكّر)، فغالبًا تكفي إعادة العزل — سنعاينه ونخبرك بصراحة بما تحتاجه."}
   ]
 },
 {

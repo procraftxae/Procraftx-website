@@ -133,51 +133,97 @@ module.exports = {
         "تصميم يكمل طراز العقار الحالي"
       ]
     },
-    relatedIds: ["outdoor-majlis", "windows-glass"]
+    relatedIds: ["outdoor-majlis", "doors-windows"]
   },
 
-  "windows-glass": {
-    h1: { en: "Home Window &amp; Shower Glass Installation in Dubai, Sharjah &amp; Abu Dhabi", ar: "تركيب نوافذ المنزل وزجاج الحمام في دبي والشارقة وأبوظبي" },
-    metaTitle: { en: "Window &amp; Shower Glass Installation Dubai | Procraftx", ar: "تركيب نوافذ وزجاج حمام دبي | بروكرافتكس" },
+  "doors-windows": {
+    h1: { en: "Custom Doors &amp; Window Installation in Dubai, Sharjah &amp; Abu Dhabi", ar: "تصميم أبواب وتركيب نوافذ مخصص في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Custom Doors &amp; Windows Dubai | Procraftx", ar: "أبواب ونوافذ مخصصة دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Aluminium, uPVC, sliding, casement and double-glazed window installation, replacement and repair, plus shower glass — Dubai, Sharjah &amp; Abu Dhabi.",
-      ar: "تركيب واستبدال وإصلاح نوافذ الألمنيوم واليو بي في سي والسحّاب والمفصلية والمزدوجة الزجاج، بالإضافة إلى زجاج الحمام — دبي والشارقة وأبوظبي."
+      en: "Custom front, interior &amp; sliding doors, plus aluminium, uPVC, sliding, casement &amp; double-glazed window installation — Dubai, Sharjah &amp; Abu Dhabi.",
+      ar: "أبواب أمامية وداخلية وسحّابة مخصصة، بالإضافة إلى تركيب نوافذ الألمنيوم واليو بي في سي والسحّاب والمفصلية والمزدوجة الزجاج — دبي والشارقة وأبوظبي."
     },
     overview: {
       en: [
+        "Doors are where most of our custom design work happens — front doors that set the first impression of a villa, interior doors matched to a specific finish, and sliding or pivot doors for wide openings that a standard hinged door can't handle well. We design around your material and style preference (solid wood, veneer, glass-panel inserts, or modern metal-frame styles) rather than working from a fixed catalogue, then build and fit the door and frame together so the swing, seal, and hardware all match from day one.",
         "Window work splits into two separate decisions: frame type and glazing. Aluminium frames are the most common in the UAE for durability and low maintenance; uPVC costs less and insulates slightly better but handles the region's heat and UV exposure less well over many years. Sliding windows suit tight spaces where a window can't swing open; casement windows seal tighter, which matters more for double-glazed units where the seal is doing real work. We install, replace, and repair all of these, and a single cracked or fogged unit doesn't mean redoing the whole set — we quote and replace just the one that needs it.",
-        "Double-glazing is worth flagging specifically: the noticeable benefit here isn't just heat, it's noise — units facing a main road or under a flight path see the biggest difference, and the reduced heat gain does measurably ease the load on your AC, though it won't replace tinting as the primary tool for that (the two work well together). Shower glass is a separate but related service — measured and fitted for a watertight seal, usually finished in a single visit.",
-        "What's not included: structural changes to the window opening itself (enlarging or relocating a window) unless scoped as part of a larger renovation — for a straight swap into an existing opening, we don't touch the surrounding wall."
+        "Double-glazing is worth flagging specifically: the noticeable benefit here isn't just heat, it's noise — units facing a main road or under a flight path see the biggest difference, and the reduced heat gain does measurably ease the load on your AC, though it won't replace tinting as the primary tool for that (the two work well together).",
+        "What's not included: structural changes to a door or window opening itself (enlarging or relocating it) unless scoped as part of a larger renovation — for a straight swap into an existing opening, we don't touch the surrounding wall."
       ],
       ar: [
+        "الأبواب هي حيث يتركز معظم عملنا في التصميم المخصص — أبواب أمامية تُعطي الانطباع الأول عن الفيلا، وأبواب داخلية تُطابق تشطيبًا معينًا، وأبواب سحّابة أو محورية للفتحات الواسعة التي لا يناسبها الباب المفصلي العادي. نصمم حسب تفضيلك في المادة والطراز (خشب صلب، قشرة خشبية، ألواح زجاجية مدمجة، أو طرازات معدنية حديثة) بدلاً من الاعتماد على كتالوج ثابت، ثم نصنّع ونركّب الباب والإطار معًا بحيث يتطابق الفتح والعزل والأكسسوارات من اليوم الأول.",
         "أعمال النوافذ تنقسم لقرارين منفصلين: نوع الإطار والتزجيج. إطارات الألمنيوم هي الأكثر شيوعًا في الإمارات لمتانتها وقلة صيانتها؛ اليو بي في سي أرخص ويعزل بشكل أفضل قليلًا لكنه يتحمل حرارة المنطقة وأشعتها فوق البنفسجية بشكل أقل على المدى الطويل. النوافذ السحّابة تناسب المساحات الضيقة التي لا يمكن فتح نافذة فيها للخارج؛ النوافذ المفصلية تُغلق بإحكام أكبر، وهو أمر أهم للوحدات المزدوجة الزجاج حيث يقوم العازل بعمل حقيقي. نركّب ونستبدل ونصلح كل هذه الأنواع، ووجود وحدة واحدة مكسورة أو مشوشة لا يعني إعادة المجموعة بأكملها — نقدّم عرض سعر ونستبدل الوحدة المطلوبة فقط.",
-        "الزجاج المزدوج يستحق الإشارة تحديدًا: الفائدة الملحوظة هنا ليست فقط الحرارة، بل الضوضاء — النوافذ المطلة على شارع رئيسي أو تحت مسار طيران تشهد أكبر فرق، وانخفاض اكتساب الحرارة يخفف فعليًا الحمل عن مكيفك، رغم أنه لن يحل محل التظليل كأداة أساسية لذلك (الاثنان يعملان معًا بشكل جيد). زجاج الحمام خدمة منفصلة لكن مرتبطة — يُقاس ويُركَّب لضمان عزل مقاوم للماء، وعادةً يُنجز في زيارة واحدة.",
-        "ما لا يشمله العمل: التعديلات الإنشائية على فتحة النافذة نفسها (توسيعها أو نقلها) إلا إذا كانت ضمن نطاق تجديد أكبر — للاستبدال المباشر في فتحة قائمة، لا نلمس الجدار المحيط."
+        "الزجاج المزدوج يستحق الإشارة تحديدًا: الفائدة الملحوظة هنا ليست فقط الحرارة، بل الضوضاء — النوافذ المطلة على شارع رئيسي أو تحت مسار طيران تشهد أكبر فرق، وانخفاض اكتساب الحرارة يخفف فعليًا الحمل عن مكيفك، رغم أنه لن يحل محل التظليل كأداة أساسية لذلك (الاثنان يعملان معًا بشكل جيد).",
+        "ما لا يشمله العمل: التعديلات الإنشائية على فتحة الباب أو النافذة نفسها (توسيعها أو نقلها) إلا إذا كانت ضمن نطاق تجديد أكبر — للاستبدال المباشر في فتحة قائمة، لا نلمس الجدار المحيط."
       ]
     },
     whatsIncluded: {
       en: [
+        "Custom front, interior, and sliding door design, build, and installation",
         "Aluminium, uPVC, sliding, casement, and double-glazed windows",
         "Installation into new or existing openings",
-        "Single-unit replacement — no need to redo the full set",
-        "Shower glass measurement and watertight installation",
+        "Single-unit window replacement — no need to redo the full set",
         "Repair of broken seals, sticking frames, and damaged glass",
         "Double-glazing for noise reduction and heat control",
-        "Safety and security glass, including impact-resistant options",
+        "Door hardware — hinges, locks, handles, and pivot systems",
         "Honest assessment: reseal vs. full replacement"
       ],
       ar: [
+        "تصميم وتصنيع وتركيب أبواب أمامية وداخلية وسحّابة مخصصة",
         "نوافذ الألمنيوم واليو بي في سي والسحّاب والمفصلية والمزدوجة الزجاج",
         "تركيب في فتحات جديدة أو قائمة",
-        "استبدال وحدة واحدة — دون الحاجة لإعادة المجموعة كاملة",
-        "قياس زجاج الحمام وتركيبه بعزل مقاوم للماء",
+        "استبدال نافذة واحدة — دون الحاجة لإعادة المجموعة كاملة",
         "إصلاح العزل التالف والإطارات العالقة والزجاج التالف",
         "زجاج مزدوج لتقليل الضوضاء والتحكم بالحرارة",
-        "زجاج أمان وحماية، بما في ذلك خيارات مقاومة للصدمات",
+        "أكسسوارات الأبواب — مفصلات، أقفال، مقابض، وأنظمة محورية",
         "تقييم صادق: إعادة عزل أم استبدال كامل"
       ]
     },
-    relatedIds: ["window-tinting", "car-garage"]
+    relatedIds: ["window-tinting", "windows-glass"]
+  },
+
+  "windows-glass": {
+    h1: { en: "Custom Glass Work in Dubai, Sharjah &amp; Abu Dhabi", ar: "أعمال الزجاج المخصصة في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Custom Glass Work Dubai | Procraftx", ar: "أعمال زجاج مخصصة دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Shower glass, mirrors, partitions, balustrades &amp; tabletops — custom glass fabrication and installation in Dubai, Sharjah &amp; Abu Dhabi.",
+      ar: "زجاج حمام، مرايا، فواصل، حواجز، وطاولات — تصنيع وتركيب زجاج مخصص في دبي والشارقة وأبوظبي."
+    },
+    overview: {
+      en: [
+        "Custom glass work covers more ground than people expect: shower enclosures are the most common request, but we also cut and fit mirrors, glass partitions for dividing a room or office, balustrades and railings for staircases and balconies, and tempered glass tabletops and shelving — all measured and made for the specific space rather than picked off a shelf.",
+        "Shower glass is usually the fastest job — measured and fitted in a single visit for a watertight seal. Partitions and balustrades take a bit longer since they're structural in a small way (a balustrade has to be secure, not just look good), so we template the opening first and confirm the fixing method before cutting the glass. Mirrors and tabletops are the most flexible — full-height, backlit, beveled edges, whatever the space and budget allow.",
+        "Safety and security glass — tempered or laminated — is available across all of these, and matters most for balustrades, large partitions, and anywhere glass is at floor or shoulder level. What's not included: structural work to the wall, floor, or opening the glass sits in — we work with what's already there or coordinate with whoever's handling that part."
+      ],
+      ar: [
+        "أعمال الزجاج المخصصة تغطي أكثر مما يتوقعه الناس: حواجز الحمام هي الطلب الأكثر شيوعًا، لكننا أيضًا نقص ونركّب المرايا، والفواصل الزجاجية لتقسيم غرفة أو مكتب، والحواجز والدرابزين للسلالم والشرفات، وطاولات وأرفف الزجاج المقسّى — كلها تُقاس وتُصنع للمساحة المحددة بدلاً من اختيارها جاهزة.",
+        "زجاج الحمام عادةً أسرع عمل — يُقاس ويُركَّب في زيارة واحدة لضمان عزل مقاوم للماء. الفواصل والحواجز تستغرق وقتًا أطول قليلًا لأنها إنشائية بشكل بسيط (الحاجز يجب أن يكون آمنًا وليس فقط جميل المظهر)، لذا نأخذ قياس الفتحة أولاً ونؤكد طريقة التثبيت قبل قص الزجاج. المرايا والطاولات هي الأكثر مرونة — بارتفاع كامل، بإضاءة خلفية، بحواف مشطوفة، حسب ما تسمح به المساحة والميزانية.",
+        "الزجاج الآمن أو الواقي — المقسّى أو المصفّح — متوفر لكل هذه الأعمال، ويهم أكثر في الحواجز والفواصل الكبيرة وأي مكان يكون فيه الزجاج بمستوى الأرض أو الكتف. ما لا يشمله العمل: الأعمال الإنشائية للجدار أو الأرضية أو الفتحة التي يوضع فيها الزجاج — نعمل مع ما هو موجود بالفعل أو ننسق مع من يتولى ذلك الجزء."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Shower glass measurement and watertight installation",
+        "Custom mirrors — full-height, backlit, and beveled-edge options",
+        "Glass partitions for rooms, offices, and majlis areas",
+        "Glass balustrades and railings for staircases and balconies",
+        "Tempered glass tabletops and shelving, cut to size",
+        "Safety and security glass, including impact-resistant options",
+        "Repair of broken seals and damaged glass",
+        "Honest assessment: reseal vs. full replacement"
+      ],
+      ar: [
+        "قياس زجاج الحمام وتركيبه بعزل مقاوم للماء",
+        "مرايا مخصصة — بارتفاع كامل، إضاءة خلفية، وحواف مشطوفة",
+        "فواصل زجاجية للغرف والمكاتب والمجالس",
+        "حواجز ودرابزين زجاجي للسلالم والشرفات",
+        "طاولات وأرفف زجاج مقسّى، بمقاسات مخصصة",
+        "زجاج أمان وحماية، بما في ذلك خيارات مقاومة للصدمات",
+        "إصلاح العزل التالف والزجاج التالف",
+        "تقييم صادق: إعادة عزل أم استبدال كامل"
+      ]
+    },
+    relatedIds: ["doors-windows", "interior-design"]
   },
 
   "window-tinting": {
@@ -221,7 +267,7 @@ module.exports = {
         "تجهيز الزجاج وتشطيب خالٍ من الفقاعات حسب المقاس"
       ]
     },
-    relatedIds: ["windows-glass", "interior-design"]
+    relatedIds: ["doors-windows", "interior-design"]
   },
 
   "swimming-pools": {

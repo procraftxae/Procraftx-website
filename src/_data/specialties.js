@@ -72,15 +72,34 @@ module.exports = [
     }
   },
   {
-    id: "windows-glass",
-    comment: { en: "7. Window &amp; Glass Installations", ar: "7. تركيبات النوافذ والزجاج" },
-    dataService: { en: "Home Window Installation", ar: "تركيب نوافذ المنزل" },
-    bookingGroupLabel: { en: "Window &amp; Glass Installations", ar: "تركيبات النوافذ والزجاج" },
+    id: "doors-windows",
+    comment: { en: "7. Custom Doors &amp; Windows", ar: "7. الأبواب والنوافذ المخصصة" },
+    dataService: { en: "Custom Door Design &amp; Installation", ar: "تصميم وتركيب أبواب مخصصة" },
+    bookingGroupLabel: { en: "Custom Doors &amp; Windows", ar: "الأبواب والنوافذ المخصصة" },
     bookingOptions: [
-      { en: "Home Window Installation", ar: "تركيب نوافذ المنزل" },
-      { en: "Shower Glass Replacement", ar: "استبدال زجاج الحمام" }
+      { en: "Custom Door Design &amp; Installation", ar: "تصميم وتركيب أبواب مخصصة" },
+      { en: "Home Window Installation", ar: "تركيب نوافذ المنزل" }
     ],
     bookingOrder: 3,
+    images: [],
+    h3: { en: "Custom Doors &amp; Windows", ar: "الأبواب والنوافذ المخصصة" },
+    shortDesc: { en: "Custom front, interior, and sliding doors, plus aluminium, uPVC, sliding, casement and double-glazed windows — designed, installed, replaced, or repaired.", ar: "أبواب أمامية وداخلية وسحّابة مخصصة، بالإضافة إلى نوافذ الألمنيوم واليو بي في سي والسحّاب والمفصلية والمزدوجة الزجاج — تصميم وتركيب واستبدال وإصلاح." },
+    h4: { en: "Custom Doors &amp; Window Installation", ar: "تصميم أبواب وتركيب نوافذ مخصص" },
+    longDesc: {
+      en: "Custom design, build, and installation of front, interior, and sliding doors, plus installation, replacement, and repair of aluminium, uPVC, sliding, casement, and double-glazed windows — built for durability, weather protection, and a precise fit.",
+      ar: "تصميم وتصنيع وتركيب أبواب أمامية وداخلية وسحّابة مخصصة، بالإضافة إلى تركيب واستبدال وإصلاح نوافذ الألمنيوم، واليو بي في سي، والسحّاب، والمفصلية، والمزدوجة الزجاج — مصممة لتدوم طويلاً وتحمي من العوامل الجوية وتُركّب بدقة."
+    }
+  },
+  {
+    id: "windows-glass",
+    comment: { en: "8. Custom Glass Work", ar: "8. أعمال الزجاج المخصصة" },
+    dataService: { en: "Shower Glass Installation", ar: "تركيب زجاج الحمام" },
+    bookingGroupLabel: { en: "Custom Glass Work", ar: "أعمال الزجاج المخصصة" },
+    bookingOptions: [
+      { en: "Shower Glass Installation", ar: "تركيب زجاج الحمام" },
+      { en: "Custom Glass Work", ar: "أعمال زجاج مخصصة" }
+    ],
+    bookingOrder: 8,
     images: [
       { src: "assets/images/window-install-1.jpg", alt: { en: "Technician installing a casement window indoors", ar: "فني يركّب نافذة مفصلية من الداخل" } },
       { src: "assets/images/window-install-2.jpg", alt: { en: "Two workers fitting a window into a framed opening", ar: "عاملان يركّبان نافذة في فتحة مؤطرة" } },
@@ -88,12 +107,12 @@ module.exports = [
       { src: "assets/images/window-install-4.jpg", alt: { en: "Technician installing a window from inside a home", ar: "فني يركّب نافذة من داخل المنزل" } },
       { src: "assets/images/shower-glass-1.jpg", alt: { en: "Technician installing a glass shower enclosure", ar: "فني يركّب حاجز زجاجي للحمام" } }
     ],
-    h3: { en: "Window &amp; Glass Installations", ar: "تركيبات النوافذ والزجاج" },
-    shortDesc: { en: "Aluminium, uPVC, sliding, casement and double-glazed windows, plus shower glass — installed, replaced, or repaired for a durable, weather-tight fit.", ar: "نوافذ الألمنيوم، واليو بي في سي، والسحّاب، والمفصلية، والمزدوجة الزجاج، بالإضافة إلى زجاج الحمام — تركيب واستبدال وإصلاح لضمان ثبات ومقاومة للعوامل الجوية." },
-    h4: { en: "Home Window &amp; Shower Glass Installation", ar: "تركيب نوافذ المنزل وزجاج الحمام" },
+    h3: { en: "Custom Glass Work", ar: "أعمال الزجاج المخصصة" },
+    shortDesc: { en: "Shower glass, mirrors, partitions, balustrades, tabletops, and safety glass — custom-made and installed for whatever the space needs.", ar: "زجاج الحمام، والمرايا، والفواصل، والحواجز، والطاولات، والزجاج الآمن — مصنّع ومركّب حسب ما تحتاجه المساحة." },
+    h4: { en: "Custom Glass Fabrication &amp; Installation", ar: "تصنيع وتركيب زجاج مخصص" },
     longDesc: {
-      en: "Installation, replacement, and repair of aluminium, uPVC, sliding, casement, and double-glazed windows, plus shower glass — built for durability, weather protection, and a watertight fit.",
-      ar: "تركيب واستبدال وإصلاح نوافذ الألمنيوم، واليو بي في سي، والسحّاب، والمفصلية، والمزدوجة الزجاج، بالإضافة إلى زجاج الحمام — مصممة لتدوم طويلاً وتحمي من العوامل الجوية وتمنع تسرب الماء."
+      en: "Custom glass fabrication and installation for shower enclosures, mirrors, partitions, balustrades and railings, tabletops and shelving, and safety or security glass — measured and fitted to the exact space, not off a fixed catalogue.",
+      ar: "تصنيع وتركيب زجاج مخصص لحواجز الحمام، والمرايا، والفواصل، والحواجز والدرابزين، والطاولات والأرفف، والزجاج الآمن أو الواقي — يُقاس ويُركَّب حسب المساحة تمامًا، وليس من كتالوج ثابت."
     }
   },
   {

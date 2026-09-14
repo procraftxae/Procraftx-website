@@ -51,6 +51,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://procraftx.ae/doors-windows.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://procraftx.ae/ar/doors-windows.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://procraftx.ae/windows-glass.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

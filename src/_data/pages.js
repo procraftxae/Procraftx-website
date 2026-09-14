@@ -15,8 +15,8 @@ module.exports = {
       ar: "مقرّنا في دبي والشارقة وأبوظبي. سعر ثابت قبل البدء، وضمان 100%."
     },
     jsonLdDescription: {
-      en: "AC, plumbing, electrical, handyman, furniture care, deep cleaning &amp; sanitization, outdoor majlis construction, car garage construction, window &amp; glass installation, residential window tinting, interior design, swimming pool construction, and gardening &amp; irrigation services.",
-      ar: "صيانة تكييف، سباكة، كهرباء، أعمال صيانة عامة، عناية بالأثاث، تنظيف عميق وتعقيم، إنشاء مجالس خارجية، إنشاء كراجات سيارات، تركيب نوافذ وزجاج، تظليل نوافذ سكنية، تصميم داخلي، إنشاء حمامات سباحة، وخدمات تنسيق حدائق وري."
+      en: "AC, plumbing, electrical, handyman, furniture care, deep cleaning &amp; sanitization, outdoor majlis construction, car garage construction, custom door &amp; window installation, custom glass work, residential window tinting, interior design, swimming pool construction, and gardening &amp; irrigation services.",
+      ar: "صيانة تكييف، سباكة، كهرباء، أعمال صيانة عامة، عناية بالأثاث، تنظيف عميق وتعقيم، إنشاء مجالس خارجية، إنشاء كراجات سيارات، تصميم وتركيب أبواب ونوافذ مخصصة، أعمال زجاج مخصصة، تظليل نوافذ سكنية، تصميم داخلي، إنشاء حمامات سباحة، وخدمات تنسيق حدائق وري."
     },
     jsonLdCatalogName: { en: "Procraftx Services", ar: "خدمات بروكرافتكس" }
   },

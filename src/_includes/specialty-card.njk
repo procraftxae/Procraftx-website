@@ -1,6 +1,7 @@
 {% macro card(sp, lang) %}
 {% set isAr = lang == "ar" %}
 <div class="sub-card sub-card-wide reveal">
+  {% if sp.images.length %}
   <div class="thumb thumb-slideshow">
     {% for img in sp.images %}
     {% set dims = img.src | imageDims %}
@@ -10,6 +11,7 @@
     <button type="button" class="thumb-nav thumb-next" aria-label="{{ 'Next photo' if lang == 'en' else 'الصورة التالية' }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
     <div class="thumb-dots"></div>
   </div>
+  {% endif %}
   <div class="body">
     <h3>{{ sp.h3[lang] | safe }}</h3>
     <p>{{ sp.shortDesc[lang] | safe }}</p>
