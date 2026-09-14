@@ -15,6 +15,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="_IPAHV06IH3jP_eau1n5NKWp9_Zfgb3BOBFFXUx4otM">
+<link rel="icon" href="{{ '../' if isAr }}assets/images/favicon.svg" type="image/svg+xml">
 <title>{{ pages.index.title[lang] | safe }}</title>
 <meta name="description" content="{{ pages.index.description[lang] | safe }}">
 <link rel="canonical" href="https://procraftx.ae/{{ 'ar/' if isAr }}">

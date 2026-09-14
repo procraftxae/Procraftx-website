@@ -1,3 +1,5 @@
+const fs = require("fs");
+const path = require("path");
 const servicesData = require("./src/_data/services.js");
 const specialtiesData = require("./src/_data/specialties.js");
 const siteData = require("./src/_data/site.js");
@@ -5,6 +7,36 @@ const pagesData = require("./src/_data/pages.js");
 const faqData = require("./src/_data/faq.js");
 const detailTopicsData = require("./src/_data/detailTopics.js");
 const detailContentData = require("./src/_data/detailContent.js");
+
+// Reads width/height straight out of a JPEG's SOF segment (no library —
+// every image on the site is a .jpg) so <img> tags can carry intrinsic
+// dimensions and avoid layout shift, without hand-maintaining them per image.
+function getJpegDims(absPath) {
+  const buf = fs.readFileSync(absPath);
+  let offset = 2; // skip the FFD8 SOI marker
+  while (offset < buf.length) {
+    if (buf[offset] !== 0xff) { offset++; continue; }
+    const marker = buf[offset + 1];
+    if (marker === 0xd8 || marker === 0x01 || (marker >= 0xd0 && marker <= 0xd7)) {
+      offset += 2;
+      continue;
+    }
+    const length = buf.readUInt16BE(offset + 2);
+    const isSof = marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc;
+    if (isSof) {
+      return { w: buf.readUInt16BE(offset + 7), h: buf.readUInt16BE(offset + 5) };
+    }
+    offset += 2 + length;
+  }
+  throw new Error(`No JPEG SOF marker found in ${absPath}`);
+}
+const imageDimsCache = new Map();
+function imageDims(relSrc) {
+  if (!imageDimsCache.has(relSrc)) {
+    imageDimsCache.set(relSrc, getJpegDims(path.join(__dirname, relSrc)));
+  }
+  return imageDimsCache.get(relSrc);
+}
 
 // data fields store the HTML-entity form (e.g. "&amp;") for use inside HTML
 // bodies; JSON-LD is not HTML and must use the literal character instead.
@@ -53,6 +85,8 @@ module.exports = function (eleventyConfig) {
   // autoescape run anyway and double-encoded every "&amp;" into "&amp;amp;"
   // across the whole site, turned apostrophes into "&#39;", and leaked raw
   // SVG markup as visible escaped text in the trust-card icons.
+
+  eleventyConfig.addFilter("imageDims", imageDims);
 
   eleventyConfig.addFilter("indexJsonLd", function (lang) {
     const p = pagesData.index;

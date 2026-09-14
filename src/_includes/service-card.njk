@@ -2,7 +2,8 @@
 {% set isAr = lang == "ar" %}
 <div class="sub-card reveal">
   <div class="thumb">
-    <img src="{{ '../' if isAr }}{{ s.img }}" alt="{{ s.alt[lang] | safe }}" loading="lazy">
+    {% set dims = s.img | imageDims %}
+    <img src="{{ '../' if isAr }}{{ s.img }}" alt="{{ s.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy">
   </div>
   <div class="body"><h4>{{ s.name[lang] | safe }}</h4><p>{{ s.desc[lang] | safe }}</p><a href="#contact" class="link" data-service="{{ s.name[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
 </div>

@@ -17,6 +17,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="_IPAHV06IH3jP_eau1n5NKWp9_Zfgb3BOBFFXUx4otM">
+<link rel="icon" href="{{ '../' if isAr }}assets/images/favicon.svg" type="image/svg+xml">
 <title>{{ content.metaTitle[lang] | safe }}</title>
 <meta name="description" content="{{ content.metaDescription[lang] | safe }}">
 <link rel="canonical" href="https://procraftx.ae/{{ 'ar/' if isAr }}{{ topic.id }}.html">
@@ -69,7 +70,8 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
     <div class="detail-media reveal">
       <div class="thumb thumb-slideshow">
         {% for img in topic.images %}
-        <img src="{{ '../' if isAr }}{{ img.src }}" alt="{{ img.alt[lang] | safe }}" loading="lazy"{{ ' style="display:none"' | safe if not loop.first }}>
+        {% set dims = img.src | imageDims %}
+        <img src="{{ '../' if isAr }}{{ img.src }}" alt="{{ img.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy"{{ ' style="display:none"' | safe if not loop.first }}>
         {% endfor %}
         <button type="button" class="thumb-nav thumb-prev" aria-label="{{ 'Previous photo' if lang == 'en' else 'الصورة السابقة' }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
         <button type="button" class="thumb-nav thumb-next" aria-label="{{ 'Next photo' if lang == 'en' else 'الصورة التالية' }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></button>
@@ -97,7 +99,8 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
     <div class="subservice-grid">
       {% for s in topic.services %}
       <div class="sub-card reveal">
-        <div class="thumb"><img src="{{ '../' if isAr }}{{ s.img }}" alt="{{ s.alt[lang] | safe }}" loading="lazy"></div>
+        {% set dims = s.img | imageDims %}
+        <div class="thumb"><img src="{{ '../' if isAr }}{{ s.img }}" alt="{{ s.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy"></div>
         <div class="body"><h4>{{ s.name[lang] | safe }}</h4><p>{{ s.desc[lang] | safe }}</p><a href="#contact" class="link" data-service="{{ s.name[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
       </div>
       {% endfor %}

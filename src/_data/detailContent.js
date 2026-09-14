@@ -358,7 +358,7 @@ module.exports = {
 
   "furniture-services": {
     h1: { en: "Furniture &amp; Moving Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات الأثاث والنقل في دبي والشارقة وأبوظبي" },
-    metaTitle: { en: "Furniture Moving, Restoration &amp; Custom Build Dubai | Procraftx", ar: "نقل وترميم وتصنيع أثاث دبي | بروكرافتكس" },
+    metaTitle: { en: "Furniture Moving, Restoration &amp; Build Dubai | Procraftx", ar: "نقل وترميم وتصنيع أثاث دبي | بروكرافتكس" },
     metaDescription: {
       en: "Disassembly, packing &amp; moving, furniture restoration, and custom furniture design &amp; build — one team for the full lifecycle. Dubai, Sharjah &amp; Abu Dhabi.",
       ar: "فك وتركيب، تغليف ونقل، ترميم أثاث، وتصميم وتصنيع أثاث مخصص — فريق واحد للدورة الكاملة. دبي والشارقة وأبوظبي."
