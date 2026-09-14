@@ -81,7 +81,13 @@ module.exports = [
       { en: "Home Window Installation", ar: "تركيب نوافذ المنزل" }
     ],
     bookingOrder: 3,
-    images: [],
+    images: [
+      { src: "assets/images/door-window-1.jpg", alt: { en: "Showroom display of custom wood doors and arched windows", ar: "عرض صالة معرض لأبواب خشبية مخصصة ونوافذ مقوسة" } },
+      { src: "assets/images/door-window-2.jpg", alt: { en: "Showroom display of custom doors in multiple colors alongside window samples", ar: "عرض صالة معرض لأبواب مخصصة بألوان متعددة مع عينات نوافذ" } },
+      { src: "assets/images/door-window-3.jpg", alt: { en: "Showroom display of doors, an arched double door, and window frame samples", ar: "عرض صالة معرض لأبواب وباب مزدوج مقوس وعينات إطارات نوافذ" } },
+      { src: "assets/images/door-window-4.jpg", alt: { en: "Showroom display of wood doors, an arched window, and shutter samples", ar: "عرض صالة معرض لأبواب خشبية ونافذة مقوسة وعينات ستائر خشبية" } },
+      { src: "assets/images/door-window-5.jpg", alt: { en: "Installed aluminium door and window system opening onto a garden", ar: "نظام أبواب ونوافذ ألمنيوم مُركّب يفتح على حديقة" } }
+    ],
     h3: { en: "Custom Doors &amp; Windows", ar: "الأبواب والنوافذ المخصصة" },
     shortDesc: { en: "Custom front, interior, and sliding doors, plus aluminium, uPVC, sliding, casement and double-glazed windows — designed, installed, replaced, or repaired.", ar: "أبواب أمامية وداخلية وسحّابة مخصصة، بالإضافة إلى نوافذ الألمنيوم واليو بي في سي والسحّاب والمفصلية والمزدوجة الزجاج — تصميم وتركيب واستبدال وإصلاح." },
     h4: { en: "Custom Doors &amp; Window Installation", ar: "تصميم أبواب وتركيب نوافذ مخصص" },
