@@ -128,7 +128,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
     <!-- {{ sp.comment[lang] | safe }} -->
     <div class="category-block" id="{{ sp.id }}">
       <div class="subservice-grid">
-        {{ specialtyCard(sp, lang) }}
+        {{ specialtyCard(sp, lang, site) }}
       </div>
     </div>
     {% endfor %}
