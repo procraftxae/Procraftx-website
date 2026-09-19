@@ -547,6 +547,7 @@
     .trust-card .item:nth-child(n+3){border-bottom:none;}
     .trust-card .item b{font-size:15px;}
     .trust-card .item span{font-size:15px;}
+    .banner-media{min-height:auto;aspect-ratio:1600/893;}
     .banner .content{padding:24px 20px;}
     .wrap{padding:0 16px;}
     /* tighter vertical rhythm on mobile */
