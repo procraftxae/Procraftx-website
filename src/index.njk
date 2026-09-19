@@ -152,15 +152,10 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 
 <section class="section tight-top bg-soft">
   <div class="wrap">
-    <div class="banner reveal" id="promoBanner">
+    <div class="banner reveal" id="aboutBanner">
       <div class="banner-media">
-        <video class="banner-video" muted loop playsinline webkit-playsinline="true" poster="{{ '../assets/images/service-promo-poster.jpg' if isAr else 'assets/images/service-promo-poster.jpg' }}" preload="none" disablePictureInPicture disableRemotePlayback aria-label="{{ site.about.videoAriaLabel[lang] | safe }}">
-          <source data-src="{{ '../assets/service-promo.mp4' if isAr else 'assets/service-promo.mp4' }}" type="video/mp4">
-        </video>
-        <button type="button" class="mute-toggle" id="muteToggle" aria-label="Unmute video" aria-pressed="false">
-          <svg class="icon-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M23 9l-6 6M17 9l6 6"/></svg>
-          <svg class="icon-unmuted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
-        </button>
+        {% set dims = "assets/images/team-photo.jpg" | imageDims %}
+        <img class="banner-photo" src="{{ '../' if isAr }}assets/images/team-photo.jpg" width="{{ dims.w }}" height="{{ dims.h }}" alt="{{ site.about.photoAlt[lang] | safe }}" loading="lazy">
       </div>
       <div class="content" id="about">
         <span class="eyebrow">{{ site.about.eyebrow[lang] | safe }}</span>

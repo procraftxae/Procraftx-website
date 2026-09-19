@@ -80,7 +80,7 @@ module.exports = {
 
   about: {
     eyebrow: { en: "About Us", ar: "من نحن" },
-    videoAriaLabel: { en: "Procraftx services animation", ar: "رسم متحرك لخدمات بروكرافتكس" },
+    photoAlt: { en: "Procraftx crew standing in front of a villa with their service van", ar: "طاقم بروكرافتكس أمام فيلا مع سيارة الخدمة" },
     h2: { en: "One trusted crew for everything your home needs.", ar: "فريق موثوق واحد لكل ما يحتاجه منزلك." },
     body: {
       en: "Welcome to Procraftx! Our mission is to give every home in Dubai and Sharjah one trusted crew for everything it needs, instead of a different contractor for every job. We believe your home deserves the same care and attention to detail as any showroom — so our licensed, background-checked technicians handle it that way, backed by a 100% guarantee on every visit. Whether it's a leaking tap, a full furniture restoration, or a custom-built majlis, we quote fairly, show up on time, and get it right the first time.",
