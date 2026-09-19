@@ -29,8 +29,8 @@ module.exports = [
   questions: [
     {qEn:"Do you handle emergency AC or plumbing issues?", aEn:"Yes — if your AC stops cooling or you have an active leak, tell us it's urgent when you call and we'll prioritize getting a technician to you as fast as possible.",
      qAr:"هل تتعاملون مع أعطال التكييف أو السباكة الطارئة؟", aAr:"نعم — إذا توقف تكييفك عن التبريد أو كان لديك تسرب نشط، أخبرنا أن الأمر عاجل عند الاتصال وسنعطيه الأولوية لإرسال فني بأسرع وقت ممكن."},
-    {qEn:"Can one visit cover plumbing, electrical, and handyman work together?", aEn:"Yes. Most of our technicians are cross-trained, and for bigger jobs we can send a small crew so several core maintenance tasks get done in a single visit.",
-     qAr:"هل يمكن لزيارة واحدة أن تغطي السباكة والكهرباء وأعمال الصيانة العامة معًا؟", aAr:"نعم. معظم فنيينا مدربون على أكثر من تخصص، وللمهام الكبيرة يمكننا إرسال فريق صغير لإنجاز عدة أعمال صيانة أساسية في زيارة واحدة."},
+    {qEn:"Can one visit cover plumbing, electrical, and wall painting work together?", aEn:"Yes. Most of our technicians are cross-trained, and for bigger jobs we can send a small crew so several core maintenance tasks get done in a single visit.",
+     qAr:"هل يمكن لزيارة واحدة أن تغطي السباكة والكهرباء وأعمال الدهان معًا؟", aAr:"نعم. معظم فنيينا مدربون على أكثر من تخصص، وللمهام الكبيرة يمكننا إرسال فريق صغير لإنجاز عدة أعمال صيانة أساسية في زيارة واحدة."},
     {qEn:"Do you supply the paint and materials for painting or masonry work?", aEn:"We can supply standard paints and materials as part of your quote, or work with materials you've already purchased — just let us know your preference when booking.",
      qAr:"هل توفرون الدهان والمواد لأعمال الدهان أو البناء؟", aAr:"يمكننا توفير الدهانات والمواد القياسية ضمن عرض السعر، أو العمل بالمواد التي اشتريتها مسبقًا — فقط أخبرنا برغبتك عند الحجز."},
     {qEn:"Can you install new light fixtures or ceiling fans, not just repair existing ones?", aEn:"Yes — our electricians handle new installations as well as repairs, from light fixtures and ceiling fans to extra sockets and switches.",
@@ -51,8 +51,8 @@ module.exports = [
   questions: [
     {qEn:"Do I need to bring furniture to you, or do you work on-site?", aEn:"Most upholstery, mattress, and furniture cleaning is done right at your home. Larger restoration or painting jobs may be collected and returned once finished — we'll tell you which applies when we quote the job.",
      qAr:"هل يجب أن أحضر الأثاث إليكم أم تعملون في الموقع؟", aAr:"يتم تنظيف معظم التنجيد والمراتب والأثاث في منزلك مباشرة. أما أعمال الترميم أو الدهان الكبيرة فقد تُنقل وتُعاد بعد الانتهاء — وسنخبرك بما ينطبق عند تقديم عرض السعر."},
-    {qEn:"Will disassembling and reassembling my furniture damage it?", aEn:"No — our technicians are trained to safely take apart and rebuild furniture for moves or repairs, using the correct tools so no hardware or joints are damaged.",
-     qAr:"هل يؤدي فك الأثاث وإعادة تركيبه إلى إتلافه؟", aAr:"لا — فنيونا مدربون على فك وتركيب الأثاث بأمان للنقل أو الإصلاح، باستخدام الأدوات الصحيحة حتى لا تتلف أي قطع أو مفاصل."},
+    {qEn:"Do you handle small handyman jobs, or only full furniture services?", aEn:"Both — hanging shelves, mounting TVs, fixing door hinges, and similar small jobs are part of this service too, and we're happy to bundle them with a move or furniture job in the same visit.",
+     qAr:"هل تتولون أعمال الصيانة العامة الصغيرة، أم فقط خدمات الأثاث الكاملة؟", aAr:"كلاهما — تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وأعمال صغيرة مشابهة جزء من هذه الخدمة أيضًا، ويسعدنا دمجها مع مهمة نقل أو أثاث في نفس الزيارة."},
     {qEn:"Is your furniture and upholstery cleaning safe for delicate or antique pieces?", aEn:"Yes. We assess the fabric or finish before starting and adjust our products and methods accordingly, so delicate and antique furniture is treated with extra care.",
      qAr:"هل تنظيف الأثاث والتنجيد لديكم آمن للقطع الحساسة أو الأنتيكة؟", aAr:"نعم. نقيّم القماش أو الطلاء قبل البدء ونعدّل موادنا وأساليبنا بناءً على ذلك، فيُعامل الأثاث الحساس والأنتيكة بعناية إضافية."},
     {qEn:"How long does furniture restoration or painting usually take?", aEn:"Small pieces are often finished within a few days; larger or more detailed restorations can take one to two weeks. We'll give you a clear timeline when we quote the job.",

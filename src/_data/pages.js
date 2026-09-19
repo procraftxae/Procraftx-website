@@ -38,8 +38,8 @@ module.exports = {
     heroEyebrow: { en: "Good To Know", ar: "معلومات مفيدة" },
     heroH1: { en: "Questions we get a lot.", ar: "أسئلة نتلقاها كثيرًا." },
     heroLead: {
-      en: "From how we're set up to what to expect from each of our 21 services — the answers to what people ask us most.",
-      ar: "من طريقة عملنا إلى ما يمكن توقعه من كل خدمة من خدماتنا الـ21 — إجابات على أكثر ما يسألنا عنه عملاؤنا."
+      en: "From how we're set up to what to expect from each of our 20 services — the answers to what people ask us most.",
+      ar: "من طريقة عملنا إلى ما يمكن توقعه من كل خدمة من خدماتنا الـ20 — إجابات على أكثر ما يسألنا عنه عملاؤنا."
     },
     closingEyebrow: { en: "Still Have A Question?", ar: "لا يزال لديك سؤال؟" },
     closingH2: { en: "We're happy to talk it through.", ar: "يسعدنا أن نناقشه معك." },

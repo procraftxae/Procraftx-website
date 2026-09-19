@@ -375,21 +375,21 @@ module.exports = {
   },
 
   "core-home-maintenance": {
-    h1: { en: "Core Home Maintenance — AC, Plumbing, Electrical &amp; Handyman in Dubai, Sharjah &amp; Abu Dhabi", ar: "الصيانة المنزلية الأساسية — تكييف، سباكة، كهرباء وصيانة عامة في دبي والشارقة وأبوظبي" },
+    h1: { en: "Core Home Maintenance — AC, Plumbing, Electrical &amp; Wall Painting in Dubai, Sharjah &amp; Abu Dhabi", ar: "الصيانة المنزلية الأساسية — تكييف، سباكة، كهرباء ودهان في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Home Maintenance Services Dubai | Procraftx", ar: "خدمات صيانة منزلية دبي | بروكرافتكس" },
     metaDescription: {
-      en: "AC servicing, plumbing, electrical, handyman &amp; wall painting — one crew for home repairs in Dubai, Sharjah &amp; Abu Dhabi. 100% guarantee.",
-      ar: "صيانة تكييف، سباكة، أعمال كهربائية، صيانة عامة، ودهان جدران — فريق واحد للإصلاحات المنزلية في دبي والشارقة وأبوظبي. ضمان 100%."
+      en: "AC servicing, plumbing, electrical &amp; wall painting — one crew for home repairs in Dubai, Sharjah &amp; Abu Dhabi. 100% guarantee.",
+      ar: "صيانة تكييف، سباكة، أعمال كهربائية، ودهان جدران — فريق واحد للإصلاحات المنزلية في دبي والشارقة وأبوظبي. ضمان 100%."
     },
     overview: {
       en: [
-        "Core home maintenance covers the five things that actually break in daily life — AC, plumbing, electrical, general handyman tasks, and wall painting or masonry — and the main reason we bundle them under one team rather than five separate trades is that most real-world jobs touch more than one category. A leaking pipe often means patching a wall afterward; mounting a TV means both drilling into the wall and running or hiding a cable safely; most of our technicians are cross-trained for exactly this reason, and for bigger jobs we send a small crew instead of scheduling separate visits for each trade.",
+        "Core home maintenance covers the four things that actually break in daily life — AC, plumbing, electrical, and wall painting or masonry — and the main reason we bundle them under one team rather than four separate trades is that most real-world jobs touch more than one category. A leaking pipe often means patching and repainting a wall afterward; rewiring a room sometimes means patching the same wall the cabling runs through; most of our technicians are cross-trained for exactly this reason, and for bigger jobs we send a small crew instead of scheduling separate visits for each trade.",
         "For AC specifically, we service split, central, and window units — filter cleaning, gas top-ups, and leak repair are the most common calls, and we treat AC issues as priority requests since they're rarely something that can wait in this climate. Plumbing covers leak repair, drain unclogging, and fixture installation (taps, toilets); electrical covers both new installations (light fixtures, ceiling fans, extra sockets) and repairs to existing wiring — routine work doesn't need a permit, but we'll flag it upfront if a job (larger rewiring, panel upgrades) does.",
         "We supply standard paint and materials as part of the quote, or work with materials you've already bought if you'd rather source them yourself. What's not included: major structural renovation work — if a maintenance call turns into something that needs a structural engineer (a wall that isn't load-bearing-safe to modify, for instance), we'll tell you honestly rather than proceeding.",
         "Every visit is quoted at a flat price before we start, and the work itself is covered by our 100% guarantee on parts and labor."
       ],
       ar: [
-        "الصيانة المنزلية الأساسية تغطي الأمور الخمسة التي تتعطل فعليًا في الحياة اليومية — التكييف، السباكة، الكهرباء، أعمال الصيانة العامة، ودهان الجدران أو البناء — والسبب الرئيسي لجمعها تحت فريق واحد بدل خمس حرف منفصلة أن معظم المهام الواقعية تلمس أكثر من فئة واحدة. أنبوب يتسرب غالبًا يعني ترقيع جدار بعده؛ تركيب شاشة تلفاز يعني حفر الجدار وتمرير أو إخفاء الكابل بأمان في نفس الوقت؛ معظم فنيينا مدربون على أكثر من تخصص لهذا السبب بالضبط، وللمهام الأكبر نرسل فريقًا صغيرًا بدل جدولة زيارات منفصلة لكل حرفة.",
+        "الصيانة المنزلية الأساسية تغطي الأمور الأربعة التي تتعطل فعليًا في الحياة اليومية — التكييف، السباكة، الكهرباء، ودهان الجدران أو البناء — والسبب الرئيسي لجمعها تحت فريق واحد بدل أربع حرف منفصلة أن معظم المهام الواقعية تلمس أكثر من فئة واحدة. أنبوب يتسرب غالبًا يعني ترقيع الجدار وإعادة دهانه بعده؛ إعادة توصيل غرفة كهربائيًا أحيانًا تعني ترقيع نفس الجدار الذي تمر به الأسلاك؛ معظم فنيينا مدربون على أكثر من تخصص لهذا السبب بالضبط، وللمهام الأكبر نرسل فريقًا صغيرًا بدل جدولة زيارات منفصلة لكل حرفة.",
         "بخصوص التكييف تحديدًا، نصون الوحدات السبليت والمركزية والشباك — تنظيف الفلاتر وتعبئة الغاز وإصلاح التسريبات هي أكثر الطلبات شيوعًا، ونتعامل مع أعطال التكييف كطلبات ذات أولوية لأنها نادرًا ما يمكن أن تنتظر في هذا المناخ. السباكة تشمل إصلاح التسريبات وتسليك المصارف وتركيب التجهيزات (حنفيات، مراحيض)؛ الكهرباء تشمل التركيبات الجديدة (تجهيزات إضاءة، مراوح سقف، مقابس إضافية) والإصلاحات على الأسلاك القائمة — العمل الروتيني لا يحتاج تصريحًا، لكن سننبهك مسبقًا إذا احتاجت المهمة (إعادة توصيل كبيرة، ترقية لوحة كهربائية) لذلك.",
         "نوفر الدهان والمواد القياسية ضمن عرض السعر، أو نعمل بالمواد التي اشتريتها مسبقًا إذا كنت تفضل توفيرها بنفسك. ما لا يشمله العمل: أعمال التجديد الإنشائية الكبرى — إذا تحول طلب صيانة إلى شيء يحتاج مهندسًا إنشائيًا (جدار غير آمن للتعديل هيكليًا مثلًا)، سنخبرك بصراحة بدل المضي قدمًا.",
         "كل زيارة تُسعَّر بشكل ثابت قبل البدء، والعمل نفسه مغطى بضماننا 100% على القطع والعمالة."
@@ -400,7 +400,6 @@ module.exports = {
         "AC servicing — split, central, and window units",
         "Plumbing repair, drain unclogging, and fixture installation",
         "Electrical repairs and new installations, sockets and switches",
-        "General handyman tasks — shelving, TV mounting, door hinges",
         "Wall painting, drywall crack repair, and tile/brickwork fixes",
         "Cross-trained technicians for multi-trade jobs in one visit",
         "Priority scheduling for urgent AC or plumbing issues",
@@ -410,7 +409,6 @@ module.exports = {
         "صيانة تكييف — وحدات سبليت، مركزية، وشباك",
         "إصلاح السباكة، تسليك المصارف، وتركيب التجهيزات",
         "إصلاحات كهربائية وتركيبات جديدة، مقابس ومفاتيح",
-        "أعمال صيانة عامة — أرفف، تركيب شاشات، مفصلات أبواب",
         "دهان جدران، إصلاح شقوق الجدران الجصية، وإصلاح البلاط/الطوب",
         "فنيون مدربون على أكثر من تخصص لمهام متعددة في زيارة واحدة",
         "جدولة ذات أولوية لأعطال التكييف أو السباكة العاجلة",
@@ -424,42 +422,42 @@ module.exports = {
     h1: { en: "Furniture &amp; Moving Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات الأثاث والنقل في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Furniture Moving, Restoration &amp; Build Dubai | Procraftx", ar: "نقل وترميم وتصنيع أثاث دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Disassembly, packing &amp; moving, furniture restoration, and custom furniture build in Dubai, Sharjah &amp; Abu Dhabi. 100% guarantee.",
-      ar: "فك وتركيب، تغليف ونقل، ترميم أثاث، وتصنيع أثاث مخصص في دبي والشارقة وأبوظبي. ضمان 100%."
+      en: "Packing &amp; moving, handyman tasks, furniture restoration, and custom furniture build in Dubai, Sharjah &amp; Abu Dhabi. 100% guarantee.",
+      ar: "تغليف ونقل، أعمال صيانة عامة، ترميم أثاث، وتصنيع أثاث مخصص في دبي والشارقة وأبوظبي. ضمان 100%."
     },
     overview: {
       en: [
-        "Furniture and moving cover four services people usually assume are separate businesses: disassembly and reassembly, packing and moving, restoration and painting, and custom design and build. We put them under one team because they follow a real sequence in practice — a move typically starts with disassembling large pieces (wardrobes, bed frames) so they fit through doorways and don't get damaged in transit, then packing and transport, then reassembly at the destination, using the correct tools so hardware and joints aren't damaged in the process.",
-        "Restoration is a separate track — sanding, staining, painting, or repairing wood furniture that's structurally fine but worn or dated, and we can match your existing colour and finish closely or refinish in a new one if you'd rather update the look. Small pieces are usually done within days; larger or more detailed restorations take one to two weeks. Custom design and build is the fourth track — tell us the size, style, and space a piece needs to fit (a wardrobe, TV unit, or something more specific) and we design, build, and install it rather than sourcing something off-the-shelf that's close but not quite right.",
-        "Most cleaning and reassembly work is done on-site at your home; larger restoration or painting jobs are usually collected and returned once finished, which we'll confirm when we quote. What's not included: furniture with structural damage beyond repair (rather than restoration) — we'll tell you honestly if a piece is better replaced than restored.",
+        "Furniture and moving cover four services people usually assume are separate businesses: packing and moving, handyman tasks, restoration and painting, and custom design and build. We put them under one team because they follow a real sequence in practice — a move typically starts with wrapping and disassembling large pieces (wardrobes, bed frames) so they fit through doorways and don't get damaged in transit, then packing and transport, then reassembly at the destination, using the correct tools so hardware and joints aren't damaged in the process.",
+        "Handyman tasks are a separate track — hanging shelves, mounting TVs, fixing door hinges, and other small everyday repairs that don't need a dedicated maintenance visit on their own; these are usually quick, same-visit jobs, often requested alongside a move. Restoration is another — sanding, staining, painting, or repairing wood furniture that's structurally fine but worn or dated, and we can match your existing colour and finish closely or refinish in a new one if you'd rather update the look. Small pieces are usually done within days; larger or more detailed restorations take one to two weeks.",
+        "Custom design and build is the last track — tell us the size, style, and space a piece needs to fit (a wardrobe, TV unit, or something more specific) and we design, build, and install it rather than sourcing something off-the-shelf that's close but not quite right. Most handyman and moving work is done on-site at your home; larger restoration, painting, or custom-build jobs are usually collected and returned once finished, which we'll confirm when we quote. What's not included: furniture with structural damage beyond repair (rather than restoration) — we'll tell you honestly if a piece is better replaced than restored.",
         "Whichever service you need, the price is agreed before we start and the work is covered by our 100% guarantee."
       ],
       ar: [
-        "الأثاث والنقل تغطي أربع خدمات يفترض الناس عادةً أنها أعمال منفصلة: الفك وإعادة التركيب، التغليف والنقل، الترميم والدهان، والتصميم والتصنيع المخصص. نضعها تحت فريق واحد لأنها تتبع تسلسلاً حقيقيًا في الواقع — الانتقال عادةً يبدأ بفك القطع الكبيرة (خزائن، هياكل أسرّة) لتمر من الأبواب ولا تتلف أثناء النقل، ثم التغليف والنقل، ثم إعادة التركيب في الوجهة، باستخدام الأدوات الصحيحة حتى لا تتلف القطع أو المفاصل أثناء العملية.",
-        "الترميم مسار منفصل — صنفرة ودهان وطلاء أو إصلاح الأثاث الخشبي السليم إنشائيًا لكنه متهالك أو قديم الطراز، ويمكننا مطابقة لونك وطلائك الحالي بدقة أو إعادة الطلاء بلون جديد إذا كنت تفضل تحديث المظهر. تُنجز القطع الصغيرة عادةً خلال أيام؛ أعمال الترميم الأكبر أو الأكثر تفصيلًا تستغرق أسبوعًا إلى أسبوعين. التصميم والتصنيع المخصص هو المسار الرابع — أخبرنا بالمقاس والطراز والمساحة التي يجب أن تناسبها القطعة (خزانة، وحدة تلفزيون، أو شيء أكثر تحديدًا) ونصممها ونصنّعها ونركّبها بدل توفير شيء جاهز قريب لكن ليس مطابقًا تمامًا.",
-        "معظم أعمال التنظيف وإعادة التركيب تُنجز في منزلك مباشرة؛ أعمال الترميم أو الدهان الكبيرة تُنقل عادةً وتُعاد بعد الانتهاء، وسنؤكد ذلك عند تقديم عرض السعر. ما لا يشمله العمل: أثاث بتلف إنشائي يتجاوز الإصلاح (بدل الترميم) — سنخبرك بصراحة إذا كانت القطعة أفضل استبدالها من ترميمها.",
+        "الأثاث والنقل تغطي أربع خدمات يفترض الناس عادةً أنها أعمال منفصلة: التغليف والنقل، أعمال الصيانة العامة، الترميم والدهان، والتصميم والتصنيع المخصص. نضعها تحت فريق واحد لأنها تتبع تسلسلاً حقيقيًا في الواقع — الانتقال عادةً يبدأ بتغليف وفك القطع الكبيرة (خزائن، هياكل أسرّة) لتمر من الأبواب ولا تتلف أثناء النقل، ثم النقل، ثم إعادة التركيب في الوجهة، باستخدام الأدوات الصحيحة حتى لا تتلف القطع أو المفاصل أثناء العملية.",
+        "أعمال الصيانة العامة مسار منفصل — تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة أخرى لا تحتاج زيارة صيانة مستقلة بحد ذاتها؛ عادةً ما تكون هذه مهام سريعة تُنجز في نفس الزيارة، وتُطلب غالبًا مع مهمة نقل. الترميم مسار آخر — صنفرة ودهان وطلاء أو إصلاح الأثاث الخشبي السليم إنشائيًا لكنه متهالك أو قديم الطراز، ويمكننا مطابقة لونك وطلائك الحالي بدقة أو إعادة الطلاء بلون جديد إذا كنت تفضل تحديث المظهر. تُنجز القطع الصغيرة عادةً خلال أيام؛ أعمال الترميم الأكبر أو الأكثر تفصيلًا تستغرق أسبوعًا إلى أسبوعين.",
+        "التصميم والتصنيع المخصص هو المسار الأخير — أخبرنا بالمقاس والطراز والمساحة التي يجب أن تناسبها القطعة (خزانة، وحدة تلفزيون، أو شيء أكثر تحديدًا) ونصممها ونصنّعها ونركّبها بدل توفير شيء جاهز قريب لكن ليس مطابقًا تمامًا. معظم أعمال الصيانة العامة والنقل تُنجز في منزلك مباشرة؛ أعمال الترميم أو الدهان أو التصنيع المخصص الكبيرة تُنقل عادةً وتُعاد بعد الانتهاء، وسنؤكد ذلك عند تقديم عرض السعر. ما لا يشمله العمل: أثاث بتلف إنشائي يتجاوز الإصلاح (بدل الترميم) — سنخبرك بصراحة إذا كانت القطعة أفضل استبدالها من ترميمها.",
         "أيًا كانت الخدمة التي تحتاجها، السعر متفق عليه قبل البدء والعمل مغطى بضماننا 100%."
       ]
     },
     whatsIncluded: {
       en: [
-        "Disassembly and reassembly for moves or repairs",
         "Packing, loading, and transport to your new home",
+        "General handyman tasks — shelving, TV mounting, door hinges",
         "Furniture restoration — sanding, staining, painting",
         "Colour and finish matching, or a full refinish",
         "Custom furniture design, build, and installation",
         "Pickup and delivery for restoration or off-site cleaning",
-        "On-site service for most cleaning and reassembly work",
+        "On-site service for most handyman and moving work",
         "Packing materials supplied, or use your own"
       ],
       ar: [
-        "الفك وإعادة التركيب للنقل أو الإصلاح",
         "التغليف والتحميل والنقل إلى منزلك الجديد",
+        "أعمال صيانة عامة — أرفف، تركيب شاشات، مفصلات أبواب",
         "ترميم الأثاث — صنفرة، طلاء، دهان",
         "مطابقة اللون والطلاء، أو إعادة طلاء كاملة",
         "تصميم وتصنيع وتركيب أثاث مخصص",
         "استلام وتوصيل لأعمال الترميم أو التنظيف خارج الموقع",
-        "خدمة في الموقع لمعظم أعمال التنظيف وإعادة التركيب",
+        "خدمة في الموقع لمعظم أعمال الصيانة العامة والنقل",
         "توفير مواد التغليف، أو استخدام موادك الخاصة"
       ]
     },

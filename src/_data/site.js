@@ -27,7 +27,7 @@ module.exports = {
   },
 
   hero: {
-    eyebrow: { en: "Licensed · Insured · 8 specialties, 13 services", ar: "مرخّص · مؤمَّن · 8 تخصصات، 13 خدمة" },
+    eyebrow: { en: "Licensed · Insured · 8 specialties, 12 services", ar: "مرخّص · مؤمَّن · 8 تخصصات، 12 خدمة" },
     h1_main: { en: "All services.", ar: "كل الخدمات." },
     h1_span: { en: "In one.", ar: "في مكان واحد." },
     lead: {
@@ -50,7 +50,7 @@ module.exports = {
   stats: [
     { count: 2000, suffix: { en: "+", ar: "+" }, label: { en: "Repairs completed", ar: "إصلاح مكتمل" } },
     { count: 2, suffix: { en: " hrs", ar: " ساعات" }, label: { en: "Typical arrival window", ar: "وقت الوصول المعتاد" } },
-    { count: 21, suffix: { en: "", ar: "" }, label: { en: "Services &amp; specialties", ar: "خدمات وتخصصات" } }
+    { count: 20, suffix: { en: "", ar: "" }, label: { en: "Services &amp; specialties", ar: "خدمات وتخصصات" } }
   ],
 
   servicesHead: {

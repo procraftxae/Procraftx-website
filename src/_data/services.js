@@ -7,8 +7,8 @@ module.exports = {
       comment: { en: "1. Core Home Maintenance", ar: "1. الصيانة المنزلية الأساسية" },
       title: { en: "Core Home Maintenance", ar: "الصيانة المنزلية الأساسية" },
       desc: {
-        en: "The everyday repairs that keep your home running — AC, plumbing, electrical, handyman and painting, handled by trained pros.",
-        ar: "الإصلاحات اليومية التي تُبقي منزلك يعمل بسلاسة — تكييف، سباكة، كهرباء، صيانة عامة ودهانات، على يد فنيين مدربين."
+        en: "The everyday repairs that keep your home running — AC, plumbing, electrical, and painting, handled by trained pros.",
+        ar: "الإصلاحات اليومية التي تُبقي منزلك يعمل بسلاسة — تكييف، سباكة، كهرباء، ودهانات، على يد فنيين مدربين."
       },
       services: [
         {
@@ -30,12 +30,6 @@ module.exports = {
           desc: { en: "Light fixtures mounted, faulty wiring fixed, and power sockets safely replaced.", ar: "تركيب تجهيزات الإضاءة، إصلاح الأسلاك التالفة، واستبدال المقابس الكهربائية بأمان." }
         },
         {
-          img: "assets/images/handyman-service.jpg",
-          alt: { en: "Handyman mounting a wall shelf with a drill", ar: "فني صيانة عامة يركّب رفًا على الجدار بمثقاب" },
-          name: { en: "Handyman Tasks", ar: "أعمال الصيانة العامة" },
-          desc: { en: "Hanging shelves, mounting TVs, fixing door hinges, and small everyday repairs.", ar: "تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة." }
-        },
-        {
           img: "assets/images/wall-painting-service.jpg",
           alt: { en: "Worker patching a wall and repointing brickwork", ar: "عامل يرقّع جدارًا ويعيد ملء فواصل الطوب" },
           name: { en: "Wall Painting &amp; Masonry", ar: "دهان الجدران والبناء" },
@@ -48,15 +42,15 @@ module.exports = {
       comment: { en: "2. Our Furniture &amp; Moving Services", ar: "2. خدمات الأثاث والنقل" },
       title: { en: "Our Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل لدينا" },
       desc: {
-        en: "Disassembly and reassembly, packing and moving, restoration, and custom builds — every furniture job, handled by one team.",
-        ar: "تفكيك وتركيب، تغليف ونقل، ترميم، وتصميم مخصص — كل ما يخص أثاثك بفريق واحد."
+        en: "Packing and moving, handyman tasks, furniture restoration, and custom builds — every furniture job, handled by one team.",
+        ar: "تغليف ونقل، أعمال صيانة عامة، ترميم أثاث، وتصميم مخصص — كل ما يخص أثاثك بفريق واحد."
       },
       services: [
         {
-          img: "assets/images/disassembly-service.jpg",
-          alt: { en: "Workers disassembling a large wardrobe", ar: "عمال يفككون خزانة كبيرة" },
-          name: { en: "Disassembly &amp; Reassembly", ar: "الفك وإعادة التركيب" },
-          desc: { en: "Heavy furniture safely taken apart for moving and put back together correctly.", ar: "فك الأثاث الثقيل بأمان لنقله وإعادة تركيبه بشكل صحيح." }
+          img: "assets/images/handyman-service.jpg",
+          alt: { en: "Handyman mounting a wall shelf with a drill", ar: "فني صيانة عامة يركّب رفًا على الجدار بمثقاب" },
+          name: { en: "Handyman Tasks", ar: "أعمال الصيانة العامة" },
+          desc: { en: "Hanging shelves, mounting TVs, fixing door hinges, and small everyday repairs.", ar: "تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة." }
         },
         {
           img: "assets/images/packers-movers-service.jpg",
