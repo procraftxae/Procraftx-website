@@ -257,6 +257,13 @@
       // user gesture
       window.open(waUrl, '_blank', 'noopener');
 
+      // fires only on a genuinely valid, successful submission (past the
+      // validation checks above) — GTM's built-in Form Submission/Click
+      // triggers would also fire on failed attempts, since preventDefault()
+      // runs unconditionally at the top of this handler.
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'whatsapp_booking_conversion' });
+
       const submitBtn = bookForm.querySelector('button[type="submit"]');
       submitBtn.disabled = true;
       submitBtn.textContent = isAr ? 'جارٍ فتح واتساب…' : 'Opening WhatsApp…';
