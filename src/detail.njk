@@ -16,7 +16,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% include "gtag.njk" %}
+{% include "gtm-head.njk" %}
 <meta name="google-site-verification" content="_IPAHV06IH3jP_eau1n5NKWp9_Zfgb3BOBFFXUx4otM">
 <link rel="icon" href="{{ '../' if isAr }}assets/images/favicon.svg" type="image/svg+xml">
 <title>{{ content.metaTitle[lang] | safe }}</title>
@@ -51,6 +51,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 </script>
 </head>
 <body>
+{% include "gtm-body.njk" %}
 
 <a href="#main" class="skip-link">{{ site.skipLink[lang] | safe }}</a>
 

@@ -1,6 +1,5 @@
 module.exports = {
-  googleAdsId: "AW-18475897062",
-  gaMeasurementId: "G-1DBNYDHNNK",
+  gtmContainerId: "GTM-5VSBLKVZ",
 
   business: {
     name: "Procraftx",
