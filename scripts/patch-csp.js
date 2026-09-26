@@ -54,11 +54,14 @@ if (!cspHeader) {
   throw new Error("Could not find Content-Security-Policy header in vercel.json");
 }
 
-const newHashList = hashes.map((h) => `'sha256-${h}'`).join(" ");
+// dedupe: the gtag snippet is now byte-identical on every page, so without
+// this the same hash would get appended once per page (28x) instead of once.
+const uniqueHashes = [...new Set(hashes)];
+const newHashList = uniqueHashes.map((h) => `'sha256-${h}'`).join(" ");
 cspHeader.value = cspHeader.value.replace(
   /script-src 'self'(?: 'sha256-[^']+')*/,
   `script-src 'self' ${newHashList}`
 );
 
 fs.writeFileSync(vercelJsonPath, JSON.stringify(vercelConfig, null, 2) + "\n");
-console.log(`Patched vercel.json CSP with ${hashes.length} script-src hashes across ${pages.length} pages.`);
+console.log(`Patched vercel.json CSP with ${uniqueHashes.length} unique script-src hashes (${hashes.length} script blocks) across ${pages.length} pages.`);

@@ -1,4 +1,6 @@
 module.exports = {
+  googleAdsId: "AW-18475897062",
+
   business: {
     name: "Procraftx",
     phone: "+971507917075",
