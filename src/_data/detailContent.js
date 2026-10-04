@@ -14,13 +14,13 @@ module.exports = {
     overview: {
       en: [
         "Interior design in Dubai and Sharjah usually means one of two things: a full home renovation — whether it's a villa or an apartment renovation, from bare shell to move-in ready — or a smaller refresh, like a studio renovation, a bedroom renovation, or updating just the majlis or kitchen, without touching the rest of the home. Procraftx handles both, and the process is the same either way: we start with a site visit to measure the space and understand how you actually use it, then move to concept development with mood boards and material samples before anything is finalized.",
-        "Once a direction is approved, we build 3D visuals so you can see lighting, furniture placement, and finishes together before committing — this is also where most clients adjust colour choices or swap a material once they see it rendered at scale, which is far cheaper to change on screen than after installation. From there, our own joinery team handles custom wardrobes, TV units, and kitchen cabinetry in-house rather than subcontracting it out, which keeps the finish consistent with the rest of the fit-out and the timeline in our control.",
+        "Once a direction is approved, we build 3D visuals so you can see lighting, furniture placement, and finishes together before committing — this is also where most clients adjust colour choices or swap a material once they see it rendered at scale, which is far cheaper to change on screen than after installation. From there, our own joinery team handles custom wardrobes, TV units, and kitchen cabinetry in-house rather than subcontracting it out, which keeps the finish consistent with the rest of the fit-out and the timeline in our control. Wall and floor finishes are planned alongside the same joinery work, not treated as an afterthought — wood, PVC, or 3D wall panels, decorative cladding, and flooring upgrades like vinyl, laminate, or feature tiling.",
         "What's not included: structural changes that require a civil engineer's sign-off (we'll flag this during the site visit if your project needs one and can coordinate with a structural consultant), and furniture we don't source ourselves if you'd rather bring your own pieces — we're happy to design around existing furniture instead of replacing everything.",
         "Every quote is flat and agreed before we start, and the whole project — design through fit-out — is backed by our 100% guarantee and handled by our own licensed, background-checked crew, not subcontractors."
       ],
       ar: [
         "التصميم الداخلي في دبي والشارقة عادةً يعني أحد أمرين: تجديد منزل كامل — سواء تجديد فيلا أو تجديد شقة، من الهيكل الخام حتى الجاهزية للسكن — أو تجديد أصغر مثل تجديد استوديو أو تجديد غرفة نوم أو تحديث المجلس أو المطبخ فقط، دون المساس ببقية المنزل. بروكرافتكس تتولى الحالتين، والعملية نفسها في الحالتين: نبدأ بمعاينة الموقع لقياس المساحة وفهم كيف تستخدمها فعليًا، ثم ننتقل لتطوير الفكرة بلوحات إلهام وعينات مواد قبل اعتماد أي شيء نهائيًا.",
-        "بعد اعتماد الاتجاه العام، نُعِد تصورات ثلاثية الأبعاد لترى الإضاءة وتوزيع الأثاث والتشطيبات معًا قبل الالتزام بها — وهذه أيضًا المرحلة التي يُعدّل فيها معظم العملاء اختيار الألوان أو يستبدلون مادة ما بعد رؤيتها بحجمها الحقيقي، وهو أرخص بكثير من تغييرها بعد التركيب. بعدها يتولى فريق النجارة لدينا (بدون تعاقد من الباطن) خزائن الملابس المخصصة ووحدات التلفزيون وخزائن المطبخ، مما يحافظ على تناسق التشطيب مع بقية التجهيز ويبقي الجدول الزمني تحت سيطرتنا.",
+        "بعد اعتماد الاتجاه العام، نُعِد تصورات ثلاثية الأبعاد لترى الإضاءة وتوزيع الأثاث والتشطيبات معًا قبل الالتزام بها — وهذه أيضًا المرحلة التي يُعدّل فيها معظم العملاء اختيار الألوان أو يستبدلون مادة ما بعد رؤيتها بحجمها الحقيقي، وهو أرخص بكثير من تغييرها بعد التركيب. بعدها يتولى فريق النجارة لدينا (بدون تعاقد من الباطن) خزائن الملابس المخصصة ووحدات التلفزيون وخزائن المطبخ، مما يحافظ على تناسق التشطيب مع بقية التجهيز ويبقي الجدول الزمني تحت سيطرتنا. تشطيبات الجدران والأرضيات تُخطَّط جنبًا إلى جنب مع نفس أعمال النجارة، وليس كفكرة لاحقة — ألواح جدران خشبية أو PVC أو ثلاثية الأبعاد، وتكسية زخرفية، وترقيات الأرضيات كالفينيل أو اللامينيت أو البلاط المميز.",
         "ما لا يشمله العمل: التعديلات الإنشائية التي تتطلب توقيع مهندس مدني (سننبهك لذلك أثناء معاينة الموقع إذا احتاج مشروعك لذلك، ويمكننا التنسيق مع استشاري إنشائي)، والأثاث الذي لا نوفره نحن إذا كنت تفضل إحضار قطعك الخاصة — يسعدنا التصميم حول أثاثك الحالي بدل استبدال كل شيء.",
         "كل عرض سعر ثابت ومتفق عليه قبل البدء، والمشروع بأكمله — من التصميم حتى التجهيز — مغطى بضماننا 100% وينفذه فريقنا المرخّص والموثّق الخلفية، وليس مقاولين من الباطن."
       ]
@@ -31,6 +31,8 @@ module.exports = {
         "Mood boards and 3D visuals before work begins",
         "Material, finish, and colour selection",
         "Flooring, wall treatments, and false ceiling/gypsum work",
+        "Wall panel installation — wood, PVC, and 3D panels",
+        "Decorative floor finishes — vinyl, laminate, and feature tiling",
         "Lighting design and curtain/blind installation",
         "Custom joinery — wardrobes, TV units, kitchen cabinetry, built-in storage",
         "Furniture sourcing, placement, and décor styling",
@@ -41,6 +43,8 @@ module.exports = {
         "لوحات إلهام وتصورات ثلاثية الأبعاد قبل بدء العمل",
         "اختيار المواد والتشطيبات والألوان",
         "الأرضيات، معالجات الجدران، والأسقف المستعارة/أعمال الجبس",
+        "تركيب ألواح الجدران (البانل) — خشبية، PVC، وثلاثية الأبعاد",
+        "تشطيبات أرضيات زخرفية — فينيل، لامينيت، وبلاط مميز",
         "تصميم الإضاءة وتركيب الستائر",
         "نجارة مخصصة — خزائن ملابس، وحدات تلفزيون، خزائن مطبخ، تخزين مدمج",
         "توريد الأثاث وتوزيعه وتنسيق الديكور",
