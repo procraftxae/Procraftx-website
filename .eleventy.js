@@ -87,6 +87,7 @@ module.exports = function (eleventyConfig) {
   // SVG markup as visible escaped text in the trust-card icons.
 
   eleventyConfig.addFilter("imageDims", imageDims);
+  eleventyConfig.addGlobalData("currentYear", () => new Date().getFullYear());
 
   eleventyConfig.addFilter("indexJsonLd", function (lang) {
     const p = pagesData.index;

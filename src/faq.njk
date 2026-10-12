@@ -85,6 +85,8 @@ permalink: "{% if lang == 'ar' %}ar/faq.html{% else %}faq.html{% endif %}"
 
 </main>
 
+{% include "footer.njk" %}
+
 <script src="{{ '../assets/js/faq.js' if isAr else 'assets/js/faq.js' }}"></script>
 {% include "whatsapp-float.njk" %}
 </body>

@@ -504,6 +504,33 @@
   html[dir="rtl"] .sub-card:hover .link svg{transform:scaleX(-1) translateX(4px);}
   html[dir="rtl"] .whatsapp-float{right:auto;left:24px;}
 
+  /* ---- Footer ---- */
+  .site-footer{background:var(--ink);color:rgba(255,255,255,0.72);margin-top:64px;}
+  .footer-grid{
+    display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr 1fr;gap:32px;
+    padding:56px 32px 40px;
+  }
+  .footer-brand p{margin:14px 0 18px;font-size:14.5px;line-height:1.55;max-width:34ch;}
+  .footer-social{display:flex;gap:10px;}
+  .footer-social a{
+    width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    border:1px solid rgba(255,255,255,0.18);color:#fff;transition:background .2s ease,border-color .2s ease;
+  }
+  .footer-social a:hover{background:var(--red);border-color:var(--red);}
+  .footer-social svg{width:17px;height:17px;stroke:#fff;}
+  .footer-col h4{
+    font-family:'Noto Sans',sans-serif;font-weight:700;font-size:13px;letter-spacing:0.08em;
+    text-transform:uppercase;color:#fff;margin-bottom:16px;
+  }
+  .footer-col ul{display:flex;flex-direction:column;gap:10px;}
+  .footer-col a{font-size:14.5px;color:rgba(255,255,255,0.72);transition:color .2s ease;}
+  .footer-col a:hover{color:#fff;}
+  .footer-areas{margin-top:16px;font-size:13.5px;color:rgba(255,255,255,0.55);}
+  .footer-bottom{border-top:1px solid rgba(255,255,255,0.12);}
+  .footer-bottom .wrap{padding:18px 32px;}
+  .footer-bottom p{font-size:13px;color:rgba(255,255,255,0.55);}
+  html[dir="rtl"] .footer-social{direction:ltr;}
+
   /* ============================================================
      MOBILE (<=720px) — placed last so it wins the cascade against
      every same-specificity base rule declared above.
@@ -584,4 +611,11 @@
     .detail-overview p{font-size:15.5px;}
     .detail-included ul{grid-template-columns:1fr;}
     .process-grid{grid-template-columns:1fr;gap:12px;}
+
+    /* ---- Footer ---- */
+    .site-footer{margin-top:40px;}
+    .footer-grid{grid-template-columns:1fr 1fr;gap:28px 20px;padding:40px 20px 28px;}
+    .footer-brand{grid-column:1 / -1;}
+    .footer-brand p{max-width:none;}
+    .footer-bottom .wrap{padding:16px 20px;text-align:center;}
   }

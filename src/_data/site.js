@@ -129,6 +129,18 @@ module.exports = {
   whatsappFloatAriaLabel: { en: "Chat on WhatsApp", ar: "تواصل عبر واتساب" },
   skipLink: { en: "Skip to content", ar: "تخطَّ إلى المحتوى" },
 
+  footer: {
+    tagline: { en: "One trusted crew for everything your home needs — flat pricing and a 100% guarantee on every job.", ar: "فريق موثوق واحد لكل ما يحتاجه منزلك — أسعار ثابتة وضمان 100% على كل عمل." },
+    quickLinksTitle: { en: "Quick Links", ar: "روابط سريعة" },
+    servicesTitle: { en: "Our Services", ar: "خدماتنا" },
+    specialtiesTitle: { en: "Our Specialties", ar: "تخصصاتنا" },
+    contactTitle: { en: "Get In Touch", ar: "تواصل معنا" },
+    aboutLink: { en: "About Us", ar: "من نحن" },
+    contactLink: { en: "Contact", ar: "تواصل" },
+    areaServedLabel: { en: "Proudly serving", ar: "نخدم بفخر" },
+    rights: { en: "All rights reserved.", ar: "جميع الحقوق محفوظة." }
+  },
+
   // Shared across all 10 detail pages (src/detail.njk) — same 4-step
   // process regardless of topic, reused rather than re-authored per page.
   detailPage: {

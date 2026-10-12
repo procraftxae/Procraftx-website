@@ -193,6 +193,8 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 
 </main>
 
+{% include "footer.njk" %}
+
 <script src="{{ '../assets/js/main.js' if isAr else 'assets/js/main.js' }}"></script>
 {% include "whatsapp-float.njk" %}
 </body>

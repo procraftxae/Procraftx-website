@@ -145,6 +145,8 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 
 </main>
 
+{% include "footer.njk" %}
+
 <script src="{{ '../assets/js/main.js' if isAr else 'assets/js/main.js' }}"></script>
 {% include "whatsapp-float.njk" %}
 </body>
