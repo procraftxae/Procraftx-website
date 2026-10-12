@@ -109,7 +109,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
     <!-- {{ cat.comment[lang] | safe }} -->
     <div class="category-block" id="{{ cat.id }}">
       <div class="category-head reveal">
-        <div><h3>{{ cat.title[lang] | safe }}</h3><p>{{ cat.desc[lang] | safe }}</p><a href="{{ '../' if isAr }}{{ cat.id }}.html" class="link link-secondary category-learn-more">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        <div><h3>{{ cat.title[lang] | safe }}</h3><p>{{ cat.desc[lang] | safe }}</p><a href="{{ cat.id }}.html" class="link link-secondary category-learn-more">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
       </div>
       <div class="subservice-grid">
         {% for s in cat.services %}
@@ -144,7 +144,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
             <p>{{ site.customizeCard.lead[lang] | safe }}</p>
             <p>{{ site.customizeCard.body[lang] | safe }}</p>
             <a href="#contact" class="btn btn-red" data-service="{{ site.customizeCard.dataService[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-            <a href="{{ '../' if isAr }}customize-works.html" class="link link-secondary customize-learn-more">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+            <a href="customize-works.html" class="link link-secondary customize-learn-more">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
           </div>
         </div>
       </div>
