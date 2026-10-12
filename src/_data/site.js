@@ -138,8 +138,7 @@ module.exports = {
     aboutLink: { en: "About Us", ar: "من نحن" },
     contactLink: { en: "Contact", ar: "تواصل" },
     areaServedLabel: { en: "Proudly serving", ar: "نخدم بفخر" },
-    rights: { en: "All rights reserved.", ar: "جميع الحقوق محفوظة." },
-    legalEntity: { en: "Procraftx is legally operated by Luxury Villa Interior Decoration LLC.", ar: "تُدار بروكرافتكس قانونيًا من قِبل شركة Luxury Villa Interior Decoration LLC." }
+    rights: { en: "All rights reserved.", ar: "جميع الحقوق محفوظة." }
   },
 
   // Shared across all 10 detail pages (src/detail.njk) — same 4-step
