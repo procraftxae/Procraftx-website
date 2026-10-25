@@ -527,7 +527,7 @@
   .footer-col a:hover{color:#fff;}
   .footer-areas{margin-top:16px;font-size:13.5px;color:rgba(255,255,255,0.55);}
   .footer-bottom{border-top:1px solid rgba(255,255,255,0.12);}
-  .footer-bottom .wrap{padding:18px 32px;}
+  .footer-bottom-inner{padding:18px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
   .footer-bottom p{font-size:13px;color:rgba(255,255,255,0.55);}
   html[dir="rtl"] .footer-social{direction:ltr;}
 
@@ -617,5 +617,5 @@
     .footer-grid{grid-template-columns:1fr 1fr;gap:28px 20px;padding:40px 20px 28px;}
     .footer-brand{grid-column:1 / -1;}
     .footer-brand p{max-width:none;}
-    .footer-bottom .wrap{padding:16px 20px;text-align:center;}
+    .footer-bottom-inner{padding:16px 20px;flex-direction:column;gap:12px;text-align:center;}
   }
