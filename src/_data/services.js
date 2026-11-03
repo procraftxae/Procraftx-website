@@ -6,10 +6,6 @@ module.exports = {
       id: "core-home-maintenance",
       comment: { en: "1. Core Home Maintenance", ar: "1. الصيانة المنزلية الأساسية" },
       title: { en: "Core Home Maintenance", ar: "الصيانة المنزلية الأساسية" },
-      desc: {
-        en: "The everyday repairs that keep your home running — AC, plumbing, electrical, and painting, handled by trained pros.",
-        ar: "الإصلاحات اليومية التي تُبقي منزلك يعمل بسلاسة — تكييف، سباكة، كهرباء، ودهانات، على يد فنيين مدربين."
-      },
       services: [
         {
           img: "assets/images/ac-service.jpg",
@@ -41,10 +37,6 @@ module.exports = {
       id: "furniture-services",
       comment: { en: "2. Our Furniture &amp; Moving Services", ar: "2. خدمات الأثاث والنقل" },
       title: { en: "Our Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل لدينا" },
-      desc: {
-        en: "Packing and moving, handyman tasks, furniture restoration, and custom builds — every furniture job, handled by one team.",
-        ar: "تغليف ونقل، أعمال صيانة عامة، ترميم أثاث، وتصميم مخصص — كل ما يخص أثاثك بفريق واحد."
-      },
       services: [
         {
           img: "assets/images/handyman-service.jpg",
@@ -76,10 +68,6 @@ module.exports = {
       id: "home-clearing",
       comment: { en: "3. Deep Cleaning &amp; Sanitization", ar: "3. التنظيف العميق والتعقيم" },
       title: { en: "Deep Cleaning &amp; Sanitization", ar: "التنظيف العميق والتعقيم" },
-      desc: {
-        en: "Deep cleaning, pest control, and sanitizing for your home and furniture — all in one call.",
-        ar: "تنظيف عميق، مكافحة حشرات، وتعقيم لمنزلك وأثاثك — كل ذلك بمكالمة واحدة."
-      },
       services: [
         {
           img: "assets/images/disinfection-service.jpg",
