@@ -53,7 +53,6 @@
   @keyframes roller-stroke{0%,100%{transform:translateX(-4px);}50%{transform:translateX(4px);}}
   @keyframes flicker{0%,19%,21%,23%,25%,54%,56%,100%{opacity:1;}20%,22%,24%,55%{opacity:0.35;}}
   @keyframes bob{0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
-  @keyframes marquee-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
 
   .btn-red.pulse-cta{animation:pulse-ring 2.6s ease-out infinite;}
 
@@ -82,18 +81,6 @@
   .icon-anim-bob svg{animation:bob 2.6s ease-in-out infinite;}
   .icon-anim-sway svg{animation:wiggle 3.4s ease-in-out infinite;transform-origin:50% 100%;}
 
-  /* marquee strip */
-  .marquee-strip{background:var(--ink);overflow:hidden;padding:20px 0;}
-  .marquee-track{display:flex;width:max-content;animation:marquee-scroll 26s linear infinite;}
-  .marquee-track:hover{animation-play-state:paused;}
-  .marquee-item{
-    display:flex;align-items:center;gap:10px;color:#fff;
-    font-family:'Montserrat',sans-serif;font-weight:600;font-size:16px;
-    padding:0 34px;white-space:nowrap;
-  }
-  .marquee-item svg{width:20px;height:20px;stroke:var(--red);flex:none;}
-  .marquee-item::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--red);margin-left:34px;}
-
   /* animated stat counters */
   .stats-band{background:var(--red);padding:38px 0;}
   .stats-grid{display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px;}
@@ -104,7 +91,7 @@
   @media (prefers-reduced-motion: reduce){
     .hero-chip,.icon-anim-spin svg,.icon-anim-bolt svg,.icon-anim-roller svg,
     .icon-anim-wiggle svg,.icon-anim-bob svg,.icon-anim-sway svg,
-    .marquee-track,.btn-red.pulse-cta{animation:none !important;}
+    .btn-red.pulse-cta{animation:none !important;}
   }
 
   /* ---------- NAV ---------- */
