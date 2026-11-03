@@ -117,15 +117,6 @@ module.exports = {
     getStartedLead: { en: "Fill out the form and a real person will call to confirm your appointment — usually within the hour.", ar: "املأ النموذج وسيتصل بك شخص حقيقي لتأكيد موعدك — عادةً خلال ساعة." }
   },
 
-  contactRows: [
-    { key: "whatsapp", sub: { en: "WhatsApp us anytime", ar: "راسلنا على واتساب في أي وقت" } },
-    { key: "email", sub: { en: "We reply within one business day", ar: "نرد خلال يوم عمل واحد" } },
-    { key: "instagram", sub: { en: "Follow us on Instagram", ar: "تابعنا على إنستقرام" } },
-    { key: "facebook", sub: { en: "Follow us on Facebook", ar: "تابعنا على فيسبوك" } },
-    { key: "tiktok", sub: { en: "Follow us on TikTok", ar: "تابعنا على تيك توك" } },
-    { key: "x", sub: { en: "Follow us on X", ar: "تابعنا على إكس" } }
-  ],
-
   whatsappFloatAriaLabel: { en: "Chat on WhatsApp", ar: "تواصل عبر واتساب" },
   skipLink: { en: "Skip to content", ar: "تخطَّ إلى المحتوى" },
 
