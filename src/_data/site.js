@@ -56,18 +56,10 @@ module.exports = {
   ],
 
   servicesHead: {
-    eyebrow: { en: "Our Services", ar: "خدماتنا" },
-    h2: {
-      en: "Home Maintenance, Furniture &amp; Moving, and Deep Cleaning Services in Dubai, Sharjah &amp; Abu Dhabi",
-      ar: "صيانة منزلية، خدمات أثاث ونقل، وتنظيف عميق في دبي والشارقة وأبوظبي"
-    }
+    eyebrow: { en: "Our Services", ar: "خدماتنا" }
   },
   specialtiesHead: {
-    eyebrow: { en: "Our Specialties", ar: "تخصصاتنا" },
-    h2: {
-      en: "Interior Design, Majlis Construction, Swimming Pool &amp; Landscaping Specialties in Dubai, Sharjah &amp; Abu Dhabi",
-      ar: "تصميم داخلي، إنشاء مجالس، ومسابح وتنسيق حدائق في دبي والشارقة وأبوظبي"
-    }
+    eyebrow: { en: "Our Specialties", ar: "تخصصاتنا" }
   },
 
   customizeCard: {

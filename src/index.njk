@@ -102,7 +102,6 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">{{ site.servicesHead.eyebrow[lang] | safe }}</span>
-      <h2>{{ site.servicesHead.h2[lang] | safe }}</h2>
     </div>
 
     {% for cat in services.categories %}
@@ -123,7 +122,6 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 
     <div class="section-head reveal" id="specialties">
       <span class="eyebrow">{{ site.specialtiesHead.eyebrow[lang] | safe }}</span>
-      <h2>{{ site.specialtiesHead.h2[lang] | safe }}</h2>
     </div>
 
     {% for sp in specialties %}
