@@ -1,22 +1,22 @@
 module.exports = {
   index: {
-    title: { en: "AC, Plumbing &amp; Home Maintenance Dubai &amp; Sharjah | Procraftx", ar: "صيانة تكييف وسباكة ومنزلية دبي والشارقة وأبوظبي | بروكرافتكس" },
+    title: { en: "Interior Design &amp; Home Maintenance Dubai &amp; Sharjah | Procraftx", ar: "تصميم داخلي وصيانة منزلية دبي والشارقة وأبوظبي | بروكرافتكس" },
     description: {
-      en: "Free walkthrough, flat quote, 100% guarantee. AC, plumbing, electrical, handyman &amp; furniture care in Dubai, Sharjah &amp; Abu Dhabi. Call 050 791 7075.",
-      ar: "معاينة مجانية، سعر ثابت، وضمان 100%. صيانة تكييف، سباكة، كهرباء، أعمال صيانة عامة، وعناية بالأثاث في دبي والشارقة وأبوظبي. اتصل 050 791 7075."
+      en: "Interior design, renovation, custom majlis, pools &amp; more — flat quote, 100% guarantee. Home specialties in Dubai, Sharjah &amp; Abu Dhabi. Call 050 791 7075.",
+      ar: "تصميم داخلي، تجديد، مجالس مخصصة، مسابح والمزيد — سعر ثابت وضمان 100%. تخصصات منزلية في دبي والشارقة وأبوظبي. اتصل 050 791 7075."
     },
-    ogTitle: { en: "AC, Plumbing, Electrical &amp; Home Maintenance Services | Procraftx", ar: "صيانة تكييف، كهرباء وصيانة منزلية | بروكرافتكس" },
+    ogTitle: { en: "Interior Design, Renovation &amp; Home Specialties | Procraftx", ar: "تصميم داخلي وتجديد وتخصصات منزلية | بروكرافتكس" },
     ogDescription: {
-      en: "All services in one — core home maintenance, furniture care, and deep cleaning &amp; sanitization. Based in Dubai, Sharjah and Abu Dhabi. Flat quote before we start, 100% guarantee.",
-      ar: "كل الخدمات في مكان واحد — صيانة منزلية أساسية، عناية بالأثاث، وتنظيف عميق وتعقيم. مقرّنا في دبي والشارقة وأبوظبي. سعر ثابت قبل البدء، وضمان 100%."
+      en: "Interior design, majlis construction, pools, landscaping &amp; more — plus core home maintenance and furniture care. Based in Dubai, Sharjah and Abu Dhabi. Flat quote, 100% guarantee.",
+      ar: "تصميم داخلي، إنشاء مجالس، مسابح، تنسيق حدائق والمزيد — بالإضافة إلى الصيانة المنزلية والعناية بالأثاث. مقرّنا في دبي والشارقة وأبوظبي. سعر ثابت، وضمان 100%."
     },
     twitterDescription: {
       en: "Based in Dubai, Sharjah and Abu Dhabi. Flat quote before we start, 100% guarantee.",
       ar: "مقرّنا في دبي والشارقة وأبوظبي. سعر ثابت قبل البدء، وضمان 100%."
     },
     jsonLdDescription: {
-      en: "AC, plumbing, electrical, handyman, furniture care, deep cleaning &amp; sanitization, outdoor majlis construction, car garage construction, custom door &amp; window installation, custom glass work, residential window tinting, interior design, swimming pool construction, and gardening &amp; irrigation services.",
-      ar: "صيانة تكييف، سباكة، كهرباء، أعمال صيانة عامة، عناية بالأثاث، تنظيف عميق وتعقيم، إنشاء مجالس خارجية، إنشاء كراجات سيارات، تصميم وتركيب أبواب ونوافذ مخصصة، أعمال زجاج مخصصة، تظليل نوافذ سكنية، تصميم داخلي، إنشاء حمامات سباحة، وخدمات تنسيق حدائق وري."
+      en: "Interior design, outdoor majlis construction, car garage construction, custom door &amp; window installation, custom glass work, residential window tinting, swimming pool construction, and gardening &amp; irrigation, plus AC, plumbing, electrical, handyman, furniture care, and deep cleaning &amp; sanitization services.",
+      ar: "تصميم داخلي، إنشاء مجالس خارجية، إنشاء كراجات سيارات، تصميم وتركيب أبواب ونوافذ مخصصة، أعمال زجاج مخصصة، تظليل نوافذ سكنية، إنشاء حمامات سباحة، وخدمات تنسيق حدائق وري، بالإضافة إلى صيانة تكييف، سباكة، كهرباء، أعمال صيانة عامة، عناية بالأثاث، وتنظيف عميق وتعقيم."
     },
     jsonLdCatalogName: { en: "Procraftx Services", ar: "خدمات بروكرافتكس" }
   },
