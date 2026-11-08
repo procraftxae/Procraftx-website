@@ -63,13 +63,13 @@ module.exports = {
   },
 
   customizeCard: {
-    title: { en: "All Customize Works", ar: "كل الأعمال المخصصة" },
+    title: { en: "All Custom Creations", ar: "كل الإبداعات المخصصة" },
     lead: { en: "Have something specific in mind? If it can be designed and built, we can do it.", ar: "عندك فكرة معينة في بالك؟ إذا كان بالإمكان تصميمها وتنفيذها، فنحن نقدر نسويها." },
     body: {
       en: "Whatever you need that isn't on this list — custom-built storage, a bespoke feature wall, a one-off outdoor structure, or a modification to something you already own. Tell us the idea and we'll design it, quote it, and build it.",
       ar: "أي شيء تحتاجه وغير موجود في هذه القائمة — خزائن مصنوعة حسب الطلب، أو جدار مميز بتصميم خاص، أو هيكل خارجي فريد، أو تعديل على شيء تملكه بالفعل. أخبرنا بالفكرة وسنصممها ونقدّم لك عرض السعر وننفّذها."
     },
-    dataService: { en: "All Customize Works", ar: "كل الأعمال المخصصة" }
+    dataService: { en: "All Custom Creations", ar: "كل الإبداعات المخصصة" }
   },
 
   about: {

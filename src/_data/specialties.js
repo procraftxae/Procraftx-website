@@ -29,10 +29,10 @@ module.exports = [
   },
   {
     id: "outdoor-majlis",
-    comment: { en: "5. Outdoor Majlis Services", ar: "5. خدمات المجالس الخارجية" },
-    dataService: { en: "Outdoor Majlis Services", ar: "خدمات المجالس الخارجية" },
-    bookingGroupLabel: { en: "Outdoor Majlis Services", ar: "خدمات المجالس الخارجية" },
-    bookingOptions: [{ en: "Outdoor Majlis Services", ar: "خدمات المجالس الخارجية" }],
+    comment: { en: "5. Custom Outdoor Majlis", ar: "5. المجالس الخارجية المخصصة" },
+    dataService: { en: "Custom Outdoor Majlis", ar: "المجالس الخارجية المخصصة" },
+    bookingGroupLabel: { en: "Custom Outdoor Majlis", ar: "المجالس الخارجية المخصصة" },
+    bookingOptions: [{ en: "Custom Outdoor Majlis", ar: "المجالس الخارجية المخصصة" }],
     bookingOrder: 1,
     images: [
       { src: "assets/images/majlis-1.jpg", alt: { en: "Modern glass majlis with sheer curtains and lounge seating", ar: "مجلس زجاجي حديث بستائر شفافة ومقاعد استرخاء" } },
@@ -41,7 +41,7 @@ module.exports = [
       { src: "assets/images/majlis-4.jpg", alt: { en: "Ornate traditional Arabic majlis tent with gold detailing", ar: "خيمة مجلس عربي تقليدي مزخرفة بتفاصيل ذهبية" } },
       { src: "assets/images/majlis-5.jpg", alt: { en: "Modern sandwich panel guest annex with garden lighting", ar: "ملحق ضيافة حديث بألواح ساندويتش وإضاءة حدائق" } }
     ],
-    h3: { en: "Outdoor Majlis Services", ar: "خدمات المجالس الخارجية" },
+    h3: { en: "Custom Outdoor Majlis", ar: "المجالس الخارجية المخصصة" },
     shortDesc: { en: "Custom-built glass majlis, traditional Arabic majlis, sandwich panel majlis, pergolas, and guest annexes — designed, built, and maintained from the ground up, with a fixed quote up front and a 100% guarantee on every build.", ar: "مجالس زجاجية مخصصة، ومجالس عربية تقليدية، ومجالس بالألواح الساندويتش، وبرجولات، وملحقات ضيافة — تصميم وبناء وصيانة من الألف إلى الياء، بسعر ثابت مسبقًا وضمان 100% على كل بناء." },
     h4: { en: "Majlis Design, Construction &amp; Renovation", ar: "تصميم وبناء وتجديد المجالس" },
     longDesc: {
@@ -51,10 +51,10 @@ module.exports = [
   },
   {
     id: "car-garage",
-    comment: { en: "6. Outdoor Car Garage Construction", ar: "6. إنشاء كراجات السيارات الخارجية" },
-    dataService: { en: "Outdoor Car Garage Construction", ar: "إنشاء كراجات السيارات الخارجية" },
-    bookingGroupLabel: { en: "Outdoor Car Garage Construction", ar: "إنشاء كراجات السيارات الخارجية" },
-    bookingOptions: [{ en: "Outdoor Car Garage Construction", ar: "إنشاء كراجات السيارات الخارجية" }],
+    comment: { en: "6. Custom Outdoor Car Garages", ar: "6. كراجات السيارات الخارجية المخصصة" },
+    dataService: { en: "Custom Outdoor Car Garages", ar: "كراجات السيارات الخارجية المخصصة" },
+    bookingGroupLabel: { en: "Custom Outdoor Car Garages", ar: "كراجات السيارات الخارجية المخصصة" },
+    bookingOptions: [{ en: "Custom Outdoor Car Garages", ar: "كراجات السيارات الخارجية المخصصة" }],
     bookingOrder: 2,
     images: [
       { src: "assets/images/garage-1.jpg", alt: { en: "Curved fabric carport shade beside a villa garage", ar: "مظلة قماشية منحنية بجانب كراج فيلا" } },
@@ -63,7 +63,7 @@ module.exports = [
       { src: "assets/images/garage-4.jpg", alt: { en: "Tensioned fabric shade sail carport over a sedan", ar: "مظلة قماشية مشدودة فوق سيارة سيدان" } },
       { src: "assets/images/garage-5.jpg", alt: { en: "Wooden pergola-style carport shading two vehicles", ar: "مظلة خشبية على طراز البرجولا تظلل سيارتين" } }
     ],
-    h3: { en: "Outdoor Car Garage Construction", ar: "إنشاء كراجات السيارات الخارجية" },
+    h3: { en: "Custom Outdoor Car Garages", ar: "كراجات السيارات الخارجية المخصصة" },
     shortDesc: { en: "Custom car garages, carports, parking shades, steel structures, aluminum garages, and sandwich panel garages for residential properties — quoted with a flat price and backed by our 100% guarantee.", ar: "كراجات سيارات مخصصة، ومظلات سيارات، ومظلات مواقف، وهياكل فولاذية، وكراجات ألمنيوم، وكراجات بألواح ساندويتش للعقارات السكنية — بسعر ثابت وضمان 100%." },
     h4: { en: "Custom Car Garage &amp; Carport Construction", ar: "إنشاء كراجات ومظلات سيارات مخصصة" },
     longDesc: {

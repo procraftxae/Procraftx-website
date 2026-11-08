@@ -112,7 +112,7 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Outdoor Majlis Services", titleAr: "خدمات المجالس الخارجية", anchor:"outdoor-majlis",
+  titleEn: "Custom Outdoor Majlis", titleAr: "المجالس الخارجية المخصصة", anchor:"outdoor-majlis",
   linkEn:"See outdoor majlis services", linkAr:"اطّلع على خدمات المجالس الخارجية",
   questions: [
     {qEn:"What's the difference between a glass majlis and a traditional Arabic majlis?", aEn:"A glass majlis is a modern, fully-glazed structure with a sleek aluminum frame, while a traditional Arabic majlis uses classic tented or clad designs with detailed finishes. We build both.",
@@ -134,7 +134,7 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Outdoor Car Garage Construction", titleAr: "إنشاء كراجات السيارات الخارجية", anchor:"car-garage",
+  titleEn: "Custom Outdoor Car Garages", titleAr: "كراجات السيارات الخارجية المخصصة", anchor:"car-garage",
   linkEn:"See car garage construction", linkAr:"اطّلع على إنشاء كراجات السيارات",
   questions: [
     {qEn:"What's the difference between a carport and a full garage?", aEn:"A carport is an open-sided shade structure that protects your car from sun and rain, while a full garage is a fully enclosed structure with walls and a door. We build both.",
