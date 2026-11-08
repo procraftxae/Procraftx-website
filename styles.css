@@ -324,7 +324,7 @@
     scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
     padding-bottom:10px;scrollbar-width:thin;
   }
-  .subservice-grid.service-scroll .sub-card{flex:0 0 260px;scroll-snap-align:start;}
+  .subservice-grid.service-scroll .sub-card{flex:0 0 260px;scroll-snap-align:start;height:auto;}
   .subservice-grid.service-scroll::-webkit-scrollbar{height:5px;}
   .subservice-grid.service-scroll::-webkit-scrollbar-thumb{background:var(--line);border-radius:10px;}
   /* separates the Services group from the Specialties group — a defined rule
@@ -578,7 +578,7 @@
     /* ---- Shinex-style service cards: bold photo, uppercase heading, red pill CTA ---- */
     .subservice-grid{grid-template-columns:repeat(2, 1fr);gap:12px;}
     .subservice-grid.service-scroll{display:flex;gap:12px;padding-bottom:8px;}
-    .subservice-grid.service-scroll .sub-card{flex:0 0 190px;}
+    .subservice-grid.service-scroll .sub-card{flex:0 0 165px;}
     .sub-card{border-radius:14px;border-width:2px;}
     .sub-card-wide{grid-column:1 / -1;max-width:100%;}
     .sub-card .thumb{height:150px;}
