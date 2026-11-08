@@ -316,6 +316,17 @@
   /* flex (not grid) so an odd-count last row centers its leftover card
      instead of stranding it in the first column with empty space beside it */
   .subservice-grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));gap:20px;align-items:stretch;}
+  /* per-category horizontal scroll strip for the homepage Services section —
+     keeps all 12 service cards reachable by swipe instead of a tall stacked
+     grid, so Specialties (the priority section) comes sooner on mobile. */
+  .subservice-grid.service-scroll{
+    display:flex;flex-wrap:nowrap;overflow-x:auto;gap:20px;
+    scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
+    padding-bottom:10px;scrollbar-width:thin;
+  }
+  .subservice-grid.service-scroll .sub-card{flex:0 0 260px;scroll-snap-align:start;}
+  .subservice-grid.service-scroll::-webkit-scrollbar{height:5px;}
+  .subservice-grid.service-scroll::-webkit-scrollbar-thumb{background:var(--line);border-radius:10px;}
   /* separates the Services group from the Specialties group — a defined rule
      rather than whitespace, so the two halves of the section read as distinct */
   .section-divider{
@@ -564,6 +575,8 @@
     .field-row{grid-template-columns:1fr;}
     /* ---- Shinex-style service cards: bold photo, uppercase heading, red pill CTA ---- */
     .subservice-grid{grid-template-columns:repeat(2, 1fr);gap:12px;}
+    .subservice-grid.service-scroll{display:flex;gap:12px;padding-bottom:8px;}
+    .subservice-grid.service-scroll .sub-card{flex:0 0 190px;}
     .sub-card{border-radius:14px;border-width:2px;}
     .sub-card-wide{grid-column:1 / -1;max-width:100%;}
     .sub-card .thumb{height:150px;}
