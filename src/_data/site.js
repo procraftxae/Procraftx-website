@@ -30,16 +30,16 @@ module.exports = {
 
   hero: {
     eyebrow: { en: "Licensed · Insured · 8 specialties, 12 services", ar: "مرخّص · مؤمَّن · 8 تخصصات، 12 خدمة" },
-    h1_main: { en: "All services.", ar: "كل الخدمات." },
-    h1_span: { en: "In one.", ar: "في مكان واحد." },
+    h1_main: { en: "Specialties &amp; services.", ar: "تخصصات وخدمات." },
+    h1_span: { en: "All in one.", ar: "في مكان واحد." },
     lead: {
-      en: "Core home maintenance, specialized furniture care, and deep cleaning &amp; sanitization — one trusted crew handles it all, with a flat quote before we start and a guarantee behind every job.",
-      ar: "الصيانة المنزلية الأساسية، والعناية المتخصصة بالأثاث، والتنظيف العميق والتعقيم — فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل."
+      en: "Interior design, custom majlis, swimming pools, and landscaping — plus core home maintenance, furniture care, and deep cleaning. One trusted crew handles it all, with a flat quote before we start and a guarantee behind every job.",
+      ar: "تصميم داخلي، مجالس مخصصة، مسابح سباحة، وتنسيق حدائق — بالإضافة إلى الصيانة المنزلية الأساسية والعناية بالأثاث والتنظيف العميق. فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل."
     },
     ctaBook: { en: "Book a Free Visit", ar: "احجز زيارة مجانية" },
-    ctaSee: { en: "See All Services", ar: "استعرض جميع الخدمات" },
-    videoAriaLabel: { en: "Maintenance workers at work", ar: "فنيو الصيانة أثناء العمل" },
-    mobileLinkAriaLabel: { en: "See all services", ar: "عرض جميع الخدمات" }
+    ctaSee: { en: "See Specialties &amp; Services", ar: "استعرض التخصصات والخدمات" },
+    videoAriaLabel: { en: "Procraftx crew at work", ar: "طاقم بروكرافتكس أثناء العمل" },
+    mobileLinkAriaLabel: { en: "See all specialties and services", ar: "عرض كل التخصصات والخدمات" }
   },
 
   trustCards: [
