@@ -46,7 +46,7 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Our Furniture &amp; Moving Services", titleAr: "خدمات الأثاث والنقل لدينا", anchor:"furniture-services",
+  titleEn: "Furniture &amp; Moving Services", titleAr: "خدمات الأثاث والنقل", anchor:"furniture-services",
   linkEn:"See our furniture &amp; moving services", linkAr:"اطّلع على خدمات الأثاث والنقل لدينا",
   questions: [
     {qEn:"Do I need to bring furniture to you, or do you work on-site?", aEn:"Most upholstery, mattress, and furniture cleaning is done right at your home. Larger restoration or painting jobs may be collected and returned once finished — we'll tell you which applies when we quote the job.",

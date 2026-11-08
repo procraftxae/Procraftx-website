@@ -35,8 +35,8 @@ module.exports = {
     },
     {
       id: "furniture-services",
-      comment: { en: "2. Our Furniture &amp; Moving Services", ar: "2. خدمات الأثاث والنقل" },
-      title: { en: "Our Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل لدينا" },
+      comment: { en: "2. Furniture &amp; Moving Services", ar: "2. خدمات الأثاث والنقل" },
+      title: { en: "Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل" },
       services: [
         {
           img: "assets/images/handyman-service.jpg",
