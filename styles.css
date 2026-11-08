@@ -320,7 +320,7 @@
      keeps all 12 service cards reachable by swipe instead of a tall stacked
      grid, so Specialties (the priority section) comes sooner on mobile. */
   .subservice-grid.service-scroll{
-    display:flex;flex-wrap:nowrap;overflow-x:auto;gap:20px;
+    display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;gap:20px;
     scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
     padding-bottom:10px;scrollbar-width:thin;
   }
@@ -570,8 +570,10 @@
     /* tighter vertical rhythm on mobile */
     .section{padding:64px 0 56px;}
     .section-head{margin-bottom:40px;}
-    .category-block{margin-bottom:44px;}
-    .category-head{margin-bottom:20px;padding-bottom:16px;flex-direction:column;gap:8px;}
+    .category-block{margin-bottom:28px;}
+    .category-head{margin-bottom:14px;padding-bottom:10px;flex-direction:column;gap:6px;}
+    .category-head h3{font-size:19px;}
+    .category-head p{font-size:15px;}
     .field-row{grid-template-columns:1fr;}
     /* ---- Shinex-style service cards: bold photo, uppercase heading, red pill CTA ---- */
     .subservice-grid{grid-template-columns:repeat(2, 1fr);gap:12px;}
