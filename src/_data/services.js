@@ -8,12 +8,6 @@ module.exports = {
       title: { en: "Core Home Maintenance", ar: "الصيانة المنزلية الأساسية" },
       services: [
         {
-          img: "assets/images/ac-service.jpg",
-          alt: { en: "Technician pressure-washing an AC unit", ar: "فني يغسل وحدة تكييف بالضغط العالي" },
-          name: { en: "Air Conditioning (AC) Services", ar: "خدمات تكييف الهواء" },
-          desc: { en: "Filters cleaned, gas refilled, and leaks fixed to keep your cooling efficient.", ar: "تنظيف الفلاتر، تعبئة الغاز، وإصلاح التسريبات للحفاظ على كفاءة التبريد." }
-        },
-        {
           img: "assets/images/plumbing-service.jpg",
           alt: { en: "Plumber repairing a leaking pipe under a sink", ar: "سبّاك يصلح أنبوبًا يتسرب تحت المغسلة" },
           name: { en: "Plumbing Support", ar: "خدمات السباكة" },
@@ -24,6 +18,12 @@ module.exports = {
           alt: { en: "Electrician testing wiring at a light fixture and outlet with a multimeter", ar: "كهربائي يفحص الأسلاك عند تجهيزة إضاءة ومقبس بجهاز قياس" },
           name: { en: "Electrical Work", ar: "الأعمال الكهربائية" },
           desc: { en: "Light fixtures mounted, faulty wiring fixed, and power sockets safely replaced.", ar: "تركيب تجهيزات الإضاءة، إصلاح الأسلاك التالفة، واستبدال المقابس الكهربائية بأمان." }
+        },
+        {
+          img: "assets/images/ac-service.jpg",
+          alt: { en: "Technician pressure-washing an AC unit", ar: "فني يغسل وحدة تكييف بالضغط العالي" },
+          name: { en: "Air Conditioning (AC) Services", ar: "خدمات تكييف الهواء" },
+          desc: { en: "Filters cleaned, gas refilled, and leaks fixed to keep your cooling efficient.", ar: "تنظيف الفلاتر، تعبئة الغاز، وإصلاح التسريبات للحفاظ على كفاءة التبريد." }
         },
         {
           img: "assets/images/wall-painting-service.jpg",
@@ -39,10 +39,10 @@ module.exports = {
       title: { en: "Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل" },
       services: [
         {
-          img: "assets/images/handyman-service.jpg",
-          alt: { en: "Handyman mounting a wall shelf with a drill", ar: "فني صيانة عامة يركّب رفًا على الجدار بمثقاب" },
-          name: { en: "Handyman Tasks", ar: "أعمال الصيانة العامة" },
-          desc: { en: "Hanging shelves, mounting TVs, fixing door hinges, and small everyday repairs.", ar: "تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة." }
+          img: "assets/images/furniture-design-build-service.jpg",
+          alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" },
+          name: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+          desc: { en: "Custom furniture designed, built, and installed to fit your space and style exactly.", ar: "أثاث مخصص يُصمَّم ويُصنَّع ويُركَّب ليناسب مساحتك وأسلوبك تمامًا." }
         },
         {
           img: "assets/images/packers-movers-service.jpg",
@@ -51,16 +51,16 @@ module.exports = {
           desc: { en: "Securely wrapping your belongings, loading trucks, and transporting to a new home.", ar: "تغليف ممتلكاتك بأمان، تحميلها على الشاحنات، ونقلها إلى المنزل الجديد." }
         },
         {
+          img: "assets/images/handyman-service.jpg",
+          alt: { en: "Handyman mounting a wall shelf with a drill", ar: "فني صيانة عامة يركّب رفًا على الجدار بمثقاب" },
+          name: { en: "Handyman Tasks", ar: "أعمال الصيانة العامة" },
+          desc: { en: "Hanging shelves, mounting TVs, fixing door hinges, and small everyday repairs.", ar: "تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة." }
+        },
+        {
           img: "assets/images/restoration-service.jpg",
           alt: { en: "Furniture specialist sanding and painting a wooden chair", ar: "أخصائي أثاث يصنفر ويدهن كرسيًا خشبيًا" },
           name: { en: "Restoration &amp; Furniture Painting", ar: "ترميم ودهان الأثاث" },
           desc: { en: "Old wooden furniture sanded, varnished, painted, or repaired to look brand new.", ar: "صنفرة الأثاث الخشبي القديم وطلاؤه بالورنيش أو الدهان أو إصلاحه ليبدو جديدًا." }
-        },
-        {
-          img: "assets/images/furniture-design-build-service.jpg",
-          alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" },
-          name: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-          desc: { en: "Custom furniture designed, built, and installed to fit your space and style exactly.", ar: "أثاث مخصص يُصمَّم ويُصنَّع ويُركَّب ليناسب مساحتك وأسلوبك تمامًا." }
         }
       ]
     },
@@ -70,10 +70,10 @@ module.exports = {
       title: { en: "Deep Cleaning &amp; Sanitization", ar: "التنظيف العميق والتعقيم" },
       services: [
         {
-          img: "assets/images/disinfection-service.jpg",
-          alt: { en: "Technician disinfecting a room and treating a bedbug and ant infestation", ar: "فني يعقّم غرفة ويعالج انتشار بق الفراش والنمل" },
-          name: { en: "Disinfection &amp; Pest Management", ar: "التعقيم ومكافحة الحشرات" },
-          desc: { en: "Eradicating bugs like bedbugs or ants, and sanitizing surfaces against bacteria.", ar: "القضاء على الحشرات مثل بق الفراش والنمل، وتعقيم الأسطح من البكتيريا." }
+          img: "assets/images/home-cleaning-service.jpg",
+          alt: { en: "Cleaner vacuuming a rug in a living room", ar: "عامل تنظيف يكنس سجادة في غرفة المعيشة" },
+          name: { en: "Home Cleaning", ar: "تنظيف المنزل" },
+          desc: { en: "Routine dusting, vacuuming, mopping, and bathroom cleaning for standard upkeep.", ar: "إزالة الغبار والتنظيف بالمكنسة الكهربائية والمسح وتنظيف الحمامات للصيانة الدورية." }
         },
         {
           img: "assets/images/furniture-cleaning-service.jpg",
@@ -82,16 +82,16 @@ module.exports = {
           desc: { en: "Specialized stain removal and steam cleaning for delicate leather, fabric and carpets.", ar: "إزالة متخصصة للبقع وتنظيف بالبخار للجلد والأقمشة والسجاد الحساس." }
         },
         {
-          img: "assets/images/home-cleaning-service.jpg",
-          alt: { en: "Cleaner vacuuming a rug in a living room", ar: "عامل تنظيف يكنس سجادة في غرفة المعيشة" },
-          name: { en: "Home Cleaning", ar: "تنظيف المنزل" },
-          desc: { en: "Routine dusting, vacuuming, mopping, and bathroom cleaning for standard upkeep.", ar: "إزالة الغبار والتنظيف بالمكنسة الكهربائية والمسح وتنظيف الحمامات للصيانة الدورية." }
-        },
-        {
           img: "assets/images/water-tank-cleaning-service.jpg",
           alt: { en: "Technician pressure-washing the inside of a water tank", ar: "فني يغسل داخل خزان مياه بالضغط العالي" },
           name: { en: "Water Tank Cleaning", ar: "تنظيف خزانات المياه" },
           desc: { en: "High-pressure cleaning and disinfection of overhead and underground water tanks to keep your supply safe.", ar: "تنظيف وتعقيم بالضغط العالي لخزانات المياه العلوية والأرضية للحفاظ على سلامة مصدر المياه." }
+        },
+        {
+          img: "assets/images/disinfection-service.jpg",
+          alt: { en: "Technician disinfecting a room and treating a bedbug and ant infestation", ar: "فني يعقّم غرفة ويعالج انتشار بق الفراش والنمل" },
+          name: { en: "Disinfection &amp; Pest Management", ar: "التعقيم ومكافحة الحشرات" },
+          desc: { en: "Eradicating bugs like bedbugs or ants, and sanitizing surfaces against bacteria.", ar: "القضاء على الحشرات مثل بق الفراش والنمل، وتعقيم الأسطح من البكتيريا." }
         }
       ]
     }
