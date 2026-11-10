@@ -38,6 +38,37 @@
     update();
   })();
 
+  // one-time auto-scroll hint for each horizontal service strip: scrolls to
+  // the last card and back the first time it enters view, so mobile users
+  // realize there are more cards instead of assuming the category is just
+  // those 2 visible ones. Cancels immediately if the user touches/scrolls
+  // it themselves, and never fires at all under reduced-motion.
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const strips = document.querySelectorAll('.service-scroll');
+    const stripIO = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(!entry.isIntersecting) return;
+        const el = entry.target;
+        stripIO.unobserve(el);
+        const cards = el.children;
+        if(cards.length < 2 || el.scrollWidth <= el.clientWidth + 4) return;
+        let cancelled = false;
+        const cancel = () => { cancelled = true; };
+        el.addEventListener('pointerdown', cancel, {once:true, passive:true});
+        el.addEventListener('wheel', cancel, {once:true, passive:true});
+        setTimeout(()=>{
+          if(cancelled) return;
+          cards[cards.length - 1].scrollIntoView({behavior:'smooth', inline:'end', block:'nearest'});
+          setTimeout(()=>{
+            if(cancelled) return;
+            cards[0].scrollIntoView({behavior:'smooth', inline:'start', block:'nearest'});
+          }, 1100);
+        }, 700);
+      });
+    }, {threshold:0.5});
+    strips.forEach(el => stripIO.observe(el));
+  }
+
   // animated stat counters
   const counters = document.querySelectorAll('.stats-grid .num');
   const countIO = new IntersectionObserver((entries)=>{
