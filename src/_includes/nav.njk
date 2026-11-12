@@ -10,8 +10,8 @@
   <nav>
     <a class="logo" href="{{ logoHref }}">{{ "PROCRAFTX" if lang == "en" else "بروكرافتكس" }}</a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="{{ servicesHref }}">{{ site.nav.services[lang] | safe }}</a></li>
       <li><a href="{{ specialtiesHref }}">{{ site.nav.specialties[lang] | safe }}</a></li>
+      <li><a href="{{ servicesHref }}">{{ site.nav.services[lang] | safe }}</a></li>
       <li><a href="faq.html"{{ ' aria-current="page"' | safe if onFaqPage }}>{{ site.nav.faqs[lang] | safe }}</a></li>
     </ul>
     <div class="nav-cta">

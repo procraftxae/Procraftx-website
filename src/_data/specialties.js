@@ -1,4 +1,4 @@
-// 7 named specialties (the 8th, "All Customize Works", is a catch-all CTA card
+// 9 named specialties (an additional catch-all CTA card, "All Customize Works", is
 // handled directly in index.njk from site.customizeCard, not this list).
 // h4/longDesc double as the JSON-LD hasOfferCatalog Service name/description.
 // bookingOptions: the <option>s this specialty contributes to the booking
@@ -29,10 +29,10 @@ module.exports = [
   },
   {
     id: "outdoor-majlis",
-    comment: { en: "5. Custom Outdoor Majlis", ar: "5. المجالس الخارجية المخصصة" },
-    dataService: { en: "Custom Outdoor Majlis", ar: "المجالس الخارجية المخصصة" },
-    bookingGroupLabel: { en: "Custom Outdoor Majlis", ar: "المجالس الخارجية المخصصة" },
-    bookingOptions: [{ en: "Custom Outdoor Majlis", ar: "المجالس الخارجية المخصصة" }],
+    comment: { en: "5. Custom Outdoor Majlis &amp; Pergolas", ar: "5. المجالس الخارجية المخصصة والبرجولات" },
+    dataService: { en: "Custom Outdoor Majlis &amp; Pergolas", ar: "المجالس الخارجية المخصصة والبرجولات" },
+    bookingGroupLabel: { en: "Custom Outdoor Majlis &amp; Pergolas", ar: "المجالس الخارجية المخصصة والبرجولات" },
+    bookingOptions: [{ en: "Custom Outdoor Majlis &amp; Pergolas", ar: "المجالس الخارجية المخصصة والبرجولات" }],
     bookingOrder: 1,
     images: [
       { src: "assets/images/majlis-1.jpg", alt: { en: "Modern glass majlis with sheer curtains and lounge seating", ar: "مجلس زجاجي حديث بستائر شفافة ومقاعد استرخاء" } },
@@ -41,7 +41,7 @@ module.exports = [
       { src: "assets/images/majlis-4.jpg", alt: { en: "Ornate traditional Arabic majlis tent with gold detailing", ar: "خيمة مجلس عربي تقليدي مزخرفة بتفاصيل ذهبية" } },
       { src: "assets/images/majlis-5.jpg", alt: { en: "Modern sandwich panel guest annex with garden lighting", ar: "ملحق ضيافة حديث بألواح ساندويتش وإضاءة حدائق" } }
     ],
-    h3: { en: "Custom Outdoor Majlis", ar: "المجالس الخارجية المخصصة" },
+    h3: { en: "Custom Outdoor Majlis &amp; Pergolas", ar: "المجالس الخارجية المخصصة والبرجولات" },
     shortDesc: { en: "Custom-built glass majlis, traditional Arabic majlis, sandwich panel majlis, pergolas, and guest annexes — designed, built, and maintained from the ground up, with a fixed quote up front and a 100% guarantee on every build.", ar: "مجالس زجاجية مخصصة، ومجالس عربية تقليدية، ومجالس بالألواح الساندويتش، وبرجولات، وملحقات ضيافة — تصميم وبناء وصيانة من الألف إلى الياء، بسعر ثابت مسبقًا وضمان 100% على كل بناء." },
     h4: { en: "Majlis Design, Construction &amp; Renovation", ar: "تصميم وبناء وتجديد المجالس" },
     longDesc: {
@@ -51,10 +51,10 @@ module.exports = [
   },
   {
     id: "car-garage",
-    comment: { en: "6. Custom Outdoor Car Garages", ar: "6. كراجات السيارات الخارجية المخصصة" },
-    dataService: { en: "Custom Outdoor Car Garages", ar: "كراجات السيارات الخارجية المخصصة" },
-    bookingGroupLabel: { en: "Custom Outdoor Car Garages", ar: "كراجات السيارات الخارجية المخصصة" },
-    bookingOptions: [{ en: "Custom Outdoor Car Garages", ar: "كراجات السيارات الخارجية المخصصة" }],
+    comment: { en: "6. Custom Car Garages &amp; Outdoor Carports", ar: "6. كراجات السيارات والمظلات الخارجية المخصصة" },
+    dataService: { en: "Custom Car Garages &amp; Outdoor Carports", ar: "كراجات السيارات والمظلات الخارجية المخصصة" },
+    bookingGroupLabel: { en: "Custom Car Garages &amp; Outdoor Carports", ar: "كراجات السيارات والمظلات الخارجية المخصصة" },
+    bookingOptions: [{ en: "Custom Car Garages &amp; Outdoor Carports", ar: "كراجات السيارات والمظلات الخارجية المخصصة" }],
     bookingOrder: 2,
     images: [
       { src: "assets/images/garage-1.jpg", alt: { en: "Curved fabric carport shade beside a villa garage", ar: "مظلة قماشية منحنية بجانب كراج فيلا" } },
@@ -63,7 +63,7 @@ module.exports = [
       { src: "assets/images/garage-4.jpg", alt: { en: "Tensioned fabric shade sail carport over a sedan", ar: "مظلة قماشية مشدودة فوق سيارة سيدان" } },
       { src: "assets/images/garage-5.jpg", alt: { en: "Wooden pergola-style carport shading two vehicles", ar: "مظلة خشبية على طراز البرجولا تظلل سيارتين" } }
     ],
-    h3: { en: "Custom Outdoor Car Garages", ar: "كراجات السيارات الخارجية المخصصة" },
+    h3: { en: "Custom Car Garages &amp; Outdoor Carports", ar: "كراجات السيارات والمظلات الخارجية المخصصة" },
     shortDesc: { en: "Custom car garages, carports, parking shades, steel structures, aluminum garages, and sandwich panel garages for residential properties — quoted with a flat price and backed by our 100% guarantee.", ar: "كراجات سيارات مخصصة، ومظلات سيارات، ومظلات مواقف، وهياكل فولاذية، وكراجات ألمنيوم، وكراجات بألواح ساندويتش للعقارات السكنية — بسعر ثابت وضمان 100%." },
     h4: { en: "Custom Car Garage &amp; Carport Construction", ar: "إنشاء كراجات ومظلات سيارات مخصصة" },
     longDesc: {
@@ -103,7 +103,7 @@ module.exports = [
     bookingGroupLabel: { en: "Custom Glass Work", ar: "أعمال الزجاج المخصصة" },
     bookingOptions: [
       { en: "Shower Glass Installation", ar: "تركيب زجاج الحمام" },
-      { en: "Custom Glass Work", ar: "أعمال زجاج مخصصة" }
+      { en: "Custom Glass &amp; Mirror Work", ar: "أعمال الزجاج والمرايا المخصصة" }
     ],
     bookingOrder: 8,
     images: [
@@ -113,7 +113,7 @@ module.exports = [
       { src: "assets/images/window-install-4.jpg", alt: { en: "Technician installing a window from inside a home", ar: "فني يركّب نافذة من داخل المنزل" } },
       { src: "assets/images/shower-glass-1.jpg", alt: { en: "Technician installing a glass shower enclosure", ar: "فني يركّب حاجز زجاجي للحمام" } }
     ],
-    h3: { en: "Custom Glass Work", ar: "أعمال الزجاج المخصصة" },
+    h3: { en: "Custom Glass &amp; Mirror Work", ar: "أعمال الزجاج والمرايا المخصصة" },
     shortDesc: { en: "Shower glass, mirrors, partitions, balustrades, tabletops, and safety glass — custom-made and installed for whatever the space needs, at a flat price and with a 100% guarantee.", ar: "زجاج الحمام، والمرايا، والفواصل، والحواجز، والطاولات، والزجاج الآمن — مصنّع ومركّب حسب ما تحتاجه المساحة، بسعر ثابت وضمان 100%." },
     h4: { en: "Custom Glass Fabrication &amp; Installation", ar: "تصنيع وتركيب زجاج مخصص" },
     longDesc: {
@@ -123,10 +123,10 @@ module.exports = [
   },
   {
     id: "window-tinting",
-    comment: { en: "8. Residential Window Tinting", ar: "8. تظليل نوافذ المنازل" },
-    dataService: { en: "Residential Window Tinting", ar: "تظليل نوافذ المنازل" },
-    bookingGroupLabel: { en: "Residential Window Tinting", ar: "تظليل نوافذ المنازل" },
-    bookingOptions: [{ en: "Residential Window Tinting", ar: "تظليل نوافذ المنازل" }],
+    comment: { en: "8. Window Tinting &amp; Privacy/Protection Film", ar: "8. تظليل النوافذ وأفلام الخصوصية والحماية" },
+    dataService: { en: "Window Tinting &amp; Privacy/Protection Film", ar: "تظليل النوافذ وأفلام الخصوصية والحماية" },
+    bookingGroupLabel: { en: "Window Tinting &amp; Privacy/Protection Film", ar: "تظليل النوافذ وأفلام الخصوصية والحماية" },
+    bookingOptions: [{ en: "Window Tinting &amp; Privacy/Protection Film", ar: "تظليل النوافذ وأفلام الخصوصية والحماية" }],
     bookingOrder: 4,
     images: [
       { src: "assets/images/tinting-1.jpg", alt: { en: "Technician applying tinting film to a villa window", ar: "فني يركّب فيلم تظليل على نافذة فيلا" } },
@@ -135,7 +135,7 @@ module.exports = [
       { src: "assets/images/tinting-4.jpg", alt: { en: "Decorative patterned film on a glass partition", ar: "فيلم زخرفي على فاصل زجاجي" } },
       { src: "assets/images/tinting-5.jpg", alt: { en: "Installer smoothing tint film with a squeegee", ar: "فني تركيب يمسح فيلم التظليل بممسحة" } }
     ],
-    h3: { en: "Residential Window Tinting", ar: "تظليل نوافذ المنازل" },
+    h3: { en: "Window Tinting &amp; Privacy/Protection Film", ar: "تظليل النوافذ وأفلام الخصوصية والحماية" },
     shortDesc: { en: "Heat-rejection, UV-blocking, privacy, security and decorative films — professionally applied to villa and apartment glass, with a flat price and a 100% guarantee against bubbling or peeling.", ar: "أفلام عازلة للحرارة، وحاجبة للأشعة فوق البنفسجية، وأفلام الخصوصية والحماية والزخرفة — تُركّب باحترافية على زجاج الفلل والشقق، بسعر ثابت وضمان 100% ضد التقشر أو ظهور الفقاعات." },
     h4: { en: "Home Window Film &amp; Tinting", ar: "أفلام وتظليل نوافذ المنزل" },
     longDesc: {
@@ -167,10 +167,10 @@ module.exports = [
   },
   {
     id: "gardening-irrigation",
-    comment: { en: "10. Landscaping &amp; Gardening", ar: "10. تنسيق الحدائق والبستنة" },
-    dataService: { en: "Landscaping &amp; Gardening", ar: "تنسيق الحدائق والبستنة" },
-    bookingGroupLabel: { en: "Landscaping &amp; Gardening", ar: "تنسيق الحدائق والبستنة" },
-    bookingOptions: [{ en: "Landscaping &amp; Gardening", ar: "تنسيق الحدائق والبستنة" }],
+    comment: { en: "10. Landscaping, Gardening &amp; Irrigation", ar: "10. تنسيق الحدائق والبستنة وأنظمة الري" },
+    dataService: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
+    bookingGroupLabel: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
+    bookingOptions: [{ en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" }],
     bookingOrder: 7,
     images: [
       { src: "assets/images/garden-1.jpg", alt: { en: "Pop-up sprinklers watering the lawn of a modern villa garden", ar: "رشاشات مياه منبثقة تروي عشب حديقة فيلا حديثة" } },
@@ -179,12 +179,30 @@ module.exports = [
       { src: "assets/images/garden-4.jpg", alt: { en: "Gardener trimming a hedge with a powered hedge trimmer", ar: "بستاني يشذّب سياجًا بمقص كهربائي" } },
       { src: "assets/images/garden-5.jpg", alt: { en: "Finished villa garden with manicured lawn, palm trees and flower beds", ar: "حديقة فيلا مكتملة بعشب مشذّب ونخيل وأحواض زهور" } }
     ],
-    h3: { en: "Landscaping &amp; Gardening", ar: "تنسيق الحدائق والبستنة" },
+    h3: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
     shortDesc: { en: "Garden design and planting, automatic irrigation installation and repair, and regular upkeep to keep everything green year-round — at a flat, agreed price with our 100% guarantee on every job.", ar: "تصميم الحدائق والزراعة، وتركيب وإصلاح أنظمة الري الأوتوماتيكية، وصيانة دورية للحفاظ على الخضرة طوال العام — بسعر ثابت متفق عليه وضمان 100% على كل عمل." },
     h4: { en: "Landscaping &amp; Irrigation", ar: "تنسيق الحدائق والري" },
     longDesc: {
       en: "Complete garden and landscaping work — design and soft landscaping, natural lawns and artificial grass, tree, shrub and seasonal flower planting, plus hard landscaping such as pathways, pergolas, decking, and decorative gravel. Irrigation covers full system design and installation, automatic sprinkler and drip-line setup, smart timers and controllers, pump and valve fitting, and repair of leaks, blockages, and broken sprinkler heads. Ongoing maintenance includes mowing, hedge and tree trimming, weed and pest control, fertilisation, seasonal replanting, and irrigation system checks. Our own licensed team handles design through to ongoing upkeep, so the same crew that planted your garden is the one maintaining it.",
       ar: "أعمال حدائق وتنسيق متكاملة — التصميم والتنسيق الأخضر، والمسطحات الطبيعية والعشب الصناعي، وزراعة الأشجار والشجيرات والزهور الموسمية، بالإضافة إلى التنسيق الصلب مثل الممرات والبرجولات والأسطح الخشبية والحصى الزخرفي. ويشمل الري تصميم وتركيب النظام بالكامل، وتركيب الرشاشات الأوتوماتيكية وخطوط التنقيط، والمؤقتات وأجهزة التحكم الذكية، وتركيب المضخات والصمامات، وإصلاح التسربات والانسدادات ورؤوس الرشاشات التالفة. وتشمل الصيانة المستمرة قص العشب، وتشذيب الأسيجة والأشجار، ومكافحة الأعشاب والآفات، والتسميد، وإعادة الزراعة الموسمية، وفحص أنظمة الري. يتولى فريقنا المرخّص التصميم وحتى الصيانة المستمرة، بحيث يكون نفس الفريق الذي زرع حديقتك هو من يعتني بها."
+    }
+  },
+  {
+    id: "furniture-design-build",
+    comment: { en: "11. Custom Furniture Design &amp; Build", ar: "11. تصميم وتصنيع الأثاث المخصص" },
+    dataService: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+    bookingGroupLabel: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+    bookingOptions: [{ en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" }],
+    bookingOrder: 9,
+    images: [
+      { src: "assets/images/furniture-design-build-service.jpg", alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" } }
+    ],
+    h3: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+    shortDesc: { en: "Bespoke wardrobes, TV units, kitchen cabinetry, and one-off furniture pieces designed, built, and installed to fit your exact space — at a flat price and backed by our 100% guarantee.", ar: "خزائن ملابس ووحدات تلفزيون وخزائن مطبخ وقطع أثاث فريدة، تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك تمامًا — بسعر ثابت وضمان 100%." },
+    h4: { en: "Bespoke Furniture Design, Build &amp; Installation", ar: "تصميم وتصنيع وتركيب أثاث حسب الطلب" },
+    longDesc: {
+      en: "Design, fabrication, and installation of bespoke furniture built to the exact dimensions of your space — wardrobes, TV units, kitchen and bathroom cabinetry, shelving, and one-off statement pieces, in your choice of wood, laminate, veneer, or painted finish. We handle material selection, 3D visuals before fabrication, and final fitting, so every piece fits perfectly and matches the rest of your interior. Every project is built and installed by our own licensed, background-checked joinery team — one point of contact from first sketch to final placement, with a flat price agreed before work starts and a 100% guarantee on materials and workmanship.",
+      ar: "تصميم وتصنيع وتركيب أثاث مخصص يُصنَّع بالضبط حسب أبعاد مساحتك — خزائن ملابس، وحدات تلفزيون، خزائن مطبخ وحمام، أرفف، وقطع مميزة فريدة، بالخشب أو اللامينيت أو القشرة أو التشطيب المطلي حسب رغبتك. نتولى اختيار المواد، وتقديم مجسمات ثلاثية الأبعاد قبل التصنيع، والتركيب النهائي، بحيث تتناسب كل قطعة تمامًا مع بقية ديكور منزلك. يتولى كل مشروع فريق النجارة المرخّص والموثّق الخلفية لدينا — جهة تواصل واحدة من أول رسمة حتى التركيب النهائي، بسعر ثابت متفق عليه قبل البدء وضمان 100% على المواد وجودة التنفيذ."
     }
   }
 ];

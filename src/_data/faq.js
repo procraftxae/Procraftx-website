@@ -1,4 +1,4 @@
-// 11 groups x 8 Q&A pairs, in on-page order. Relocated from the one-off
+// 14 groups x 8 Q&A pairs, in on-page order. Relocated from the one-off
 // substitution script used to hand-build the FAQ page earlier this session —
 // this IS that same reviewed content, just moved into the data layer.
 module.exports = [
@@ -112,8 +112,8 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Custom Outdoor Majlis", titleAr: "المجالس الخارجية المخصصة", anchor:"outdoor-majlis",
-  linkEn:"See outdoor majlis services", linkAr:"اطّلع على خدمات المجالس الخارجية",
+  titleEn: "Custom Outdoor Majlis &amp; Pergolas", titleAr: "المجالس الخارجية المخصصة والبرجولات", anchor:"outdoor-majlis",
+  linkEn:"See outdoor majlis &amp; pergola services", linkAr:"اطّلع على خدمات المجالس والبرجولات الخارجية",
   questions: [
     {qEn:"What's the difference between a glass majlis and a traditional Arabic majlis?", aEn:"A glass majlis is a modern, fully-glazed structure with a sleek aluminum frame, while a traditional Arabic majlis uses classic tented or clad designs with detailed finishes. We build both.",
      qAr:"ما الفرق بين المجلس الزجاجي والمجلس العربي التقليدي؟", aAr:"المجلس الزجاجي هو هيكل حديث بالكامل من الزجاج بإطار ألمنيوم أنيق، بينما يستخدم المجلس العربي التقليدي تصاميم مخيّمة أو مكسوة كلاسيكية بلمسات نهائية مفصّلة. نبني كلا النوعين."},
@@ -134,8 +134,8 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Custom Outdoor Car Garages", titleAr: "كراجات السيارات الخارجية المخصصة", anchor:"car-garage",
-  linkEn:"See car garage construction", linkAr:"اطّلع على إنشاء كراجات السيارات",
+  titleEn: "Custom Car Garages &amp; Outdoor Carports", titleAr: "كراجات السيارات والمظلات الخارجية المخصصة", anchor:"car-garage",
+  linkEn:"See car garage &amp; carport construction", linkAr:"اطّلع على إنشاء كراجات ومظلات السيارات",
   questions: [
     {qEn:"What's the difference between a carport and a full garage?", aEn:"A carport is an open-sided shade structure that protects your car from sun and rain, while a full garage is a fully enclosed structure with walls and a door. We build both.",
      qAr:"ما الفرق بين المظلة والكراج الكامل؟", aAr:"المظلة هي هيكل ظليل مفتوح الجوانب يحمي سيارتك من الشمس والمطر، بينما الكراج الكامل هو هيكل مغلق تمامًا بجدران وباب. نبني كلا النوعين."},
@@ -178,8 +178,8 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Custom Glass Work", titleAr: "أعمال الزجاج المخصصة", anchor:"windows-glass",
-  linkEn:"See custom glass work", linkAr:"اطّلع على أعمال الزجاج المخصصة",
+  titleEn: "Custom Glass &amp; Mirror Work", titleAr: "أعمال الزجاج والمرايا المخصصة", anchor:"windows-glass",
+  linkEn:"See custom glass &amp; mirror work", linkAr:"اطّلع على أعمال الزجاج والمرايا المخصصة",
   questions: [
     {qEn:"Do you only do shower glass, or other custom glass work too?", aEn:"Shower glass is just one part — we also make and install mirrors, glass partitions, balustrades, tabletops, and shelving, custom-fitted to your space.",
      qAr:"هل تقدمون زجاج الحمام فقط، أم أعمال زجاج مخصصة أخرى أيضًا؟", aAr:"زجاج الحمام جزء واحد فقط — نصنع ونركّب أيضًا المرايا، والفواصل الزجاجية، والحواجز، والطاولات، والأرفف، مصممة خصيصًا لمساحتك."},
@@ -200,8 +200,8 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Residential Window Tinting", titleAr: "تظليل نوافذ المنازل", anchor:"window-tinting",
-  linkEn:"See residential window tinting", linkAr:"اطّلع على تظليل نوافذ المنازل",
+  titleEn: "Window Tinting &amp; Privacy/Protection Film", titleAr: "تظليل النوافذ وأفلام الخصوصية والحماية", anchor:"window-tinting",
+  linkEn:"See window tinting &amp; privacy/protection film", linkAr:"اطّلع على تظليل النوافذ وأفلام الخصوصية والحماية",
   questions: [
     {qEn:"What's the difference between heat-rejection tint and privacy film?", aEn:"Heat-rejection tint focuses on blocking solar heat and UV rays to cut cooling costs, while privacy film (one-way mirror, frosted, or patterned) is about blocking visibility — many homes combine both on different windows.",
      qAr:"ما الفرق بين تظليل عزل الحرارة وفيلم الخصوصية؟", aAr:"يركّز تظليل عزل الحرارة على منع الحرارة الشمسية والأشعة فوق البنفسجية لتقليل تكاليف التبريد، بينما يهدف فيلم الخصوصية (المرآة أحادية الاتجاه أو المصنفر أو المزخرف) إلى منع الرؤية — تجمع منازل كثيرة بين النوعين على نوافذ مختلفة."},
@@ -244,8 +244,8 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Landscaping &amp; Gardening", titleAr: "تنسيق الحدائق والبستنة", anchor:"gardening-irrigation",
-  linkEn:"See landscaping &amp; gardening", linkAr:"اطّلع على تنسيق الحدائق والبستنة",
+  titleEn: "Landscaping, Gardening &amp; Irrigation", titleAr: "تنسيق الحدائق والبستنة وأنظمة الري", anchor:"gardening-irrigation",
+  linkEn:"See landscaping, gardening &amp; irrigation", linkAr:"اطّلع على تنسيق الحدائق والبستنة وأنظمة الري",
   questions: [
     {qEn:"Do you install irrigation systems, or just do the landscaping?", aEn:"Both — full irrigation design and installation (sprinklers, drip lines, smart timers) is part of the same service as the garden design and planting.",
      qAr:"هل تركّبون أنظمة الري، أم تنسيق الحدائق فقط؟", aAr:"كلاهما — تصميم وتركيب نظام الري الكامل (الرشاشات وخطوط التنقيط والمؤقتات الذكية) جزء من نفس خدمة تصميم الحديقة والزراعة."},
@@ -263,6 +263,28 @@ module.exports = [
      qAr:"هل تقلّمون وتصونون الأشجار القائمة، أم تزرعون أشجارًا جديدة فقط؟", aAr:"كلاهما — تقليم الأشجار والشجيرات والسياج جزء من خدمة الصيانة لدينا، إلى جانب زراعة أشجار جديدة وزهور موسمية."},
     {qEn:"Can smart irrigation controllers be added to an existing system?", aEn:"Yes — we can retrofit smart timers and controllers onto most existing irrigation setups without redoing the whole system.",
      qAr:"هل يمكن إضافة أجهزة تحكم ري ذكية لنظام قائم؟", aAr:"نعم — يمكننا تركيب مؤقتات وأجهزة تحكم ذكية على معظم أنظمة الري القائمة دون إعادة النظام بأكمله."}
+  ]
+},
+{
+  titleEn: "Custom Furniture Design &amp; Build", titleAr: "تصميم وتصنيع الأثاث المخصص", anchor:"furniture-design-build",
+  linkEn:"See custom furniture design &amp; build", linkAr:"اطّلع على تصميم وتصنيع الأثاث المخصص",
+  questions: [
+    {qEn:"Do you only build standard pieces like wardrobes, or can you design something more unusual?", aEn:"We design around whatever you need — if it can be built, we'll design it to fit your exact space and style, not just from a fixed list of pieces.",
+     qAr:"هل تصنعون فقط قطعًا قياسية مثل الخزائن، أم يمكنكم تصميم شيء أكثر تميزًا؟", aAr:"نصمم حسب ما تحتاجه فعليًا — إذا كان بالإمكان تصنيعه، سنصممه ليناسب مساحتك وطرازك تمامًا، وليس فقط من قائمة قطع ثابتة."},
+    {qEn:"How long does it take to get a custom piece built?", aEn:"Most single pieces like a wardrobe or TV unit are ready within one to two weeks; full kitchen cabinetry or multi-piece projects take longer, which we'll confirm once the design is approved.",
+     qAr:"كم يستغرق تصنيع قطعة مخصصة؟", aAr:"معظم القطع المفردة مثل الخزانة أو وحدة التلفزيون تكون جاهزة خلال أسبوع إلى أسبوعين؛ خزائن المطبخ الكاملة أو المشاريع متعددة القطع تستغرق وقتًا أطول، وسنؤكد ذلك بعد اعتماد التصميم."},
+    {qEn:"Can I see what the piece will look like before you start building it?", aEn:"Yes — for anything beyond a small piece, we put together a 3D visual so you can see proportions and finish together before any material is cut.",
+     qAr:"هل يمكنني رؤية شكل القطعة قبل بدء تصنيعها؟", aAr:"نعم — لأي قطعة أكبر من الصغيرة، نُعِدّ تصورًا ثلاثي الأبعاد لترى النسب والتشطيب معًا قبل قص أي مادة."},
+    {qEn:"What materials and finishes can I choose from?", aEn:"Solid wood, laminate, veneer, or a painted finish, in whatever colour and hardware style matches the rest of the room.",
+     qAr:"ما المواد والتشطيبات التي يمكنني الاختيار من بينها؟", aAr:"خشب صلب، لامينيت، قشرة خشبية، أو تشطيب مطلي، بأي لون وطراز أكسسوارات يناسب بقية الغرفة."},
+    {qEn:"Do you build kitchen and bathroom cabinetry, or just wardrobes and TV units?", aEn:"All of it — kitchen and bathroom cabinetry, wardrobes, TV units, shelving, and one-off statement pieces are all part of this service.",
+     qAr:"هل تصنعون خزائن المطبخ والحمام، أم فقط الخزائن ووحدات التلفزيون؟", aAr:"كل ذلك — خزائن المطبخ والحمام، والخزائن، ووحدات التلفزيون، والأرفف، والقطع الفريدة كلها جزء من هذه الخدمة."},
+    {qEn:"Is the furniture built off-site and then installed, or made in my home?", aEn:"Fabrication happens in our workshop for precision and finish quality, then our own team handles final installation on-site — one crew, start to finish.",
+     qAr:"هل يُصنَّع الأثاث خارج الموقع ثم يُركَّب، أم في منزلي؟", aAr:"يتم التصنيع في ورشتنا لضمان الدقة وجودة التشطيب، ثم يتولى فريقنا التركيب النهائي في الموقع — فريق واحد من البداية حتى النهاية."},
+    {qEn:"Can you build a piece to fit an awkward or non-standard space?", aEn:"Yes — we measure the space first and design around it, which is usually why people come to us instead of buying something off-the-shelf that's close but not quite right.",
+     qAr:"هل يمكنكم تصنيع قطعة تناسب مساحة غير معتادة؟", aAr:"نعم — نقيس المساحة أولاً ثم نصمم حولها، وهذا السبب المعتاد الذي يجعل الناس يأتون إلينا بدل شراء شيء جاهز قريب لكن ليس مطابقًا تمامًا."},
+    {qEn:"Do you offer a guarantee on custom-built furniture?", aEn:"Yes — every piece is covered by our 100% guarantee on materials and workmanship, with a flat price agreed before any material is ordered.",
+     qAr:"هل تقدمون ضمانًا على الأثاث المصنّع حسب الطلب؟", aAr:"نعم — كل قطعة مغطاة بضماننا 100% على المواد وجودة التنفيذ، بسعر ثابت متفق عليه قبل طلب أي مادة."}
   ]
 },
 {

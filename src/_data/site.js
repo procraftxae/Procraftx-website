@@ -29,7 +29,7 @@ module.exports = {
   },
 
   hero: {
-    eyebrow: { en: "Licensed · Insured · 8 specialties, 12 services", ar: "مرخّص · مؤمَّن · 8 تخصصات، 12 خدمة" },
+    eyebrow: { en: "Licensed · Insured · 9 specialties, 11 services", ar: "مرخّص · مؤمَّن · 9 تخصصات، 11 خدمة" },
     h1_main: { en: "Specialties &amp; services.", ar: "تخصصات وخدمات." },
     h1_span: { en: "All in one.", ar: "في مكان واحد." },
     lead: {
@@ -45,14 +45,14 @@ module.exports = {
   trustCards: [
     { iconInner: '<path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/>', title: { en: "Expert Crews", ar: "فرق عمل محترفة" }, sub: { en: "Licensed &amp; background-checked", ar: "مرخّصة وموثّقة الخلفية" } },
     { iconInner: '<path d="M20 6L9 17l-5-5"/>', title: { en: "100% Guarantee", ar: "ضمان 100%" }, sub: { en: "Parts &amp; labor covered", ar: "القطع والعمالة مشمولة" } },
-    { iconInner: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/>', title: { en: "All Services In One", ar: "كل الخدمات في مكان واحد" }, sub: { en: "One team, every job", ar: "فريق واحد لكل الأعمال" } },
-    { iconInner: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>', title: { en: "24/7 Support", ar: "دعم على مدار الساعة" }, sub: { en: "Real people, real fast", ar: "فريق حقيقي، استجابة سريعة" } }
+    { iconInner: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/>', title: { en: "End-to-End Execution", ar: "تنفيذ متكامل من الألف إلى الياء" }, sub: { en: "Engineering oversight &amp; high quality", ar: "إشراف هندسي وجودة عالية" } },
+    { iconInner: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>', title: { en: "Custom Design &amp; Execution", ar: "تصميم وتنفيذ مخصص" }, sub: { en: "Solutions tailored to your space", ar: "حلول مصممة خصيصًا لمساحتك" } }
   ],
 
   stats: [
-    { count: 2000, suffix: { en: "+", ar: "+" }, label: { en: "Repairs completed", ar: "إصلاح مكتمل" } },
-    { count: 2, suffix: { en: " hrs", ar: " ساعات" }, label: { en: "Typical arrival window", ar: "وقت الوصول المعتاد" } },
-    { count: 20, suffix: { en: "", ar: "" }, label: { en: "Services &amp; specialties", ar: "خدمات وتخصصات" } }
+    { count: 2000, suffix: { en: "+", ar: "+" }, label: { en: "Projects &amp; work completed", ar: "مشروع وعمل مكتمل" } },
+    { staticText: { en: "Fixed Pricing Upfront", ar: "تسعير ثابت مسبقًا" }, label: { en: "Full commitment to delivery timelines", ar: "التزام تام بمواعيد التسليم" } },
+    { count: 20, suffix: { en: "", ar: "" }, label: { en: "Engineering &amp; craft specialties", ar: "تخصصات هندسية وفنية" } }
   ],
 
   servicesHead: {

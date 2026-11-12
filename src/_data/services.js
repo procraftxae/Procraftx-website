@@ -1,4 +1,4 @@
-// 13 core services grouped into 3 categories, in on-page order.
+// 12 core services grouped into 3 categories, in on-page order.
 // dataService (en/ar) must exactly match the FAQ/booking-form option text.
 module.exports = {
   categories: [

@@ -63,14 +63,14 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
     <div class="hero-chip c3"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2v20M4.5 5.5l15 13M19.5 5.5l-15 13"/><circle cx="12" cy="12" r="9"/></svg></div>
     <div class="hero-chip c4"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 17l6-6 3 3 8-8M20 6h-4V2"/><circle cx="7" cy="19" r="2"/></svg></div>
   </div>
-  <a href="#services" class="hero-mobile-link" aria-label="{{ site.hero.mobileLinkAriaLabel[lang] | safe }}"></a>
+  <a href="#specialties" class="hero-mobile-link" aria-label="{{ site.hero.mobileLinkAriaLabel[lang] | safe }}"></a>
   <div class="wrap hero-content">
     <span class="eyebrow">{{ site.hero.eyebrow[lang] | safe }}</span>
     <h1>{{ site.hero.h1_main[lang] | safe }} <span>{{ site.hero.h1_span[lang] | safe }}</span></h1>
     <p>{{ site.hero.lead[lang] | safe }}</p>
     <div class="hero-ctas">
       <a href="#contact" class="btn btn-red pulse-cta">{{ site.hero.ctaBook[lang] | safe }}</a>
-      <a href="#services" class="btn btn-outline">{{ site.hero.ctaSee[lang] | safe }}</a>
+      <a href="#specialties" class="btn btn-outline">{{ site.hero.ctaSee[lang] | safe }}</a>
     </div>
   </div>
 </section>
@@ -89,14 +89,51 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 <div class="stats-band">
   <div class="wrap stats-grid">
     {% for s in site.stats %}
-    <div class="stat"><div class="num" data-count="{{ s.count }}" data-suffix="{{ s.suffix[lang] | safe }}">0</div><div class="label">{{ s.label[lang] | safe }}</div></div>
+    <div class="stat">
+      {% if s.count is defined %}
+      <div class="num" data-count="{{ s.count }}" data-suffix="{{ s.suffix[lang] | safe }}">0</div>
+      {% else %}
+      <div class="num num-text">{{ s.staticText[lang] | safe }}</div>
+      {% endif %}
+      <div class="label">{{ s.label[lang] | safe }}</div>
+    </div>
     {% endfor %}
   </div>
 </div>
 
-<section class="section" id="services">
+<section class="section">
   <div class="wrap">
-    <div class="section-head reveal">
+    <div class="section-head reveal" id="specialties">
+      <span class="eyebrow">{{ site.specialtiesHead.eyebrow[lang] | safe }}</span>
+    </div>
+
+    {% for sp in specialties %}
+    <!-- {{ sp.comment[lang] | safe }} -->
+    <div class="category-block" id="{{ sp.id }}">
+      <div class="subservice-grid">
+        {{ specialtyCard(sp, lang, site) }}
+      </div>
+    </div>
+    {% endfor %}
+
+    <!-- {{ site.customizeCard.title["en"] | safe }} -->
+    <div class="category-block" id="customize-works">
+      <div class="subservice-grid">
+        <div class="sub-card sub-card-wide sub-card-cta reveal">
+          <div class="body">
+            <h3>{{ site.customizeCard.title[lang] | safe }}</h3>
+            <p>{{ site.customizeCard.lead[lang] | safe }}</p>
+            <p>{{ site.customizeCard.body[lang] | safe }}</p>
+            <a href="#contact" class="btn btn-red" data-service="{{ site.customizeCard.dataService[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+            <a href="customize-works.html" class="link link-secondary customize-learn-more">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <div class="section-head reveal" id="services">
       <span class="eyebrow">{{ site.servicesHead.eyebrow[lang] | safe }}</span>
     </div>
 
@@ -113,36 +150,6 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
       </div>
     </div>
     {% endfor %}
-
-    <hr class="section-divider">
-
-    <div class="section-head reveal" id="specialties">
-      <span class="eyebrow">{{ site.specialtiesHead.eyebrow[lang] | safe }}</span>
-    </div>
-
-    {% for sp in specialties %}
-    <!-- {{ sp.comment[lang] | safe }} -->
-    <div class="category-block" id="{{ sp.id }}">
-      <div class="subservice-grid">
-        {{ specialtyCard(sp, lang, site) }}
-      </div>
-    </div>
-    {% endfor %}
-
-    <!-- 11. {{ site.customizeCard.title["en"] | safe }} -->
-    <div class="category-block" id="customize-works">
-      <div class="subservice-grid">
-        <div class="sub-card sub-card-wide sub-card-cta reveal">
-          <div class="body">
-            <h3>{{ site.customizeCard.title[lang] | safe }}</h3>
-            <p>{{ site.customizeCard.lead[lang] | safe }}</p>
-            <p>{{ site.customizeCard.body[lang] | safe }}</p>
-            <a href="#contact" class="btn btn-red" data-service="{{ site.customizeCard.dataService[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-            <a href="customize-works.html" class="link link-secondary customize-learn-more">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
