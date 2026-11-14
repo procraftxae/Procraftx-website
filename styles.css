@@ -30,7 +30,7 @@
   #specialties .eyebrow, #services .eyebrow, #reviews .eyebrow, #about .eyebrow, #faq-preview .eyebrow{font-size:28px;}
   #about .eyebrow{color:var(--red);}
   .btn{
-    display:inline-flex;align-items:center;gap:9px;
+    display:inline-flex;align-items:center;justify-content:center;gap:9px;text-align:center;
     font-family:'Montserrat',sans-serif;font-weight:600;font-size:16px;
     padding:15px 28px;border-radius:100px;border:1.5px solid transparent;cursor:pointer;
     transition:transform .18s ease, background .18s ease, color .18s ease, box-shadow .18s ease;
