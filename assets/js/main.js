@@ -70,7 +70,7 @@
   }
 
   // animated stat counters
-  const counters = document.querySelectorAll('.stats-grid .num');
+  const counters = document.querySelectorAll('.stats-grid .num:not(.num-text)');
   const countIO = new IntersectionObserver((entries)=>{
     entries.forEach(entry=>{
       if(!entry.isIntersecting) return;
