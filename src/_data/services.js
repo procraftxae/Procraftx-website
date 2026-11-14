@@ -34,39 +34,8 @@ module.exports = {
       ]
     },
     {
-      id: "furniture-services",
-      comment: { en: "2. Furniture &amp; Moving Services", ar: "2. خدمات الأثاث والنقل" },
-      title: { en: "Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل" },
-      services: [
-        {
-          img: "assets/images/furniture-design-build-service.jpg",
-          alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" },
-          name: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-          desc: { en: "Custom furniture designed, built, and installed to fit your space and style exactly.", ar: "أثاث مخصص يُصمَّم ويُصنَّع ويُركَّب ليناسب مساحتك وأسلوبك تمامًا." }
-        },
-        {
-          img: "assets/images/packers-movers-service.jpg",
-          alt: { en: "Procraftx crew wrapping furniture and loading a moving truck", ar: "طاقم بروكرافتكس يغلّف الأثاث ويحمّل شاحنة نقل" },
-          name: { en: "Packers &amp; Movers", ar: "التغليف والنقل" },
-          desc: { en: "Securely wrapping your belongings, loading trucks, and transporting to a new home.", ar: "تغليف ممتلكاتك بأمان، تحميلها على الشاحنات، ونقلها إلى المنزل الجديد." }
-        },
-        {
-          img: "assets/images/handyman-service.jpg",
-          alt: { en: "Handyman mounting a wall shelf with a drill", ar: "فني صيانة عامة يركّب رفًا على الجدار بمثقاب" },
-          name: { en: "Handyman Tasks", ar: "أعمال الصيانة العامة" },
-          desc: { en: "Hanging shelves, mounting TVs, fixing door hinges, and small everyday repairs.", ar: "تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة." }
-        },
-        {
-          img: "assets/images/restoration-service.jpg",
-          alt: { en: "Furniture specialist sanding and painting a wooden chair", ar: "أخصائي أثاث يصنفر ويدهن كرسيًا خشبيًا" },
-          name: { en: "Restoration &amp; Furniture Painting", ar: "ترميم ودهان الأثاث" },
-          desc: { en: "Old wooden furniture sanded, varnished, painted, or repaired to look brand new.", ar: "صنفرة الأثاث الخشبي القديم وطلاؤه بالورنيش أو الدهان أو إصلاحه ليبدو جديدًا." }
-        }
-      ]
-    },
-    {
       id: "home-clearing",
-      comment: { en: "3. Deep Cleaning &amp; Sanitization", ar: "3. التنظيف العميق والتعقيم" },
+      comment: { en: "2. Deep Cleaning &amp; Sanitization", ar: "2. التنظيف العميق والتعقيم" },
       title: { en: "Deep Cleaning &amp; Sanitization", ar: "التنظيف العميق والتعقيم" },
       services: [
         {
@@ -92,6 +61,37 @@ module.exports = {
           alt: { en: "Technician disinfecting a room and treating a bedbug and ant infestation", ar: "فني يعقّم غرفة ويعالج انتشار بق الفراش والنمل" },
           name: { en: "Disinfection &amp; Pest Management", ar: "التعقيم ومكافحة الحشرات" },
           desc: { en: "Eradicating bugs like bedbugs or ants, and sanitizing surfaces against bacteria.", ar: "القضاء على الحشرات مثل بق الفراش والنمل، وتعقيم الأسطح من البكتيريا." }
+        }
+      ]
+    },
+    {
+      id: "furniture-services",
+      comment: { en: "3. Furniture &amp; Moving Services", ar: "3. خدمات الأثاث والنقل" },
+      title: { en: "Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل" },
+      services: [
+        {
+          img: "assets/images/furniture-design-build-service.jpg",
+          alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" },
+          name: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+          desc: { en: "Custom furniture designed, built, and installed to fit your space and style exactly.", ar: "أثاث مخصص يُصمَّم ويُصنَّع ويُركَّب ليناسب مساحتك وأسلوبك تمامًا." }
+        },
+        {
+          img: "assets/images/packers-movers-service.jpg",
+          alt: { en: "Procraftx crew wrapping furniture and loading a moving truck", ar: "طاقم بروكرافتكس يغلّف الأثاث ويحمّل شاحنة نقل" },
+          name: { en: "Packers &amp; Movers", ar: "التغليف والنقل" },
+          desc: { en: "Securely wrapping your belongings, loading trucks, and transporting to a new home.", ar: "تغليف ممتلكاتك بأمان، تحميلها على الشاحنات، ونقلها إلى المنزل الجديد." }
+        },
+        {
+          img: "assets/images/handyman-service.jpg",
+          alt: { en: "Handyman mounting a wall shelf with a drill", ar: "فني صيانة عامة يركّب رفًا على الجدار بمثقاب" },
+          name: { en: "Handyman Tasks", ar: "أعمال الصيانة العامة" },
+          desc: { en: "Hanging shelves, mounting TVs, fixing door hinges, and small everyday repairs.", ar: "تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة." }
+        },
+        {
+          img: "assets/images/restoration-service.jpg",
+          alt: { en: "Furniture specialist sanding and painting a wooden chair", ar: "أخصائي أثاث يصنفر ويدهن كرسيًا خشبيًا" },
+          name: { en: "Restoration &amp; Furniture Painting", ar: "ترميم ودهان الأثاث" },
+          desc: { en: "Old wooden furniture sanded, varnished, painted, or repaired to look brand new.", ar: "صنفرة الأثاث الخشبي القديم وطلاؤه بالورنيش أو الدهان أو إصلاحه ليبدو جديدًا." }
         }
       ]
     }
