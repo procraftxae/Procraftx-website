@@ -110,6 +110,7 @@ module.exports = {
   },
 
   whatsappFloatAriaLabel: { en: "Chat on WhatsApp", ar: "تواصل عبر واتساب" },
+  callFloatAriaLabel: { en: "Call us", ar: "اتصل بنا" },
   skipLink: { en: "Skip to content", ar: "تخطَّ إلى المحتوى" },
 
   footer: {
