@@ -24,7 +24,7 @@
               {% endfor %}
             </optgroup>
             {% endfor %}
-            {% for sp in specialties | sort(attribute="bookingOrder") %}
+            {% for sp in specialties %}
             <optgroup label="{{ sp.bookingGroupLabel[lang] | safe }}">
               {% for opt in sp.bookingOptions %}
               <option{{ ' selected' | safe if prefillService and opt[lang] == prefillService }}>{{ opt[lang] | safe }}</option>
