@@ -41,7 +41,7 @@
     <div class="footer-col">
       <h4>{{ site.footer.specialtiesTitle[lang] | safe }}</h4>
       <ul>
-        {% for sp in specialties | sort(attribute="bookingOrder") %}
+        {% for sp in specialties %}
         <li><a href="{{ sp.id }}.html">{{ sp.h3[lang] | safe }}</a></li>
         {% endfor %}
       </ul>
