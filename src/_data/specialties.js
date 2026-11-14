@@ -28,6 +28,24 @@ module.exports = [
     }
   },
   {
+    id: "furniture-design-build",
+    comment: { en: "5. Custom Furniture Design &amp; Build", ar: "5. تصميم وتصنيع الأثاث المخصص" },
+    dataService: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+    bookingGroupLabel: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+    bookingOptions: [{ en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" }],
+    bookingOrder: 9,
+    images: [
+      { src: "assets/images/furniture-design-build-service.jpg", alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" } }
+    ],
+    h3: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+    shortDesc: { en: "Bespoke wardrobes, TV units, kitchen cabinetry, and one-off furniture pieces designed, built, and installed to fit your exact space — at a flat price and backed by our 100% guarantee.", ar: "خزائن ملابس ووحدات تلفزيون وخزائن مطبخ وقطع أثاث فريدة، تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك تمامًا — بسعر ثابت وضمان 100%." },
+    h4: { en: "Bespoke Furniture Design, Build &amp; Installation", ar: "تصميم وتصنيع وتركيب أثاث حسب الطلب" },
+    longDesc: {
+      en: "Design, fabrication, and installation of bespoke furniture built to the exact dimensions of your space — wardrobes, TV units, kitchen and bathroom cabinetry, shelving, and one-off statement pieces, in your choice of wood, laminate, veneer, or painted finish. We handle material selection, 3D visuals before fabrication, and final fitting, so every piece fits perfectly and matches the rest of your interior. Every project is built and installed by our own licensed, background-checked joinery team — one point of contact from first sketch to final placement, with a flat price agreed before work starts and a 100% guarantee on materials and workmanship.",
+      ar: "تصميم وتصنيع وتركيب أثاث مخصص يُصنَّع بالضبط حسب أبعاد مساحتك — خزائن ملابس، وحدات تلفزيون، خزائن مطبخ وحمام، أرفف، وقطع مميزة فريدة، بالخشب أو اللامينيت أو القشرة أو التشطيب المطلي حسب رغبتك. نتولى اختيار المواد، وتقديم مجسمات ثلاثية الأبعاد قبل التصنيع، والتركيب النهائي، بحيث تتناسب كل قطعة تمامًا مع بقية ديكور منزلك. يتولى كل مشروع فريق النجارة المرخّص والموثّق الخلفية لدينا — جهة تواصل واحدة من أول رسمة حتى التركيب النهائي، بسعر ثابت متفق عليه قبل البدء وضمان 100% على المواد وجودة التنفيذ."
+    }
+  },
+  {
     id: "outdoor-majlis",
     comment: { en: "5. Custom Outdoor Majlis &amp; Pergolas", ar: "5. المجالس الخارجية المخصصة والبرجولات" },
     dataService: { en: "Custom Outdoor Majlis &amp; Pergolas", ar: "المجالس الخارجية المخصصة والبرجولات" },
@@ -185,24 +203,6 @@ module.exports = [
     longDesc: {
       en: "Complete garden and landscaping work — design and soft landscaping, natural lawns and artificial grass, tree, shrub and seasonal flower planting, plus hard landscaping such as pathways, pergolas, decking, and decorative gravel. Irrigation covers full system design and installation, automatic sprinkler and drip-line setup, smart timers and controllers, pump and valve fitting, and repair of leaks, blockages, and broken sprinkler heads. Ongoing maintenance includes mowing, hedge and tree trimming, weed and pest control, fertilisation, seasonal replanting, and irrigation system checks. Our own licensed team handles design through to ongoing upkeep, so the same crew that planted your garden is the one maintaining it.",
       ar: "أعمال حدائق وتنسيق متكاملة — التصميم والتنسيق الأخضر، والمسطحات الطبيعية والعشب الصناعي، وزراعة الأشجار والشجيرات والزهور الموسمية، بالإضافة إلى التنسيق الصلب مثل الممرات والبرجولات والأسطح الخشبية والحصى الزخرفي. ويشمل الري تصميم وتركيب النظام بالكامل، وتركيب الرشاشات الأوتوماتيكية وخطوط التنقيط، والمؤقتات وأجهزة التحكم الذكية، وتركيب المضخات والصمامات، وإصلاح التسربات والانسدادات ورؤوس الرشاشات التالفة. وتشمل الصيانة المستمرة قص العشب، وتشذيب الأسيجة والأشجار، ومكافحة الأعشاب والآفات، والتسميد، وإعادة الزراعة الموسمية، وفحص أنظمة الري. يتولى فريقنا المرخّص التصميم وحتى الصيانة المستمرة، بحيث يكون نفس الفريق الذي زرع حديقتك هو من يعتني بها."
-    }
-  },
-  {
-    id: "furniture-design-build",
-    comment: { en: "11. Custom Furniture Design &amp; Build", ar: "11. تصميم وتصنيع الأثاث المخصص" },
-    dataService: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-    bookingGroupLabel: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-    bookingOptions: [{ en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" }],
-    bookingOrder: 9,
-    images: [
-      { src: "assets/images/furniture-design-build-service.jpg", alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" } }
-    ],
-    h3: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-    shortDesc: { en: "Bespoke wardrobes, TV units, kitchen cabinetry, and one-off furniture pieces designed, built, and installed to fit your exact space — at a flat price and backed by our 100% guarantee.", ar: "خزائن ملابس ووحدات تلفزيون وخزائن مطبخ وقطع أثاث فريدة، تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك تمامًا — بسعر ثابت وضمان 100%." },
-    h4: { en: "Bespoke Furniture Design, Build &amp; Installation", ar: "تصميم وتصنيع وتركيب أثاث حسب الطلب" },
-    longDesc: {
-      en: "Design, fabrication, and installation of bespoke furniture built to the exact dimensions of your space — wardrobes, TV units, kitchen and bathroom cabinetry, shelving, and one-off statement pieces, in your choice of wood, laminate, veneer, or painted finish. We handle material selection, 3D visuals before fabrication, and final fitting, so every piece fits perfectly and matches the rest of your interior. Every project is built and installed by our own licensed, background-checked joinery team — one point of contact from first sketch to final placement, with a flat price agreed before work starts and a 100% guarantee on materials and workmanship.",
-      ar: "تصميم وتصنيع وتركيب أثاث مخصص يُصنَّع بالضبط حسب أبعاد مساحتك — خزائن ملابس، وحدات تلفزيون، خزائن مطبخ وحمام، أرفف، وقطع مميزة فريدة، بالخشب أو اللامينيت أو القشرة أو التشطيب المطلي حسب رغبتك. نتولى اختيار المواد، وتقديم مجسمات ثلاثية الأبعاد قبل التصنيع، والتركيب النهائي، بحيث تتناسب كل قطعة تمامًا مع بقية ديكور منزلك. يتولى كل مشروع فريق النجارة المرخّص والموثّق الخلفية لدينا — جهة تواصل واحدة من أول رسمة حتى التركيب النهائي، بسعر ثابت متفق عليه قبل البدء وضمان 100% على المواد وجودة التنفيذ."
     }
   }
 ];
