@@ -17,6 +17,8 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 {% include "gtm-head.njk" %}
 <meta name="google-site-verification" content="_IPAHV06IH3jP_eau1n5NKWp9_Zfgb3BOBFFXUx4otM">
 <link rel="icon" href="{{ '../' if isAr }}assets/images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{{ '../' if isAr }}assets/images/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="{{ '../' if isAr }}assets/images/apple-touch-icon.png">
 <title>{{ pages.index.title[lang] | safe }}</title>
 <meta name="description" content="{{ pages.index.description[lang] | safe }}">
 <link rel="canonical" href="https://procraftx.ae/{{ 'ar/' if isAr }}">
