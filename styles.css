@@ -559,13 +559,14 @@
     .hero .bg::after{display:none;}
     .hero-chips{display:none;}
     .hero-content{
-      display:flex;flex-direction:column;justify-content:flex-end;
-      position:absolute;inset:0;max-width:none;
-      background:linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0) 65%);
+      display:flex;flex-direction:column;justify-content:center;align-items:center;
+      position:absolute;inset:0;max-width:none;text-align:center;
+      background:rgba(0,0,0,0.45);
     }
     .wrap.hero-content{padding:16px;}
     .hero-content .eyebrow,.hero-content p{display:none;}
     .hero-content h1{font-size:24px;margin:0 0 14px;}
+    .hero-content .hero-ctas .btn{padding:7px 14px;font-size:13px;}
     .hero-ctas .btn-outline{display:none;}
     .trust-float{margin-top:0;}
 
