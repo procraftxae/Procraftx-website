@@ -61,6 +61,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://procraftx.ae/swimming-pools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://procraftx.ae/ar/swimming-pools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://procraftx.ae/gardening-irrigation.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://procraftx.ae/ar/gardening-irrigation.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://procraftx.ae/doors-windows.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -87,26 +107,6 @@
   </url>
   <url>
     <loc>https://procraftx.ae/ar/window-tinting.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://procraftx.ae/swimming-pools.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://procraftx.ae/ar/swimming-pools.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://procraftx.ae/gardening-irrigation.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://procraftx.ae/ar/gardening-irrigation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

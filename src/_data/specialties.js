@@ -20,7 +20,7 @@ module.exports = [
       { src: "assets/images/interior-5.jpg", alt: { en: "Majlis seating area styled with décor and lighting", ar: "منطقة جلوس مجلس منسقة بديكور وإضاءة" } }
     ],
     h3: { en: "Interior Design", ar: "التصميم الداخلي" },
-    shortDesc: { en: "Concept design, space planning, custom joinery and full styling — from a bedroom or studio renovation to a full apartment or home renovation, with a flat price before we start and every project backed by our 100% guarantee.", ar: "تصميم المفهوم، وتخطيط المساحات، والنجارة المخصصة، والتنسيق الكامل — من تجديد غرفة نوم أو استوديو إلى تجديد شقة أو منزل بالكامل، بسعر ثابت قبل البدء وضمان 100% على كل مشروع." },
+    shortDesc: { en: "Concept design, space planning, and full styling for any room or full home renovation — flat price, 100% guarantee.", ar: "تصميم وتخطيط مساحات وتنسيق كامل لأي غرفة أو تجديد منزل كامل — سعر ثابت وضمان 100%." },
     h4: { en: "Interior Design, Renovation &amp; Fit-Out", ar: "التصميم الداخلي والتجديد والتجهيز" },
     longDesc: {
       en: "Full interior design service covering concept development, space planning, and layout optimisation, with mood boards and 3D visuals so you can see the result before work begins. We handle material, finish and colour selection, flooring and wall treatments, wood/PVC/3D wall panel installation, decorative floor and wall finishes, wood-alternative (WPC), stone-alternative, and marble-alternative surfaces, moisture-resistant board alternatives to chipboard for joinery, false ceilings and gypsum work, lighting design, curtains and blinds, and custom joinery including wardrobes, TV units, and kitchen cabinetry. Delivery covers furniture sourcing and placement, décor and accessory styling, and complete supervised fit-out — covering everything from a studio renovation or bedroom renovation to a full apartment renovation or full home renovation. Every project is handled by our own licensed, background-checked design and joinery team — one point of contact from first sketch to final walkthrough.",
@@ -38,7 +38,7 @@ module.exports = [
       { src: "assets/images/furniture-design-build-service.jpg", alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" } }
     ],
     h3: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-    shortDesc: { en: "Bespoke wardrobes, TV units, kitchen cabinetry, and one-off furniture pieces designed, built, and installed to fit your exact space — at a flat price and backed by our 100% guarantee.", ar: "خزائن ملابس ووحدات تلفزيون وخزائن مطبخ وقطع أثاث فريدة، تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك تمامًا — بسعر ثابت وضمان 100%." },
+    shortDesc: { en: "Bespoke wardrobes, TV units, and cabinetry designed, built, and installed to fit your space — flat price, 100% guarantee.", ar: "خزائن ووحدات تلفزيون وخزائن مطبخ تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك — سعر ثابت وضمان 100%." },
     h4: { en: "Bespoke Furniture Design, Build &amp; Installation", ar: "تصميم وتصنيع وتركيب أثاث حسب الطلب" },
     longDesc: {
       en: "Design, fabrication, and installation of bespoke furniture built to the exact dimensions of your space — wardrobes, TV units, kitchen and bathroom cabinetry, shelving, and one-off statement pieces, in your choice of wood, laminate, veneer, or painted finish. We handle material selection, 3D visuals before fabrication, and final fitting, so every piece fits perfectly and matches the rest of your interior. Every project is built and installed by our own licensed, background-checked joinery team — one point of contact from first sketch to final placement, with a flat price agreed before work starts and a 100% guarantee on materials and workmanship.",
@@ -60,7 +60,7 @@ module.exports = [
       { src: "assets/images/majlis-5.jpg", alt: { en: "Modern sandwich panel guest annex with garden lighting", ar: "ملحق ضيافة حديث بألواح ساندويتش وإضاءة حدائق" } }
     ],
     h3: { en: "Custom Outdoor Majlis &amp; Pergolas", ar: "المجالس الخارجية المخصصة والبرجولات" },
-    shortDesc: { en: "Custom-built glass majlis, traditional Arabic majlis, sandwich panel majlis, pergolas, and guest annexes — designed, built, and maintained from the ground up, with a fixed quote up front and a 100% guarantee on every build.", ar: "مجالس زجاجية مخصصة، ومجالس عربية تقليدية، ومجالس بالألواح الساندويتش، وبرجولات، وملحقات ضيافة — تصميم وبناء وصيانة من الألف إلى الياء، بسعر ثابت مسبقًا وضمان 100% على كل بناء." },
+    shortDesc: { en: "Glass, traditional, and sandwich panel majlis, pergolas, and guest annexes — built from the ground up with a 100% guarantee.", ar: "مجالس زجاجية وتقليدية وبألواح ساندويتش وبرجولات وملحقات ضيافة — تُبنى من الألف إلى الياء بضمان 100%." },
     h4: { en: "Majlis Design, Construction &amp; Renovation", ar: "تصميم وبناء وتجديد المجالس" },
     longDesc: {
       en: "Design, construction, renovation, and expansion of glass majlis, traditional Arabic majlis, sandwich panel majlis, pergolas, and guest annexes, including complete interior fit-out — custom seating, flooring, wall cladding, ceilings, lighting, curtains, insulation, and décor. Ongoing maintenance covers roof repairs, waterproofing, repainting, AC servicing, electrical and plumbing work, glass replacement, structural repairs, aluminium doors and windows, sliding glass systems, weatherproof enclosures, stone cladding, decorative façades, paving, boundary walls, and outdoor lighting — plus bespoke features like smart lighting, sound systems, fireplaces, coffee stations, TV units, and custom storage. One licensed crew handles the whole project, from foundation to final styling, so nothing gets lost between subcontractors.",
@@ -82,11 +82,55 @@ module.exports = [
       { src: "assets/images/garage-5.jpg", alt: { en: "Wooden pergola-style carport shading two vehicles", ar: "مظلة خشبية على طراز البرجولا تظلل سيارتين" } }
     ],
     h3: { en: "Custom Car Garages &amp; Outdoor Carports", ar: "كراجات السيارات والمظلات الخارجية المخصصة" },
-    shortDesc: { en: "Custom car garages, carports, parking shades, steel structures, aluminum garages, and sandwich panel garages for residential properties — quoted with a flat price and backed by our 100% guarantee.", ar: "كراجات سيارات مخصصة، ومظلات سيارات، ومظلات مواقف، وهياكل فولاذية، وكراجات ألمنيوم، وكراجات بألواح ساندويتش للعقارات السكنية — بسعر ثابت وضمان 100%." },
+    shortDesc: { en: "Custom garages, carports, and parking shades in steel, aluminum, or sandwich panel — flat price, 100% guarantee.", ar: "كراجات ومظلات سيارات مخصصة بالفولاذ أو الألمنيوم أو الألواح الساندويتش — سعر ثابت وضمان 100%." },
     h4: { en: "Custom Car Garage &amp; Carport Construction", ar: "إنشاء كراجات ومظلات سيارات مخصصة" },
     longDesc: {
       en: "Design and build of custom car garages, carports, and parking shades — steel structures, aluminum garages, and sandwich panel garages built to protect vehicles and suit residential properties. Every structure is built by our own licensed, background-checked crew and comes with a guarantee on materials and workmanship.",
       ar: "تصميم وبناء كراجات سيارات ومظلات مواقف مخصصة — هياكل فولاذية، وكراجات ألمنيوم، وكراجات بألواح ساندويتش مصممة لحماية المركبات وتناسب العقارات السكنية. يُنفَّذ كل هيكل بواسطة فريقنا المرخّص والموثّق الخلفية، ويأتي مع ضمان على المواد وجودة التنفيذ."
+    }
+  },
+  {
+    id: "swimming-pools",
+    comment: { en: "9. Swimming Pool Construction &amp; Design", ar: "9. إنشاء وتصميم حمامات السباحة" },
+    dataService: { en: "Swimming Pool Construction &amp; Design", ar: "إنشاء وتصميم حمامات السباحة" },
+    bookingGroupLabel: { en: "Swimming Pool Construction &amp; Design", ar: "إنشاء وتصميم حمامات السباحة" },
+    bookingOptions: [{ en: "Swimming Pool Construction &amp; Design", ar: "إنشاء وتصميم حمامات السباحة" }],
+    bookingOrder: 6,
+    images: [
+      { src: "assets/images/pool-1.jpg", alt: { en: "Newly built villa swimming pool with blue tiling", ar: "مسبح فيلا حديث البناء ببلاط أزرق" } },
+      { src: "assets/images/pool-2.jpg", alt: { en: "Pool under construction with rebar and shell formed", ar: "مسبح قيد الإنشاء بحديد تسليح وهيكل مصبوب" } },
+      { src: "assets/images/pool-3.jpg", alt: { en: "Infinity-edge pool with landscaped deck", ar: "مسبح بحافة لا نهائية وسطح مناظر طبيعية" } },
+      { src: "assets/images/pool-4.jpg", alt: { en: "Technician servicing pool filtration equipment", ar: "فني يصون معدات فلترة المسبح" } },
+      { src: "assets/images/pool-5.jpg", alt: { en: "Illuminated pool with underwater lighting at dusk", ar: "مسبح مضاء بإضاءة تحت الماء عند الغروب" } }
+    ],
+    h3: { en: "Swimming Pool Construction &amp; Design", ar: "إنشاء وتصميم حمامات السباحة" },
+    shortDesc: { en: "Custom pool design, construction, renovation, and ongoing maintenance — quoted up front, 100% guarantee.", ar: "تصميم وإنشاء وتجديد وصيانة مستمرة لحمامات السباحة — بسعر متفق عليه مسبقًا وضمان 100%." },
+    h4: { en: "Pool Design, Construction &amp; Maintenance", ar: "تصميم وإنشاء وصيانة حمامات السباحة" },
+    longDesc: {
+      en: "End-to-end swimming pool projects — design and 3D planning, excavation, shell construction, waterproofing, and tiling or mosaic finishes, including infinity-edge, overflow, and plunge pool designs. Installation covers filtration and pump systems, heating and chilling units, underwater lighting, jacuzzis and water features, plus surrounding decking, coping stones, and landscaping. We also handle renovation and resurfacing of ageing pools, leak detection and structural repair, tile and grout replacement, and equipment upgrades — backed by scheduled maintenance covering cleaning, water testing and chemical balancing, and filter servicing. From first design sketch to the final swim test, one licensed crew handles the entire project — no handoffs between contractors and no surprises on price.",
+      ar: "مشاريع حمامات سباحة متكاملة — التصميم والتخطيط ثلاثي الأبعاد، والحفر، وبناء الهيكل، والعزل المائي، وتشطيبات البلاط أو الفسيفساء، بما في ذلك تصاميم الحواف اللامتناهية والفائضة وأحواض الغطس. ويشمل التركيب أنظمة الفلترة والمضخات، ووحدات التسخين والتبريد، والإضاءة تحت الماء، والجاكوزي والنوافير، بالإضافة إلى الأسطح المحيطة وأحجار الحواف وتنسيق الحدائق. كما نتولى تجديد وإعادة تشطيب الحمامات القديمة، وكشف التسربات والإصلاحات الإنشائية، واستبدال البلاط والجَبَّانة، وترقية المعدات — مدعومة بصيانة دورية تشمل التنظيف وفحص المياه وموازنة المواد الكيميائية وصيانة الفلاتر. من أول رسمة تصميم حتى اختبار السباحة النهائي، يتولى فريق مرخّص واحد المشروع بالكامل — دون تسليم العمل بين مقاولين أو مفاجآت بالسعر."
+    }
+  },
+  {
+    id: "gardening-irrigation",
+    comment: { en: "10. Landscaping, Gardening &amp; Irrigation", ar: "10. تنسيق الحدائق والبستنة وأنظمة الري" },
+    dataService: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
+    bookingGroupLabel: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
+    bookingOptions: [{ en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" }],
+    bookingOrder: 7,
+    images: [
+      { src: "assets/images/garden-1.jpg", alt: { en: "Pop-up sprinklers watering the lawn of a modern villa garden", ar: "رشاشات مياه منبثقة تروي عشب حديقة فيلا حديثة" } },
+      { src: "assets/images/garden-2.jpg", alt: { en: "Gardener planting flowers in a mulched bed beside a modern home", ar: "بستاني يزرع الزهور في حوض مغطى بالنشارة بجانب منزل حديث" } },
+      { src: "assets/images/garden-3.jpg", alt: { en: "Gardener mowing a striped villa lawn lined with palm trees", ar: "بستاني يجز عشب حديقة فيلا مصطف بالنخيل" } },
+      { src: "assets/images/garden-4.jpg", alt: { en: "Gardener trimming a hedge with a powered hedge trimmer", ar: "بستاني يشذّب سياجًا بمقص كهربائي" } },
+      { src: "assets/images/garden-5.jpg", alt: { en: "Finished villa garden with manicured lawn, palm trees and flower beds", ar: "حديقة فيلا مكتملة بعشب مشذّب ونخيل وأحواض زهور" } }
+    ],
+    h3: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
+    shortDesc: { en: "Garden design, planting, irrigation, and year-round upkeep — flat price, 100% guarantee.", ar: "تصميم حدائق وزراعة وري وصيانة مستمرة طوال العام — سعر ثابت وضمان 100%." },
+    h4: { en: "Landscaping &amp; Irrigation", ar: "تنسيق الحدائق والري" },
+    longDesc: {
+      en: "Complete garden and landscaping work — design and soft landscaping, natural lawns and artificial grass, tree, shrub and seasonal flower planting, plus hard landscaping such as pathways, pergolas, decking, and decorative gravel. Irrigation covers full system design and installation, automatic sprinkler and drip-line setup, smart timers and controllers, pump and valve fitting, and repair of leaks, blockages, and broken sprinkler heads. Ongoing maintenance includes mowing, hedge and tree trimming, weed and pest control, fertilisation, seasonal replanting, and irrigation system checks. Our own licensed team handles design through to ongoing upkeep, so the same crew that planted your garden is the one maintaining it.",
+      ar: "أعمال حدائق وتنسيق متكاملة — التصميم والتنسيق الأخضر، والمسطحات الطبيعية والعشب الصناعي، وزراعة الأشجار والشجيرات والزهور الموسمية، بالإضافة إلى التنسيق الصلب مثل الممرات والبرجولات والأسطح الخشبية والحصى الزخرفي. ويشمل الري تصميم وتركيب النظام بالكامل، وتركيب الرشاشات الأوتوماتيكية وخطوط التنقيط، والمؤقتات وأجهزة التحكم الذكية، وتركيب المضخات والصمامات، وإصلاح التسربات والانسدادات ورؤوس الرشاشات التالفة. وتشمل الصيانة المستمرة قص العشب، وتشذيب الأسيجة والأشجار، ومكافحة الأعشاب والآفات، والتسميد، وإعادة الزراعة الموسمية، وفحص أنظمة الري. يتولى فريقنا المرخّص التصميم وحتى الصيانة المستمرة، بحيث يكون نفس الفريق الذي زرع حديقتك هو من يعتني بها."
     }
   },
   {
@@ -107,7 +151,7 @@ module.exports = [
       { src: "assets/images/door-window-5.jpg", alt: { en: "Installed aluminium door and window system opening onto a garden", ar: "نظام أبواب ونوافذ ألمنيوم مُركّب يفتح على حديقة" } }
     ],
     h3: { en: "Custom Doors &amp; Windows", ar: "الأبواب والنوافذ المخصصة" },
-    shortDesc: { en: "Custom front, interior, and sliding doors, plus aluminium, uPVC, sliding, casement and double-glazed windows — designed, installed, replaced, or repaired, with a flat price up front and a 100% guarantee on parts and labor.", ar: "أبواب أمامية وداخلية وسحّابة مخصصة، بالإضافة إلى نوافذ الألمنيوم واليو بي في سي والسحّاب والمفصلية والمزدوجة الزجاج — تصميم وتركيب واستبدال وإصلاح، بسعر ثابت مسبقًا وضمان 100% على القطع والعمالة." },
+    shortDesc: { en: "Custom doors and windows — designed, installed, replaced, or repaired, with a flat price and 100% guarantee.", ar: "أبواب ونوافذ مخصصة — تصميم وتركيب واستبدال وإصلاح، بسعر ثابت وضمان 100%." },
     h4: { en: "Custom Doors &amp; Window Installation", ar: "تصميم أبواب وتركيب نوافذ مخصص" },
     longDesc: {
       en: "Custom design, build, and installation of front, interior, and sliding doors, plus installation, replacement, and repair of aluminium, uPVC, sliding, casement, and double-glazed windows — built for durability, weather protection, and a precise fit. Every door and window is fitted by our own licensed, background-checked technicians, with a single point of contact from measurement to final fit.",
@@ -132,7 +176,7 @@ module.exports = [
       { src: "assets/images/shower-glass-1.jpg", alt: { en: "Technician installing a glass shower enclosure", ar: "فني يركّب حاجز زجاجي للحمام" } }
     ],
     h3: { en: "Custom Glass &amp; Mirror Work", ar: "أعمال الزجاج والمرايا المخصصة" },
-    shortDesc: { en: "Shower glass, mirrors, partitions, balustrades, tabletops, and safety glass — custom-made and installed for whatever the space needs, at a flat price and with a 100% guarantee.", ar: "زجاج الحمام، والمرايا، والفواصل، والحواجز، والطاولات، والزجاج الآمن — مصنّع ومركّب حسب ما تحتاجه المساحة، بسعر ثابت وضمان 100%." },
+    shortDesc: { en: "Shower glass, mirrors, partitions, and custom glass work — flat price, 100% guarantee.", ar: "زجاج الحمام والمرايا والفواصل وأعمال الزجاج المخصصة — سعر ثابت وضمان 100%." },
     h4: { en: "Custom Glass Fabrication &amp; Installation", ar: "تصنيع وتركيب زجاج مخصص" },
     longDesc: {
       en: "Custom glass fabrication and installation for shower enclosures, mirrors, partitions, balustrades and railings, tabletops and shelving, and safety or security glass — measured and fitted to the exact space, not off a fixed catalogue. Measured, fabricated, and fitted by our own licensed team — one point of contact, with no subcontractors passing the job around.",
@@ -154,55 +198,11 @@ module.exports = [
       { src: "assets/images/tinting-5.jpg", alt: { en: "Installer smoothing tint film with a squeegee", ar: "فني تركيب يمسح فيلم التظليل بممسحة" } }
     ],
     h3: { en: "Window Tinting &amp; Privacy/Protection Film", ar: "تظليل النوافذ وأفلام الخصوصية والحماية" },
-    shortDesc: { en: "Heat-rejection, UV-blocking, privacy, security and decorative films — professionally applied to villa and apartment glass, with a flat price and a 100% guarantee against bubbling or peeling.", ar: "أفلام عازلة للحرارة، وحاجبة للأشعة فوق البنفسجية، وأفلام الخصوصية والحماية والزخرفة — تُركّب باحترافية على زجاج الفلل والشقق، بسعر ثابت وضمان 100% ضد التقشر أو ظهور الفقاعات." },
+    shortDesc: { en: "Heat-rejection, privacy, and security films applied to villa and apartment glass — flat price, 100% guarantee.", ar: "أفلام عازلة للحرارة وخصوصية وحماية تُركّب على زجاج الفلل والشقق — سعر ثابت وضمان 100%." },
     h4: { en: "Home Window Film &amp; Tinting", ar: "أفلام وتظليل نوافذ المنزل" },
     longDesc: {
       en: "Supply and installation of residential window films — heat-rejection and solar-control tint to cut cooling costs, UV-blocking film that stops furniture and flooring from fading, and glare-reduction film for bright rooms. Privacy options include one-way mirror, frosted, and decorative patterned film for bathrooms, partitions, and street-facing windows, plus safety and security film that holds glass together on impact. Every job includes glass preparation, precision cut-to-fit application, bubble-free finishing, and removal or replacement of old peeling tint. Applied by our own trained, background-checked technicians — a flat price agreed before we start, and covered by our 100% guarantee.",
       ar: "توريد وتركيب أفلام نوافذ المنازل — تظليل عازل للحرارة ومتحكم في أشعة الشمس لخفض تكاليف التبريد، وفيلم حاجب للأشعة فوق البنفسجية يمنع بهتان الأثاث والأرضيات، وفيلم مقلل للوهج للغرف شديدة الإضاءة. تشمل خيارات الخصوصية الفيلم العاكس أحادي الاتجاه، والفيلم المصنفر، والفيلم المزخرف للحمامات والفواصل والنوافذ المطلة على الشارع، بالإضافة إلى فيلم الأمان والحماية الذي يحافظ على تماسك الزجاج عند الارتطام. يشمل كل عمل تجهيز الزجاج، والقص الدقيق حسب المقاس، وتشطيبًا خاليًا من الفقاعات، وإزالة أو استبدال التظليل القديم المتقشر. يُركَّب بواسطة فنيينا المدرّبين والموثّقة خلفيتهم — سعر ثابت متفق عليه قبل البدء، ومشمول بضماننا 100%."
     }
   },
-  {
-    id: "swimming-pools",
-    comment: { en: "9. Swimming Pool Construction &amp; Design", ar: "9. إنشاء وتصميم حمامات السباحة" },
-    dataService: { en: "Swimming Pool Construction &amp; Design", ar: "إنشاء وتصميم حمامات السباحة" },
-    bookingGroupLabel: { en: "Swimming Pool Construction &amp; Design", ar: "إنشاء وتصميم حمامات السباحة" },
-    bookingOptions: [{ en: "Swimming Pool Construction &amp; Design", ar: "إنشاء وتصميم حمامات السباحة" }],
-    bookingOrder: 6,
-    images: [
-      { src: "assets/images/pool-1.jpg", alt: { en: "Newly built villa swimming pool with blue tiling", ar: "مسبح فيلا حديث البناء ببلاط أزرق" } },
-      { src: "assets/images/pool-2.jpg", alt: { en: "Pool under construction with rebar and shell formed", ar: "مسبح قيد الإنشاء بحديد تسليح وهيكل مصبوب" } },
-      { src: "assets/images/pool-3.jpg", alt: { en: "Infinity-edge pool with landscaped deck", ar: "مسبح بحافة لا نهائية وسطح مناظر طبيعية" } },
-      { src: "assets/images/pool-4.jpg", alt: { en: "Technician servicing pool filtration equipment", ar: "فني يصون معدات فلترة المسبح" } },
-      { src: "assets/images/pool-5.jpg", alt: { en: "Illuminated pool with underwater lighting at dusk", ar: "مسبح مضاء بإضاءة تحت الماء عند الغروب" } }
-    ],
-    h3: { en: "Swimming Pool Construction &amp; Design", ar: "إنشاء وتصميم حمامات السباحة" },
-    shortDesc: { en: "Custom pool design and construction, renovation and resurfacing, plus ongoing cleaning and equipment maintenance — quoted up front, with every build backed by our 100% guarantee.", ar: "تصميم وإنشاء حمامات سباحة مخصصة، وتجديد وإعادة تشطيب، بالإضافة إلى التنظيف الدوري وصيانة المعدات — بسعر متفق عليه مسبقًا وضمان 100% على كل بناء." },
-    h4: { en: "Pool Design, Construction &amp; Maintenance", ar: "تصميم وإنشاء وصيانة حمامات السباحة" },
-    longDesc: {
-      en: "End-to-end swimming pool projects — design and 3D planning, excavation, shell construction, waterproofing, and tiling or mosaic finishes, including infinity-edge, overflow, and plunge pool designs. Installation covers filtration and pump systems, heating and chilling units, underwater lighting, jacuzzis and water features, plus surrounding decking, coping stones, and landscaping. We also handle renovation and resurfacing of ageing pools, leak detection and structural repair, tile and grout replacement, and equipment upgrades — backed by scheduled maintenance covering cleaning, water testing and chemical balancing, and filter servicing. From first design sketch to the final swim test, one licensed crew handles the entire project — no handoffs between contractors and no surprises on price.",
-      ar: "مشاريع حمامات سباحة متكاملة — التصميم والتخطيط ثلاثي الأبعاد، والحفر، وبناء الهيكل، والعزل المائي، وتشطيبات البلاط أو الفسيفساء، بما في ذلك تصاميم الحواف اللامتناهية والفائضة وأحواض الغطس. ويشمل التركيب أنظمة الفلترة والمضخات، ووحدات التسخين والتبريد، والإضاءة تحت الماء، والجاكوزي والنوافير، بالإضافة إلى الأسطح المحيطة وأحجار الحواف وتنسيق الحدائق. كما نتولى تجديد وإعادة تشطيب الحمامات القديمة، وكشف التسربات والإصلاحات الإنشائية، واستبدال البلاط والجَبَّانة، وترقية المعدات — مدعومة بصيانة دورية تشمل التنظيف وفحص المياه وموازنة المواد الكيميائية وصيانة الفلاتر. من أول رسمة تصميم حتى اختبار السباحة النهائي، يتولى فريق مرخّص واحد المشروع بالكامل — دون تسليم العمل بين مقاولين أو مفاجآت بالسعر."
-    }
-  },
-  {
-    id: "gardening-irrigation",
-    comment: { en: "10. Landscaping, Gardening &amp; Irrigation", ar: "10. تنسيق الحدائق والبستنة وأنظمة الري" },
-    dataService: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
-    bookingGroupLabel: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
-    bookingOptions: [{ en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" }],
-    bookingOrder: 7,
-    images: [
-      { src: "assets/images/garden-1.jpg", alt: { en: "Pop-up sprinklers watering the lawn of a modern villa garden", ar: "رشاشات مياه منبثقة تروي عشب حديقة فيلا حديثة" } },
-      { src: "assets/images/garden-2.jpg", alt: { en: "Gardener planting flowers in a mulched bed beside a modern home", ar: "بستاني يزرع الزهور في حوض مغطى بالنشارة بجانب منزل حديث" } },
-      { src: "assets/images/garden-3.jpg", alt: { en: "Gardener mowing a striped villa lawn lined with palm trees", ar: "بستاني يجز عشب حديقة فيلا مصطف بالنخيل" } },
-      { src: "assets/images/garden-4.jpg", alt: { en: "Gardener trimming a hedge with a powered hedge trimmer", ar: "بستاني يشذّب سياجًا بمقص كهربائي" } },
-      { src: "assets/images/garden-5.jpg", alt: { en: "Finished villa garden with manicured lawn, palm trees and flower beds", ar: "حديقة فيلا مكتملة بعشب مشذّب ونخيل وأحواض زهور" } }
-    ],
-    h3: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
-    shortDesc: { en: "Garden design and planting, automatic irrigation installation and repair, and regular upkeep to keep everything green year-round — at a flat, agreed price with our 100% guarantee on every job.", ar: "تصميم الحدائق والزراعة، وتركيب وإصلاح أنظمة الري الأوتوماتيكية، وصيانة دورية للحفاظ على الخضرة طوال العام — بسعر ثابت متفق عليه وضمان 100% على كل عمل." },
-    h4: { en: "Landscaping &amp; Irrigation", ar: "تنسيق الحدائق والري" },
-    longDesc: {
-      en: "Complete garden and landscaping work — design and soft landscaping, natural lawns and artificial grass, tree, shrub and seasonal flower planting, plus hard landscaping such as pathways, pergolas, decking, and decorative gravel. Irrigation covers full system design and installation, automatic sprinkler and drip-line setup, smart timers and controllers, pump and valve fitting, and repair of leaks, blockages, and broken sprinkler heads. Ongoing maintenance includes mowing, hedge and tree trimming, weed and pest control, fertilisation, seasonal replanting, and irrigation system checks. Our own licensed team handles design through to ongoing upkeep, so the same crew that planted your garden is the one maintaining it.",
-      ar: "أعمال حدائق وتنسيق متكاملة — التصميم والتنسيق الأخضر، والمسطحات الطبيعية والعشب الصناعي، وزراعة الأشجار والشجيرات والزهور الموسمية، بالإضافة إلى التنسيق الصلب مثل الممرات والبرجولات والأسطح الخشبية والحصى الزخرفي. ويشمل الري تصميم وتركيب النظام بالكامل، وتركيب الرشاشات الأوتوماتيكية وخطوط التنقيط، والمؤقتات وأجهزة التحكم الذكية، وتركيب المضخات والصمامات، وإصلاح التسربات والانسدادات ورؤوس الرشاشات التالفة. وتشمل الصيانة المستمرة قص العشب، وتشذيب الأسيجة والأشجار، ومكافحة الأعشاب والآفات، والتسميد، وإعادة الزراعة الموسمية، وفحص أنظمة الري. يتولى فريقنا المرخّص التصميم وحتى الصيانة المستمرة، بحيث يكون نفس الفريق الذي زرع حديقتك هو من يعتني بها."
-    }
-  }
 ];
