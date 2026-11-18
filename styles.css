@@ -102,6 +102,7 @@
      pushed to the far edge by the margin-inline-start:auto on .nav-cta below */
   nav{display:flex;align-items:center;gap:36px;padding:16px 32px;max-width:1240px;margin:0 auto;}
   .logo{font-family:'Montserrat',sans-serif;font-weight:800;font-size:21px;display:flex;align-items:center;gap:9px;color:#fff;}
+  .logo-img img{height:64px;width:auto;display:block;}
   .nav-links{display:flex;gap:30px;align-items:center;}
   /* inline-block + padding so the tap target clears the 24px WCAG 2.5.8 minimum
      (text alone rendered only 22px tall) */
