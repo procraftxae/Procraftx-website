@@ -59,7 +59,6 @@
 
   /* floating trade chips in hero */
   .hero-chips{position:absolute;inset:0;z-index:2;pointer-events:none;}
-  .hero-mobile-link{display:none;position:absolute;inset:0;z-index:3;}
   .hero-chip{
     position:absolute;width:56px;height:56px;border-radius:16px;
     background:rgba(255,255,255,0.14);border:1px solid rgba(255,255,255,0.28);
@@ -552,11 +551,22 @@
     html[lang="ar"] .lang-toggle .lang-en{flex-direction:column;gap:4px;}
     .lang-toggle .flag-icon{width:15px;height:11px;}
 
-    /* ---- Shinex-style mobile hero: full-bleed image only, no text overlay ---- */
+    /* mobile hero: keep the full-bleed video, but overlay a short headline
+       and the primary booking CTA (dark gradient behind for contrast) so
+       mobile visitors — most of our Google Ads traffic — see a message and
+       a tappable CTA instead of just a silent video. */
     .hero{min-height:0;aspect-ratio:16/10;overflow:hidden;}
     .hero .bg::after{display:none;}
-    .hero-content,.hero-chips{display:none;}
-    .hero-mobile-link{display:block;}
+    .hero-chips{display:none;}
+    .hero-content{
+      display:flex;flex-direction:column;justify-content:flex-end;
+      position:absolute;inset:0;max-width:none;
+      background:linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0) 65%);
+    }
+    .wrap.hero-content{padding:16px;}
+    .hero-content .eyebrow,.hero-content p{display:none;}
+    .hero-content h1{font-size:24px;margin:0 0 14px;}
+    .hero-ctas .btn-outline{display:none;}
     .trust-float{margin-top:0;}
 
     .services-grid{grid-template-columns:repeat(2,1fr);gap:14px;}
