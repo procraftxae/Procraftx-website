@@ -83,39 +83,6 @@
   window.addEventListener('hashchange', revealHashTarget);
   revealHashTarget();
 
-  // mobile nav: toggle open/close, close on link click, close on outside click / Escape
-  const burger = document.getElementById('burgerBtn');
-  const navLinks = document.getElementById('navLinks');
-
-  function openMenu(){
-    navLinks.classList.add('is-open');
-    navLinks.style.display='flex'; navLinks.style.flexDirection='column';
-    navLinks.style.position='absolute'; navLinks.style.top='60px'; navLinks.style.left='0'; navLinks.style.right='0';
-    navLinks.style.padding='18px 32px'; navLinks.style.gap='16px';
-    burger.classList.add('is-open');
-    burger.setAttribute('aria-expanded','true');
-  }
-  function closeMenu(){
-    navLinks.classList.remove('is-open');
-    navLinks.style.display=''; navLinks.style.position='';
-    burger.classList.remove('is-open');
-    burger.setAttribute('aria-expanded','false');
-  }
-  burger.addEventListener('click', ()=>{
-    const isOpen = navLinks.classList.contains('is-open');
-    isOpen ? closeMenu() : openMenu();
-  });
-  navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click', closeMenu));
-  document.addEventListener('click', (e)=>{
-    if(navLinks.classList.contains('is-open') && !navLinks.contains(e.target) && e.target !== burger && !burger.contains(e.target)){
-      closeMenu();
-    }
-  });
-  document.addEventListener('keydown', (e)=>{
-    if(e.key === 'Escape' && navLinks.classList.contains('is-open')) closeMenu();
-  });
-  window.matchMedia('(min-width:721px)').addEventListener('change', (e)=>{ if(e.matches) closeMenu(); });
-
   // clicking "Request quote" on a service card pre-selects it in the booking form.
   // matches any [data-service] element so it works for both the text links on
   // regular cards and the CTA button on the text-only catch-all card

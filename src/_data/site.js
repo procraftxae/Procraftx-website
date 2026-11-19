@@ -24,8 +24,7 @@ module.exports = {
     services: { en: "Services", ar: "خدماتنا" },
     specialties: { en: "Specialties", ar: "التخصصات" },
     faqs: { en: "FAQs", ar: "الأسئلة" },
-    toggleAriaLabel: { en: "Switch to Arabic", ar: "التبديل إلى الإنجليزية" },
-    burgerAriaLabel: { en: "Toggle menu", ar: "فتح القائمة" }
+    toggleAriaLabel: { en: "Switch to Arabic", ar: "التبديل إلى الإنجليزية" }
   },
 
   hero: {
