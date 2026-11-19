@@ -337,6 +337,15 @@
   }
   .sub-card:hover{border-color:var(--red);}
   .sub-card:hover{transform:translateY(-6px);}
+  /* stretched-link: the whole card navigates via the "Learn more" link,
+     while "Request quote" and the thumb-nav buttons stay independently
+     clickable above the overlay. */
+  .sub-card:has(a.card-link){position:relative;}
+  .sub-card a.card-link::after{content:"";position:absolute;inset:0;}
+  .sub-card a:not(.card-link),
+  .sub-card button{position:relative;z-index:1;}
+  .sub-card a.card-link:focus-visible{outline:none;}
+  .sub-card:has(a.card-link:focus-visible){outline:2px solid var(--red);outline-offset:3px;}
   .sub-card-wide{grid-column:1 / -1;max-width:640px;margin:0 auto;}
   .sub-card .thumb{position:relative;height:140px;overflow:hidden;flex:none;}
   .sub-card .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;}
