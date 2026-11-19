@@ -30,8 +30,8 @@ module.exports = {
 
   hero: {
     eyebrow: { en: "Licensed · Insured · 9 specialties, 11 services", ar: "مرخّص · مؤمَّن · 9 تخصصات، 11 خدمة" },
-    h1_main: { en: "Specialties &amp; services.", ar: "تخصصات وخدمات." },
-    h1_span: { en: "All in one.", ar: "في مكان واحد." },
+    h1_main: { en: "Interior Design &amp; Home Maintenance.", ar: "تصميم داخلي وصيانة منزلية." },
+    h1_span: { en: "And more.", ar: "وأكثر." },
     lead: {
       en: "Interior design, custom majlis, swimming pools, and landscaping — plus core home maintenance, furniture care, and deep cleaning. One trusted crew handles it all, with a flat quote before we start and a guarantee behind every job.",
       ar: "تصميم داخلي، مجالس مخصصة، مسابح سباحة، وتنسيق حدائق — بالإضافة إلى الصيانة المنزلية الأساسية والعناية بالأثاث والتنظيف العميق. فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل."
