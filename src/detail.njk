@@ -10,7 +10,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 {%- set content = detailContent[topic.id] -%}
 {%- from "contact-section.njk" import section as contactSection -%}
 {%- set isAr = lang == "ar" -%}
-{%- set ogImage = "https://procraftx.ae/" + topic.images[0].src if topic.images.length else "https://procraftx.ae/assets/images/service-promo-poster.jpg" -%}
+{%- set ogImage = "https://www.procraftx.ae/" + topic.images[0].src if topic.images.length else "https://www.procraftx.ae/assets/images/service-promo-poster.jpg" -%}
 <!DOCTYPE html>
 <html lang="{{ lang }}"{{ ' dir="rtl"' | safe if isAr }}>
 <head>
@@ -23,15 +23,15 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 <link rel="apple-touch-icon" href="{{ '../' if isAr }}assets/images/apple-touch-icon.png">
 <title>{{ content.metaTitle[lang] | safe }}</title>
 <meta name="description" content="{{ content.metaDescription[lang] | safe }}">
-<link rel="canonical" href="https://procraftx.ae/{{ 'ar/' if isAr }}{{ topic.id }}.html">
-<link rel="alternate" hreflang="en" href="https://procraftx.ae/{{ topic.id }}.html">
-<link rel="alternate" hreflang="ar" href="https://procraftx.ae/ar/{{ topic.id }}.html">
-<link rel="alternate" hreflang="x-default" href="https://procraftx.ae/{{ topic.id }}.html">
+<link rel="canonical" href="https://www.procraftx.ae/{{ 'ar/' if isAr }}{{ topic.id }}.html">
+<link rel="alternate" hreflang="en" href="https://www.procraftx.ae/{{ topic.id }}.html">
+<link rel="alternate" hreflang="ar" href="https://www.procraftx.ae/ar/{{ topic.id }}.html">
+<link rel="alternate" hreflang="x-default" href="https://www.procraftx.ae/{{ topic.id }}.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Procraftx">
 <meta property="og:title" content="{{ content.metaTitle[lang] | safe }}">
 <meta property="og:description" content="{{ content.metaDescription[lang] | safe }}">
-<meta property="og:url" content="https://procraftx.ae/{{ 'ar/' if isAr }}{{ topic.id }}.html">
+<meta property="og:url" content="https://www.procraftx.ae/{{ 'ar/' if isAr }}{{ topic.id }}.html">
 <meta property="og:image" content="{{ ogImage }}">
 <meta property="og:locale" content="{{ 'ar_AE' if isAr else 'en_AE' }}">
 <meta property="og:locale:alternate" content="{{ 'en_AE' if isAr else 'ar_AE' }}">
@@ -75,7 +75,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
       <div class="thumb thumb-slideshow">
         {% for img in topic.images %}
         {% set dims = img.src | imageDims %}
-        <img src="{{ '../' if isAr }}{{ img.src }}" alt="{{ img.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy"{{ ' style="display:none"' | safe if not loop.first }}>
+        <img src="{{ '../' if isAr }}{{ img.src }}" alt="{{ img.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}"{{ ' fetchpriority="high"' | safe if loop.first }}{{ ' loading="lazy"' | safe if not loop.first }}{{ ' style="display:none"' | safe if not loop.first }}>
         {% endfor %}
         {% if topic.images.length > 1 %}
         <button type="button" class="thumb-nav thumb-prev" aria-label="{{ 'Previous photo' if lang == 'en' else 'الصورة السابقة' }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>

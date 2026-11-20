@@ -45,7 +45,7 @@ function deEnt(s) {
 }
 
 function buildOfferCatalog(lang) {
-  const prefix = `https://procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
+  const prefix = `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
   const items = [];
   servicesData.categories.forEach((cat) => {
     // the 13 individual services don't each get their own page — only the
@@ -94,10 +94,13 @@ module.exports = function (eleventyConfig) {
     const obj = {
       "@context": "https://schema.org",
       "@type": "HomeAndConstructionBusiness",
+      "@id": "https://www.procraftx.ae/#business",
       name: "Procraftx",
+      alternateName: "بروكرافتكس",
       description: deEnt(p.jsonLdDescription[lang]),
-      url: lang === "ar" ? "https://procraftx.ae/ar/" : "https://procraftx.ae/",
-      image: "https://procraftx.ae/assets/images/service-promo-poster.jpg",
+      url: lang === "ar" ? "https://www.procraftx.ae/ar/" : "https://www.procraftx.ae/",
+      image: "https://www.procraftx.ae/assets/images/service-promo-poster.jpg",
+      logo: "https://www.procraftx.ae/assets/images/logo.png",
       telephone: siteData.business.phone,
       email: siteData.business.email,
       priceRange: "$$",
@@ -148,10 +151,10 @@ module.exports = function (eleventyConfig) {
       "@type": "Service",
       name: lang === "ar" ? content.h1.ar : deEnt(content.h1.en),
       description: lang === "ar" ? content.metaDescription.ar : deEnt(content.metaDescription.en),
-      provider: { "@type": "HomeAndConstructionBusiness", name: "Procraftx", telephone: siteData.business.phone, email: siteData.business.email },
+      provider: { "@id": "https://www.procraftx.ae/#business" },
       areaServed: siteData.business.areaServed.map((c) => ({ "@type": "City", name: c[lang] })),
       inLanguage: lang,
-      url: `https://procraftx.ae/${lang === "ar" ? "ar/" : ""}${topic.id}.html`
+      url: `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}${topic.id}.html`
     };
     return JSON.stringify(obj, null, 2);
   });
@@ -159,7 +162,7 @@ module.exports = function (eleventyConfig) {
   // Matches the visible breadcrumb ("Home / Topic") on each detail page.
   eleventyConfig.addFilter("detailBreadcrumbJsonLd", function (topicId, lang) {
     const topic = detailTopicsData.find((t) => t.id === topicId);
-    const prefix = `https://procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
+    const prefix = `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
     const obj = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",

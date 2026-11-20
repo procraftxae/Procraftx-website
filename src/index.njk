@@ -21,22 +21,22 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 <link rel="apple-touch-icon" href="{{ '../' if isAr }}assets/images/apple-touch-icon.png">
 <title>{{ pages.index.title[lang] | safe }}</title>
 <meta name="description" content="{{ pages.index.description[lang] | safe }}">
-<link rel="canonical" href="https://procraftx.ae/{{ 'ar/' if isAr }}">
-<link rel="alternate" hreflang="en" href="https://procraftx.ae/">
-<link rel="alternate" hreflang="ar" href="https://procraftx.ae/ar/">
-<link rel="alternate" hreflang="x-default" href="https://procraftx.ae/">
+<link rel="canonical" href="https://www.procraftx.ae/{{ 'ar/' if isAr }}">
+<link rel="alternate" hreflang="en" href="https://www.procraftx.ae/">
+<link rel="alternate" hreflang="ar" href="https://www.procraftx.ae/ar/">
+<link rel="alternate" hreflang="x-default" href="https://www.procraftx.ae/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Procraftx">
 <meta property="og:title" content="{{ pages.index.ogTitle[lang] | safe }}">
 <meta property="og:description" content="{{ pages.index.ogDescription[lang] | safe }}">
-<meta property="og:url" content="https://procraftx.ae/{{ 'ar/' if isAr }}">
-<meta property="og:image" content="https://procraftx.ae/assets/images/service-promo-poster.jpg">
+<meta property="og:url" content="https://www.procraftx.ae/{{ 'ar/' if isAr }}">
+<meta property="og:image" content="https://www.procraftx.ae/assets/images/service-promo-poster.jpg">
 <meta property="og:locale" content="{{ 'ar_AE' if isAr else 'en_AE' }}">
 <meta property="og:locale:alternate" content="{{ 'en_AE' if isAr else 'ar_AE' }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ pages.index.ogTitle[lang] | safe }}">
 <meta name="twitter:description" content="{{ pages.index.twitterDescription[lang] | safe }}">
-<meta name="twitter:image" content="https://procraftx.ae/assets/images/service-promo-poster.jpg">
+<meta name="twitter:image" content="https://www.procraftx.ae/assets/images/service-promo-poster.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '../styles.css' if isAr else 'styles.css' }}">
@@ -92,7 +92,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
     {% for s in site.stats %}
     <div class="stat">
       {% if s.count is defined %}
-      <div class="num" data-count="{{ s.count }}" data-suffix="{{ s.suffix[lang] | safe }}">0</div>
+      <div class="num" data-count="{{ s.count }}" data-suffix="{{ s.suffix[lang] | safe }}">{{ s.count }}{{ s.suffix[lang] | safe }}</div>
       {% else %}
       <div class="num num-text">{{ s.staticText[lang] | safe }}</div>
       {% endif %}
