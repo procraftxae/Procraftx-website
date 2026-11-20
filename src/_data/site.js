@@ -121,7 +121,8 @@ module.exports = {
     aboutLink: { en: "About Us", ar: "من نحن" },
     contactLink: { en: "Contact", ar: "تواصل" },
     areaServedLabel: { en: "Proudly serving", ar: "نخدم بفخر" },
-    rights: { en: "All rights reserved.", ar: "جميع الحقوق محفوظة." }
+    rights: { en: "All rights reserved.", ar: "جميع الحقوق محفوظة." },
+    privacyLink: { en: "Privacy Policy", ar: "سياسة الخصوصية" }
   },
 
   // Shared across all 10 detail pages (src/detail.njk) — same 4-step

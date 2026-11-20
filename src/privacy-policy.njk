@@ -1,0 +1,76 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{% if lang == 'ar' %}ar/privacy-policy.html{% else %}privacy-policy.html{% endif %}"
+---
+{%- set isAr = lang == "ar" -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}"{{ ' dir="rtl"' | safe if isAr }}>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% include "gtm-head.njk" %}
+<meta name="google-site-verification" content="_IPAHV06IH3jP_eau1n5NKWp9_Zfgb3BOBFFXUx4otM">
+<link rel="icon" href="{{ '../' if isAr }}assets/images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{{ '../' if isAr }}assets/images/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="{{ '../' if isAr }}assets/images/apple-touch-icon.png">
+<title>{{ pages.privacy.title[lang] | safe }}</title>
+<meta name="description" content="{{ pages.privacy.description[lang] | safe }}">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://www.procraftx.ae/{{ 'ar/' if isAr }}privacy-policy.html">
+<link rel="alternate" hreflang="en" href="https://www.procraftx.ae/privacy-policy.html">
+<link rel="alternate" hreflang="ar" href="https://www.procraftx.ae/ar/privacy-policy.html">
+<link rel="alternate" hreflang="x-default" href="https://www.procraftx.ae/privacy-policy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Procraftx">
+<meta property="og:title" content="{{ pages.privacy.ogTitle[lang] | safe }}">
+<meta property="og:description" content="{{ pages.privacy.ogDescription[lang] | safe }}">
+<meta property="og:url" content="https://www.procraftx.ae/{{ 'ar/' if isAr }}privacy-policy.html">
+<meta property="og:image" content="https://www.procraftx.ae/assets/images/service-promo-poster.jpg">
+<meta property="og:locale" content="{{ 'ar_AE' if isAr else 'en_AE' }}">
+<meta property="og:locale:alternate" content="{{ 'en_AE' if isAr else 'ar_AE' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ pages.privacy.ogTitle[lang] | safe }}">
+<meta name="twitter:description" content="{{ pages.privacy.twitterDescription[lang] | safe }}">
+<meta name="twitter:image" content="https://www.procraftx.ae/assets/images/service-promo-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '../styles.css' if isAr else 'styles.css' }}">
+</head>
+<body>
+{% include "gtm-body.njk" %}
+
+<a href="#main" class="skip-link">{{ site.skipLink[lang] | safe }}</a>
+
+{% set offHome = true %}
+{% include "nav.njk" %}
+
+<main id="main">
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ pages.privacy.heroEyebrow[lang] | safe }}</span>
+      <h1>{{ pages.privacy.heroH1[lang] | safe }}</h1>
+      <p>{{ pages.privacy.lastUpdated[lang] | safe }}</p>
+    </div>
+
+    <div class="legal-content reveal">
+      {% for sec in pages.privacy.sections %}
+      <h2>{{ sec.h2[lang] | safe }}</h2>
+      <p>{{ sec.body[lang] | safe }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+</main>
+
+{% include "footer.njk" %}
+
+<script src="{{ '../assets/js/main.js' if isAr else 'assets/js/main.js' }}"></script>
+{% include "whatsapp-float.njk" %}
+</body>
+</html>
