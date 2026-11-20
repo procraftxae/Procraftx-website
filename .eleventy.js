@@ -103,6 +103,11 @@ module.exports = function (eleventyConfig) {
       logo: "https://www.procraftx.ae/assets/images/logo.png",
       telephone: siteData.business.phone,
       email: siteData.business.email,
+      identifier: {
+        "@type": "PropertyValue",
+        name: "Trade License Number",
+        value: siteData.business.tradeLicenseNumber
+      },
       priceRange: "$$",
       inLanguage: lang,
       openingHours: "Mo-Su 00:00-23:59",

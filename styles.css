@@ -531,6 +531,7 @@
   .footer-col a{font-size:14.5px;color:rgba(255,255,255,0.72);transition:color .2s ease;}
   .footer-col a:hover{color:#fff;}
   .footer-areas{margin-top:16px;font-size:13.5px;color:rgba(255,255,255,0.55);}
+  .footer-license{margin-top:6px;font-size:13.5px;color:rgba(255,255,255,0.55);}
   .footer-bottom{border-top:1px solid rgba(255,255,255,0.12);}
   .footer-bottom .wrap{padding:18px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
   .footer-bottom p{font-size:13px;color:rgba(255,255,255,0.55);}

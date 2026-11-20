@@ -283,8 +283,8 @@ module.exports = [
      qAr:"هل يُصنَّع الأثاث خارج الموقع ثم يُركَّب، أم في منزلي؟", aAr:"يتم التصنيع في ورشتنا لضمان الدقة وجودة التشطيب، ثم يتولى فريقنا التركيب النهائي في الموقع — فريق واحد من البداية حتى النهاية."},
     {qEn:"Can you build a piece to fit an awkward or non-standard space?", aEn:"Yes — we measure the space first and design around it, which is usually why people come to us instead of buying something off-the-shelf that's close but not quite right.",
      qAr:"هل يمكنكم تصنيع قطعة تناسب مساحة غير معتادة؟", aAr:"نعم — نقيس المساحة أولاً ثم نصمم حولها، وهذا السبب المعتاد الذي يجعل الناس يأتون إلينا بدل شراء شيء جاهز قريب لكن ليس مطابقًا تمامًا."},
-    {qEn:"Do you offer a guarantee on custom-built furniture?", aEn:"Yes — every piece is covered by our 100% guarantee on materials and workmanship, with a flat price agreed before any material is ordered.",
-     qAr:"هل تقدمون ضمانًا على الأثاث المصنّع حسب الطلب؟", aAr:"نعم — كل قطعة مغطاة بضماننا 100% على المواد وجودة التنفيذ، بسعر ثابت متفق عليه قبل طلب أي مادة."}
+    {qEn:"Do you offer a guarantee on custom-built furniture?", aEn:"Yes — every piece is covered by our 100% guarantee on materials and workmanship, with a clear price agreed before any material is ordered.",
+     qAr:"هل تقدمون ضمانًا على الأثاث المصنّع حسب الطلب؟", aAr:"نعم — كل قطعة مغطاة بضماننا 100% على المواد وجودة التنفيذ، بسعر واضح متفق عليه قبل طلب أي مادة."}
   ]
 },
 {
@@ -297,8 +297,8 @@ module.exports = [
      qAr:"كيف تسير العملية إذا لم يكن لدي تصميم نهائي في ذهني؟", aAr:"لا تحتاج لذلك — أخبرنا بالفكرة، حتى لو كانت تقريبية، وسنساعدك على تطويرها إلى تصميم قابل للتنفيذ، ونعرض عليك خيارات المواد والتشطيبات، ونعطيك عرض سعر واضح قبل بدء أي عمل."},
     {qEn:"Is there a minimum size for a custom project?", aEn:"No — we take on small one-off pieces as well as larger builds. If it's worth doing well, it's worth quoting properly, regardless of scale.",
      qAr:"هل يوجد حد أدنى لحجم المشروع المخصص؟", aAr:"لا — نتولى القطع الصغيرة لمرة واحدة وكذلك المشاريع الأكبر. إذا كان يستحق التنفيذ بإتقان، فهو يستحق عرض سعر واضح، بغض النظر عن الحجم."},
-    {qEn:"How is pricing determined for something that doesn't fit a standard service?", aEn:"We assess the design complexity, materials, and labor involved during the site visit or consultation, then give you a flat price before any work starts — same as every other job we quote.",
-     qAr:"كيف يُحدَّد السعر لشيء لا يندرج ضمن خدمة قياسية؟", aAr:"نقيّم تعقيد التصميم والمواد والعمالة المطلوبة أثناء زيارة الموقع أو الاستشارة، ثم نعطيك سعرًا ثابتًا قبل بدء أي عمل — تمامًا مثل أي مهمة أخرى نقدّم لها عرض سعر."},
+    {qEn:"How is pricing determined for something that doesn't fit a standard service?", aEn:"We assess the design complexity, materials, and labor involved during the site visit or consultation, then give you a clear price before any work starts — same as every other job we quote.",
+     qAr:"كيف يُحدَّد السعر لشيء لا يندرج ضمن خدمة قياسية؟", aAr:"نقيّم تعقيد التصميم والمواد والعمالة المطلوبة أثناء زيارة الموقع أو الاستشارة، ثم نعطيك سعرًا واضحًا قبل بدء أي عمل — تمامًا مثل أي مهمة أخرى نقدّم لها عرض سعر."},
     {qEn:"Can you modify or adapt something I already own instead of building from scratch?", aEn:"Yes — modifications and adaptations to existing furniture, fixtures, or structures are common custom requests, and often more cost-effective than a full rebuild.",
      qAr:"هل يمكنكم تعديل أو تكييف شيء أملكه بدل البناء من الصفر؟", aAr:"نعم — التعديلات والتكييفات على الأثاث أو التجهيزات أو الهياكل القائمة طلبات مخصصة شائعة، وغالبًا أكثر توفيرًا من إعادة البناء الكاملة."},
     {qEn:"Do you provide design sketches or visuals before starting a custom build?", aEn:"Yes, for anything beyond a small repair or adaptation — we'll sketch or visualize the concept so you can approve it before we commit materials or start work.",

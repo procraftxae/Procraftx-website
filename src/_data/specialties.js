@@ -20,7 +20,7 @@ module.exports = [
       { src: "assets/images/interior-5.jpg", alt: { en: "Majlis seating area styled with décor and lighting", ar: "منطقة جلوس مجلس منسقة بديكور وإضاءة" } }
     ],
     h3: { en: "Interior Design", ar: "التصميم الداخلي" },
-    shortDesc: { en: "Concept design, space planning, and full styling for any room or full home renovation — flat price, 100% guarantee.", ar: "تصميم وتخطيط مساحات وتنسيق كامل لأي غرفة أو تجديد منزل كامل — سعر ثابت وضمان 100%." },
+    shortDesc: { en: "Concept design, space planning, and full styling for any room or full home renovation — transparent pricing, 100% guarantee.", ar: "تصميم وتخطيط مساحات وتنسيق كامل لأي غرفة أو تجديد منزل كامل — تسعير شفاف وضمان 100%." },
     h4: { en: "Interior Design, Renovation &amp; Fit-Out", ar: "التصميم الداخلي والتجديد والتجهيز" },
     longDesc: {
       en: "Full interior design service covering concept development, space planning, and layout optimisation, with mood boards and 3D visuals so you can see the result before work begins. We handle material, finish and colour selection, flooring and wall treatments, wood/PVC/3D wall panel installation, decorative floor and wall finishes, wood-alternative (WPC), stone-alternative, and marble-alternative surfaces, moisture-resistant board alternatives to chipboard for joinery, false ceilings and gypsum work, lighting design, curtains and blinds, and custom joinery including wardrobes, TV units, and kitchen cabinetry. Delivery covers furniture sourcing and placement, décor and accessory styling, and complete supervised fit-out — covering everything from a studio renovation or bedroom renovation to a full apartment renovation or full home renovation. Every project is handled by our own licensed, background-checked design and joinery team — one point of contact from first sketch to final walkthrough.",
@@ -38,11 +38,11 @@ module.exports = [
       { src: "assets/images/furniture-design-build-service.jpg", alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" } }
     ],
     h3: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-    shortDesc: { en: "Bespoke wardrobes, TV units, and cabinetry designed, built, and installed to fit your space — flat price, 100% guarantee.", ar: "خزائن ووحدات تلفزيون وخزائن مطبخ تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك — سعر ثابت وضمان 100%." },
+    shortDesc: { en: "Bespoke wardrobes, TV units, and cabinetry designed, built, and installed to fit your space — transparent pricing, 100% guarantee.", ar: "خزائن ووحدات تلفزيون وخزائن مطبخ تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك — تسعير شفاف وضمان 100%." },
     h4: { en: "Bespoke Furniture Design, Build &amp; Installation", ar: "تصميم وتصنيع وتركيب أثاث حسب الطلب" },
     longDesc: {
-      en: "Design, fabrication, and installation of bespoke furniture built to the exact dimensions of your space — wardrobes, TV units, kitchen and bathroom cabinetry, shelving, and one-off statement pieces, in your choice of wood, laminate, veneer, or painted finish. We handle material selection, 3D visuals before fabrication, and final fitting, so every piece fits perfectly and matches the rest of your interior. Every project is built and installed by our own licensed, background-checked joinery team — one point of contact from first sketch to final placement, with a flat price agreed before work starts and a 100% guarantee on materials and workmanship.",
-      ar: "تصميم وتصنيع وتركيب أثاث مخصص يُصنَّع بالضبط حسب أبعاد مساحتك — خزائن ملابس، وحدات تلفزيون، خزائن مطبخ وحمام، أرفف، وقطع مميزة فريدة، بالخشب أو اللامينيت أو القشرة أو التشطيب المطلي حسب رغبتك. نتولى اختيار المواد، وتقديم مجسمات ثلاثية الأبعاد قبل التصنيع، والتركيب النهائي، بحيث تتناسب كل قطعة تمامًا مع بقية ديكور منزلك. يتولى كل مشروع فريق النجارة المرخّص والموثّق الخلفية لدينا — جهة تواصل واحدة من أول رسمة حتى التركيب النهائي، بسعر ثابت متفق عليه قبل البدء وضمان 100% على المواد وجودة التنفيذ."
+      en: "Design, fabrication, and installation of bespoke furniture built to the exact dimensions of your space — wardrobes, TV units, kitchen and bathroom cabinetry, shelving, and one-off statement pieces, in your choice of wood, laminate, veneer, or painted finish. We handle material selection, 3D visuals before fabrication, and final fitting, so every piece fits perfectly and matches the rest of your interior. Every project is built and installed by our own licensed, background-checked joinery team — one point of contact from first sketch to final placement, with a clear price agreed before work starts and a 100% guarantee on materials and workmanship.",
+      ar: "تصميم وتصنيع وتركيب أثاث مخصص يُصنَّع بالضبط حسب أبعاد مساحتك — خزائن ملابس، وحدات تلفزيون، خزائن مطبخ وحمام، أرفف، وقطع مميزة فريدة، بالخشب أو اللامينيت أو القشرة أو التشطيب المطلي حسب رغبتك. نتولى اختيار المواد، وتقديم مجسمات ثلاثية الأبعاد قبل التصنيع، والتركيب النهائي، بحيث تتناسب كل قطعة تمامًا مع بقية ديكور منزلك. يتولى كل مشروع فريق النجارة المرخّص والموثّق الخلفية لدينا — جهة تواصل واحدة من أول رسمة حتى التركيب النهائي، بسعر واضح متفق عليه قبل البدء وضمان 100% على المواد وجودة التنفيذ."
     }
   },
   {
@@ -82,7 +82,7 @@ module.exports = [
       { src: "assets/images/garage-5.jpg", alt: { en: "Wooden pergola-style carport shading two vehicles", ar: "مظلة خشبية على طراز البرجولا تظلل سيارتين" } }
     ],
     h3: { en: "Custom Car Garages &amp; Outdoor Carports", ar: "كراجات السيارات والمظلات الخارجية المخصصة" },
-    shortDesc: { en: "Custom garages, carports, and parking shades in steel, aluminum, or sandwich panel — flat price, 100% guarantee.", ar: "كراجات ومظلات سيارات مخصصة بالفولاذ أو الألمنيوم أو الألواح الساندويتش — سعر ثابت وضمان 100%." },
+    shortDesc: { en: "Custom garages, carports, and parking shades in steel, aluminum, or sandwich panel — transparent pricing, 100% guarantee.", ar: "كراجات ومظلات سيارات مخصصة بالفولاذ أو الألمنيوم أو الألواح الساندويتش — تسعير شفاف وضمان 100%." },
     h4: { en: "Custom Car Garage &amp; Carport Construction", ar: "إنشاء كراجات ومظلات سيارات مخصصة" },
     longDesc: {
       en: "Design and build of custom car garages, carports, and parking shades — steel structures, aluminum garages, and sandwich panel garages built to protect vehicles and suit residential properties. Every structure is built by our own licensed, background-checked crew and comes with a guarantee on materials and workmanship.",
@@ -126,7 +126,7 @@ module.exports = [
       { src: "assets/images/garden-5.jpg", alt: { en: "Finished villa garden with manicured lawn, palm trees and flower beds", ar: "حديقة فيلا مكتملة بعشب مشذّب ونخيل وأحواض زهور" } }
     ],
     h3: { en: "Landscaping, Gardening &amp; Irrigation", ar: "تنسيق الحدائق والبستنة وأنظمة الري" },
-    shortDesc: { en: "Garden design, planting, irrigation, and year-round upkeep — flat price, 100% guarantee.", ar: "تصميم حدائق وزراعة وري وصيانة مستمرة طوال العام — سعر ثابت وضمان 100%." },
+    shortDesc: { en: "Garden design, planting, irrigation, and year-round upkeep — transparent pricing, 100% guarantee.", ar: "تصميم حدائق وزراعة وري وصيانة مستمرة طوال العام — تسعير شفاف وضمان 100%." },
     h4: { en: "Landscaping &amp; Irrigation", ar: "تنسيق الحدائق والري" },
     longDesc: {
       en: "Complete garden and landscaping work — design and soft landscaping, natural lawns and artificial grass, tree, shrub and seasonal flower planting, plus hard landscaping such as pathways, pergolas, decking, and decorative gravel. Irrigation covers full system design and installation, automatic sprinkler and drip-line setup, smart timers and controllers, pump and valve fitting, and repair of leaks, blockages, and broken sprinkler heads. Ongoing maintenance includes mowing, hedge and tree trimming, weed and pest control, fertilisation, seasonal replanting, and irrigation system checks. Our own licensed team handles design through to ongoing upkeep, so the same crew that planted your garden is the one maintaining it.",
@@ -151,7 +151,7 @@ module.exports = [
       { src: "assets/images/door-window-5.jpg", alt: { en: "Installed aluminium door and window system opening onto a garden", ar: "نظام أبواب ونوافذ ألمنيوم مُركّب يفتح على حديقة" } }
     ],
     h3: { en: "Custom Doors &amp; Windows", ar: "الأبواب والنوافذ المخصصة" },
-    shortDesc: { en: "Custom doors and windows — designed, installed, replaced, or repaired, with a flat price and 100% guarantee.", ar: "أبواب ونوافذ مخصصة — تصميم وتركيب واستبدال وإصلاح، بسعر ثابت وضمان 100%." },
+    shortDesc: { en: "Custom doors and windows — designed, installed, replaced, or repaired, with a clear price and 100% guarantee.", ar: "أبواب ونوافذ مخصصة — تصميم وتركيب واستبدال وإصلاح، بتسعير شفاف وضمان 100%." },
     h4: { en: "Custom Doors &amp; Window Installation", ar: "تصميم أبواب وتركيب نوافذ مخصص" },
     longDesc: {
       en: "Custom design, build, and installation of front, interior, and sliding doors, plus installation, replacement, and repair of aluminium, uPVC, sliding, casement, and double-glazed windows — built for durability, weather protection, and a precise fit. Every door and window is fitted by our own licensed, background-checked technicians, with a single point of contact from measurement to final fit.",
@@ -176,7 +176,7 @@ module.exports = [
       { src: "assets/images/shower-glass-1.jpg", alt: { en: "Technician installing a glass shower enclosure", ar: "فني يركّب حاجز زجاجي للحمام" } }
     ],
     h3: { en: "Custom Glass &amp; Mirror Work", ar: "أعمال الزجاج والمرايا المخصصة" },
-    shortDesc: { en: "Shower glass, mirrors, partitions, and custom glass work — flat price, 100% guarantee.", ar: "زجاج الحمام والمرايا والفواصل وأعمال الزجاج المخصصة — سعر ثابت وضمان 100%." },
+    shortDesc: { en: "Shower glass, mirrors, partitions, and custom glass work — transparent pricing, 100% guarantee.", ar: "زجاج الحمام والمرايا والفواصل وأعمال الزجاج المخصصة — تسعير شفاف وضمان 100%." },
     h4: { en: "Custom Glass Fabrication &amp; Installation", ar: "تصنيع وتركيب زجاج مخصص" },
     longDesc: {
       en: "Custom glass fabrication and installation for shower enclosures, mirrors, partitions, balustrades and railings, tabletops and shelving, and safety or security glass — measured and fitted to the exact space, not off a fixed catalogue. Measured, fabricated, and fitted by our own licensed team — one point of contact, with no subcontractors passing the job around.",
@@ -198,11 +198,11 @@ module.exports = [
       { src: "assets/images/tinting-5.jpg", alt: { en: "Installer smoothing tint film with a squeegee", ar: "فني تركيب يمسح فيلم التظليل بممسحة" } }
     ],
     h3: { en: "Window Tinting &amp; Privacy/Protection Film", ar: "تظليل النوافذ وأفلام الخصوصية والحماية" },
-    shortDesc: { en: "Heat-rejection, privacy, and security films applied to villa and apartment glass — flat price, 100% guarantee.", ar: "أفلام عازلة للحرارة وخصوصية وحماية تُركّب على زجاج الفلل والشقق — سعر ثابت وضمان 100%." },
+    shortDesc: { en: "Heat-rejection, privacy, and security films applied to villa and apartment glass — transparent pricing, 100% guarantee.", ar: "أفلام عازلة للحرارة وخصوصية وحماية تُركّب على زجاج الفلل والشقق — تسعير شفاف وضمان 100%." },
     h4: { en: "Home Window Film &amp; Tinting", ar: "أفلام وتظليل نوافذ المنزل" },
     longDesc: {
-      en: "Supply and installation of residential window films — heat-rejection and solar-control tint to cut cooling costs, UV-blocking film that stops furniture and flooring from fading, and glare-reduction film for bright rooms. Privacy options include one-way mirror, frosted, and decorative patterned film for bathrooms, partitions, and street-facing windows, plus safety and security film that holds glass together on impact. Every job includes glass preparation, precision cut-to-fit application, bubble-free finishing, and removal or replacement of old peeling tint. Applied by our own trained, background-checked technicians — a flat price agreed before we start, and covered by our 100% guarantee.",
-      ar: "توريد وتركيب أفلام نوافذ المنازل — تظليل عازل للحرارة ومتحكم في أشعة الشمس لخفض تكاليف التبريد، وفيلم حاجب للأشعة فوق البنفسجية يمنع بهتان الأثاث والأرضيات، وفيلم مقلل للوهج للغرف شديدة الإضاءة. تشمل خيارات الخصوصية الفيلم العاكس أحادي الاتجاه، والفيلم المصنفر، والفيلم المزخرف للحمامات والفواصل والنوافذ المطلة على الشارع، بالإضافة إلى فيلم الأمان والحماية الذي يحافظ على تماسك الزجاج عند الارتطام. يشمل كل عمل تجهيز الزجاج، والقص الدقيق حسب المقاس، وتشطيبًا خاليًا من الفقاعات، وإزالة أو استبدال التظليل القديم المتقشر. يُركَّب بواسطة فنيينا المدرّبين والموثّقة خلفيتهم — سعر ثابت متفق عليه قبل البدء، ومشمول بضماننا 100%."
+      en: "Supply and installation of residential window films — heat-rejection and solar-control tint to cut cooling costs, UV-blocking film that stops furniture and flooring from fading, and glare-reduction film for bright rooms. Privacy options include one-way mirror, frosted, and decorative patterned film for bathrooms, partitions, and street-facing windows, plus safety and security film that holds glass together on impact. Every job includes glass preparation, precision cut-to-fit application, bubble-free finishing, and removal or replacement of old peeling tint. Applied by our own trained, background-checked technicians — a clear price agreed before we start, and covered by our 100% guarantee.",
+      ar: "توريد وتركيب أفلام نوافذ المنازل — تظليل عازل للحرارة ومتحكم في أشعة الشمس لخفض تكاليف التبريد، وفيلم حاجب للأشعة فوق البنفسجية يمنع بهتان الأثاث والأرضيات، وفيلم مقلل للوهج للغرف شديدة الإضاءة. تشمل خيارات الخصوصية الفيلم العاكس أحادي الاتجاه، والفيلم المصنفر، والفيلم المزخرف للحمامات والفواصل والنوافذ المطلة على الشارع، بالإضافة إلى فيلم الأمان والحماية الذي يحافظ على تماسك الزجاج عند الارتطام. يشمل كل عمل تجهيز الزجاج، والقص الدقيق حسب المقاس، وتشطيبًا خاليًا من الفقاعات، وإزالة أو استبدال التظليل القديم المتقشر. يُركَّب بواسطة فنيينا المدرّبين والموثّقة خلفيتهم — سعر واضح متفق عليه قبل البدء، ومشمول بضماننا 100%."
     }
   },
 ];

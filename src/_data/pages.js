@@ -2,17 +2,17 @@ module.exports = {
   index: {
     title: { en: "Interior Design &amp; Home Maintenance Dubai &amp; Sharjah | Procraftx", ar: "تصميم داخلي وصيانة منزلية دبي والشارقة وأبوظبي | بروكرافتكس" },
     description: {
-      en: "Interior design, renovation, custom majlis, pools &amp; more — flat quote, 100% guarantee. Home specialties in Dubai, Sharjah &amp; Abu Dhabi. Call 050 791 7075.",
-      ar: "تصميم داخلي، تجديد، مجالس مخصصة، مسابح والمزيد — سعر ثابت وضمان 100%. تخصصات منزلية في دبي والشارقة وأبوظبي. اتصل 050 791 7075."
+      en: "Interior design, renovation, custom majlis, pools &amp; more — transparent pricing, 100% guarantee. Home specialties in Dubai, Sharjah &amp; Abu Dhabi. Call 050 791 7075.",
+      ar: "تصميم داخلي، تجديد، مجالس مخصصة، مسابح والمزيد — تسعير شفاف وضمان 100%. تخصصات منزلية في دبي والشارقة وأبوظبي. اتصل 050 791 7075."
     },
     ogTitle: { en: "Interior Design, Renovation &amp; Home Specialties | Procraftx", ar: "تصميم داخلي وتجديد وتخصصات منزلية | بروكرافتكس" },
     ogDescription: {
-      en: "Interior design, majlis construction, pools, landscaping &amp; more — plus core home maintenance and furniture care. Based in Dubai, Sharjah and Abu Dhabi. Flat quote, 100% guarantee.",
-      ar: "تصميم داخلي، إنشاء مجالس، مسابح، تنسيق حدائق والمزيد — بالإضافة إلى الصيانة المنزلية والعناية بالأثاث. مقرّنا في دبي والشارقة وأبوظبي. سعر ثابت، وضمان 100%."
+      en: "Interior design, majlis construction, pools, landscaping &amp; more — plus core home maintenance and furniture care. Based in Dubai, Sharjah and Abu Dhabi. Transparent pricing, 100% guarantee.",
+      ar: "تصميم داخلي، إنشاء مجالس، مسابح، تنسيق حدائق والمزيد — بالإضافة إلى الصيانة المنزلية والعناية بالأثاث. مقرّنا في دبي والشارقة وأبوظبي. تسعير شفاف، وضمان 100%."
     },
     twitterDescription: {
-      en: "Based in Dubai, Sharjah and Abu Dhabi. Flat quote before we start, 100% guarantee.",
-      ar: "مقرّنا في دبي والشارقة وأبوظبي. سعر ثابت قبل البدء، وضمان 100%."
+      en: "Based in Dubai, Sharjah and Abu Dhabi. Clear quote before we start, 100% guarantee.",
+      ar: "مقرّنا في دبي والشارقة وأبوظبي. سعر واضح قبل البدء، وضمان 100%."
     },
     jsonLdDescription: {
       en: "Interior design, outdoor majlis construction, car garage construction, custom door &amp; window installation, custom glass work, residential window tinting, swimming pool construction, and gardening &amp; irrigation, plus AC, plumbing, electrical, handyman, furniture care, and deep cleaning &amp; sanitization services.",
@@ -93,8 +93,8 @@ module.exports = {
       {
         h2: { en: "Cookies & analytics", ar: "ملفات تعريف الارتباط والتحليلات" },
         body: {
-          en: "We use Google Tag Manager to measure how visitors use this site and how our Google Ads campaigns perform. This may set cookies and share data (such as pages visited and general location) with Google, governed by <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google's Privacy Policy</a>. We don't use this data to identify you personally.",
-          ar: "نستخدم Google Tag Manager لقياس كيفية استخدام الزوار لهذا الموقع وأداء حملات Google Ads الخاصة بنا. قد يضع هذا ملفات تعريف ارتباط ويشارك بيانات (مثل الصفحات التي تمت زيارتها والموقع الجغرافي العام) مع جوجل، وفقًا لـ<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">سياسة خصوصية جوجل</a>. لا نستخدم هذه البيانات للتعرف عليك شخصيًا."
+          en: "We use Google Tag Manager, Google Analytics, and Google Ads to measure how visitors use this site and how our ad campaigns perform. These tools may set cookies and share data (such as pages visited, general location, and device type) with Google, governed by <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google's Privacy Policy</a>. We don't use this data to identify you personally.",
+          ar: "نستخدم Google Tag Manager وGoogle Analytics وGoogle Ads لقياس كيفية استخدام الزوار لهذا الموقع وأداء حملاتنا الإعلانية. قد تضع هذه الأدوات ملفات تعريف ارتباط وتشارك بيانات (مثل الصفحات التي تمت زيارتها والموقع الجغرافي العام ونوع الجهاز) مع جوجل، وفقًا لـ<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">سياسة خصوصية جوجل</a>. لا نستخدم هذه البيانات للتعرف عليك شخصيًا."
         }
       },
       {

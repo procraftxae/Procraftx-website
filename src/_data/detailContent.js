@@ -16,13 +16,13 @@ module.exports = {
         "Interior design in Dubai and Sharjah usually means one of two things: a full home renovation — whether it's a villa or an apartment renovation, from bare shell to move-in ready — or a smaller refresh, like a studio renovation, a bedroom renovation, or updating just the majlis or kitchen, without touching the rest of the home. Procraftx handles both, and the process is the same either way: we start with a site visit to measure the space and understand how you actually use it, then move to concept development with mood boards and material samples before anything is finalized.",
         "Once a direction is approved, we build 3D visuals so you can see lighting, furniture placement, and finishes together before committing — this is also where most clients adjust colour choices or swap a material once they see it rendered at scale, which is far cheaper to change on screen than after installation. From there, our own joinery team handles custom wardrobes, TV units, and kitchen cabinetry in-house rather than subcontracting it out, which keeps the finish consistent with the rest of the fit-out and the timeline in our control. Wall and floor finishes are planned alongside the same joinery work, not treated as an afterthought — wood, PVC, or 3D wall panels, decorative cladding, and flooring upgrades like vinyl, laminate, or feature tiling. We also work with wood-alternative (WPC), stone-alternative, and marble-alternative surfaces where a client wants the look without the cost or upkeep of the real material, and for cabinetry we use moisture-resistant board alternatives to standard chipboard, which holds up far better in this climate.",
         "What's not included: structural changes that require a civil engineer's sign-off (we'll flag this during the site visit if your project needs one and can coordinate with a structural consultant), and furniture we don't source ourselves if you'd rather bring your own pieces — we're happy to design around existing furniture instead of replacing everything.",
-        "Every quote is flat and agreed before we start, and the whole project — design through fit-out — is backed by our 100% guarantee and handled by our own licensed, background-checked crew, not subcontractors."
+        "Every quote is clear and agreed before we start, and the whole project — design through fit-out — is backed by our 100% guarantee and handled by our own licensed, background-checked crew, not subcontractors."
       ],
       ar: [
         "التصميم الداخلي في دبي والشارقة عادةً يعني أحد أمرين: تجديد منزل كامل — سواء تجديد فيلا أو تجديد شقة، من الهيكل الخام حتى الجاهزية للسكن — أو تجديد أصغر مثل تجديد استوديو أو تجديد غرفة نوم أو تحديث المجلس أو المطبخ فقط، دون المساس ببقية المنزل. بروكرافتكس تتولى الحالتين، والعملية نفسها في الحالتين: نبدأ بمعاينة الموقع لقياس المساحة وفهم كيف تستخدمها فعليًا، ثم ننتقل لتطوير الفكرة بلوحات إلهام وعينات مواد قبل اعتماد أي شيء نهائيًا.",
         "بعد اعتماد الاتجاه العام، نُعِد تصورات ثلاثية الأبعاد لترى الإضاءة وتوزيع الأثاث والتشطيبات معًا قبل الالتزام بها — وهذه أيضًا المرحلة التي يُعدّل فيها معظم العملاء اختيار الألوان أو يستبدلون مادة ما بعد رؤيتها بحجمها الحقيقي، وهو أرخص بكثير من تغييرها بعد التركيب. بعدها يتولى فريق النجارة لدينا (بدون تعاقد من الباطن) خزائن الملابس المخصصة ووحدات التلفزيون وخزائن المطبخ، مما يحافظ على تناسق التشطيب مع بقية التجهيز ويبقي الجدول الزمني تحت سيطرتنا. تشطيبات الجدران والأرضيات تُخطَّط جنبًا إلى جنب مع نفس أعمال النجارة، وليس كفكرة لاحقة — ألواح جدران خشبية أو PVC أو ثلاثية الأبعاد، وتكسية زخرفية، وترقيات الأرضيات كالفينيل أو اللامينيت أو البلاط المميز. كما نعمل بأسطح بديل الخشب (WPC) وبديل الحجر وبديل الرخام لمن يريد المظهر نفسه دون تكلفة أو صيانة المادة الأصلية، وفي أعمال النجارة نستخدم ألواحًا مقاومة للرطوبة كبديل للشيبورد العادي، والتي تتحمل مناخنا بشكل أفضل بكثير.",
         "ما لا يشمله العمل: التعديلات الإنشائية التي تتطلب توقيع مهندس مدني (سننبهك لذلك أثناء معاينة الموقع إذا احتاج مشروعك لذلك، ويمكننا التنسيق مع استشاري إنشائي)، والأثاث الذي لا نوفره نحن إذا كنت تفضل إحضار قطعك الخاصة — يسعدنا التصميم حول أثاثك الحالي بدل استبدال كل شيء.",
-        "كل عرض سعر ثابت ومتفق عليه قبل البدء، والمشروع بأكمله — من التصميم حتى التجهيز — مغطى بضماننا 100% وينفذه فريقنا المرخّص والموثّق الخلفية، وليس مقاولين من الباطن."
+        "كل عرض سعر واضح ومتفق عليه قبل البدء، والمشروع بأكمله — من التصميم حتى التجهيز — مغطى بضماننا 100% وينفذه فريقنا المرخّص والموثّق الخلفية، وليس مقاولين من الباطن."
       ]
     },
     whatsIncluded: {
@@ -64,8 +64,8 @@ module.exports = {
     h1: { en: "Majlis Design, Construction &amp; Renovation in Dubai, Sharjah &amp; Abu Dhabi", ar: "تصميم وبناء وتجديد المجالس في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Majlis Construction &amp; Renovation Dubai | Procraftx", ar: "بناء وتجديد المجالس دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Glass, traditional Arabic, and sandwich-panel majlis — designed, built &amp; maintained in Dubai, Sharjah &amp; Abu Dhabi. Flat price, 100% guarantee.",
-      ar: "مجالس زجاجية، عربية تقليدية، وبألواح ساندويتش — تصميم وبناء وصيانة في دبي والشارقة وأبوظبي. سعر ثابت وضمان 100%."
+      en: "Glass, traditional Arabic, and sandwich-panel majlis — designed, built &amp; maintained in Dubai, Sharjah &amp; Abu Dhabi. Transparent pricing, 100% guarantee.",
+      ar: "مجالس زجاجية، عربية تقليدية، وبألواح ساندويتش — تصميم وبناء وصيانة في دبي والشارقة وأبوظبي. تسعير شفاف وضمان 100%."
     },
     overview: {
       en: [
@@ -78,7 +78,7 @@ module.exports = {
         "مشروع المجلس في الإمارات عادةً يبدأ بقرار واحد: زجاجي، تقليدي، أم بألواح ساندويتش. المجلس الزجاجي يناسب الفلل التي تريد مظهرًا حديثًا ومضاءً جيدًا ويعمل كامتداد طبيعي للمنزل الرئيسي؛ المجلس العربي التقليدي يميل لتصاميم مخيّمة أو مكسوة بكثافة مع تشطيبات مفصّلة لمساحة استقبال أكثر رسمية؛ مجلس الألواح الساندويتش يضحّي ببعض المرونة البصرية مقابل وقت بناء أسرع وعزل مدمج أفضل، وهو أمر أهم مما يتوقعه الناس بمجرد وصول الصيف.",
         "أيًا كان الهيكل الذي تختاره، يغطي البناء نفس الجوانب: الأساسات والهيكل، والتجهيز الداخلي الكامل (المقاعد، الأرضيات، تكسية الجدران، الأسقف، الستائر)، والعزل وصيانة التكييف ليكون المكان قابلاً للاستخدام فعليًا طوال الصيف وليس مجرد ديكور، والإضاءة والأعمال الكهربائية بحجم مناسب لاستخدامك الفعلي — أسلاك مجلس عائلي يومي تختلف عن مجلس مُعَدّ لاستضافة مجموعات كبيرة بانتظام.",
         "كما نجدّد المجالس القائمة وليس فقط بناء الجديد — إعادة الكسوة، إصلاح الأسقف، العزل المائي، وتجديد داخلي كامل طلبات شائعة لمجالس سليمة إنشائيًا لكنها قديمة أو متهالكة. ما لا نقوم به: بناء مجلس على أرض بدون حدود مؤكدة أو الموافقات اللازمة — سننبهك لأي شيء يحتاج تصريحًا أثناء معاينة الموقع وليس بعد فوات الأوان.",
-        "أيًا كان الهيكل الذي تختاره، السعر ثابت قبل بدء العمل والبناء مغطى بضماننا 100%، من الأساسات حتى التنسيق النهائي."
+        "أيًا كان الهيكل الذي تختاره، السعر واضح قبل بدء العمل والبناء مغطى بضماننا 100%، من الأساسات حتى التنسيق النهائي."
       ]
     },
     whatsIncluded: {
@@ -110,21 +110,21 @@ module.exports = {
     h1: { en: "Custom Car Garage &amp; Carport Construction in Dubai, Sharjah &amp; Abu Dhabi", ar: "إنشاء كراجات ومظلات سيارات مخصصة في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Car Garage &amp; Carport Construction Dubai | Procraftx", ar: "إنشاء كراجات ومظلات سيارات دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Steel, aluminum &amp; sandwich-panel garages and carports for villas in Dubai, Sharjah &amp; Abu Dhabi — flat price, 100% guarantee, 1-to-many-cars.",
-      ar: "كراجات ومظلات سيارات من الفولاذ والألمنيوم والألواح الساندويتش للفلل في دبي والشارقة وأبوظبي — سعر ثابت وضمان 100%، لأي عدد سيارات."
+      en: "Steel, aluminum &amp; sandwich-panel garages and carports for villas in Dubai, Sharjah &amp; Abu Dhabi — transparent pricing, 100% guarantee, 1-to-many-cars.",
+      ar: "كراجات ومظلات سيارات من الفولاذ والألمنيوم والألواح الساندويتش للفلل في دبي والشارقة وأبوظبي — تسعير شفاف وضمان 100%، لأي عدد سيارات."
     },
     overview: {
       en: [
         "The choice for most homeowners is carport versus full garage. A carport — open-sided, roof supported on posts — protects vehicles from sun and rain at a lower cost and shorter build time; a full garage adds walls and a door for security and complete weather protection, at the cost of more construction and, usually, a permit. Both get built in steel, aluminum, or sandwich panel, and the right material depends more on budget and how much protection you actually need than on looks — steel is the most robust and least expensive per square metre, aluminum gives a cleaner modern finish with less maintenance, and sandwich panel adds insulation if the space will double as anything other than parking.",
         "Sizing is straightforward — we design from a single-car shade through multi-car setups, and for a full garage we include the door, electrical work, and lighting so it's finished and usable on handover rather than a bare shell you still need to fit out separately. We also design the structure's finish and colour to match your home rather than looking like an obvious add-on, which is a common complaint we hear about garages built by contractors who weren't shown the rest of the property first.",
         "If your property doesn't currently have a garage or carport at all, we can still add one — the main constraint is available space and setback rules, which we check during the site visit before quoting. What's not included: covered parking that requires demolishing or altering an existing structure (that becomes a separate renovation scope, which we're happy to quote alongside the new build).",
-        "Every structure — carport or full garage — is built by our own licensed, background-checked crew, comes with a flat price agreed up front, and is covered by our 100% guarantee on materials and workmanship."
+        "Every structure — carport or full garage — is built by our own licensed, background-checked crew, comes with a clear price agreed up front, and is covered by our 100% guarantee on materials and workmanship."
       ],
       ar: [
         "الاختيار عند معظم أصحاب المنازل هو بين المظلة والكراج الكامل. المظلة — مفتوحة الجوانب، سقف محمول على أعمدة — تحمي المركبات من الشمس والمطر بتكلفة أقل ووقت بناء أقصر؛ الكراج الكامل يضيف جدرانًا وبابًا للأمان والحماية الكاملة من العوامل الجوية، مقابل بناء أكبر وعادةً تصريح. يُبنى الاثنان من الفولاذ أو الألمنيوم أو الألواح الساندويتش، والمادة المناسبة تعتمد على الميزانية ومستوى الحماية الذي تحتاجه فعليًا أكثر من الشكل — الفولاذ الأكثر متانة والأقل تكلفة للمتر المربع، الألمنيوم يعطي مظهرًا حديثًا أنظف بصيانة أقل، وألواح الساندويتش تضيف عزلًا إذا كانت المساحة ستُستخدم لغير وقوف السيارات فقط.",
         "التحديد بسيط — نصمم من مظلة لسيارة واحدة إلى إعدادات لعدة سيارات، وللكراج الكامل نُدرج الباب والأعمال الكهربائية والإضاءة ليكون جاهزًا وقابلاً للاستخدام عند التسليم بدل هيكل فارغ تحتاج تجهيزه بنفسك لاحقًا. كما نصمم تشطيب الهيكل ولونه ليتناسب مع منزلك بدل أن يبدو إضافة واضحة، وهي شكوى شائعة نسمعها عن كراجات بناها مقاولون لم يروا بقية العقار أولاً.",
         "إذا لم يكن لعقارك كراج أو مظلة أصلًا، يمكننا إضافة واحدة — القيد الرئيسي هو المساحة المتاحة وقواعد الارتداد، وهو ما نتحقق منه أثناء معاينة الموقع قبل تقديم عرض السعر. ما لا يشمله العمل: تغطية مواقف تتطلب هدم أو تعديل هيكل قائم (يصبح ذلك نطاق تجديد منفصل، ويسعدنا تقديم عرض سعر له جنبًا إلى جنب مع البناء الجديد).",
-        "يتولى كل هيكل — مظلة أو كراج كامل — فريقنا المرخّص والموثّق الخلفية، ويأتي بسعر ثابت متفق عليه مسبقًا وضماننا 100% على المواد وجودة التنفيذ."
+        "يتولى كل هيكل — مظلة أو كراج كامل — فريقنا المرخّص والموثّق الخلفية، ويأتي بسعر واضح متفق عليه مسبقًا وضماننا 100% على المواد وجودة التنفيذ."
       ]
     },
     whatsIncluded: {
@@ -165,14 +165,14 @@ module.exports = {
         "Window work splits into two separate decisions: frame type and glazing. Aluminium frames are the most common in the UAE for durability and low maintenance; uPVC costs less and insulates slightly better but handles the region's heat and UV exposure less well over many years. Sliding windows suit tight spaces where a window can't swing open; casement windows seal tighter, which matters more for double-glazed units where the seal is doing real work. We install, replace, and repair all of these, and a single cracked or fogged unit doesn't mean redoing the whole set — we quote and replace just the one that needs it.",
         "Double-glazing is worth flagging specifically: the noticeable benefit here isn't just heat, it's noise — units facing a main road or under a flight path see the biggest difference, and the reduced heat gain does measurably ease the load on your AC, though it won't replace tinting as the primary tool for that (the two work well together).",
         "What's not included: structural changes to a door or window opening itself (enlarging or relocating it) unless scoped as part of a larger renovation — for a straight swap into an existing opening, we don't touch the surrounding wall.",
-        "Every door and window job — custom or standard — is quoted flat before we start and covered by our 100% guarantee on parts and labor."
+        "Every door and window job — custom or standard — is quoted clearly before we start and covered by our 100% guarantee on parts and labor."
       ],
       ar: [
         "الأبواب هي حيث يتركز معظم عملنا في التصميم المخصص — أبواب أمامية تُعطي الانطباع الأول عن الفيلا، وأبواب داخلية تُطابق تشطيبًا معينًا، وأبواب سحّابة أو محورية للفتحات الواسعة التي لا يناسبها الباب المفصلي العادي. نصمم حسب تفضيلك في المادة والطراز (خشب صلب، قشرة خشبية، ألواح زجاجية مدمجة، أو طرازات معدنية حديثة) بدلاً من الاعتماد على كتالوج ثابت، ثم نصنّع ونركّب الباب والإطار معًا بحيث يتطابق الفتح والعزل والأكسسوارات من اليوم الأول.",
         "أعمال النوافذ تنقسم لقرارين منفصلين: نوع الإطار والتزجيج. إطارات الألمنيوم هي الأكثر شيوعًا في الإمارات لمتانتها وقلة صيانتها؛ اليو بي في سي أرخص ويعزل بشكل أفضل قليلًا لكنه يتحمل حرارة المنطقة وأشعتها فوق البنفسجية بشكل أقل على المدى الطويل. النوافذ السحّابة تناسب المساحات الضيقة التي لا يمكن فتح نافذة فيها للخارج؛ النوافذ المفصلية تُغلق بإحكام أكبر، وهو أمر أهم للوحدات المزدوجة الزجاج حيث يقوم العازل بعمل حقيقي. نركّب ونستبدل ونصلح كل هذه الأنواع، ووجود وحدة واحدة مكسورة أو مشوشة لا يعني إعادة المجموعة بأكملها — نقدّم عرض سعر ونستبدل الوحدة المطلوبة فقط.",
         "الزجاج المزدوج يستحق الإشارة تحديدًا: الفائدة الملحوظة هنا ليست فقط الحرارة، بل الضوضاء — النوافذ المطلة على شارع رئيسي أو تحت مسار طيران تشهد أكبر فرق، وانخفاض اكتساب الحرارة يخفف فعليًا الحمل عن مكيفك، رغم أنه لن يحل محل التظليل كأداة أساسية لذلك (الاثنان يعملان معًا بشكل جيد).",
         "ما لا يشمله العمل: التعديلات الإنشائية على فتحة الباب أو النافذة نفسها (توسيعها أو نقلها) إلا إذا كانت ضمن نطاق تجديد أكبر — للاستبدال المباشر في فتحة قائمة، لا نلمس الجدار المحيط.",
-        "كل عمل أبواب ونوافذ — مخصص أو قياسي — يُسعَّر بشكل ثابت قبل البدء ويُغطّى بضماننا 100% على القطع والعمالة."
+        "كل عمل أبواب ونوافذ — مخصص أو قياسي — يُسعَّر بوضوح قبل البدء ويُغطّى بضماننا 100% على القطع والعمالة."
       ]
     },
     whatsIncluded: {
@@ -212,13 +212,13 @@ module.exports = {
         "Custom glass work covers more ground than people expect: shower enclosures are the most common request, but we also cut and fit mirrors, glass partitions for dividing a room or office, balustrades and railings for staircases and balconies, and tempered glass tabletops and shelving — all measured and made for the specific space rather than picked off a shelf.",
         "Shower glass is usually the fastest job — measured and fitted in a single visit for a watertight seal. Partitions and balustrades take a bit longer since they're structural in a small way (a balustrade has to be secure, not just look good), so we template the opening first and confirm the fixing method before cutting the glass. Mirrors and tabletops are the most flexible — full-height, backlit, beveled edges, whatever the space and budget allow.",
         "Safety and security glass — tempered or laminated — is available across all of these, and matters most for balustrades, large partitions, and anywhere glass is at floor or shoulder level. What's not included: structural work to the wall, floor, or opening the glass sits in — we work with what's already there or coordinate with whoever's handling that part.",
-        "Every piece is measured and quoted at a flat price before we cut any glass, and the finished work is covered by our 100% guarantee."
+        "Every piece is measured and given a clear price before we cut any glass, and the finished work is covered by our 100% guarantee."
       ],
       ar: [
         "أعمال الزجاج المخصصة تغطي أكثر مما يتوقعه الناس: حواجز الحمام هي الطلب الأكثر شيوعًا، لكننا أيضًا نقص ونركّب المرايا، والفواصل الزجاجية لتقسيم غرفة أو مكتب، والحواجز والدرابزين للسلالم والشرفات، وطاولات وأرفف الزجاج المقسّى — كلها تُقاس وتُصنع للمساحة المحددة بدلاً من اختيارها جاهزة.",
         "زجاج الحمام عادةً أسرع عمل — يُقاس ويُركَّب في زيارة واحدة لضمان عزل مقاوم للماء. الفواصل والحواجز تستغرق وقتًا أطول قليلًا لأنها إنشائية بشكل بسيط (الحاجز يجب أن يكون آمنًا وليس فقط جميل المظهر)، لذا نأخذ قياس الفتحة أولاً ونؤكد طريقة التثبيت قبل قص الزجاج. المرايا والطاولات هي الأكثر مرونة — بارتفاع كامل، بإضاءة خلفية، بحواف مشطوفة، حسب ما تسمح به المساحة والميزانية.",
         "الزجاج الآمن أو الواقي — المقسّى أو المصفّح — متوفر لكل هذه الأعمال، ويهم أكثر في الحواجز والفواصل الكبيرة وأي مكان يكون فيه الزجاج بمستوى الأرض أو الكتف. ما لا يشمله العمل: الأعمال الإنشائية للجدار أو الأرضية أو الفتحة التي يوضع فيها الزجاج — نعمل مع ما هو موجود بالفعل أو ننسق مع من يتولى ذلك الجزء.",
-        "كل قطعة تُقاس ويُقدَّم لها سعر ثابت قبل قص أي زجاج، والعمل المُنجز مغطى بضماننا 100%."
+        "كل قطعة تُقاس ويُقدَّم لها سعر واضح قبل قص أي زجاج، والعمل المُنجز مغطى بضماننا 100%."
       ]
     },
     whatsIncluded: {
@@ -258,13 +258,13 @@ module.exports = {
         "Window film for homes covers two different jobs that people often conflate: heat control and privacy. Heat-rejection and solar-control film block solar heat and UV before it enters the room — the direct payoff is a lower AC load, and the secondary one is that UV-blocking specifically stops furniture, wood flooring, and fabric from fading, which in direct UAE sun happens faster than most people expect. Privacy film (one-way mirror, frosted, or decorative patterned) is a separate concern entirely — it blocks the view in without necessarily blocking heat, and can be applied only to the windows that actually need it, like street-facing rooms or bathrooms, while leaving others clear.",
         "A frosted or one-way mirror film adds privacy without significantly darkening the room, which is the usual objection people have to tinting in general — heavily tinted heat-rejection film does reduce natural light noticeably, so we'll talk through the trade-off for each room rather than applying one film type everywhere by default. Security film is a third category — it doesn't make glass unbreakable, but holds it together on impact instead of scattering, adding real forced-entry resistance and safety around shower enclosures.",
         "Every job includes glass prep, precision cut-to-fit application, and bubble-free finishing — and if you're dealing with old film that's peeling or bubbling, removal and reapplication is part of the same visit, not a separate charge. Most villas are finished within a day. What's not included: tinting on glass with existing structural damage (cracked or chipped panes) — that needs to be addressed as a window repair first.",
-        "Every job is quoted at a flat price before we start, and the film itself is covered by our 100% guarantee against bubbling or peeling."
+        "Every job is given a clear price before we start, and the film itself is covered by our 100% guarantee against bubbling or peeling."
       ],
       ar: [
         "أفلام نوافذ المنازل تغطي مهمتين مختلفتين يخلط بينهما الناس غالبًا: التحكم بالحرارة والخصوصية. الفيلم العازل للحرارة والمتحكم بأشعة الشمس يمنع الحرارة الشمسية والأشعة فوق البنفسجية قبل دخولها الغرفة — الفائدة المباشرة انخفاض حمل التكييف، والثانوية أن حجب الأشعة فوق البنفسجية تحديدًا يمنع بهتان الأثاث والأرضيات الخشبية والأقمشة، وهو أمر يحدث في شمس الإمارات المباشرة أسرع مما يتوقعه معظم الناس. فيلم الخصوصية (مرآة أحادية الاتجاه، مصنفر، أو مزخرف زخرفيًا) مسألة منفصلة تمامًا — يمنع الرؤية من الخارج دون بالضرورة منع الحرارة، ويمكن تطبيقه فقط على النوافذ التي تحتاجه فعليًا، مثل الغرف المطلة على الشارع أو الحمامات، مع ترك البقية صافية.",
         "الفيلم المصنفر أو المرآة أحادية الاتجاه يضيف خصوصية دون تعتيم الغرفة بشكل ملحوظ، وهو الاعتراض المعتاد على التظليل بشكل عام — الفيلم العازل للحرارة الداكن بشدة يقلل الإضاءة الطبيعية بشكل ملحوظ فعلًا، لذا نناقش المفاضلة لكل غرفة بدل تطبيق نوع فيلم واحد على الجميع افتراضيًا. فيلم الأمان فئة ثالثة — لا يجعل الزجاج غير قابل للكسر، لكنه يُبقيه متماسكًا عند الارتطام بدل التناثر، مضيفًا مقاومة حقيقية للاقتحام وأمانًا حول حواجز الحمام.",
         "يشمل كل عمل تجهيز الزجاج، والقص الدقيق حسب المقاس، وتشطيبًا خاليًا من الفقاعات — وإذا كنت تتعامل مع فيلم قديم يتقشر أو تتكوّن فيه فقاعات، فإزالته وإعادة تركيبه جزء من نفس الزيارة، وليس رسمًا منفصلًا. تُنجز معظم الفلل خلال يوم واحد. ما لا يشمله العمل: التظليل على زجاج فيه تلف إنشائي قائم (زجاج مكسور أو متشقق) — يجب معالجة ذلك كإصلاح نافذة أولًا.",
-        "كل عمل يُسعَّر بشكل ثابت قبل البدء، والفيلم نفسه مغطى بضماننا 100% ضد التقشر أو ظهور الفقاعات."
+        "كل عمل يُسعَّر بوضوح قبل البدء، والفيلم نفسه مغطى بضماننا 100% ضد التقشر أو ظهور الفقاعات."
       ]
     },
     whatsIncluded: {
@@ -342,8 +342,8 @@ module.exports = {
     h1: { en: "Landscaping &amp; Irrigation Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات تنسيق الحدائق والري في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Landscaping &amp; Irrigation Dubai | Procraftx", ar: "تنسيق حدائق وري دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Garden design, planting, irrigation installation &amp; repair for villas in Dubai, Sharjah &amp; Abu Dhabi — flat price, 100% guarantee.",
-      ar: "تصميم حدائق، زراعة، تركيب وإصلاح أنظمة ري للفلل في دبي والشارقة وأبوظبي — سعر ثابت وضمان 100%."
+      en: "Garden design, planting, irrigation installation &amp; repair for villas in Dubai, Sharjah &amp; Abu Dhabi — transparent pricing, 100% guarantee.",
+      ar: "تصميم حدائق، زراعة، تركيب وإصلاح أنظمة ري للفلل في دبي والشارقة وأبوظبي — تسعير شفاف وضمان 100%."
     },
     overview: {
       en: [
@@ -396,13 +396,13 @@ module.exports = {
         "Custom furniture design and build starts with a simple question: what does the space actually need? A wardrobe that has to fit an awkward alcove, a TV unit sized for a specific wall and media setup, or kitchen cabinetry that works around existing plumbing and appliances — off-the-shelf furniture rarely solves these cleanly, which is the usual reason people come to us instead of a showroom. We measure the space first, then design around it rather than asking you to design around a catalogue.",
         "Material and finish choice happens early, before anything is cut: solid wood, laminate, veneer, or a painted finish, in whatever colour and hardware style matches the rest of the room. For anything more than a small piece, we put together a 3D visual so you can see proportions and finish together before fabrication starts — this is the stage where most adjustments happen, since it's far cheaper to change a dimension or colour on screen than after the piece is built.",
         "Fabrication and installation are handled by the same in-house joinery team from start to finish, not split between a workshop and a separate installer — that keeps the finish consistent and means one point of contact if anything needs adjusting on-site during fitting. Most single pieces (a wardrobe or TV unit) are ready within one to two weeks; full kitchen cabinetry or multi-room furniture projects take longer, which we'll confirm once the design is approved.",
-        "What's not included: structural changes to the room itself (knocking through a wall to fit a larger piece, for instance) — that becomes a separate renovation scope we can quote alongside the furniture. Every project is quoted at a flat price before any material is ordered, and the finished piece is covered by our 100% guarantee on materials and workmanship."
+        "What's not included: structural changes to the room itself (knocking through a wall to fit a larger piece, for instance) — that becomes a separate renovation scope we can quote alongside the furniture. Every project is given a clear price before any material is ordered, and the finished piece is covered by our 100% guarantee on materials and workmanship."
       ],
       ar: [
         "تصميم وتصنيع الأثاث المخصص يبدأ بسؤال بسيط: ما الذي تحتاجه المساحة فعليًا؟ خزانة يجب أن تناسب فجوة غير معتادة، وحدة تلفزيون بمقاس مناسب لجدار معين وتجهيزات وسائط محددة، أو خزائن مطبخ تتناسب مع السباكة والأجهزة القائمة — الأثاث الجاهز نادرًا ما يحل هذه المشكلات بدقة، وهذا السبب المعتاد الذي يجعل الناس يأتون إلينا بدل صالة عرض. نقيس المساحة أولاً، ثم نصمم حولها بدل أن نطلب منك التصميم حول كتالوج جاهز.",
         "اختيار المواد والتشطيب يحدث مبكرًا، قبل قص أي شيء: خشب صلب، لامينيت، قشرة خشبية، أو تشطيب مطلي، بأي لون وطراز أكسسوارات يناسب بقية الغرفة. لأي قطعة أكبر من الصغيرة، نُعِدّ تصورًا ثلاثي الأبعاد لترى النسب والتشطيب معًا قبل بدء التصنيع — وهذه هي المرحلة التي تحدث فيها معظم التعديلات، لأن تغيير مقاس أو لون على الشاشة أرخص بكثير من تغييره بعد تصنيع القطعة.",
         "يتولى التصنيع والتركيب فريق النجارة الداخلي نفسه من البداية حتى النهاية، دون تقسيم العمل بين ورشة ومُركِّب منفصل — وهذا يحافظ على تناسق التشطيب ويعني جهة تواصل واحدة إذا احتاج أي شيء للتعديل في الموقع أثناء التركيب. معظم القطع المفردة (خزانة أو وحدة تلفزيون) تكون جاهزة خلال أسبوع إلى أسبوعين؛ خزائن المطبخ الكاملة أو مشاريع الأثاث متعددة الغرف تستغرق وقتًا أطول، وسنؤكد ذلك بعد اعتماد التصميم.",
-        "ما لا يشمله العمل: التعديلات الإنشائية على الغرفة نفسها (هدم جدار لتركيب قطعة أكبر مثلًا) — يصبح ذلك نطاق تجديد منفصل يمكننا تقديم عرض سعر له جنبًا إلى جنب مع الأثاث. كل مشروع يُسعَّر بشكل ثابت قبل طلب أي مادة، والقطعة المُنجزة مغطاة بضماننا 100% على المواد وجودة التنفيذ."
+        "ما لا يشمله العمل: التعديلات الإنشائية على الغرفة نفسها (هدم جدار لتركيب قطعة أكبر مثلًا) — يصبح ذلك نطاق تجديد منفصل يمكننا تقديم عرض سعر له جنبًا إلى جنب مع الأثاث. كل مشروع يُسعَّر بوضوح قبل طلب أي مادة، والقطعة المُنجزة مغطاة بضماننا 100% على المواد وجودة التنفيذ."
       ]
     },
     whatsIncluded: {
@@ -412,7 +412,7 @@ module.exports = {
         "3D visuals before fabrication begins",
         "In-house fabrication and installation, start to finish",
         "Wardrobes, TV units, kitchen and bathroom cabinetry, and one-off pieces",
-        "Flat price agreed before any material is ordered"
+        "Clear price agreed before any material is ordered"
       ],
       ar: [
         "قياس وتصميم حسب مساحتك بالضبط",
@@ -420,7 +420,7 @@ module.exports = {
         "تصورات ثلاثية الأبعاد قبل بدء التصنيع",
         "تصنيع وتركيب داخلي من البداية حتى النهاية",
         "خزائن ملابس، وحدات تلفزيون، خزائن مطبخ وحمام، وقطع فريدة",
-        "سعر ثابت متفق عليه قبل طلب أي مادة"
+        "سعر واضح متفق عليه قبل طلب أي مادة"
       ]
     },
     relatedIds: ["furniture-services", "interior-design"]
@@ -438,13 +438,13 @@ module.exports = {
         "Core home maintenance covers the four things that actually break in daily life — AC, plumbing, electrical, and wall painting or masonry — and the main reason we bundle them under one team rather than four separate trades is that most real-world jobs touch more than one category. A leaking pipe often means patching and repainting a wall afterward; rewiring a room sometimes means patching the same wall the cabling runs through; most of our technicians are cross-trained for exactly this reason, and for bigger jobs we send a small crew instead of scheduling separate visits for each trade.",
         "For AC specifically, we service split, central, and window units — filter cleaning, gas top-ups, and leak repair are the most common calls, and we treat AC issues as priority requests since they're rarely something that can wait in this climate. Plumbing covers leak repair, drain unclogging, and fixture installation (taps, toilets); electrical covers both new installations (light fixtures, ceiling fans, extra sockets) and repairs to existing wiring — routine work doesn't need a permit, but we'll flag it upfront if a job (larger rewiring, panel upgrades) does.",
         "We supply standard paint and materials as part of the quote, or work with materials you've already bought if you'd rather source them yourself. What's not included: major structural renovation work — if a maintenance call turns into something that needs a structural engineer (a wall that isn't load-bearing-safe to modify, for instance), we'll tell you honestly rather than proceeding.",
-        "Every visit is quoted at a flat price before we start, and the work itself is covered by our 100% guarantee on parts and labor."
+        "Every visit is given a clear price before we start, and the work itself is covered by our 100% guarantee on parts and labor."
       ],
       ar: [
         "الصيانة المنزلية الأساسية تغطي الأمور الأربعة التي تتعطل فعليًا في الحياة اليومية — التكييف، السباكة، الكهرباء، ودهان الجدران أو البناء — والسبب الرئيسي لجمعها تحت فريق واحد بدل أربع حرف منفصلة أن معظم المهام الواقعية تلمس أكثر من فئة واحدة. أنبوب يتسرب غالبًا يعني ترقيع الجدار وإعادة دهانه بعده؛ إعادة توصيل غرفة كهربائيًا أحيانًا تعني ترقيع نفس الجدار الذي تمر به الأسلاك؛ معظم فنيينا مدربون على أكثر من تخصص لهذا السبب بالضبط، وللمهام الأكبر نرسل فريقًا صغيرًا بدل جدولة زيارات منفصلة لكل حرفة.",
         "بخصوص التكييف تحديدًا، نصون الوحدات السبليت والمركزية والشباك — تنظيف الفلاتر وتعبئة الغاز وإصلاح التسريبات هي أكثر الطلبات شيوعًا، ونتعامل مع أعطال التكييف كطلبات ذات أولوية لأنها نادرًا ما يمكن أن تنتظر في هذا المناخ. السباكة تشمل إصلاح التسريبات وتسليك المصارف وتركيب التجهيزات (حنفيات، مراحيض)؛ الكهرباء تشمل التركيبات الجديدة (تجهيزات إضاءة، مراوح سقف، مقابس إضافية) والإصلاحات على الأسلاك القائمة — العمل الروتيني لا يحتاج تصريحًا، لكن سننبهك مسبقًا إذا احتاجت المهمة (إعادة توصيل كبيرة، ترقية لوحة كهربائية) لذلك.",
         "نوفر الدهان والمواد القياسية ضمن عرض السعر، أو نعمل بالمواد التي اشتريتها مسبقًا إذا كنت تفضل توفيرها بنفسك. ما لا يشمله العمل: أعمال التجديد الإنشائية الكبرى — إذا تحول طلب صيانة إلى شيء يحتاج مهندسًا إنشائيًا (جدار غير آمن للتعديل هيكليًا مثلًا)، سنخبرك بصراحة بدل المضي قدمًا.",
-        "كل زيارة تُسعَّر بشكل ثابت قبل البدء، والعمل نفسه مغطى بضماننا 100% على القطع والعمالة."
+        "كل زيارة تُسعَّر بوضوح قبل البدء، والعمل نفسه مغطى بضماننا 100% على القطع والعمالة."
       ]
     },
     whatsIncluded: {
@@ -520,21 +520,21 @@ module.exports = {
     h1: { en: "Deep Cleaning &amp; Sanitization Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات التنظيف العميق والتعقيم في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Deep Cleaning &amp; Pest Control Dubai | Procraftx", ar: "تنظيف عميق ومكافحة حشرات دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Home cleaning, pest control, furniture cleaning &amp; water tank cleaning in Dubai, Sharjah &amp; Abu Dhabi — flat price, 100% guarantee.",
-      ar: "تنظيف منازل، مكافحة حشرات، تنظيف أثاث، وتنظيف خزانات مياه في دبي والشارقة وأبوظبي — سعر ثابت وضمان 100%."
+      en: "Home cleaning, pest control, furniture cleaning &amp; water tank cleaning in Dubai, Sharjah &amp; Abu Dhabi — transparent pricing, 100% guarantee.",
+      ar: "تنظيف منازل، مكافحة حشرات، تنظيف أثاث، وتنظيف خزانات مياه في دبي والشارقة وأبوظبي — تسعير شفاف وضمان 100%."
     },
     overview: {
       en: [
         "Deep cleaning and sanitization covers four services that share the same goal — a genuinely clean, safe home — but run on different schedules. Home cleaning is usually recurring (weekly or bi-weekly for most households, though we're flexible on frequency): dusting, vacuuming, mopping, and bathroom cleaning for standard upkeep. Move-in/move-out cleaning is a one-off, deeper job covering cabinets, ovens, and windows so a property is spotless before keys change hands, which is a different and more thorough scope than routine upkeep.",
         "Disinfection and pest management is its own track — treating bedbugs, ants, and similar infestations, and sanitizing surfaces against bacteria, using products that are effective against pests but safe once dry; we'll advise on ventilation time before pets or children go back into treated rooms. Furniture cleaning is specialized rather than general — steam cleaning and stain removal for upholstery, carpets, and delicate fabric or leather, which can be added to a regular home-cleaning visit or booked separately. Water tank cleaning is the fourth track and the easiest to forget: overhead and underground tanks should be cleaned every 6 to 12 months (more often if you notice discoloration or odor) since it's the one thing on this list that directly affects your water supply, not just how the house looks.",
         "If you're relocating, we also bundle packing and moving with disinfection, pest treatment, and a final clean so one crew handles the whole transition rather than coordinating separate companies. What's not included: pest infestations requiring structural treatment (termite damage to the building itself, for instance) — that's a different scope we'll flag and can refer appropriately.",
-        "Every visit is quoted at a flat price before we start, and our 100% guarantee covers the work — if you're not satisfied, we come back and make it right."
+        "Every visit is given a clear price before we start, and our 100% guarantee covers the work — if you're not satisfied, we come back and make it right."
       ],
       ar: [
         "التنظيف العميق والتعقيم يغطي أربع خدمات تشترك في نفس الهدف — منزل نظيف وآمن فعليًا — لكنها تسير على جداول مختلفة. تنظيف المنزل عادةً متكرر (أسبوعي أو كل أسبوعين لمعظم الأسر، رغم أننا مرنون في التكرار): إزالة الغبار، التنظيف بالمكنسة الكهربائية، المسح، وتنظيف الحمامات للصيانة الدورية. تنظيف الانتقال (عند الدخول أو الخروج) عمل لمرة واحدة وأعمق يشمل الخزائن والأفران والنوافذ ليكون العقار نظيفًا تمامًا قبل تسليم المفاتيح، وهو نطاق مختلف وأشمل من الصيانة الروتينية.",
         "التعقيم ومكافحة الحشرات مسار قائم بذاته — معالجة بق الفراش والنمل والإصابات المشابهة، وتعقيم الأسطح من البكتيريا، باستخدام مواد فعالة ضد الحشرات لكنها آمنة بعد الجفاف؛ سننصحك بوقت التهوية اللازم قبل عودة الحيوانات الأليفة أو الأطفال للغرف المعالجة. تنظيف الأثاث متخصص وليس عامًا — تنظيف بالبخار وإزالة بقع للتنجيد والسجاد والأقمشة أو الجلد الحساس، ويمكن إضافته لزيارة تنظيف منزل عادية أو حجزه منفصلًا. تنظيف خزانات المياه هو المسار الرابع والأسهل نسيانًا: يجب تنظيف الخزانات العلوية والأرضية كل 6 إلى 12 شهرًا (بوتيرة أكبر إذا لاحظت تغيّرًا في اللون أو رائحة) لأنه الشيء الوحيد في هذه القائمة الذي يؤثر مباشرة على مصدر مياهك، وليس فقط على مظهر المنزل.",
         "إذا كنت تنتقل، يمكننا أيضًا دمج التغليف والنقل مع التعقيم ومكافحة الحشرات والتنظيف النهائي، ليتولى فريق واحد عملية الانتقال بأكملها بدل التنسيق مع شركات منفصلة. ما لا يشمله العمل: إصابات حشرية تتطلب معالجة إنشائية (تلف النمل الأبيض لهيكل المبنى نفسه مثلًا) — هذا نطاق مختلف سننبهك له ويمكننا الإحالة إليه بشكل مناسب.",
-        "كل زيارة تُسعَّر بشكل ثابت قبل البدء، وضماننا 100% يغطي العمل — إذا لم تكن راضيًا، نعود ونصحح الأمر."
+        "كل زيارة تُسعَّر بوضوح قبل البدء، وضماننا 100% يغطي العمل — إذا لم تكن راضيًا، نعود ونصحح الأمر."
       ]
     },
     whatsIncluded: {
@@ -572,13 +572,13 @@ module.exports = {
     overview: {
       en: [
         "Not every home project fits neatly into a standard category — a wardrobe that needs to fit an odd-shaped alcove, a feature wall combining materials no one else offers as a package, an outdoor structure that's part storage and part seating, or a piece of furniture you already own that just needs the right modification rather than a full replacement. This is what custom work actually means at Procraftx: projects built around your specific idea instead of our fixed service list.",
-        "The process starts the same way regardless of how unusual the request is — tell us what you have in mind, even if it's just a rough idea or a photo of something similar you've seen. We'll walk through the design with you, confirm materials and scope, and give you a flat quote before any work starts, the same as every other job we do. Because our crews already cover carpentry, metalwork, electrical, glass, and upholstery in-house, a custom project that combines several of these doesn't mean coordinating separate contractors — it's one team, one quote, one timeline.",
-        "What's different here compared to our other services: there's no fixed \"what's included\" list, because the scope is defined by your idea, not a template. What stays the same is the guarantee, the licensed and background-checked crew, and the flat pricing — a custom project isn't quoted any less carefully than a standard one."
+        "The process starts the same way regardless of how unusual the request is — tell us what you have in mind, even if it's just a rough idea or a photo of something similar you've seen. We'll walk through the design with you, confirm materials and scope, and give you a clear quote before any work starts, the same as every other job we do. Because our crews already cover carpentry, metalwork, electrical, glass, and upholstery in-house, a custom project that combines several of these doesn't mean coordinating separate contractors — it's one team, one quote, one timeline.",
+        "What's different here compared to our other services: there's no fixed \"what's included\" list, because the scope is defined by your idea, not a template. What stays the same is the guarantee, the licensed and background-checked crew, and the transparent, quote-based pricing — a custom project isn't quoted any less carefully than a standard one."
       ],
       ar: [
         "ليس كل مشروع منزلي يندرج بدقة ضمن فئة قياسية — خزانة يجب أن تناسب فجوة بشكل غير معتاد، جدار مميز يجمع مواد لا يقدمها أحد كحزمة واحدة، هيكل خارجي جزء منه تخزين وجزء منه جلوس، أو قطعة أثاث تملكها بالفعل وتحتاج فقط للتعديل الصحيح بدل الاستبدال الكامل. هذا هو المقصود فعليًا بالعمل المخصص لدى بروكرافتكس: مشاريع تُبنى حول فكرتك المحددة بدل قائمة خدماتنا الثابتة.",
-        "تبدأ العملية بنفس الطريقة بغض النظر عن مدى غرابة الطلب — أخبرنا بما تفكر فيه، حتى لو كانت مجرد فكرة تقريبية أو صورة لشيء مشابه رأيته. سنمر معك على التصميم، ونؤكد المواد والنطاق، ونعطيك عرض سعر ثابت قبل بدء أي عمل، تمامًا مثل أي مهمة أخرى ننفذها. وبما أن فرقنا تغطي بالفعل النجارة والأعمال المعدنية والكهرباء والزجاج والتنجيد داخليًا، فمشروع مخصص يجمع عدة حرف لا يعني التنسيق مع مقاولين منفصلين — بل فريق واحد، وعرض سعر واحد، وجدول زمني واحد.",
-        "ما يختلف هنا مقارنة بخدماتنا الأخرى: لا توجد قائمة ثابتة لـ«ما يشمله العمل»، لأن النطاق تحدده فكرتك وليس قالبًا جاهزًا. ما يبقى كما هو: الضمان، والفريق المرخّص والمدقّق الخلفية، والتسعير الثابت — المشروع المخصص لا يُسعَّر بعناية أقل من الخدمة القياسية."
+        "تبدأ العملية بنفس الطريقة بغض النظر عن مدى غرابة الطلب — أخبرنا بما تفكر فيه، حتى لو كانت مجرد فكرة تقريبية أو صورة لشيء مشابه رأيته. سنمر معك على التصميم، ونؤكد المواد والنطاق، ونعطيك عرض سعر واضح قبل بدء أي عمل، تمامًا مثل أي مهمة أخرى ننفذها. وبما أن فرقنا تغطي بالفعل النجارة والأعمال المعدنية والكهرباء والزجاج والتنجيد داخليًا، فمشروع مخصص يجمع عدة حرف لا يعني التنسيق مع مقاولين منفصلين — بل فريق واحد، وعرض سعر واحد، وجدول زمني واحد.",
+        "ما يختلف هنا مقارنة بخدماتنا الأخرى: لا توجد قائمة ثابتة لـ«ما يشمله العمل»، لأن النطاق تحدده فكرتك وليس قالبًا جاهزًا. ما يبقى كما هو: الضمان، والفريق المرخّص والمدقّق الخلفية، والتسعير الشفاف — المشروع المخصص لا يُسعَّر بعناية أقل من الخدمة القياسية."
       ]
     },
     whatsIncluded: {
@@ -589,7 +589,7 @@ module.exports = {
         "Modifications to furniture or fixtures you already own",
         "Design sketches or visuals before any work is committed",
         "Combined trades under one project — carpentry, metalwork, electrical, glass, upholstery",
-        "Flat quote before work starts, same as every standard service",
+        "Clear quote before work starts, same as every standard service",
         "No project too small to be quoted properly"
       ],
       ar: [
@@ -599,7 +599,7 @@ module.exports = {
         "تعديلات على أثاث أو تجهيزات تملكها بالفعل",
         "رسومات أو تصورات للتصميم قبل الالتزام بأي عمل",
         "دمج عدة حرف ضمن مشروع واحد — نجارة، أعمال معدنية، كهرباء، زجاج، تنجيد",
-        "عرض سعر ثابت قبل بدء العمل، تمامًا مثل أي خدمة قياسية",
+        "عرض سعر واضح قبل بدء العمل، تمامًا مثل أي خدمة قياسية",
         "لا يوجد مشروع صغير جدًا لدرجة عدم استحقاقه عرض سعر دقيق"
       ]
     },

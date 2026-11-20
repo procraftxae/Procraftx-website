@@ -54,6 +54,7 @@
         <li><a href="mailto:{{ site.business.email }}">{{ site.business.email }}</a></li>
       </ul>
       <p class="footer-areas">{{ site.footer.areaServedLabel[lang] | safe }}: {% for a in site.business.areaServed %}{{ a[lang] | safe }}{{ ", " if not loop.last }}{% endfor %}</p>
+      <p class="footer-license">{{ site.footer.licenseLabel[lang] | safe }}: {{ site.business.tradeLicenseNumber }}</p>
     </div>
   </div>
 

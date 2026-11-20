@@ -3,6 +3,7 @@ module.exports = {
 
   business: {
     name: "Procraftx",
+    tradeLicenseNumber: "1532639",
     phone: "+971507917075",
     phoneDisplay: "050 791 7075",
     email: "Procraftx.ae@gmail.com",
@@ -32,7 +33,7 @@ module.exports = {
     h1_main: { en: "Interior Design &amp; Home Maintenance.", ar: "تصميم داخلي وصيانة منزلية." },
     h1_span: { en: "And more.", ar: "وأكثر." },
     lead: {
-      en: "Interior design, custom majlis, swimming pools, and landscaping — plus core home maintenance, furniture care, and deep cleaning. One trusted crew handles it all, with a flat quote before we start and a guarantee behind every job.",
+      en: "Interior design, custom majlis, swimming pools, and landscaping — plus core home maintenance, furniture care, and deep cleaning. One trusted crew handles it all, with a clear quote before we start and a guarantee behind every job.",
       ar: "تصميم داخلي، مجالس مخصصة، مسابح سباحة، وتنسيق حدائق — بالإضافة إلى الصيانة المنزلية الأساسية والعناية بالأثاث والتنظيف العميق. فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل."
     },
     ctaBook: { en: "Book a Free Visit", ar: "احجز زيارة مجانية" },
@@ -50,7 +51,7 @@ module.exports = {
 
   stats: [
     { count: 1000, suffix: { en: "+", ar: "+" }, label: { en: "Projects &amp; work completed", ar: "مشروع وعمل مكتمل" } },
-    { staticText: { en: "Fixed Pricing Upfront", ar: "تسعير ثابت مسبقًا" }, label: { en: "Full commitment to delivery timelines", ar: "التزام تام بمواعيد التسليم" } },
+    { staticText: { en: "Transparent Pricing Upfront", ar: "تسعير شفاف مسبقًا" }, label: { en: "Full commitment to delivery timelines", ar: "التزام تام بمواعيد التسليم" } },
     { count: 20, suffix: { en: "", ar: "" }, label: { en: "Engineering &amp; craft specialties", ar: "تخصصات هندسية وفنية" } }
   ],
 
@@ -113,7 +114,7 @@ module.exports = {
   skipLink: { en: "Skip to content", ar: "تخطَّ إلى المحتوى" },
 
   footer: {
-    tagline: { en: "One trusted crew for everything your home needs — flat pricing and a 100% guarantee on every job.", ar: "فريق موثوق واحد لكل ما يحتاجه منزلك — أسعار ثابتة وضمان 100% على كل عمل." },
+    tagline: { en: "One trusted crew for everything your home needs — transparent pricing and a 100% guarantee on every job.", ar: "فريق موثوق واحد لكل ما يحتاجه منزلك — أسعار شفافة وضمان 100% على كل عمل." },
     quickLinksTitle: { en: "Quick Links", ar: "روابط سريعة" },
     servicesTitle: { en: "Our Services", ar: "خدماتنا" },
     specialtiesTitle: { en: "Our Specialties", ar: "تخصصاتنا" },
@@ -122,7 +123,8 @@ module.exports = {
     contactLink: { en: "Contact", ar: "تواصل" },
     areaServedLabel: { en: "Proudly serving", ar: "نخدم بفخر" },
     rights: { en: "All rights reserved.", ar: "جميع الحقوق محفوظة." },
-    privacyLink: { en: "Privacy Policy", ar: "سياسة الخصوصية" }
+    privacyLink: { en: "Privacy Policy", ar: "سياسة الخصوصية" },
+    licenseLabel: { en: "Trade License No.", ar: "رقم الرخصة التجارية" }
   },
 
   // Shared across all 10 detail pages (src/detail.njk) — same 4-step
