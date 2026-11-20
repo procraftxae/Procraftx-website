@@ -132,6 +132,7 @@ module.exports = {
   // process regardless of topic, reused rather than re-authored per page.
   detailPage: {
     breadcrumbHome: { en: "Home", ar: "الرئيسية" },
+    guideCalloutLabel: { en: "Helpful guide", ar: "دليل مفيد" },
     whatsIncludedTitle: { en: "What's Included", ar: "ما الذي يشمله العمل" },
     processTitle: { en: "How It Works", ar: "كيف نعمل" },
     processSteps: [

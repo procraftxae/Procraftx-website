@@ -70,6 +70,15 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
       <h1>{{ content.h1[lang] | safe }}</h1>
     </div>
 
+    {% if content.guideLink %}
+    {% set guide = pages[content.guideLink] %}
+    <a href="{{ guide.slug }}.html" class="guide-callout reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 17h.01M12 13.5a1.5 1.5 0 0 1 1-1.41c.84-.3 1.5-1.07 1.5-2.09a2.5 2.5 0 0 0-5 0"/><circle cx="12" cy="12" r="9"/></svg>
+      <span><b>{{ site.detailPage.guideCalloutLabel[lang] | safe }}:</b> {{ guide.heroH1[lang] | safe }}</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </a>
+    {% endif %}
+
     {% if topic.images.length %}
     <div class="detail-media reveal">
       <div class="thumb thumb-slideshow">

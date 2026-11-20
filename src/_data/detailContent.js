@@ -293,6 +293,7 @@ module.exports = {
   },
 
   "swimming-pools": {
+    guideLink: "poolCostGuide",
     h1: { en: "Swimming Pool Design, Construction &amp; Maintenance in Dubai, Sharjah &amp; Abu Dhabi", ar: "تصميم وإنشاء وصيانة حمامات السباحة في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Swimming Pool Construction Dubai | Procraftx", ar: "إنشاء حمامات سباحة دبي | بروكرافتكس" },
     metaDescription: {
@@ -427,6 +428,7 @@ module.exports = {
   },
 
   "core-home-maintenance": {
+    guideLink: "acMaintenanceSigns",
     h1: { en: "Core Home Maintenance — AC, Plumbing, Electrical &amp; Wall Painting in Dubai, Sharjah &amp; Abu Dhabi", ar: "الصيانة المنزلية الأساسية — تكييف، سباكة، كهرباء ودهان في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Home Maintenance Services Dubai | Procraftx", ar: "خدمات صيانة منزلية دبي | بروكرافتكس" },
     metaDescription: {
