@@ -120,6 +120,7 @@ module.exports = {
     specialtiesTitle: { en: "Our Specialties", ar: "تخصصاتنا" },
     contactTitle: { en: "Get In Touch", ar: "تواصل معنا" },
     aboutLink: { en: "About Us", ar: "من نحن" },
+    portfolioLink: { en: "Our Work", ar: "أعمالنا" },
     contactLink: { en: "Contact", ar: "تواصل" },
     areaServedLabel: { en: "Proudly serving", ar: "نخدم بفخر" },
     rights: { en: "All rights reserved.", ar: "جميع الحقوق محفوظة." },

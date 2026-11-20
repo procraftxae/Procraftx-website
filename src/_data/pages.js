@@ -142,6 +142,34 @@ module.exports = {
     ]
   },
 
+  portfolio: {
+    title: { en: "Our Work | Procraftx Projects in Dubai & Sharjah", ar: "أعمالنا | مشاريع بروكرافتكس في دبي والشارقة" },
+    description: {
+      en: "Completed project photos from Procraftx — interior design, majlis, pools, landscaping, carpentry and more in Dubai, Sharjah & Abu Dhabi.",
+      ar: "صور مشاريع منجزة من بروكرافتكس — تصميم داخلي، مجالس، مسابح، تنسيق حدائق، نجارة وأكثر في دبي والشارقة وأبوظبي."
+    },
+    ogTitle: { en: "Our Work | Procraftx Projects", ar: "أعمالنا | مشاريع بروكرافتكس" },
+    ogDescription: {
+      en: "Completed project photos from Procraftx in Dubai, Sharjah & Abu Dhabi.",
+      ar: "صور مشاريع منجزة من بروكرافتكس في دبي والشارقة وأبوظبي."
+    },
+    twitterDescription: {
+      en: "Completed project photos from Procraftx in Dubai, Sharjah & Abu Dhabi.",
+      ar: "صور مشاريع منجزة من بروكرافتكس في دبي والشارقة وأبوظبي."
+    },
+    heroEyebrow: { en: "Our Work", ar: "أعمالنا" },
+    heroH1: { en: "Real Projects We've Completed", ar: "مشاريع حقيقية أنجزناها" },
+    heroLead: {
+      en: "A look at finished work across our specialties. We're adding real photos from completed projects here — check back soon.",
+      ar: "نظرة على أعمال منجزة ضمن تخصصاتنا. نضيف صورًا حقيقية من مشاريع منجزة هنا — تابعونا قريبًا."
+    },
+    emptyStateTitle: { en: "Photos coming soon", ar: "الصور قريبًا" },
+    emptyStateBody: {
+      en: "We're putting together real before/after photos from completed jobs. In the meantime, message us on WhatsApp and we're happy to share examples of recent work.",
+      ar: "نحن نجمّع صورًا حقيقية قبل/بعد من أعمال منجزة. بالانتظار، راسلنا على واتساب ويسعدنا مشاركتك نماذج من أعمالنا الأخيرة."
+    }
+  },
+
   poolCostGuide: {
     slug: "pool-cost-guide",
     datePublished: "2026-11-20",
