@@ -75,7 +75,10 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
       <div class="thumb thumb-slideshow">
         {% for img in topic.images %}
         {% set dims = img.src | imageDims %}
-        <img src="{{ '../' if isAr }}{{ img.src }}" alt="{{ img.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}"{{ ' fetchpriority="high"' | safe if loop.first }}{{ ' loading="lazy"' | safe if not loop.first }}{{ ' style="display:none"' | safe if not loop.first }}>
+        <picture>
+          <source srcset="{{ '../' if isAr }}{{ img.src | webpSrc }}" type="image/webp">
+          <img src="{{ '../' if isAr }}{{ img.src }}" alt="{{ img.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}"{{ ' fetchpriority="high"' | safe if loop.first }}{{ ' loading="lazy" decoding="async"' | safe if not loop.first }}{{ ' style="display:none"' | safe if not loop.first }}>
+        </picture>
         {% endfor %}
         {% if topic.images.length > 1 %}
         <button type="button" class="thumb-nav thumb-prev" aria-label="{{ 'Previous photo' if lang == 'en' else 'الصورة السابقة' }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>
@@ -106,7 +109,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
       {% for s in topic.services %}
       <article class="sub-card reveal">
         {% set dims = s.img | imageDims %}
-        <div class="thumb"><img src="{{ '../' if isAr }}{{ s.img }}" alt="{{ s.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy"></div>
+        <div class="thumb"><picture><source srcset="{{ '../' if isAr }}{{ s.img | webpSrc }}" type="image/webp"><img src="{{ '../' if isAr }}{{ s.img }}" alt="{{ s.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy" decoding="async"></picture></div>
         <div class="body"><h4>{{ s.name[lang] | safe }}</h4><p>{{ s.desc[lang] | safe }}</p><a href="#contact" class="link" data-service="{{ s.name[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
       </article>
       {% endfor %}

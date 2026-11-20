@@ -87,6 +87,7 @@ module.exports = function (eleventyConfig) {
   // SVG markup as visible escaped text in the trust-card icons.
 
   eleventyConfig.addFilter("imageDims", imageDims);
+  eleventyConfig.addFilter("webpSrc", (relSrc) => relSrc.replace(/\.jpe?g$/i, ".webp"));
   eleventyConfig.addGlobalData("currentYear", () => new Date().getFullYear());
 
   eleventyConfig.addFilter("indexJsonLd", function (lang) {
@@ -123,6 +124,25 @@ module.exports = function (eleventyConfig) {
         siteData.business.social.tiktok,
         siteData.business.social.x
       ]
+    };
+    return JSON.stringify(obj, null, 2);
+  });
+
+  eleventyConfig.addFilter("articleJsonLd", function (pageKey, lang) {
+    const p = pagesData[pageKey];
+    const url = `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}${p.slug}.html`;
+    const obj = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: deEnt(p.heroH1[lang]),
+      description: deEnt(p.description[lang]),
+      inLanguage: lang,
+      datePublished: p.datePublished,
+      dateModified: p.datePublished,
+      author: { "@type": "Organization", name: "Procraftx" },
+      publisher: { "@id": "https://www.procraftx.ae/#business" },
+      mainEntityOfPage: url,
+      url
     };
     return JSON.stringify(obj, null, 2);
   });
@@ -196,9 +216,14 @@ module.exports = function (eleventyConfig) {
   // of its own. Doing the lookup here in plain JS sidesteps that entirely.
   eleventyConfig.addFilter("relatedTopics", function (relatedIds, lang) {
     return relatedIds
-      .map((id) => detailTopicsData.find((t) => t.id === id))
-      .filter(Boolean)
-      .map((t) => ({ href: t.id + ".html", label: t.h3[lang] }));
+      .map((id) => {
+        const topic = detailTopicsData.find((t) => t.id === id);
+        if (topic) return { href: topic.id + ".html", label: topic.h3[lang] };
+        const guide = pagesData[id]; // id may be a guide page key, e.g. "poolCostGuide"
+        if (guide && guide.slug) return { href: guide.slug + ".html", label: guide.heroH1[lang] };
+        return null;
+      })
+      .filter(Boolean);
   });
 
   // FAQPage scoped to just this one detail page's 8 questions (the group

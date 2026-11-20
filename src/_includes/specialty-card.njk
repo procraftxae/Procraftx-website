@@ -5,7 +5,10 @@
   <div class="thumb thumb-slideshow">
     {% for img in sp.images %}
     {% set dims = img.src | imageDims %}
-    <img src="{{ '../' if isAr }}{{ img.src }}" alt="{{ img.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy"{{ ' style="display:none"' | safe if not loop.first }}>
+    <picture>
+      <source srcset="{{ '../' if isAr }}{{ img.src | webpSrc }}" type="image/webp">
+      <img src="{{ '../' if isAr }}{{ img.src }}" alt="{{ img.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy" decoding="async"{{ ' style="display:none"' | safe if not loop.first }}>
+    </picture>
     {% endfor %}
     {% if sp.images.length > 1 %}
     <button type="button" class="thumb-nav thumb-prev" aria-label="{{ 'Previous photo' if lang == 'en' else 'الصورة السابقة' }}"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></button>

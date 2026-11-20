@@ -335,7 +335,7 @@ module.exports = {
         "صيانة دورية — تنظيف، موازنة كيميائية، فلاتر"
       ]
     },
-    relatedIds: ["gardening-irrigation", "outdoor-majlis"]
+    relatedIds: ["gardening-irrigation", "outdoor-majlis", "poolCostGuide"]
   },
 
   "gardening-irrigation": {
@@ -467,7 +467,7 @@ module.exports = {
         "إرشاد حول متى يكون التصريح مطلوبًا فعليًا"
       ]
     },
-    relatedIds: ["furniture-services", "home-clearing"]
+    relatedIds: ["furniture-services", "home-clearing", "acMaintenanceSigns"]
   },
 
   "furniture-services": {

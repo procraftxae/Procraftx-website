@@ -159,7 +159,10 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
     <div class="banner reveal" id="aboutBanner">
       <div class="banner-media">
         {% set dims = "assets/images/team-photo.jpg" | imageDims %}
-        <img class="banner-photo" src="{{ '../' if isAr }}assets/images/team-photo.jpg" width="{{ dims.w }}" height="{{ dims.h }}" alt="{{ site.about.photoAlt[lang] | safe }}" loading="lazy">
+        <picture>
+          <source srcset="{{ '../' if isAr }}assets/images/team-photo.webp" type="image/webp">
+          <img class="banner-photo" src="{{ '../' if isAr }}assets/images/team-photo.jpg" width="{{ dims.w }}" height="{{ dims.h }}" alt="{{ site.about.photoAlt[lang] | safe }}" loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="content" id="about">
         <span class="eyebrow">{{ site.about.eyebrow[lang] | safe }}</span>

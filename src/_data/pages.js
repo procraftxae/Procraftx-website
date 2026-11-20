@@ -91,7 +91,7 @@ module.exports = {
         }
       },
       {
-        h2: { en: "Cookies & analytics", ar: "ملفات تعريف الارتباط والتحليلات" },
+        h2: { en: "Cookies &amp; analytics", ar: "ملفات تعريف الارتباط والتحليلات" },
         body: {
           en: "We use Google Tag Manager, Google Analytics, and Google Ads to measure how visitors use this site and how our ad campaigns perform. These tools may set cookies and share data (such as pages visited, general location, and device type) with Google, governed by <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google's Privacy Policy</a>. We don't use this data to identify you personally.",
           ar: "نستخدم Google Tag Manager وGoogle Analytics وGoogle Ads لقياس كيفية استخدام الزوار لهذا الموقع وأداء حملاتنا الإعلانية. قد تضع هذه الأدوات ملفات تعريف ارتباط وتشارك بيانات (مثل الصفحات التي تمت زيارتها والموقع الجغرافي العام ونوع الجهاز) مع جوجل، وفقًا لـ<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">سياسة خصوصية جوجل</a>. لا نستخدم هذه البيانات للتعرف عليك شخصيًا."
@@ -137,6 +137,131 @@ module.exports = {
         body: {
           en: "If you have any questions about this policy or how we handle your information, contact us by phone/WhatsApp or email using the details in the footer below.",
           ar: "إذا كان لديك أي أسئلة حول هذه السياسة أو كيفية تعاملنا مع معلوماتك، تواصل معنا عبر الهاتف/واتساب أو البريد الإلكتروني الموضّحين أسفل الصفحة."
+        }
+      }
+    ]
+  },
+
+  poolCostGuide: {
+    slug: "pool-cost-guide",
+    datePublished: "2026-11-20",
+    title: { en: "Swimming Pool Cost in Dubai &amp; Sharjah (2026 Guide) | Procraftx", ar: "تكلفة بناء مسبح في دبي والشارقة (دليل 2026) | بروكرافتكس" },
+    description: {
+      en: "What a villa swimming pool typically costs to build in Dubai and Sharjah, by pool type and size — plus what changes your exact price.",
+      ar: "كم تكلفة بناء مسبح فيلا عادةً في دبي والشارقة، حسب نوع المسبح وحجمه — وما الذي يغيّر سعرك الفعلي."
+    },
+    ogTitle: { en: "Swimming Pool Cost in Dubai &amp; Sharjah (2026 Guide)", ar: "تكلفة بناء مسبح في دبي والشارقة (دليل 2026)" },
+    ogDescription: {
+      en: "General market cost ranges for villa pools in Dubai and Sharjah, by type and size.",
+      ar: "نطاقات تكلفة عامة لمسابح الفلل في دبي والشارقة، حسب النوع والحجم."
+    },
+    twitterDescription: {
+      en: "General market cost ranges for villa pools in Dubai and Sharjah, by type and size.",
+      ar: "نطاقات تكلفة عامة لمسابح الفلل في دبي والشارقة، حسب النوع والحجم."
+    },
+    heroEyebrow: { en: "Cost Guide", ar: "دليل التكلفة" },
+    heroH1: { en: "How Much Does a Swimming Pool Cost in Dubai &amp; Sharjah?", ar: "كم تكلفة بناء مسبح في دبي والشارقة؟" },
+    lastUpdated: { en: "Last updated: November 2026", ar: "آخر تحديث: نوفمبر 2026" },
+    sections: [
+      {
+        h2: { en: "Why there's no single answer", ar: "لماذا لا توجد إجابة واحدة" },
+        body: {
+          en: "Pool cost depends on size, shape, finish, ground conditions, and site access — two villas on the same street can get very different quotes for what looks like \"the same pool.\" The ranges below reflect the general Dubai/Sharjah market as of late 2026, not a Procraftx price list. We quote every job individually after seeing the site.",
+          ar: "تعتمد تكلفة المسبح على الحجم والشكل والتشطيب وطبيعة الأرض وسهولة الوصول للموقع — فيلتان بنفس الشارع قد يحصلان على عروض أسعار مختلفة جدًا لما يبدو \"نفس المسبح\". النطاقات أدناه تعكس سوق دبي/الشارقة العام حتى أواخر 2026، وليست قائمة أسعار بروكرافتكس. نحن نقدّم عرض سعر لكل عمل على حدة بعد معاينة الموقع."
+        }
+      },
+      {
+        h2: { en: "Typical cost by pool type", ar: "التكلفة النموذجية حسب نوع المسبح" },
+        body: {
+          en: "As a general market guide: a small plunge pool typically runs AED 55,000–120,000. A standard 8x4m concrete villa pool (shell, filtration, tiling, basic lighting) typically runs AED 120,000–230,000. Once you add a surrounding deck, permits/approvals, and finishing touches, a full project commonly lands around AED 160,000–300,000. Infinity-edge or heavily customized luxury pools can exceed AED 500,000. Cost per square metre of water surface is typically quoted around AED 1,500–3,000 depending on shell type and finish.",
+          ar: "كدليل عام للسوق: المسبح الصغير (plunge pool) يتراوح عادةً بين 55,000–120,000 درهم. مسبح فيلا قياسي بمقاس 8×4 متر (الهيكل، نظام الفلترة، البلاط، إضاءة أساسية) يتراوح عادةً بين 120,000–230,000 درهم. بعد إضافة الرصيف المحيط والموافقات والتشطيبات النهائية، يصل المشروع الكامل غالبًا إلى نحو 160,000–300,000 درهم. المسابح اللانهائية أو المخصصة بشكل كبير يمكن أن تتجاوز 500,000 درهم. تكلفة المتر المربع من سطح الماء تُقدَّر عادةً بين 1,500–3,000 درهم حسب نوع الهيكل والتشطيب."
+        }
+      },
+      {
+        h2: { en: "What actually moves your price", ar: "ما الذي يغيّر سعرك فعليًا" },
+        body: {
+          en: "Soil and excavation conditions, pump/filtration equipment grade, tile vs. mosaic vs. pebble finish, whether a pool chiller is added (commonly AED 15,000–40,000 on its own), site access for machinery, and how far the pool is from existing water/electrical connections. This is why we visit the site before quoting — two pools that look identical on paper can genuinely cost different amounts to build.",
+          ar: "ظروف التربة والحفر، فئة معدات المضخة والفلترة، التشطيب بالبلاط مقابل الفسيفساء مقابل الحصى، إضافة مبرّد مسبح أو عدمها (يكلّف عادةً 15,000–40,000 درهم بمفرده)، سهولة وصول المعدات للموقع، ومدى بُعد المسبح عن توصيلات المياه والكهرباء القائمة. لهذا نزور الموقع قبل تقديم عرض السعر — مسبحان يبدوان متطابقين على الورق قد يختلف تكلفة بنائهما فعليًا."
+        }
+      },
+      {
+        h2: { en: "Get an exact price for your villa", ar: "احصل على سعر دقيق لفيلتك" },
+        body: {
+          en: "The ranges above are general market context, not a quote. For an exact price, book a free site visit — we'll look at your space and send a clear, agreed price before any work starts. See our <a href=\"swimming-pools.html\">swimming pool construction &amp; design page</a> for what's included.",
+          ar: "النطاقات أعلاه معلومات عامة عن السوق، ليست عرض سعر. للحصول على سعر دقيق، احجز زيارة موقع مجانية — سنعاين مساحتك ونرسل لك سعرًا واضحًا متفق عليه قبل بدء أي عمل. راجع <a href=\"swimming-pools.html\">صفحة بناء وتصميم المسابح</a> لمعرفة ما يشمله العمل."
+        }
+      }
+    ]
+  },
+
+  acMaintenanceSigns: {
+    slug: "ac-maintenance-signs",
+    datePublished: "2026-11-20",
+    title: { en: "Signs Your AC Needs Servicing Before Summer | Procraftx", ar: "علامات تدل على حاجة مكيفك للصيانة قبل الصيف | بروكرافتكس" },
+    description: {
+      en: "Practical warning signs that your AC unit needs servicing in Dubai or Sharjah, before it fails during the hot months.",
+      ar: "علامات عملية تدل على حاجة مكيفك للصيانة في دبي أو الشارقة، قبل أن يتعطل خلال أشهر الصيف."
+    },
+    ogTitle: { en: "Signs Your AC Needs Servicing Before Summer", ar: "علامات تدل على حاجة مكيفك للصيانة قبل الصيف" },
+    ogDescription: {
+      en: "Checkable warning signs your AC needs servicing, before it fails in summer heat.",
+      ar: "علامات تحذيرية يمكنك ملاحظتها تدل على حاجة مكيفك للصيانة، قبل أن يتعطل في حر الصيف."
+    },
+    twitterDescription: {
+      en: "Checkable warning signs your AC needs servicing, before it fails in summer heat.",
+      ar: "علامات تحذيرية يمكنك ملاحظتها تدل على حاجة مكيفك للصيانة، قبل أن يتعطل في حر الصيف."
+    },
+    heroEyebrow: { en: "Maintenance Guide", ar: "دليل الصيانة" },
+    heroH1: { en: "Signs Your AC Needs Servicing Before Summer", ar: "علامات تدل على حاجة مكيفك للصيانة قبل الصيف" },
+    lastUpdated: { en: "Last updated: November 2026", ar: "آخر تحديث: نوفمبر 2026" },
+    sections: [
+      {
+        h2: { en: "Weak or no airflow", ar: "ضعف أو انعدام تدفق الهواء" },
+        body: {
+          en: "If air barely comes out of the vents, or one room is noticeably weaker than others, it's often a clogged filter, blocked duct, or a failing fan motor — all things that get worse (and more expensive) the longer they're ignored.",
+          ar: "إذا كان الهواء بالكاد يخرج من الفتحات، أو كانت غرفة معينة أضعف وضوحًا من البقية، فالسبب غالبًا فلتر مسدود أو مجرى هواء مسدود أو موتور مروحة بدأ يتعطل — وكل هذه الأمور تتفاقم (وتكلّف أكثر) كل ما طال تجاهلها."
+        }
+      },
+      {
+        h2: { en: "Blowing warm or room-temperature air", ar: "خروج هواء دافئ أو بحرارة الغرفة" },
+        body: {
+          en: "This usually points to low refrigerant, a failing compressor, or a frozen evaporator coil. It's rarely something to fix yourself safely — refrigerant work specifically needs a licensed technician.",
+          ar: "هذا يشير غالبًا لنقص غاز التبريد، أو ضاغط بدأ يتعطل، أو ملف تبريد متجمد. هذه أمور يندر أن تُصلَح بأمان بنفسك — خصوصًا العمل على غاز التبريد الذي يحتاج فنيًا مرخّصًا."
+        }
+      },
+      {
+        h2: { en: "Unusual noises", ar: "أصوات غير طبيعية" },
+        body: {
+          en: "Grinding, rattling, or squealing from the unit usually means a loose or worn part — fan belt, bearing, or motor mount. Catching this early is almost always cheaper than waiting for a full breakdown.",
+          ar: "أصوات الطحن أو الطقطقة أو الصفير من الوحدة تعني غالبًا قطعة فُكّت أو تآكلت — سير المروحة، أو المحامل، أو تثبيت الموتور. اكتشاف هذا مبكرًا أرخص دائمًا من انتظار تعطل كامل."
+        }
+      },
+      {
+        h2: { en: "Bad odors from the vents", ar: "روائح كريهة من الفتحات" },
+        body: {
+          en: "A musty smell usually means mold or mildew buildup in the ducts or drain line; a burning smell means stop the unit and call a technician immediately — that's an electrical warning sign, not a routine maintenance item.",
+          ar: "الرائحة العفنة تعني غالبًا تراكم عفن أو فطريات داخل المجاري أو خط التصريف؛ أما رائحة الاحتراق فتعني إيقاف الوحدة فورًا والاتصال بفني على الفور — فهذه علامة تحذير كهربائي، وليست عنصر صيانة روتيني."
+        }
+      },
+      {
+        h2: { en: "Water pooling or leaking around the unit", ar: "تجمع أو تسرب مياه حول الوحدة" },
+        body: {
+          en: "A clogged condensate drain line is the most common cause, and it's a quick fix if caught early — left alone, it can cause ceiling or wall water damage.",
+          ar: "السبب الأكثر شيوعًا هو انسداد خط تصريف المياه المتكاثفة، وهو إصلاح سريع إذا تم اكتشافه مبكرًا — أما إذا تُرك، فقد يسبب أضرار مياه بالسقف أو الجدار."
+        }
+      },
+      {
+        h2: { en: "Rising electricity bills with no change in usage", ar: "ارتفاع فاتورة الكهرباء دون تغيّر بالاستخدام" },
+        body: {
+          en: "A unit running harder than it should to hit the same temperature is a strong, easy-to-check sign that something inside needs attention before the hottest months push it further.",
+          ar: "الوحدة التي تعمل بجهد أكبر من المعتاد للوصول لنفس درجة الحرارة علامة قوية وسهلة الملاحظة على وجود شيء بالداخل يحتاج انتباهًا قبل أن تدفعه أشهر الصيف الأشد حرارة أكثر."
+        }
+      },
+      {
+        h2: { en: "When to book a service visit", ar: "متى تحجز زيارة صيانة" },
+        body: {
+          en: "If you noticed any two of the signs above, or it's simply been over a year since the last service, book a visit before summer rather than during it — AC technicians are busiest exactly when units are most likely to fail. See our <a href=\"core-home-maintenance.html\">AC, plumbing &amp; electrical maintenance page</a> for what a service visit covers.",
+          ar: "إذا لاحظت أي علامتين من الأعلى، أو مرّ أكثر من عام منذ آخر صيانة، احجز زيارة قبل الصيف لا خلاله — فنيو التكييف يكونون في أكثر فتراتهم انشغالًا تحديدًا عندما تكون الوحدات أكثر عرضة للتعطل. راجع <a href=\"core-home-maintenance.html\">صفحة صيانة التكييف والسباكة والكهرباء</a> لمعرفة ما تشمله زيارة الصيانة."
         }
       }
     ]
