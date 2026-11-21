@@ -1,4 +1,9 @@
-// 12 core services grouped into 3 categories, in on-page order.
+// 11 core services grouped into 3 categories, in on-page order. Each has its
+// own detail page (src/detail.njk, kind: "service" in detailTopics.js) plus
+// a compact card here. "Custom Furniture Design & Build" is deliberately
+// NOT listed here — it already has its own specialty page
+// (furniture-design-build.html, in specialties.js) and listing it twice
+// would be duplicate content.
 // dataService (en/ar) must exactly match the FAQ/booking-form option text.
 module.exports = {
   categories: [
@@ -8,24 +13,28 @@ module.exports = {
       title: { en: "Core Home Maintenance", ar: "الصيانة المنزلية الأساسية" },
       services: [
         {
+          id: "plumbing-services",
           img: "assets/images/plumbing-service.jpg",
           alt: { en: "Plumber repairing a leaking pipe under a sink", ar: "سبّاك يصلح أنبوبًا يتسرب تحت المغسلة" },
           name: { en: "Plumbing Support", ar: "خدمات السباكة" },
           desc: { en: "Leak repairs, drain unclogging, and fixture installation.", ar: "إصلاح التسريبات، تسليك المصارف، وتركيب التجهيزات." }
         },
         {
+          id: "electrical-services",
           img: "assets/images/electrical-service.jpg",
           alt: { en: "Electrician testing wiring at a light fixture and outlet with a multimeter", ar: "كهربائي يفحص الأسلاك عند تجهيزة إضاءة ومقبس بجهاز قياس" },
           name: { en: "Electrical Work", ar: "الأعمال الكهربائية" },
           desc: { en: "Light fixtures, wiring repairs, and socket replacement.", ar: "تركيب الإضاءة، إصلاح الأسلاك، واستبدال المقابس." }
         },
         {
+          id: "ac-services",
           img: "assets/images/ac-service.jpg",
           alt: { en: "Technician pressure-washing an AC unit", ar: "فني يغسل وحدة تكييف بالضغط العالي" },
           name: { en: "Air Conditioning (AC) Services", ar: "خدمات تكييف الهواء" },
           desc: { en: "Filter cleaning, gas refills, and leak repairs.", ar: "تنظيف الفلاتر، تعبئة الغاز، وإصلاح التسريبات." }
         },
         {
+          id: "wall-painting-masonry",
           img: "assets/images/wall-painting-service.jpg",
           alt: { en: "Worker patching a wall and repointing brickwork", ar: "عامل يرقّع جدارًا ويعيد ملء فواصل الطوب" },
           name: { en: "Wall Painting &amp; Masonry", ar: "دهان الجدران والبناء" },
@@ -39,24 +48,28 @@ module.exports = {
       title: { en: "Deep Cleaning &amp; Sanitization", ar: "التنظيف العميق والتعقيم" },
       services: [
         {
+          id: "home-cleaning",
           img: "assets/images/home-cleaning-service.jpg",
           alt: { en: "Cleaner vacuuming a rug in a living room", ar: "عامل تنظيف يكنس سجادة في غرفة المعيشة" },
           name: { en: "Home Cleaning", ar: "تنظيف المنزل" },
           desc: { en: "Dusting, vacuuming, and mopping for routine upkeep.", ar: "إزالة الغبار والتنظيف بالمكنسة والمسح للصيانة الدورية." }
         },
         {
+          id: "furniture-cleaning",
           img: "assets/images/furniture-cleaning-service.jpg",
           alt: { en: "Furniture cleaning specialist steam-cleaning a stained sofa", ar: "أخصائي تنظيف أثاث ينظف بالبخار أريكة ملطخة" },
           name: { en: "Furniture Cleaning", ar: "تنظيف الأثاث" },
           desc: { en: "Steam cleaning and stain removal for upholstery and carpets.", ar: "تنظيف بالبخار وإزالة بقع للمفروشات والسجاد." }
         },
         {
+          id: "water-tank-cleaning",
           img: "assets/images/water-tank-cleaning-service.jpg",
           alt: { en: "Technician pressure-washing the inside of a water tank", ar: "فني يغسل داخل خزان مياه بالضغط العالي" },
           name: { en: "Water Tank Cleaning", ar: "تنظيف خزانات المياه" },
           desc: { en: "Pressure cleaning for overhead and underground tanks.", ar: "تنظيف بالضغط لخزانات المياه العلوية والأرضية." }
         },
         {
+          id: "disinfection-pest-control",
           img: "assets/images/disinfection-service.jpg",
           alt: { en: "Technician disinfecting a room and treating a bedbug and ant infestation", ar: "فني يعقّم غرفة ويعالج انتشار بق الفراش والنمل" },
           name: { en: "Disinfection &amp; Pest Management", ar: "التعقيم ومكافحة الحشرات" },
@@ -70,24 +83,21 @@ module.exports = {
       title: { en: "Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل" },
       services: [
         {
-          img: "assets/images/furniture-design-build-service.jpg",
-          alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" },
-          name: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-          desc: { en: "Custom furniture designed, built, and installed to fit your space.", ar: "أثاث مخصص يُصمَّم ويُصنَّع ويُركَّب ليناسب مساحتك." }
-        },
-        {
+          id: "furniture-restoration",
           img: "assets/images/restoration-service.jpg",
           alt: { en: "Furniture specialist sanding and painting a wooden chair", ar: "أخصائي أثاث يصنفر ويدهن كرسيًا خشبيًا" },
           name: { en: "Restoration &amp; Furniture Painting", ar: "ترميم ودهان الأثاث" },
           desc: { en: "Sanding, varnishing, and painting for worn furniture.", ar: "صنفرة وطلاء وترميم الأثاث الخشبي القديم." }
         },
         {
+          id: "handyman-services",
           img: "assets/images/handyman-service.jpg",
           alt: { en: "Handyman mounting a wall shelf with a drill", ar: "فني صيانة عامة يركّب رفًا على الجدار بمثقاب" },
           name: { en: "Handyman Tasks", ar: "أعمال الصيانة العامة" },
           desc: { en: "Shelving, TV mounting, and small everyday fixes.", ar: "تعليق أرفف وتركيب شاشات وإصلاحات منزلية بسيطة." }
         },
         {
+          id: "packers-movers",
           img: "assets/images/packers-movers-service.jpg",
           alt: { en: "Procraftx crew wrapping furniture and loading a moving truck", ar: "طاقم بروكرافتكس يغلّف الأثاث ويحمّل شاحنة نقل" },
           name: { en: "Packers &amp; Movers", ar: "التغليف والنقل" },

@@ -1,7 +1,9 @@
-// Flat list of the 10 topics that get their own dedicated page: the 7 named
-// specialties plus the 3 service categories. Built from specialties.js and
-// services.js.categories so the detail pages never drift from the
-// homepage cards — same id, same images, same short/long descriptions.
+// Flat list of the 22 topics that get their own dedicated page: the 7 named
+// specialties, the 3 service-category hub pages, the 11 individual services
+// under those hubs, and the customize-works catch-all. Built from
+// specialties.js and services.js.categories so the detail pages never drift
+// from the homepage cards — same id, same images, same short/long
+// descriptions.
 const specialties = require("./specialties.js");
 const services = require("./services.js");
 const site = require("./site.js");
@@ -30,6 +32,22 @@ const fromServices = services.categories.map((cat) => ({
   dataService: cat.title
 }));
 
+// Each individual service also gets its own full detail page (kind:
+// "service"), in addition to the category hub page above — hub-and-spoke,
+// not a replacement. categoryId lets the page link back to its hub.
+const fromIndividualServices = services.categories.flatMap((cat) =>
+  cat.services.map((s) => ({
+    id: s.id,
+    kind: "service",
+    h3: s.name,
+    shortDesc: s.desc,
+    longDesc: null,
+    images: [{ src: s.img, alt: s.alt }],
+    dataService: s.name,
+    categoryId: cat.id
+  }))
+);
+
 // "All Customize Works" isn't in specialties.js or services.js — it's the
 // catch-all CTA card (site.customizeCard), rendered directly in index.njk.
 // It has no photo gallery, so `images` stays empty; detail.njk skips the
@@ -46,4 +64,4 @@ const customizeWorks = {
   dataService: site.customizeCard.dataService
 };
 
-module.exports = [...fromSpecialties, ...fromServices, customizeWorks];
+module.exports = [...fromSpecialties, ...fromServices, ...fromIndividualServices, customizeWorks];

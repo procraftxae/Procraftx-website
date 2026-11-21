@@ -9,6 +9,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 {%- set topic = page.topic -%}
 {%- set content = detailContent[topic.id] -%}
 {%- from "contact-section.njk" import section as contactSection -%}
+{%- from "service-card.njk" import card as serviceCard -%}
 {%- set isAr = lang == "ar" -%}
 {%- set ogImage = "https://www.procraftx.ae/" + topic.images[0].src if topic.images.length else "https://www.procraftx.ae/assets/images/service-promo-poster.jpg" -%}
 <!DOCTYPE html>
@@ -65,7 +66,8 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
 <section class="section">
   <div class="wrap">
     <div class="section-head reveal">
-      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">{{ site.detailPage.breadcrumbHome[lang] | safe }}</a> / <span>{{ topic.h3[lang] | safe }}</span></nav>
+      {%- set parentCat = topic.categoryId | parentCategory if topic.categoryId else null -%}
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">{{ site.detailPage.breadcrumbHome[lang] | safe }}</a> / {% if parentCat %}<a href="{{ parentCat.id }}.html">{{ parentCat.h3[lang] | safe }}</a> / {% endif %}<span>{{ topic.h3[lang] | safe }}</span></nav>
       <span class="eyebrow">{{ topic.h3[lang] | safe }}</span>
       <h1>{{ content.h1[lang] | safe }}</h1>
     </div>
@@ -116,11 +118,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
     {% if topic.services %}
     <div class="subservice-grid">
       {% for s in topic.services %}
-      <article class="sub-card reveal">
-        {% set dims = s.img | imageDims %}
-        <div class="thumb"><picture><source srcset="{{ '../' if isAr }}{{ s.img | webpSrc }}" type="image/webp"><img src="{{ '../' if isAr }}{{ s.img }}" alt="{{ s.alt[lang] | safe }}" width="{{ dims.w }}" height="{{ dims.h }}" loading="lazy" decoding="async"></picture></div>
-        <div class="body"><h4>{{ s.name[lang] | safe }}</h4><p>{{ s.desc[lang] | safe }}</p><a href="#contact" class="link" data-service="{{ s.name[lang] | safe }}">{{ "Request quote" if lang == "en" else "اطلب عرض سعر" }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
+      {{ serviceCard(s, lang, site) }}
       {% endfor %}
     </div>
     {% endif %}
@@ -156,7 +154,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ page.topic.id }}.html{% else %}{{ pa
   </div>
 </section>
 
-{%- set prefillService = topic.dataService[lang] if topic.kind == "specialty" else site.bookingForm.notSure[lang] -%}
+{%- set prefillService = topic.dataService[lang] if (topic.kind == "specialty" or topic.kind == "service") else site.bookingForm.notSure[lang] -%}
 {{ contactSection(lang, isAr, site, services, specialties, prefillService) }}
 
 </main>

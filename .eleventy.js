@@ -48,13 +48,18 @@ function buildOfferCatalog(lang) {
   const prefix = `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
   const items = [];
   servicesData.categories.forEach((cat) => {
-    // the 13 individual services don't each get their own page — only the
-    // 3 categories do — so they point to their category's detail page.
-    const url = `${prefix}${cat.id}.html`;
+    // Each individual service now has its own detail page, so its Offer
+    // points there (not at the category hub page) with the richer
+    // metaDescription that page was written with, not the one-line desc.
     cat.services.forEach((s) => {
       items.push({
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: deEnt(s.name[lang]), description: deEnt(s.desc[lang]), url }
+        itemOffered: {
+          "@type": "Service",
+          name: deEnt(s.name[lang]),
+          description: deEnt(detailContentData[s.id].metaDescription[lang]),
+          url: `${prefix}${s.id}.html`
+        }
       });
     });
   });
@@ -188,14 +193,25 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("detailBreadcrumbJsonLd", function (topicId, lang) {
     const topic = detailTopicsData.find((t) => t.id === topicId);
     const prefix = `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
-    const obj = {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: siteData.detailPage.breadcrumbHome[lang], item: prefix },
-        { "@type": "ListItem", position: 2, name: lang === "ar" ? topic.h3.ar : deEnt(topic.h3.en), item: `${prefix}${topic.id}.html` }
-      ]
-    };
+    const itemListElement = [
+      { "@type": "ListItem", position: 1, name: siteData.detailPage.breadcrumbHome[lang], item: prefix }
+    ];
+    if (topic.categoryId) {
+      const category = detailTopicsData.find((t) => t.id === topic.categoryId);
+      itemListElement.push({
+        "@type": "ListItem",
+        position: 2,
+        name: lang === "ar" ? category.h3.ar : deEnt(category.h3.en),
+        item: `${prefix}${category.id}.html`
+      });
+    }
+    itemListElement.push({
+      "@type": "ListItem",
+      position: itemListElement.length + 1,
+      name: lang === "ar" ? topic.h3.ar : deEnt(topic.h3.en),
+      item: `${prefix}${topic.id}.html`
+    });
+    const obj = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement };
     return JSON.stringify(obj, null, 2);
   });
 
@@ -207,6 +223,15 @@ module.exports = function (eleventyConfig) {
   // plain JS instead.
   eleventyConfig.addFilter("detailFaqGroup", function (topicId) {
     return faqData.find((g) => g.anchor === topicId) || null;
+  });
+
+  // Same reasoning as above: Nunjucks `selectattr(...).first` inside the
+  // breadcrumb was found to always resolve to the first item in
+  // detailTopics regardless of the id being matched (confirmed empirically
+  // across all 22 new pages — every one showed "Interior Design" as its
+  // parent category). Plain JS sidesteps it entirely, like detailFaqGroup.
+  eleventyConfig.addFilter("parentCategory", function (categoryId) {
+    return detailTopicsData.find((t) => t.id === categoryId) || null;
   });
 
   // Resolves relatedIds -> [{href, label}] outside the template. A Nunjucks

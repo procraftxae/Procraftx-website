@@ -146,7 +146,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
       </div>
       <div class="subservice-grid">
         {% for s in cat.services %}
-        {{ serviceCard(s, lang) }}
+        {{ serviceCard(s, lang, site) }}
         {% endfor %}
       </div>
     </div>

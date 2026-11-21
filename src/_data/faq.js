@@ -308,5 +308,247 @@ module.exports = [
     {qEn:"What trades or materials can a custom project combine?", aEn:"Whatever the idea requires — carpentry, metalwork, electrical, glass, upholstery, or a mix of several. Since we already run crews across all our core trades, we can combine them under one project instead of you coordinating separate contractors.",
      qAr:"ما الحرف أو المواد التي يمكن دمجها في مشروع مخصص؟", aAr:"أي شيء تتطلبه الفكرة — نجارة، أعمال معدنية، كهرباء، زجاج، تنجيد، أو مزيج من عدة حرف. بما أن لدينا بالفعل فرقًا عبر كل حرفنا الأساسية، يمكننا دمجها ضمن مشروع واحد بدل أن تنسّق مع مقاولين منفصلين."}
   ]
+},
+{
+  titleEn: "Plumbing Services", titleAr: "خدمات السباكة", anchor:"plumbing-services",
+  linkEn:"See our plumbing services", linkAr:"اطّلع على خدمات السباكة لدينا",
+  questions: [
+    {qEn:"What should I do while I wait for a plumber if I have an active leak?", aEn:"Shut off the water at the nearest isolation valve, or the main supply if you can't find one nearby, and move anything valuable out of the area — that limits the damage until we arrive. Tell us it's urgent when you call and we'll prioritize getting there fast.",
+     qAr:"ماذا أفعل أثناء انتظار وصول السبّاك إذا كان لدي تسرب نشط؟", aAr:"أغلق المياه من أقرب صمام عزل، أو من التغذية الرئيسية إذا لم تجد صمامًا قريبًا، وأبعد أي أغراض قيّمة عن المنطقة — هذا يحدّ من الضرر لحين وصولنا. أخبرنا أن الأمر عاجل عند الاتصال وسنعطيه الأولوية للوصول بسرعة."},
+    {qEn:"Can you fix a leak inside a wall without breaking the whole wall open?", aEn:"Yes — we trace the leak first and usually only need a small, targeted opening, not a full demolition. We patch the opening afterward, or hand it to a painter if that's a separate step in your job.",
+     qAr:"هل يمكنكم إصلاح تسرب داخل الجدار دون تكسيره بالكامل؟", aAr:"نعم — نحدد مصدر التسرب أولًا ونحتاج عادةً فتحة صغيرة ومحددة فقط، لا تكسيرًا كاملًا. نرقّع الفتحة بعدها، أو نسلّمها لدهان إذا كانت تلك خطوة منفصلة ضمن عملك."},
+    {qEn:"My apartment has low water pressure — can you fix that?", aEn:"It depends on the cause. If it's isolated to your own unit's fittings, we can usually improve it directly. If it traces back to the building's shared supply line, that's a building-management matter, and we'll tell you honestly which case you're in.",
+     qAr:"شقتي ضغط المياه فيها ضعيف — هل يمكنكم إصلاح ذلك؟", aAr:"يعتمد على السبب. إذا كان مقتصرًا على تجهيزات وحدتك، نقدر عادةً تحسينه مباشرة. وإذا كان يعود لخط التغذية المشترك بالمبنى، فهذا أمر يخص إدارة المبنى، وسنخبرك بصراحة أي حالة تنطبق عليك."},
+    {qEn:"Do you install new water heaters, or only repair existing ones?", aEn:"Both — new water heater installation and repair or replacement of an existing unit are part of this service.",
+     qAr:"هل تركّبون سخانات مياه جديدة، أم تصلحون الموجود فقط؟", aAr:"كلاهما — تركيب سخانات مياه جديدة وإصلاح أو استبدال وحدة قائمة جزء من هذه الخدمة."},
+    {qEn:"How do I know if a drain problem is more than just a simple clog?", aEn:"A drain that clears and stays clear after unclogging is usually just debris. One that backs up again within days often points to a deeper blockage or pipe damage, and we'll check for that if a first clean doesn't hold.",
+     qAr:"كيف أعرف إذا كانت مشكلة المصرف أكبر من مجرد انسداد بسيط؟", aAr:"المصرف الذي يُفتح ويبقى مفتوحًا بعد التسليك غالبًا كان مجرد أوساخ. أما الذي ينسد مجددًا خلال أيام فغالبًا يشير لانسداد أعمق أو تلف بالأنبوب، وسنتحقق من ذلك إذا لم يثبت التسليك الأول."},
+    {qEn:"Can you install a tap or toilet that I've already bought myself?", aEn:"Yes, we're happy to install fixtures you've purchased yourself, not only ones we supply as part of the quote.",
+     qAr:"هل يمكنكم تركيب حنفية أو مرحاض اشتريته بنفسي مسبقًا؟", aAr:"نعم، يسعدنا تركيب تجهيزات اشتريتها بنفسك، وليس فقط ما نوفره ضمن عرض السعر."},
+    {qEn:"Is a repair covered if the same leak comes back later?", aEn:"Yes — every repair is covered by our 100% guarantee on parts and labor. If the same issue reappears, we come back and fix it at no charge.",
+     qAr:"هل الإصلاح مغطى إذا عاد نفس التسرب لاحقًا؟", aAr:"نعم — كل إصلاح مغطى بضماننا 100% على القطع والعمالة. وإذا تكررت نفس المشكلة، نعود ونصلحها دون أي رسوم."},
+    {qEn:"Can plumbing work be bundled with electrical or AC work in the same visit?", aEn:"Yes — mention everything you need when you book, and we'll send a cross-trained technician or a small crew to cover it all in one visit rather than scheduling separate trips.",
+     qAr:"هل يمكن دمج أعمال السباكة مع الكهرباء أو التكييف بنفس الزيارة؟", aAr:"نعم — اذكر كل ما تحتاجه عند الحجز، وسنرسل فنيًا مدربًا على أكثر من تخصص أو فريقًا صغيرًا لتغطية كل شيء بزيارة واحدة بدل جدولة زيارات منفصلة."}
+  ]
+},
+{
+  titleEn: "Electrical Services", titleAr: "الخدمات الكهربائية", anchor:"electrical-services",
+  linkEn:"See our electrical services", linkAr:"اطّلع على خدماتنا الكهربائية",
+  questions: [
+    {qEn:"My breaker keeps tripping — can you find out why?", aEn:"Yes — a tripping breaker is usually caused by a specific overloaded circuit or a faulty appliance, not the breaker itself. We isolate which circuit is affected before suggesting a fix, rather than just resetting it and hoping.",
+     qAr:"قاطع الكهرباء لدي يستمر بالفصل — هل تقدرون تعرفون السبب؟", aAr:"نعم — القاطع الذي يفصل باستمرار غالبًا سببه دائرة محمّلة بشكل زائد أو جهاز معطل، لا القاطع نفسه. نحدد الدائرة المتأثرة قبل اقتراح أي إصلاح، بدل إعادة تشغيله فقط والأمل بالأفضل."},
+    {qEn:"Can you add extra sockets to a room without rewiring the whole space?", aEn:"In most cases yes — we tap into the nearest suitable existing circuit after checking what else it already carries, rather than rewiring the whole room unnecessarily.",
+     qAr:"هل يمكنكم إضافة مقابس للغرفة دون إعادة توصيل المساحة بالكامل؟", aAr:"في معظم الحالات نعم — نربط بأقرب دائرة قائمة مناسبة بعد التحقق مما تحمله أصلًا، بدل إعادة توصيل الغرفة بالكامل دون داعٍ."},
+    {qEn:"Is a permit needed to add sockets or fixtures in my home?", aEn:"Routine additions like extra sockets or light fixtures don't need a permit. Larger jobs — full rewiring, panel upgrades — sometimes do, and we'll flag this clearly during the site visit, not after starting.",
+     qAr:"هل يلزم تصريح لإضافة مقابس أو تجهيزات بمنزلي؟", aAr:"الإضافات الروتينية مثل المقابس الإضافية أو تجهيزات الإضاءة لا تحتاج تصريحًا. الأعمال الأكبر — إعادة توصيل كاملة، ترقية لوحة كهربائية — تحتاج أحيانًا، وسننبهك لذلك بوضوح أثناء زيارة الموقع، لا بعد البدء."},
+    {qEn:"Can you install a ceiling fan where there wasn't one before?", aEn:"Yes — this is new installation, not just repair. We check the ceiling and nearest circuit first to confirm it can safely support a fan, then wire and mount it.",
+     qAr:"هل يمكنكم تركيب مروحة سقف بمكان لم تكن فيه واحدة مسبقًا؟", aAr:"نعم — هذا تركيب جديد، وليس مجرد إصلاح. نفحص السقف وأقرب دائرة أولًا للتأكد من قدرتها على دعم المروحة بأمان، ثم نوصّلها ونركّبها."},
+    {qEn:"My lights flicker occasionally but it's not constant — is that still worth calling about?", aEn:"Yes — an intermittent fault is still a genuine issue, and often easier to diagnose correctly while it's happening occasionally rather than waiting until it fails completely.",
+     qAr:"إضاءتي تومض أحيانًا لكن ليس باستمرار — هل يستحق ذلك الاتصال؟", aAr:"نعم — الخلل المتقطع مشكلة حقيقية، وغالبًا أسهل تشخيصه بشكل صحيح وهو يحدث أحيانًا بدل انتظار تعطله الكامل."},
+    {qEn:"Do you work on older villas with outdated wiring, or only new builds?", aEn:"Both — wiring standards and panel capacity differ noticeably between older and newer villas, and we work with what's actually installed rather than assuming a newer standard.",
+     qAr:"هل تعملون على الفلل القديمة ذات الأسلاك المتقادمة، أم فقط المباني الجديدة؟", aAr:"كلاهما — تختلف معايير الأسلاك وسعة اللوحة الكهربائية بشكل ملحوظ بين الفلل القديمة والحديثة، ونعمل بما هو مُركَّب فعليًا بدل افتراض معيار أحدث."},
+    {qEn:"What if an electrical fault smells like burning?", aEn:"Switch off the affected circuit at the panel if you can safely reach it, and call us immediately — a burning smell is a safety issue, not routine maintenance, and we treat it as a priority call.",
+     qAr:"ماذا لو كانت رائحة احتراق مصاحبة لعطل كهربائي؟", aAr:"أغلق الدائرة المتأثرة من اللوحة إذا استطعت الوصول إليها بأمان، واتصل بنا فورًا — رائحة الاحتراق مسألة سلامة، وليست صيانة روتينية، ونتعامل معها كطلب ذي أولوية."},
+    {qEn:"Can you prepare wiring for a smart-home system I plan to install later?", aEn:"Yes — we can prep the wiring and backbox placement for smart switches, sensors, or panels now, so installation later is straightforward.",
+     qAr:"هل يمكنكم تجهيز الأسلاك لنظام منزل ذكي أخطط لتركيبه لاحقًا؟", aAr:"نعم — يمكننا تجهيز الأسلاك ومواضع العلب الخلفية للمفاتيح أو الحساسات أو اللوحات الذكية الآن، ليكون التركيب لاحقًا مباشرًا وسهلًا."}
+  ]
+},
+{
+  titleEn: "Air Conditioning (AC) Services", titleAr: "خدمات تكييف الهواء", anchor:"ac-services",
+  linkEn:"See our AC repair &amp; servicing", linkAr:"اطّلع على خدمات إصلاح وصيانة التكييف",
+  questions: [
+    {qEn:"My AC is running but not actually cooling the room — what's wrong?", aEn:"This usually means low refrigerant, a blocked filter, or a failing compressor — all different problems with different fixes. We diagnose first rather than guessing, since treating the wrong one wastes your money.",
+     qAr:"تكييفي يعمل لكنه لا يبرّد الغرفة فعليًا — ما المشكلة؟", aAr:"هذا يعني غالبًا نقص غاز التبريد أو فلتر مسدود أو ضاغط بدأ يتعطل — كلها مشاكل مختلفة بإصلاحات مختلفة. نشخّص أولًا بدل التخمين، لأن معالجة الخطأ منها تهدر مالك."},
+    {qEn:"How often should I get my AC serviced?", aEn:"We recommend a service visit before peak summer at minimum, and more often if the unit runs heavily — see our <a href=\"ac-maintenance-signs.html\">AC warning-signs guide</a> for signs it's overdue sooner than that.",
+     qAr:"كم مرة يجب أن أصون تكييفي؟", aAr:"ننصح بزيارة صيانة قبل ذروة الصيف على الأقل، وبوتيرة أكبر إذا كانت الوحدة تعمل بكثافة — راجع <a href=\"ac-maintenance-signs.html\">دليل علامات صيانة التكييف</a> لمعرفة علامات تدل على حاجتها للصيانة أبكر من ذلك."},
+    {qEn:"Why is water leaking from my indoor AC unit?", aEn:"This is almost always a clogged condensate drain line, which is usually a quick fix if caught early — left alone, it can cause ceiling or wall water damage over time.",
+     qAr:"لماذا تتسرب المياه من وحدة التكييف الداخلية؟", aAr:"هذا غالبًا انسداد بخط تصريف المياه المتكاثفة، وهو إصلاح سريع عادةً إذا اكتُشف مبكرًا — أما إذا تُرك، فقد يسبب أضرار مياه بالسقف أو الجدار بمرور الوقت."},
+    {qEn:"Is it worth repairing an old AC unit, or should I just replace it?", aEn:"Depends on the unit's age and what's actually failed — we give you an honest assessment during the visit rather than repeatedly patching a unit that's genuinely beyond economical repair.",
+     qAr:"هل يستحق إصلاح وحدة تكييف قديمة، أم يجب استبدالها مباشرة؟", aAr:"يعتمد على عمر الوحدة وما تعطل فعليًا — نعطيك تقييمًا صادقًا أثناء الزيارة بدل ترقيع وحدة تجاوزت فعليًا حد الإصلاح الاقتصادي بشكل متكرر."},
+    {qEn:"Do you service central AC systems, or only split units?", aEn:"Both, plus window units — central systems, split units, and window units all have different access points and failure patterns, and we service all three.",
+     qAr:"هل تصونون أنظمة التكييف المركزية، أم وحدات السبليت فقط؟", aAr:"كلاهما، بالإضافة لوحدات الشباك — الأنظمة المركزية ووحدات السبليت والشباك لكل منها نقاط وصول وأنماط أعطال مختلفة، ونصون الثلاثة جميعًا."},
+    {qEn:"Can you refill AC gas, or do you need to find the leak first?", aEn:"We find and seal the leak first wherever possible — a top-up without fixing the leak means the gas escapes again within weeks, so a top-up alone isn't a real fix.",
+     qAr:"هل يمكنكم تعبئة غاز التكييف، أم يجب إيجاد التسرب أولًا؟", aAr:"نجد ونغلق التسرب أولًا كلما أمكن — التعبئة دون إصلاح التسرب تعني تسرب الغاز مجددًا خلال أسابيع، فالتعبئة وحدها ليست إصلاحًا حقيقيًا."},
+    {qEn:"Why does my AC make a loud noise when it starts up?", aEn:"Usually a loose or worn part in the outdoor compressor unit — a fan blade, bearing, or mounting. Catching it early is almost always cheaper than waiting for it to fail completely.",
+     qAr:"لماذا يصدر تكييفي صوتًا عاليًا عند التشغيل؟", aAr:"غالبًا قطعة فُكّت أو تآكلت بوحدة الضاغط الخارجية — شفرة مروحة، محمل، أو تثبيت. اكتشاف ذلك مبكرًا أرخص دائمًا من انتظار تعطلها الكامل."},
+    {qEn:"Do you offer priority or emergency AC callouts?", aEn:"Yes — AC issues get priority scheduling over most other work we do, since in this climate a unit that's not cooling is rarely something that can wait.",
+     qAr:"هل تقدمون زيارات تكييف ذات أولوية أو طارئة؟", aAr:"نعم — مشاكل التكييف تحصل على جدولة ذات أولوية فوق معظم الأعمال الأخرى، لأنه في هذا المناخ، الوحدة التي لا تبرّد نادرًا ما تحتمل الانتظار."}
+  ]
+},
+{
+  titleEn: "Wall Painting &amp; Masonry", titleAr: "دهان الجدران والبناء", anchor:"wall-painting-masonry",
+  linkEn:"See our wall painting &amp; masonry services", linkAr:"اطّلع على خدمات دهان الجدران والبناء",
+  questions: [
+    {qEn:"Do you use different paint for exterior walls than interior ones?", aEn:"Yes — exterior paint needs to be rated for UAE sun and heat exposure specifically, since standard interior-grade paint fades and chalks much faster outdoors in this climate.",
+     qAr:"هل تستخدمون دهانًا مختلفًا للجدران الخارجية عن الداخلية؟", aAr:"نعم — الدهان الخارجي يحتاج أن يكون مصنّفًا تحديدًا لتحمل شمس وحرارة الإمارات، لأن الدهان الداخلي القياسي يبهت ويتقشر أسرع بكثير بالخارج بهذا المناخ."},
+    {qEn:"How do I know if a wall crack is serious or just cosmetic?", aEn:"We check whether it's surface plaster (cosmetic) or tied to settlement movement during the site visit. If we see signs of a genuine structural issue, we'll tell you plainly and recommend a structural engineer rather than just painting over it.",
+     qAr:"كيف أعرف إذا كان شق الجدار خطيرًا أم مجرد تجميلي؟", aAr:"نتحقق إذا كان جصًا سطحيًا (تجميلي) أو مرتبطًا بحركة استقرار أثناء زيارة الموقع. إذا لاحظنا علامات مشكلة إنشائية حقيقية، سنخبرك بصراحة ونوصي بمهندس إنشائي بدل دهانه فقط."},
+    {qEn:"Can you match the paint color to what's already on my walls?", aEn:"Yes — color and finish matching is standard. We sample against your existing wall before committing to a full room, so there's no surprise mismatch once it's dry.",
+     qAr:"هل يمكنكم مطابقة لون الدهان مع ما هو موجود على جدراني؟", aAr:"نعم — مطابقة اللون والتشطيب معيار أساسي لدينا. نأخذ عينة مقابل جدارك الحالي قبل الالتزام بالغرفة كاملة، حتى لا تفاجأ بعدم تطابق بعد الجفاف."},
+    {qEn:"Do you repair tile or brickwork, or only paint?", aEn:"Both — repointing and repair of tile or brickwork damage is part of this service, not just applying fresh paint.",
+     qAr:"هل تصلحون البلاط أو الطوب، أم الدهان فقط؟", aAr:"كلاهما — إعادة ملء الفواصل وإصلاح تلف البلاط أو الطوب جزء من هذه الخدمة، وليس مجرد طلاء جديد."},
+    {qEn:"Is waterproof paint used in bathrooms automatically, or do I need to request it?", aEn:"We use waterproof-rated paint in wet areas like bathrooms as standard practice, since ordinary paint blisters and peels under repeated moisture exposure.",
+     qAr:"هل يُستخدم الدهان المقاوم للماء بالحمامات تلقائيًا، أم يجب طلبه؟", aAr:"نستخدم دهانًا مقاومًا للماء بالمناطق الرطبة كالحمامات كممارسة قياسية، لأن الدهان العادي يتقشر ويتقرقع تحت التعرض المتكرر للرطوبة."},
+    {qEn:"How long does a typical room repaint take?", aEn:"Most single rooms are completed within a day, depending on prep work needed (crack repair, patching) and drying time between coats — we'll confirm the timeline when we quote the job.",
+     qAr:"كم يستغرق دهان غرفة عادية؟", aAr:"معظم الغرف المفردة تُنجز خلال يوم واحد، حسب أعمال التحضير اللازمة (إصلاح شقوق، ترقيع) ووقت الجفاف بين الطبقات — سنؤكد الجدول الزمني عند تقديم عرض السعر."},
+    {qEn:"Do you supply the paint, or can I provide my own?", aEn:"We supply standard paint and materials as part of the quote, or we're happy to work with paint you've already bought if you have a specific brand or color in mind.",
+     qAr:"هل توفرون الدهان، أم يمكنني توفيره بنفسي؟", aAr:"نوفر الدهان والمواد القياسية ضمن عرض السعر، أو يسعدنا العمل بدهان اشتريته مسبقًا إذا كانت لديك ماركة أو لون محدد في بالك."},
+    {qEn:"What if a 'painting job' turns out to need structural repair instead?", aEn:"We'll tell you honestly rather than proceeding — major structural work beyond normal cosmetic repair isn't something we'll paint over, and we'll recommend the right professional for that part of the job.",
+     qAr:"ماذا لو تبيّن أن 'مهمة دهان' تحتاج إصلاحًا إنشائيًا بدل ذلك؟", aAr:"سنخبرك بصراحة بدل المضي قدمًا — العمل الإنشائي الكبير الذي يتجاوز الإصلاح التجميلي العادي ليس شيئًا سندهن فوقه، وسنوصي بالمختص المناسب لذلك الجزء من العمل."}
+  ]
+},
+{
+  titleEn: "Home Cleaning", titleAr: "تنظيف المنزل", anchor:"home-cleaning",
+  linkEn:"See our home cleaning services", linkAr:"اطّلع على خدمات تنظيف المنزل لدينا",
+  questions: [
+    {qEn:"What's the difference between this and your deep cleaning service?", aEn:"This is recurring upkeep — weekly or bi-weekly visits to maintain a baseline of cleanliness. Deep cleaning is a one-off, more intensive service for move-in, move-out, or post-renovation handover.",
+     qAr:"ما الفرق بين هذه الخدمة وخدمة التنظيف العميق لديكم؟", aAr:"هذه صيانة دورية — زيارات أسبوعية أو كل أسبوعين للحفاظ على مستوى نظافة أساسي. التنظيف العميق خدمة لمرة واحدة وأكثر كثافة عند الانتقال أو الإخلاء أو بعد التجديد."},
+    {qEn:"Can I choose which rooms get cleaned each visit?", aEn:"Yes — we confirm scope with you during the first visit, including any rooms or areas you'd rather we skip, like a home office.",
+     qAr:"هل يمكنني اختيار الغرف التي تُنظَّف بكل زيارة؟", aAr:"نعم — نؤكد نطاق العمل معك أثناء الزيارة الأولى، بما في ذلك أي غرف أو مناطق تفضل أن نتجنبها، مثل مكتب منزلي."},
+    {qEn:"Do you bring your own cleaning products, or should I supply them?", aEn:"We supply standard products as default, or we're happy to use products you already have if you have a preference — allergy-sensitive, pet-safe, or otherwise.",
+     qAr:"هل تحضرون مواد التنظيف الخاصة بكم، أم يجب أن أوفرها؟", aAr:"نوفر مواد قياسية افتراضيًا، أو يسعدنا استخدام مواد تملكها بالفعل إذا كان لديك تفضيل — حساسية، آمنة للحيوانات الأليفة، أو غير ذلك."},
+    {qEn:"Can I set up weekly cleaning for a smaller apartment, or is this only for villas?", aEn:"Both — we size the visit to your actual space, whether that's a smaller apartment or a larger villa, and adjust time and frequency accordingly.",
+     qAr:"هل يمكنني ترتيب تنظيف أسبوعي لشقة صغيرة، أم هذا للفلل فقط؟", aAr:"كلاهما — نحدد حجم الزيارة حسب مساحتك الفعلية، سواء كانت شقة أصغر أو فيلا أكبر، ونعدّل الوقت والتكرار تبعًا لذلك."},
+    {qEn:"Does recurring cleaning include the oven or carpet shampooing?", aEn:"No — those are deep-clean tasks and fall under our separate services. We'll point you to the right one rather than doing a partial job under this scope.",
+     qAr:"هل يشمل التنظيف الدوري الفرن أو غسيل السجاد؟", aAr:"لا — هذه مهام تنظيف عميق وتندرج ضمن خدماتنا المنفصلة. سنوجهك للخدمة الصحيحة بدل تنفيذ عمل جزئي بهذا النطاق."},
+    {qEn:"Can I skip a scheduled visit if I'm traveling?", aEn:"Yes, just let us know in advance and we'll adjust the schedule — no charge for a visit that doesn't happen.",
+     qAr:"هل يمكنني تخطي زيارة مجدولة إذا كنت مسافرًا؟", aAr:"نعم، فقط أخبرنا مسبقًا وسنعدّل الجدول — لا رسوم على زيارة لم تحدث."},
+    {qEn:"Is the same cleaner assigned each visit, or does it rotate?", aEn:"We try to keep the same technician on your recurring schedule wherever possible, since consistency helps them learn your home's specific needs.",
+     qAr:"هل يُعيَّن نفس العامل في كل زيارة، أم يتغير؟", aAr:"نحاول الإبقاء على نفس الفني لجدولك الدوري كلما أمكن، لأن الاستمرارية تساعده على فهم احتياجات منزلك الخاصة."},
+    {qEn:"Does the price change if I add an extra task occasionally, like washing windows?", aEn:"We'll quote any extra task upfront before adding it to a visit, so you know the cost before agreeing — your regular recurring price stays unaffected otherwise.",
+     qAr:"هل يتغير السعر إذا أضفت مهمة إضافية أحيانًا، مثل غسيل النوافذ؟", aAr:"سنقدم لك عرض سعر لأي مهمة إضافية قبل إضافتها للزيارة، حتى تعرف التكلفة قبل الموافقة — سعرك الدوري المعتاد يبقى دون تأثير خلاف ذلك."}
+  ]
+},
+{
+  titleEn: "Furniture &amp; Upholstery Cleaning", titleAr: "تنظيف الأثاث والمفروشات", anchor:"furniture-cleaning",
+  linkEn:"See our furniture cleaning services", linkAr:"اطّلع على خدمات تنظيف الأثاث لدينا",
+  questions: [
+    {qEn:"Is steam cleaning safe for leather furniture?", aEn:"Leather needs a different method than fabric upholstery, and we identify the material first — we don't use the same steam process on leather that we'd use on woven fabric.",
+     qAr:"هل التنظيف بالبخار آمن للأثاث الجلدي؟", aAr:"الجلد يحتاج طريقة مختلفة عن المفروشات القماشية، ونحدد نوع المادة أولًا — لا نستخدم نفس عملية البخار على الجلد التي نستخدمها على القماش المنسوج."},
+    {qEn:"Can you remove old stains, or only fresh ones?", aEn:"We can treat most set-in stains, though results depend on the fabric and how long the stain has been there — we'll assess it honestly before starting rather than promising a guaranteed result on a stain we haven't seen.",
+     qAr:"هل يمكنكم إزالة بقع قديمة، أم الطازجة فقط؟", aAr:"يمكننا معالجة معظم البقع المتمكنة، رغم أن النتيجة تعتمد على القماش ومدة وجود البقعة — سنقيّمها بصراحة قبل البدء بدل الوعد بنتيجة مضمونة لبقعة لم نرها."},
+    {qEn:"How long until furniture is usable again after steam cleaning?", aEn:"Usually within a few hours — steam cleaning doesn't soak the fabric the way a full wet-wash would, so drying time is much shorter.",
+     qAr:"كم يستغرق الأثاث ليصبح قابلًا للاستخدام بعد التنظيف بالبخار؟", aAr:"عادةً خلال ساعات قليلة — التنظيف بالبخار لا يُشبّع القماش بالماء كما يفعل الغسيل الكامل، لذا وقت الجفاف أقصر بكثير."},
+    {qEn:"Do you clean mattresses, or only sofas and chairs?", aEn:"Mattress cleaning is a common, separate request — usually for dust-mite and allergen reduction rather than a visible stain, and it's part of this service.",
+     qAr:"هل تنظفون المراتب، أم الأرائك والكراسي فقط؟", aAr:"تنظيف المراتب طلب شائع ومنفصل — عادةً لتقليل عث الغبار ومسببات الحساسية لا لبقعة ظاهرة، وهو جزء من هذه الخدمة."},
+    {qEn:"Is this safe for antique or vintage furniture?", aEn:"Yes — antique and vintage pieces get a gentler, slower process specifically, to avoid damaging fabric that's already fragile with age.",
+     qAr:"هل هذا آمن للأثاث العتيق أو القديم؟", aAr:"نعم — القطع العتيقة والقديمة تحصل على معالجة أهدأ وأبطأ تحديدًا، لتجنب إتلاف قماش هش أصلًا بفعل العمر."},
+    {qEn:"What if my sofa fabric is actually torn, not just dirty?", aEn:"Cleaning won't fix physical damage — if a piece has torn or disintegrating fabric, we'll tell you honestly and point you to our furniture restoration service instead.",
+     qAr:"ماذا لو كان قماش أريكتي ممزقًا فعليًا، لا متسخًا فقط؟", aAr:"التنظيف لا يصلح الضرر المادي — إذا كانت القطعة بقماش ممزق أو متفكك، سنخبرك بصراحة ونوجهك لخدمة ترميم الأثاث لدينا بدلًا من ذلك."},
+    {qEn:"Do you clean carpets as well as upholstered furniture?", aEn:"Yes — carpet and rug deep cleaning is part of this service alongside sofas, armchairs, and other upholstered furniture.",
+     qAr:"هل تنظفون السجاد بالإضافة للأثاث المنجّد؟", aAr:"نعم — تنظيف السجاد والموكيت العميق جزء من هذه الخدمة إلى جانب الأرائك والكراسي والأثاث المنجّد الآخر."},
+    {qEn:"Can this be booked alongside my regular recurring home cleaning?", aEn:"Yes — just mention it when booking and we'll include fabric and mattress cleaning alongside your regular visit rather than scheduling a separate trip.",
+     qAr:"هل يمكن حجز هذا مع تنظيف منزلي الدوري المعتاد؟", aAr:"نعم — فقط اذكر ذلك عند الحجز وسنضيف تنظيف الأقمشة والمراتب إلى زيارتك المعتادة بدل جدولة زيارة منفصلة."}
+  ]
+},
+{
+  titleEn: "Water Tank Cleaning", titleAr: "تنظيف خزانات المياه", anchor:"water-tank-cleaning",
+  linkEn:"See our water tank cleaning service", linkAr:"اطّلع على خدمة تنظيف خزانات المياه",
+  questions: [
+    {qEn:"How do I know if my water tank needs cleaning right now?", aEn:"Discolored water, an odd smell or taste from the tap, or simply knowing it's been over 6-12 months since the last clean are the usual signs — don't wait for all three before booking.",
+     qAr:"كيف أعرف إذا كان خزان مياهي يحتاج تنظيفًا الآن؟", aAr:"تغيّر لون المياه، رائحة أو طعم غريب من الحنفية، أو ببساطة معرفة أنه مضى أكثر من 6-12 شهرًا منذ آخر تنظيف هي العلامات المعتادة — لا تنتظر ظهور الثلاثة معًا قبل الحجز."},
+    {qEn:"Do you clean overhead and underground tanks the same way?", aEn:"The result is the same — drained, pressure-cleaned, and sanitized — but the process differs: overhead tanks have direct access, while underground tanks need the same result through a confined access point, which changes the equipment and time involved.",
+     qAr:"هل تنظفون الخزانات العلوية والأرضية بنفس الطريقة؟", aAr:"النتيجة واحدة — تفريغ وتنظيف بالضغط وتعقيم — لكن العملية تختلف: الخزانات العلوية لها وصول مباشر، بينما الأرضية تحتاج نفس النتيجة عبر نقطة وصول ضيقة، وهذا يغيّر المعدات والوقت المطلوب."},
+    {qEn:"Can one visit finish the whole job, or does it take multiple days?", aEn:"Most residential tank sizes are done in a single visit — drain, pressure-clean, sanitize, and refill, start to finish.",
+     qAr:"هل تنجز الزيارة الواحدة العمل كاملًا، أم يستغرق عدة أيام؟", aAr:"معظم أحجام الخزانات السكنية تُنجز خلال زيارة واحدة — من التفريغ والتنظيف بالضغط والتعقيم وإعادة التعبئة، من البداية للنهاية."},
+    {qEn:"Will you tell me if my tank itself has a problem, like a crack?", aEn:"Yes — we check the tank's condition while cleaning, not just clean it blind. Cracks, rust, or a failing lid seal get flagged honestly, since those issues make buildup happen faster.",
+     qAr:"هل ستخبرونني إذا كان بالخزان نفسه مشكلة، مثل شق؟", aAr:"نعم — نفحص حالة الخزان أثناء التنظيف، لا ننظفه بشكل أعمى فقط. الشقوق أو الصدأ أو ضعف إحكام الغطاء تُنبَّه لها بصراحة، لأن هذه المشاكل تجعل التراكم التالي يحدث أسرع."},
+    {qEn:"Do you repair a cracked tank, or only clean it?", aEn:"A cleaning visit identifies the issue but doesn't repair it — we can quote tank structural repair as a separate job if that's what's needed.",
+     qAr:"هل تصلحون الخزان المتشقق، أم تنظفونه فقط؟", aAr:"زيارة التنظيف تحدد المشكلة لكن لا تصلحها — يمكننا تقديم عرض سعر لإصلاح الخزان الإنشائي كمهمة منفصلة إذا كان ذلك مطلوبًا."},
+    {qEn:"Is the water safe to use immediately after cleaning?", aEn:"Yes — once the tank is drained, cleaned, sanitized, and refilled, the water is safe for normal household use right away.",
+     qAr:"هل المياه آمنة للاستخدام فورًا بعد التنظيف؟", aAr:"نعم — بمجرد تفريغ الخزان وتنظيفه وتعقيمه وإعادة تعبئته، تكون المياه آمنة للاستخدام المنزلي العادي فورًا."},
+    {qEn:"Can this be scheduled alongside disinfection or pest control?", aEn:"Yes — if you're addressing multiple things at once, mention it when booking and we'll coordinate the visits.",
+     qAr:"هل يمكن جدولة هذا مع التعقيم أو مكافحة الحشرات؟", aAr:"نعم — إذا كنت تعالج عدة أمور بنفس الوقت، اذكر ذلك عند الحجز وسننسّق الزيارات."},
+    {qEn:"How much does tank size affect the price?", aEn:"Tank size and access (overhead vs. underground, how confined the access point is) are the main factors — we confirm the price after seeing the tank, not from a general estimate alone.",
+     qAr:"كم يؤثر حجم الخزان على السعر؟", aAr:"حجم الخزان وسهولة الوصول إليه (علوي مقابل أرضي، مدى ضيق نقطة الوصول) هي العوامل الرئيسية — نؤكد السعر بعد معاينة الخزان، لا من تقدير عام فقط."}
+  ]
+},
+{
+  titleEn: "Disinfection &amp; Pest Management", titleAr: "التعقيم ومكافحة الحشرات", anchor:"disinfection-pest-control",
+  linkEn:"See our disinfection &amp; pest control services", linkAr:"اطّلع على خدمات التعقيم ومكافحة الحشرات",
+  questions: [
+    {qEn:"How do I know if I have bed bugs versus another pest?", aEn:"Bed bugs typically show as small reddish-brown bites or spots on bedding, often in a line pattern. We confirm what you actually have before choosing a treatment, since each pest needs a different product.",
+     qAr:"كيف أعرف إذا كان لدي بق فراش أم حشرة أخرى؟", aAr:"بق الفراش عادةً يظهر كلدغات أو بقع حمراء بنية صغيرة على الفراش، غالبًا بنمط خطي. نؤكد ما لديك فعليًا قبل اختيار المعالجة، لأن كل حشرة تحتاج منتجًا مختلفًا."},
+    {qEn:"Are your pest control products safe if I have young children or pets?", aEn:"Yes — all products are pet-safe and child-safe where exposure is possible, and we confirm what's in the home before choosing a product, not after.",
+     qAr:"هل منتجات مكافحة الحشرات لديكم آمنة إذا كان لدي أطفال صغار أو حيوانات أليفة؟", aAr:"نعم — كل المنتجات آمنة للحيوانات الأليفة والأطفال حيث يكون التعرض ممكنًا، ونتأكد مما هو موجود بالمنزل قبل اختيار المنتج، لا بعده."},
+    {qEn:"Is there a best time of year to book pest control in the UAE?", aEn:"Pest activity spikes with humidity, so treatment timed around that pattern is more effective than a random one-off visit — we can advise on timing when you call.",
+     qAr:"هل هناك وقت أفضل بالسنة لحجز مكافحة الحشرات بالإمارات؟", aAr:"نشاط الحشرات يرتفع مع الرطوبة، فمعالجة بتوقيت مناسب لهذا النمط أكثر فعالية من زيارة عشوائية التوقيت — يمكننا تقديم إرشاد حول التوقيت عند الاتصال."},
+    {qEn:"Do you seal entry points to stop pests coming back, or just treat what's there?", aEn:"We treat the active infestation directly. Structural pest-proofing — sealing entry points in walls or foundations — is a separate scope, and we can point you to that follow-up work if needed.",
+     qAr:"هل تغلقون نقاط الدخول لمنع عودة الحشرات، أم تعالجون الموجود فقط؟", aAr:"نعالج الانتشار النشط مباشرة. منع دخول الحشرات الإنشائي — إغلاق نقاط الدخول بالجدران أو الأساسات — نطاق منفصل، ويمكننا توجيهك لهذا العمل اللاحق إذا لزم."},
+    {qEn:"Can disinfection be done without pest control, just for general sanitizing?", aEn:"Yes — disinfection on its own, for bacteria and virus sanitizing after illness or as preventive upkeep, is a separate, valid request with no pest treatment needed.",
+     qAr:"هل يمكن عمل التعقيم دون مكافحة الحشرات، فقط للتطهير العام؟", aAr:"نعم — التعقيم بمفرده، لتطهير البكتيريا والفيروسات بعد المرض أو كعناية وقائية، طلب منفصل وصحيح دون الحاجة لمعالجة حشرات."},
+    {qEn:"How long after treatment can pets or kids go back into the room?", aEn:"We'll advise on any ventilation time needed before pets or kids return to treated rooms — it varies by product but we always tell you clearly before we leave.",
+     qAr:"كم من الوقت بعد المعالجة يمكن عودة الحيوانات الأليفة أو الأطفال للغرفة؟", aAr:"سننصحك بأي وقت تهوية لازم قبل عودة الحيوانات الأليفة أو الأطفال للغرف المعالجة — يختلف حسب المنتج لكننا نخبرك بوضوح دائمًا قبل مغادرتنا."},
+    {qEn:"Do ants and cockroaches need the same treatment?", aEn:"No — each pest needs a different product and approach, which is why we identify what you actually have before treating, rather than applying a generic treatment to everything.",
+     qAr:"هل يحتاج النمل والصراصير نفس المعالجة؟", aAr:"لا — كل حشرة تحتاج منتجًا وأسلوبًا مختلفًا، ولهذا نحدد ما لديك فعليًا قبل المعالجة، بدل تطبيق معالجة عامة على كل شيء."},
+    {qEn:"Can this be booked alongside water tank cleaning or home cleaning?", aEn:"Yes — if you're relocating or addressing several things at once, mention it when booking and we'll coordinate so one crew covers everything.",
+     qAr:"هل يمكن حجز هذا مع تنظيف خزان المياه أو تنظيف المنزل؟", aAr:"نعم — إذا كنت تنتقل أو تعالج عدة أمور بنفس الوقت، اذكر ذلك عند الحجز وسننسّق ليتولى فريق واحد كل شيء."}
+  ]
+},
+{
+  titleEn: "Furniture Restoration &amp; Painting", titleAr: "ترميم ودهان الأثاث", anchor:"furniture-restoration",
+  linkEn:"See our furniture restoration services", linkAr:"اطّلع على خدمات ترميم الأثاث لدينا",
+  questions: [
+    {qEn:"What's the difference between this and your custom furniture design &amp; build service?", aEn:"This restores furniture you already own — sanding, staining, painting worn or dated pieces. Custom design &amp; build creates new pieces from scratch. If your piece is sound but tired-looking, this is the right service.",
+     qAr:"ما الفرق بين هذه الخدمة وخدمة تصميم وتصنيع الأثاث المخصص لديكم؟", aAr:"هذه الخدمة تُرمّم أثاثًا تملكه بالفعل — صنفرة وطلاء ودهان للقطع المتهالكة أو القديمة الطراز. التصميم والتصنيع المخصص ينشئ قطعًا جديدة من الصفر. إذا كانت قطعتك سليمة لكن تبدو متعبة، فهذه هي الخدمة المناسبة."},
+    {qEn:"Can you match the color exactly to the rest of my furniture set?", aEn:"Yes — we sample against the piece or the rest of a matching set before committing to a full refinish, so a single restored chair doesn't end up visibly different from the set.",
+     qAr:"هل يمكنكم مطابقة اللون تمامًا مع بقية طقم أثاثي؟", aAr:"نعم — نأخذ عينة مقابل القطعة أو بقية الطقم المطابق قبل الالتزام بإعادة طلاء كاملة، حتى لا ينتهي كرسي واحد مُرمَّم بشكل مختلف واضح عن الطقم."},
+    {qEn:"Is this safe for genuinely antique furniture, or will it lose its character?", aEn:"Antique and vintage pieces get a deliberately gentler process, since aggressive sanding can remove character and value that a newer piece wouldn't have — we treat these differently from a standard restoration.",
+     qAr:"هل هذا آمن للأثاث العتيق فعليًا، أم سيفقد طابعه؟", aAr:"القطع العتيقة والقديمة تحصل على معالجة أهدأ عمدًا، لأن الصنفرة القوية قد تزيل طابعًا وقيمة لا تملكها قطعة أحدث — نتعامل معها بشكل مختلف عن الترميم القياسي."},
+    {qEn:"How long does a typical restoration take?", aEn:"Small pieces are usually done within a few days; larger or more detailed restorations take one to two weeks. We give you a realistic timeline before starting, not an optimistic one.",
+     qAr:"كم يستغرق الترميم النموذجي؟", aAr:"القطع الصغيرة تُنجز عادةً خلال أيام قليلة؛ الترميمات الأكبر أو الأكثر تفصيلًا تستغرق أسبوعًا إلى أسبوعين. نعطيك جدولًا زمنيًا واقعيًا قبل البدء، لا متفائلًا."},
+    {qEn:"What if my furniture is broken, not just worn — can you still fix it?", aEn:"If the damage is structural — broken joints, rotted wood — we'll assess honestly whether it's worth restoring or genuinely better to replace, rather than taking the job and delivering a weak result.",
+     qAr:"ماذا لو كان أثاثي مكسورًا، لا متهالكًا فقط — هل لا يزال بإمكانكم إصلاحه؟", aAr:"إذا كان الضرر إنشائيًا — مفاصل مكسورة، خشب متعفن — سنقيّم بصراحة إذا كان الترميم يستحق أو أن الاستبدال أفضل فعليًا، بدل قبول المهمة وتقديم نتيجة ضعيفة."},
+    {qEn:"Do I need to bring the furniture to you, or do you work on-site?", aEn:"Most handyman and moving work is on-site, but larger restoration or painting jobs are usually collected and returned once finished — we'll confirm which applies when we quote.",
+     qAr:"هل يجب أن أحضر الأثاث إليكم، أم تعملون في الموقع؟", aAr:"معظم أعمال الصيانة العامة والنقل تُنجز بالموقع، لكن أعمال الترميم أو الدهان الأكبر تُنقل عادةً وتُعاد بعد الانتهاء — سنؤكد ما ينطبق عند تقديم عرض السعر."},
+    {qEn:"Can you refinish in a completely new color instead of matching the old one?", aEn:"Yes — if you'd rather update the look than match the existing finish, we can refinish in a new color or stain of your choice.",
+     qAr:"هل يمكنكم إعادة الطلاء بلون جديد تمامًا بدل مطابقة القديم؟", aAr:"نعم — إذا كنت تفضل تحديث المظهر بدل مطابقة التشطيب الحالي، يمكننا إعادة الطلاء بلون أو صبغة جديدة من اختيارك."},
+    {qEn:"Is the finished piece covered by any guarantee?", aEn:"Yes — every restored piece is covered by our 100% guarantee on materials and workmanship.",
+     qAr:"هل القطعة المُنجزة مغطاة بأي ضمان؟", aAr:"نعم — كل قطعة مُرمَّمة مغطاة بضماننا 100% على المواد وجودة التنفيذ."}
+  ]
+},
+{
+  titleEn: "Handyman Tasks", titleAr: "أعمال الصيانة العامة", anchor:"handyman-services",
+  linkEn:"See our handyman services", linkAr:"اطّلع على خدمات الصيانة العامة لدينا",
+  questions: [
+    {qEn:"Can I book multiple small tasks in one visit, or does each need its own booking?", aEn:"One visit, whenever possible — tell us everything on your list and we'll quote the whole batch, which is both faster and cheaper than booking each task separately.",
+     qAr:"هل يمكنني حجز عدة مهام صغيرة بزيارة واحدة، أم يحتاج كل منها حجزًا منفصلًا؟", aAr:"زيارة واحدة كلما أمكن — أخبرنا بكل ما في قائمتك وسنقدم عرض سعر للدفعة كاملة، وهذا أسرع وأرخص من حجز كل مهمة منفصلة."},
+    {qEn:"Can you mount a TV on any kind of wall?", aEn:"Wall type changes what's involved — drywall needs different anchors than solid masonry — and we bring the right hardware for your specific wall rather than a generic kit.",
+     qAr:"هل يمكنكم تركيب شاشة تلفزيون على أي نوع جدار؟", aAr:"نوع الجدار يغيّر ما يلزم — الجدار الجصي يحتاج مثبتات مختلفة عن البناء الصلب — ونحضر العتاد المناسب لجدارك تحديدًا بدل طقم عام."},
+    {qEn:"Do you assemble flat-pack furniture I've bought myself?", aEn:"Yes — flat-pack assembly is a common handyman request, whether it's new furniture you've bought or something you're reassembling after a move.",
+     qAr:"هل تجمّعون الأثاث مسطح التعبئة الذي اشتريته بنفسي؟", aAr:"نعم — تجميع الأثاث مسطح التعبئة طلب شائع ضمن الصيانة العامة، سواء كان أثاثًا جديدًا اشتريته أو شيئًا تعيد تجميعه بعد انتقال."},
+    {qEn:"What counts as a 'small job' versus something that needs a dedicated trade?", aEn:"Things like shelving, TV mounting, hinge and lock fixes, and curtain rails are handyman-scope. If something turns out to be a dedicated trade's job once we look closely — a 'simple' electrical fix that needs a licensed electrician, for instance — we'll say so rather than attempting it outside our scope.",
+     qAr:"ما الذي يُعتبر 'مهمة صغيرة' مقابل شيء يحتاج حرفة مستقلة؟", aAr:"أشياء مثل تعليق الأرفف وتركيب الشاشات وإصلاح المفصلات والأقفال وتركيب سكك الستائر ضمن نطاق الصيانة العامة. إذا تبيّن أن شيئًا ما هو فعليًا مهمة حرفة مستقلة عند فحصه عن قرب — إصلاح كهربائي 'بسيط' يحتاج كهربائيًا مرخّصًا مثلًا — سنخبرك بذلك بدل محاولته خارج نطاقنا."},
+    {qEn:"Is this service often booked alongside a move?", aEn:"Yes — it's one of the most common pairings. New place, several small things need fixing or mounting, and it's more convenient to bundle it with the move itself.",
+     qAr:"هل تُحجز هذه الخدمة غالبًا مع الانتقال؟", aAr:"نعم — من أكثر الأزواج شيوعًا. منزل جديد، عدة أشياء صغيرة تحتاج إصلاحًا أو تركيبًا، وأكثر راحة دمجها مع الانتقال نفسه."},
+    {qEn:"Do you fix door hinges and handles, or only mount things?", aEn:"Both — door hinge, handle, and lock adjustments are part of this service alongside mounting and assembly tasks.",
+     qAr:"هل تصلحون مفصلات ومقابض الأبواب، أم تركّبون الأشياء فقط؟", aAr:"كلاهما — تعديل مفصلات وأقفال ومقابض الأبواب جزء من هذه الخدمة إلى جانب مهام التركيب والتجميع."},
+    {qEn:"Can handyman tasks be combined with furniture delivery from your custom build service?", aEn:"Yes — shelving and TV mounting right after new custom pieces arrive is a common combination, and we can schedule both together.",
+     qAr:"هل يمكن دمج أعمال الصيانة العامة مع توصيل أثاث من خدمة التصنيع المخصص لديكم؟", aAr:"نعم — تعليق الأرفف وتركيب الشاشات فور وصول قطع مخصصة جديدة توليفة شائعة، ويمكننا جدولة الاثنين معًا."},
+    {qEn:"How is the price worked out for a list of several small tasks?", aEn:"We quote the full list as a batch before starting, based on everything you've told us — not one task at a time — so you know the total cost upfront.",
+     qAr:"كيف يُحتسَب السعر لقائمة من عدة مهام صغيرة؟", aAr:"نقدم عرض سعر للقائمة كاملة كدفعة واحدة قبل البدء، بناءً على كل ما أخبرتنا به — لا مهمة واحدة في كل مرة — حتى تعرف التكلفة الإجمالية مسبقًا."}
+  ]
+},
+{
+  titleEn: "Packers &amp; Movers", titleAr: "التغليف والنقل", anchor:"packers-movers",
+  linkEn:"See our packing &amp; moving services", linkAr:"اطّلع على خدمات التغليف والنقل لدينا",
+  questions: [
+    {qEn:"Do you handle long-distance or only local moves?", aEn:"Local moves within Dubai, Sharjah, and Abu Dhabi — villa-to-villa, apartment-to-apartment, or between the two. We don't currently handle long-distance or international relocation.",
+     qAr:"هل تتولون الانتقالات بعيدة المسافة، أم المحلية فقط؟", aAr:"الانتقالات المحلية داخل دبي والشارقة وأبوظبي — من فيلا لفيلا، شقة لشقة، أو بين الاثنين. لا نتولى حاليًا الانتقال بعيد المسافة أو الدولي."},
+    {qEn:"Will you disassemble large furniture like wardrobes to get them through doorways?", aEn:"Yes — large pieces like wardrobes and bed frames are wrapped and disassembled as needed so they fit through doorways and stairwells without damage, then reassembled correctly at the destination.",
+     qAr:"هل تفكّكون الأثاث الكبير مثل الخزائن لتمريرها من الأبواب؟", aAr:"نعم — القطع الكبيرة مثل الخزائن وهياكل الأسرّة تُغلَّف وتُفكَّك حسب الحاجة لتمر من الأبواب وأدراج السلالم دون تلف، ثم تُعاد تركيبها بشكل صحيح بالوجهة."},
+    {qEn:"Do you provide boxes and packing materials, or do I need my own?", aEn:"We supply packing materials as standard, or we're happy to work with materials you've already bought if you'd rather source your own boxes and wrap.",
+     qAr:"هل توفرون الصناديق ومواد التغليف، أم يجب أن أوفرها بنفسي؟", aAr:"نوفر مواد التغليف كمعيار أساسي، أو يسعدنا العمل بمواد اشتريتها مسبقًا إذا كنت تفضل توفير صناديقك وتغليفك الخاص."},
+    {qEn:"How are glass and mirrors packed to avoid breakage?", aEn:"Glass and mirrors are wrapped and boxed separately from general items, using material specific to fragile goods, not the same wrapping used for everything else.",
+     qAr:"كيف يُعبَّأ الزجاج والمرايا لتجنب الكسر؟", aAr:"الزجاج والمرايا يُغلَّفان ويُعبَّآن بصناديق منفصلة عن الأغراض العامة، باستخدام مواد خاصة بالأغراض الهشة، لا نفس التغليف المستخدم لكل شيء آخر."},
+    {qEn:"Do you only transport, or also handle packing and unpacking?", aEn:"The full sequence — wrap and disassemble, pack, load, transport, then unload and reassemble at the destination. We handle every stage, not just the transport leg.",
+     qAr:"هل تتولون النقل فقط، أم التغليف وفك التغليف أيضًا؟", aAr:"التسلسل الكامل — التغليف والتفكيك، التعبئة، التحميل، النقل، ثم التفريغ وإعادة التركيب بالوجهة. نتولى كل مرحلة، لا مرحلة النقل فقط."},
+    {qEn:"Can you move a piano or high-value art?", aEn:"Items requiring specialist handling beyond standard furniture and household goods — a piano or high-value art, for instance — need to be flagged during the quote so we can confirm whether we can take it on.",
+     qAr:"هل يمكنكم نقل بيانو أو أعمال فنية عالية القيمة؟", aAr:"الأغراض التي تحتاج تعاملًا متخصصًا يتجاوز الأثاث والأغراض المنزلية القياسية — بيانو أو عمل فني عالي القيمة مثلًا — يجب الإشارة لها أثناء عرض السعر حتى نؤكد إمكانية تولينا لها."},
+    {qEn:"How far in advance should I book a move?", aEn:"As early as you can once you have a date, especially for larger villas — this gives us time to plan crew size and transport properly rather than rushing it.",
+     qAr:"كم من الوقت مسبقًا يجب أن أحجز الانتقال؟", aAr:"بأبكر وقت ممكن بمجرد تحديد الموعد، خصوصًا للفلل الأكبر — هذا يمنحنا وقتًا للتخطيط لحجم الفريق والنقل بشكل صحيح بدل الاستعجال."},
+    {qEn:"Is reassembly at my new place included, or just delivery?", aEn:"Reassembly is included — large furniture is put back together correctly at the destination using its original hardware, not left for you to figure out.",
+     qAr:"هل إعادة التركيب بمنزلي الجديد مشمولة، أم التوصيل فقط؟", aAr:"إعادة التركيب مشمولة — الأثاث الكبير يُعاد تجميعه بشكل صحيح بالوجهة باستخدام عتاده الأصلي، وليس متروكًا لك لمعرفة كيفية تجميعه."}
+  ]
 }
 ];

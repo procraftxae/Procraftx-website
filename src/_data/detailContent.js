@@ -428,7 +428,6 @@ module.exports = {
   },
 
   "core-home-maintenance": {
-    guideLink: "acMaintenanceSigns",
     h1: { en: "Core Home Maintenance — AC, Plumbing, Electrical &amp; Wall Painting in Dubai, Sharjah &amp; Abu Dhabi", ar: "الصيانة المنزلية الأساسية — تكييف، سباكة، كهرباء ودهان في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Home Maintenance Services Dubai | Procraftx", ar: "خدمات صيانة منزلية دبي | بروكرافتكس" },
     metaDescription: {
@@ -469,7 +468,7 @@ module.exports = {
         "إرشاد حول متى يكون التصريح مطلوبًا فعليًا"
       ]
     },
-    relatedIds: ["furniture-services", "home-clearing", "acMaintenanceSigns"]
+    relatedIds: ["ac-services", "plumbing-services", "electrical-services"]
   },
 
   "furniture-services": {
@@ -606,5 +605,512 @@ module.exports = {
       ]
     },
     relatedIds: ["furniture-services", "interior-design"]
+  },
+
+  "plumbing-services": {
+    h1: { en: "Plumbing Repair &amp; Installation in Dubai, Sharjah &amp; Abu Dhabi", ar: "إصلاح وتركيب أعمال السباكة في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Plumbing Services Dubai | Procraftx", ar: "خدمات سباكة دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Leak repairs, drain unclogging, and fixture installation for villas and apartments in Dubai, Sharjah &amp; Abu Dhabi. Clear price, 100% guarantee.",
+      ar: "إصلاح التسريبات، تسليك المصارف، وتركيب التجهيزات للفلل والشقق في دبي والشارقة وأبوظبي. سعر واضح وضمان 100%."
+    },
+    overview: {
+      en: [
+        "Most plumbing calls fall into two different situations: something actively leaking or blocked right now, and planned work like installing a new tap, toilet, or water heater during a renovation or move-in. We treat these two differently — an active leak gets priority same-day scheduling where possible, since standing water damages flooring and ceilings the longer it sits, while fixture installation gets booked around your own timeline, often alongside other trades if you're mid-renovation. Either way, the first step is the same: we isolate the actual source before touching anything, since a stain on a ceiling or wall isn't always coming from the pipe directly underneath it.",
+        "Leak repair covers both visible pipework (under sinks, behind washing machines) and hidden runs inside walls or under floors, which usually means a small, targeted opening rather than breaking into a whole wall — we patch and hand that back to a painter (or do it ourselves if it's part of the same job) once the pipe is fixed. Drain unclogging is mechanical, not just a chemical pour down the sink — for sinks, showers, and floor drains that keep backing up, we clear the actual blockage with the right tools for the pipe diameter, which avoids damaging older fittings that a stronger chemical treatment can corrode over time.",
+        "Villa plumbing usually means you control the full water line yourself, so we can trace and fix almost anything from the meter inward. Apartments are different — most buildings share a vertical riser between floors, and if a leak traces back to that shared riser rather than your unit's own fittings, it's a building-management matter we'll flag honestly rather than something we can resolve by working inside your apartment alone. What's not included: structural plumbing changes that affect a shared riser or require building management sign-off — we'll tell you clearly which category a job falls into during the site visit.",
+        "Whether it's an emergency leak or a planned installation, the price is agreed before any work starts and the job is covered by our 100% guarantee on parts and labor."
+      ],
+      ar: [
+        "معظم طلبات السباكة تنقسم إلى حالتين مختلفتين: شيء يتسرب أو ينسد الآن فعليًا، وعمل مخطط له مثل تركيب حنفية جديدة أو مرحاض أو سخان مياه أثناء تجديد أو انتقال لمنزل جديد. نتعامل مع الحالتين بشكل مختلف — التسرب النشط يحصل على جدولة بنفس اليوم قدر الإمكان، لأن تجمع المياه يتلف الأرضيات والأسقف كل ما طال بقاؤه، بينما تركيب التجهيزات يُجدوَل حسب جدولك الزمني، وغالبًا جنبًا إلى جنب مع حرف أخرى إذا كنت وسط تجديد. في الحالتين، الخطوة الأولى واحدة: نحدد مصدر المشكلة الفعلي قبل البدء بأي شيء، لأن بقعة على السقف أو الجدار لا تأتي دائمًا من الأنبوب الموجود مباشرة تحتها.",
+        "إصلاح التسريبات يشمل الأنابيب الظاهرة (تحت المغاسل، خلف الغسالات) والخطوط المخفية داخل الجدران أو تحت الأرضيات، وهذا يعني عادةً فتحة صغيرة ومحددة بدل تكسير الجدار بالكامل — نرقّع المكان ونسلّمه لدهان (أو ننجزه بأنفسنا إذا كان ضمن نفس المهمة) بعد إصلاح الأنبوب. تسليك المصارف عملية ميكانيكية، وليست مجرد سكب مادة كيميائية بالمغسلة — للمغاسل والدشّات وتصريف الأرضيات التي تنسد باستمرار، نزيل الانسداد الفعلي بالأدوات المناسبة لقطر الأنبوب، وهذا يتجنب إتلاف التجهيزات القديمة التي قد تتآكل مع معالجة كيميائية أقوى بمرور الوقت.",
+        "سباكة الفلل عادةً تعني أنك تتحكم بخط المياه بالكامل، فنقدر نتتبع ونصلح أي شيء تقريبًا من العداد فصاعدًا. الشقق مختلفة — معظم الأبنية تشترك بخط تصريف رأسي (ريزر) بين الطوابق، وإذا تبيّن أن التسرب يعود لهذا الخط المشترك لا لتجهيزات شقتك نفسها، فهذا أمر يخص إدارة المبنى وسنخبرك بصراحة بدل الادعاء أننا نقدر نحله من داخل شقتك فقط. ما لا يشمله العمل: التعديلات الإنشائية على خط تصريف مشترك أو ما يحتاج موافقة إدارة المبنى — سنوضح لك بصراحة أي فئة تنطبق على عملك أثناء زيارة الموقع.",
+        "سواء كان تسربًا طارئًا أو تركيبًا مخططًا له، السعر متفق عليه قبل بدء أي عمل والمهمة مغطاة بضماننا 100% على القطع والعمالة."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Leak detection and repair, visible and hidden pipework",
+        "Drain unclogging for sinks, showers, and floor drains",
+        "Tap, toilet, and fixture installation or replacement",
+        "Water heater installation and repair",
+        "Villa plumbing from the meter inward",
+        "Apartment plumbing, with honest riser-vs-unit diagnosis",
+        "Priority scheduling for active leaks",
+        "Clear price agreed before any work starts"
+      ],
+      ar: [
+        "كشف وإصلاح التسريبات، الظاهرة والمخفية",
+        "تسليك المصارف للمغاسل والدشّات وتصريف الأرضيات",
+        "تركيب أو استبدال الحنفيات والمراحيض والتجهيزات",
+        "تركيب وإصلاح سخانات المياه",
+        "سباكة الفلل من العداد فصاعدًا",
+        "سباكة الشقق، مع تشخيص صريح بين خط التصريف المشترك ووحدتك",
+        "جدولة ذات أولوية للتسريبات النشطة",
+        "سعر واضح متفق عليه قبل بدء أي عمل"
+      ]
+    },
+    relatedIds: ["ac-services", "electrical-services", "core-home-maintenance"]
+  },
+
+  "electrical-services": {
+    h1: { en: "Electrical Repairs &amp; Installation in Dubai, Sharjah &amp; Abu Dhabi", ar: "إصلاح وتركيب الأعمال الكهربائية في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Electrical Services Dubai | Procraftx", ar: "خدمات كهربائية دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Wiring repairs, socket installation, and fault-finding for villas and apartments in Dubai, Sharjah &amp; Abu Dhabi. Clear price, 100% guarantee.",
+      ar: "إصلاح الأسلاك، تركيب المقابس، وتشخيص الأعطال للفلل والشقق في دبي والشارقة وأبوظبي. سعر واضح وضمان 100%."
+    },
+    overview: {
+      en: [
+        "Electrical work splits into two clearly different jobs: adding something new — ceiling fans, extra sockets, light fixtures, smart-home wiring prep — and fixing something that's already gone wrong, like a breaker that keeps tripping or a light that flickers for no obvious reason. New installation is planned work we can schedule around your timeline; fault-finding is usually more urgent, since an intermittent electrical fault is one of the few home issues that's a genuine safety concern rather than just an inconvenience, and we treat it accordingly.",
+        "Fault-finding starts with isolating which circuit is actually affected rather than guessing at a fixture — a tripping breaker is often caused by a different load entirely, not the thing you first suspect. New sockets or fixtures are added by tapping into the nearest suitable circuit, checked against what else that circuit already carries, rather than overloading one line because it happens to be closest. For villas built years apart, wiring standards and panel capacity differ noticeably — we work with what's actually installed, not what a newer build would have.",
+        "Routine repair and standard fixture additions don't need a permit. Larger jobs do — rewiring a full room, upgrading a distribution panel, or anything touching the main supply — and we'll flag this clearly during the site visit rather than after starting, since it changes both timeline and who needs to sign off. What's not included: work on a building's shared electrical infrastructure in an apartment (as opposed to your own unit's wiring), which is a building-management matter, not ours to resolve.",
+        "Every job — repair or new installation — is quoted at a clear price before we start, and covered by our 100% guarantee on parts and labor."
+      ],
+      ar: [
+        "الأعمال الكهربائية تنقسم إلى مهمتين مختلفتين بوضوح: إضافة شيء جديد — مراوح سقف، مقابس إضافية، تجهيزات إضاءة، تجهيزات أسلاك للمنزل الذكي — وإصلاح شيء تعطل بالفعل، مثل قاطع كهربائي يستمر بالفصل أو إضاءة تومض دون سبب واضح. التركيبات الجديدة عمل مخطط له نقدر نجدوله حسب جدولك الزمني؛ أما تشخيص الأعطال فعادةً أكثر إلحاحًا، لأن الخلل الكهربائي المتقطع من الأمور المنزلية القليلة التي تمثل مصدر قلق أمني حقيقي لا مجرد إزعاج، ونتعامل معه وفق ذلك.",
+        "تشخيص الأعطال يبدأ بتحديد الدائرة المتأثرة فعليًا بدل تخمين التجهيزة — قاطع يفصل باستمرار غالبًا سببه حِمل مختلف تمامًا، لا الشيء الذي تشك به أولًا. المقابس أو التجهيزات الجديدة تُضاف بالربط مع أقرب دائرة مناسبة، بعد التحقق مما تحمله هذه الدائرة أصلًا، بدل تحميل خط واحد لمجرد أنه الأقرب. بين الفلل المبنية بفوارق سنوات، تختلف معايير الأسلاك وسعة اللوحة الكهربائية بشكل ملحوظ — نعمل بما هو مُركَّب فعليًا، لا بما يفترض أن يكون عليه مبنى حديث.",
+        "الإصلاح الروتيني وإضافة التجهيزات القياسية لا تحتاج تصريحًا. الأعمال الأكبر تحتاج — إعادة توصيل غرفة كاملة، ترقية لوحة التوزيع، أو أي شيء يلمس التغذية الرئيسية — وسننبهك لذلك بوضوح أثناء زيارة الموقع لا بعد بدء العمل، لأنه يغيّر الجدول الزمني وجهة الموافقة المطلوبة. ما لا يشمله العمل: العمل على البنية الكهربائية المشتركة للمبنى في الشقق (بخلاف أسلاك وحدتك الخاصة)، وهذا أمر يخص إدارة المبنى، وليس من اختصاصنا.",
+        "كل مهمة — إصلاح أو تركيب جديد — تُسعَّر بوضوح قبل البدء، وتُغطى بضماننا 100% على القطع والعمالة."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Fault-finding for tripping breakers, flickering lights, and dead sockets",
+        "New socket, switch, and light fixture installation",
+        "Ceiling fan installation and wiring",
+        "Smart-home wiring preparation",
+        "Villa and apartment electrical work, old and new wiring standards",
+        "Clear guidance on when a job needs a permit",
+        "Safety-first handling of any fault with a burning smell or exposed wiring",
+        "Clear price agreed before any work starts"
+      ],
+      ar: [
+        "تشخيص أعطال القواطع المتكررة والإضاءة المتذبذبة والمقابس المعطلة",
+        "تركيب مقابس ومفاتيح وتجهيزات إضاءة جديدة",
+        "تركيب وتوصيل مراوح السقف",
+        "تجهيز الأسلاك للمنزل الذكي",
+        "أعمال كهربائية للفلل والشقق، بمعايير أسلاك قديمة وجديدة",
+        "إرشاد واضح حول متى تحتاج المهمة تصريحًا",
+        "تعامل يضع السلامة أولًا مع أي عطل فيه رائحة احتراق أو أسلاك مكشوفة",
+        "سعر واضح متفق عليه قبل بدء أي عمل"
+      ]
+    },
+    relatedIds: ["ac-services", "plumbing-services", "core-home-maintenance"]
+  },
+
+  "ac-services": {
+    guideLink: "acMaintenanceSigns",
+    h1: { en: "Air Conditioning (AC) Repair &amp; Servicing in Dubai, Sharjah &amp; Abu Dhabi", ar: "إصلاح وصيانة التكييف في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "AC Repair &amp; Servicing Dubai | Procraftx", ar: "صيانة وإصلاح تكييف دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Split, central &amp; window AC servicing, gas refills, and leak repair in Dubai, Sharjah &amp; Abu Dhabi. Priority scheduling, 100% guarantee.",
+      ar: "صيانة تكييف سبليت ومركزي وشباك، تعبئة غاز، وإصلاح تسريبات في دبي والشارقة وأبوظبي. جدولة ذات أولوية وضمان 100%."
+    },
+    overview: {
+      en: [
+        "AC problems get priority scheduling over almost everything else we do, because in this climate a unit that's not cooling isn't a minor inconvenience — it's usually an urgent call. The most common issues are weak or warm airflow, a unit that's running constantly without actually cooling the room, water leaking or pooling around the indoor unit, and unusual noise from the outdoor compressor. We diagnose before quoting a fix, since a weak-airflow complaint and a warm-air complaint usually point to different problems — a blocked filter versus low refrigerant, for instance — and treating the wrong one wastes your money.",
+        "We service split units (the most common setup in villas and apartments), central systems, and window units, each with different access points and failure patterns — a central system fault is often at the air handler, not the vents themselves, while a split unit issue is usually isolated to either the indoor or outdoor component. Filter cleaning and coil cleaning are routine maintenance; gas (refrigerant) top-ups and leak repair are a different tier of work, since a refrigerant leak means there's a specific point of failure to find and seal, not just a top-up to perform, or the gas leaks out again within weeks.",
+        "We recommend a service visit before peak summer rather than during it, since that's when units fail most and technicians are busiest — the honest best time to book is when the unit is still working but overdue (see our <a href=\"ac-maintenance-signs.html\">guide to AC warning signs</a> for what to watch for). What's not included: full unit replacement is handled as its own separate quote, not a servicing call — we'll tell you clearly if a unit is beyond economical repair rather than patching it repeatedly.",
+        "Every visit — servicing or repair — gets a clear price before we start, and the work is covered by our 100% guarantee on parts and labor."
+      ],
+      ar: [
+        "مشاكل التكييف تحصل على جدولة ذات أولوية فوق كل شيء تقريبًا نعمل عليه، لأنه في هذا المناخ، الوحدة التي لا تبرّد ليست إزعاجًا بسيطًا — بل طلبًا عاجلًا غالبًا. أكثر المشاكل شيوعًا هي ضعف تدفق الهواء أو خروج هواء دافئ، وحدة تعمل باستمرار دون أن تبرّد الغرفة فعليًا، تسرب أو تجمع مياه حول الوحدة الداخلية، وأصوات غير طبيعية من الضاغط الخارجي. نشخّص قبل أن نقدّم عرض سعر للإصلاح، لأن شكوى ضعف الهواء وشكوى الهواء الدافئ تشيران غالبًا لمشكلتين مختلفتين — فلتر مسدود مقابل نقص غاز التبريد مثلًا — ومعالجة الخطأ منهما تهدر مالك.",
+        "نصون الوحدات السبليت (الأكثر انتشارًا بالفلل والشقق) والأنظمة المركزية والوحدات الشباك، ولكل منها نقاط وصول وأنماط أعطال مختلفة — عطل النظام المركزي غالبًا في وحدة معالجة الهواء، لا الفتحات نفسها، بينما عطل الوحدة السبليت عادةً منحصر بالوحدة الداخلية أو الخارجية. تنظيف الفلاتر والملفات صيانة روتينية؛ تعبئة الغاز (غاز التبريد) وإصلاح التسريبات مستوى مختلف من العمل، لأن تسرب الغاز يعني وجود نقطة عطل محددة يجب إيجادها وإغلاقها، لا مجرد إعادة تعبئة، وإلا تسرب الغاز مجددًا خلال أسابيع.",
+        "ننصح بزيارة صيانة قبل ذروة الصيف لا خلالها، لأنها الفترة التي تتعطل فيها الوحدات أكثر ويكون الفنيون فيها أكثر انشغالًا — أفضل وقت صادق للحجز هو عندما تكون الوحدة لا تزال تعمل لكن موعد صيانتها تأخر (راجع <a href=\"ac-maintenance-signs.html\">دليل علامات صيانة التكييف</a> لمعرفة ما تنتبه له). ما لا يشمله العمل: استبدال الوحدة بالكامل يُعامل كعرض سعر منفصل، وليس كزيارة صيانة — سنخبرك بوضوح إذا كانت الوحدة تجاوزت حد الإصلاح الاقتصادي بدل ترقيعها بشكل متكرر.",
+        "كل زيارة — صيانة أو إصلاح — تحصل على سعر واضح قبل البدء، والعمل مغطى بضماننا 100% على القطع والعمالة."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Split, central, and window AC servicing",
+        "Filter and coil cleaning",
+        "Refrigerant (gas) top-ups and leak detection",
+        "Diagnosis before quoting — no guessing at the fix",
+        "Priority scheduling for no-cooling and emergency calls",
+        "Pre-summer servicing to catch issues before peak heat",
+        "Honest assessment of repair vs. replacement",
+        "Clear price agreed before any work starts"
+      ],
+      ar: [
+        "صيانة وحدات سبليت ومركزية وشباك",
+        "تنظيف الفلاتر والملفات",
+        "تعبئة غاز التبريد وكشف التسريبات",
+        "تشخيص قبل عرض السعر — بدون تخمين للإصلاح",
+        "جدولة ذات أولوية لحالات انعدام التبريد والطوارئ",
+        "صيانة ما قبل الصيف لاكتشاف المشاكل قبل الذروة",
+        "تقييم صادق بين الإصلاح والاستبدال",
+        "سعر واضح متفق عليه قبل بدء أي عمل"
+      ]
+    },
+    relatedIds: ["plumbing-services", "electrical-services", "core-home-maintenance"]
+  },
+
+  "wall-painting-masonry": {
+    h1: { en: "Wall Painting &amp; Masonry Repair in Dubai, Sharjah &amp; Abu Dhabi", ar: "دهان الجدران وإصلاح البناء في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Wall Painting &amp; Masonry Dubai | Procraftx", ar: "دهان جدران وبناء دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Interior &amp; exterior painting, crack repair, and tile or brickwork fixes for villas in Dubai, Sharjah &amp; Abu Dhabi. Clear price, 100% guarantee.",
+      ar: "دهان داخلي وخارجي، إصلاح شقوق، وإصلاح بلاط أو طوب للفلل في دبي والشارقة وأبوظبي. سعر واضح وضمان 100%."
+    },
+    overview: {
+      en: [
+        "This covers two genuinely different kinds of work that often get requested together: a cosmetic repaint — refreshing a room's color, covering scuffs and marks, updating a dated finish — and repair that's adjacent to structural, like settlement cracks, loose tile, or crumbling brickwork pointing. A repaint is scheduling-flexible; crack or masonry repair usually isn't, since a crack that's left untreated tends to widen, and water intrusion through it can cause damage well beyond the wall itself.",
+        "For exterior work, we use paint rated for UAE sun and heat exposure specifically — standard interior-grade paint fades and chalks much faster outdoors here than in a milder climate, so the product choice matters more than it would elsewhere. For wet areas (bathrooms, areas near the kitchen sink), we use waterproof-rated paint rather than standard finish, since ordinary paint blisters and peels under repeated moisture exposure. Crack repair starts with identifying whether it's cosmetic (surface plaster) or tied to settlement movement — the fix and the paint prep differ for each.",
+        "Color and finish matching is part of every repaint — we sample against your existing wall before committing to a full room, so there's no surprise mismatch once it's dry. What's not included: structural cracks that indicate a genuine foundation or settlement issue beyond normal cosmetic repair — if we see signs of that during the site visit, we'll say so plainly and recommend a structural engineer rather than just repainting over it.",
+        "Every job — repaint or repair — is quoted at a clear price before we start, and the work is covered by our 100% guarantee on materials and workmanship."
+      ],
+      ar: [
+        "هذا يشمل نوعين مختلفين فعليًا من العمل، غالبًا ما يُطلبان معًا: دهان تجميلي — تجديد لون الغرفة، تغطية الخدوش والعلامات، تحديث تشطيب قديم — وإصلاح قريب من الإنشائي، مثل شقوق الاستقرار، البلاط المرتخي، أو تآكل فواصل الطوب. الدهان مرن من ناحية الجدولة؛ أما إصلاح الشقوق أو البناء فعادةً ليس كذلك، لأن الشق المتروك دون معالجة يميل للاتساع، وتسرب المياه عبره قد يسبب ضررًا يتجاوز الجدار نفسه بكثير.",
+        "للأعمال الخارجية، نستخدم دهانًا مصنّفًا تحديدًا لتحمل شمس وحرارة الإمارات — الدهان الداخلي القياسي يبهت ويتقشر أسرع بكثير بالخارج هنا مقارنة بمناخ أكثر اعتدالًا، لذا اختيار المنتج يهم أكثر مما قد يهم بمكان آخر. للمناطق الرطبة (الحمامات، المناطق القريبة من مغسلة المطبخ)، نستخدم دهانًا مقاومًا للماء بدل التشطيب القياسي، لأن الدهان العادي يتقشر ويتقرقع تحت التعرض المتكرر للرطوبة. إصلاح الشقوق يبدأ بتحديد إن كان تجميليًا (جص سطحي) أو مرتبطًا بحركة استقرار — الإصلاح وتحضير الدهان يختلفان لكل حالة.",
+        "مطابقة اللون والتشطيب جزء من كل عملية دهان — نأخذ عينة مقابل جدارك الحالي قبل الالتزام بالغرفة كاملة، حتى لا تفاجأ بعدم تطابق بعد الجفاف. ما لا يشمله العمل: الشقوق الإنشائية التي تدل على مشكلة أساسات أو استقرار حقيقية تتجاوز الإصلاح التجميلي العادي — إذا لاحظنا علامات على ذلك أثناء زيارة الموقع، سنخبرك بصراحة ونوصي بمهندس إنشائي بدل دهانه فقط.",
+        "كل مهمة — دهان أو إصلاح — تُسعَّر بوضوح قبل البدء، والعمل مغطى بضماننا 100% على المواد وجودة التنفيذ."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Interior and exterior wall painting",
+        "UAE climate-rated exterior paint for sun and heat exposure",
+        "Waterproof paint for bathrooms and wet areas",
+        "Settlement crack assessment and repair",
+        "Tile and brickwork repointing and fixes",
+        "Color and finish matching before a full repaint",
+        "Honest flagging of structural vs. cosmetic cracks",
+        "Clear price agreed before any work starts"
+      ],
+      ar: [
+        "دهان جدران داخلي وخارجي",
+        "دهان خارجي مصنّف لتحمل مناخ الإمارات",
+        "دهان مقاوم للماء للحمامات والمناطق الرطبة",
+        "تقييم وإصلاح شقوق الاستقرار",
+        "إصلاح وإعادة ملء فواصل البلاط والطوب",
+        "مطابقة اللون والتشطيب قبل الدهان الكامل",
+        "تنبيه صريح بين الشقوق الإنشائية والتجميلية",
+        "سعر واضح متفق عليه قبل بدء أي عمل"
+      ]
+    },
+    relatedIds: ["core-home-maintenance", "furniture-restoration"]
+  },
+
+  "home-cleaning": {
+    h1: { en: "Recurring Home Cleaning in Dubai, Sharjah &amp; Abu Dhabi", ar: "تنظيف منزلي دوري في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Home Cleaning Services Dubai | Procraftx", ar: "خدمات تنظيف منزلي دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Weekly or bi-weekly home cleaning — dusting, vacuuming, mopping — for villas and apartments in Dubai, Sharjah &amp; Abu Dhabi. Clear price, 100% guarantee.",
+      ar: "تنظيف منزلي أسبوعي أو كل أسبوعين — إزالة غبار، تنظيف بالمكنسة، ومسح — للفلل والشقق في دبي والشارقة وأبوظبي. سعر واضح وضمان 100%."
+    },
+    overview: {
+      en: [
+        "This is routine upkeep cleaning — weekly or bi-weekly visits to keep a home consistently clean — not the one-off deep clean people book for a move-in, move-out, or post-renovation handover (that's a separate, more intensive service). A recurring visit covers dusting, vacuuming, mopping, bathroom and kitchen surface cleaning, and general tidying — the goal is maintaining a baseline, not restoring a home that's fallen behind.",
+        "Frequency is set around your household, not a fixed package — a smaller apartment with no pets might need a lighter weekly visit, while a larger villa with kids or pets often needs more time per visit even at the same frequency. We confirm scope during the first visit rather than assuming: which rooms, which surfaces need extra attention, and any areas you'd rather we skip (a home office, for instance).",
+        "Cleaning products are supplied as standard, or we're happy to use products you already have if you have a preference (allergy-sensitive, pet-safe, or otherwise). What's not included: deep-clean tasks like oven interior degreasing, full carpet shampooing, or post-construction dust removal — those fall under our separate deep-cleaning and furniture-cleaning services, and we'll point you to the right one rather than doing a partial job under the wrong scope.",
+        "The price is agreed before the first visit and stays consistent for recurring bookings, covered by our 100% guarantee on the work."
+      ],
+      ar: [
+        "هذه خدمة صيانة دورية — زيارات أسبوعية أو كل أسبوعين للحفاظ على نظافة المنزل باستمرار — وليست التنظيف العميق لمرة واحدة الذي يُحجز عند الانتقال لمنزل جديد أو مغادرته أو بعد التجديد (تلك خدمة منفصلة وأكثر كثافة). الزيارة الدورية تشمل إزالة الغبار والتنظيف بالمكنسة والمسح وتنظيف أسطح الحمام والمطبخ والترتيب العام — الهدف الحفاظ على مستوى نظافة ثابت، لا استعادة منزل تراكم فيه الإهمال.",
+        "التكرار يُحدَّد حسب منزلك، وليس باقة ثابتة — شقة صغيرة بدون حيوانات أليفة قد تحتاج زيارة أسبوعية أخف، بينما فيلا أكبر فيها أطفال أو حيوانات أليفة غالبًا تحتاج وقتًا أطول بالزيارة حتى بنفس التكرار. نؤكد نطاق العمل أثناء الزيارة الأولى بدل الافتراض: أي الغرف، أي الأسطح تحتاج عناية إضافية، وأي مناطق تفضل أن نتجنبها (مكتب منزلي مثلًا).",
+        "مواد التنظيف تُوفَّر كمعيار أساسي، أو يسعدنا استخدام مواد تملكها بالفعل إذا كان لديك تفضيل (حساسية، آمنة للحيوانات الأليفة، أو غير ذلك). ما لا يشمله العمل: مهام التنظيف العميق مثل إزالة الدهون من داخل الفرن، غسيل السجاد الكامل، أو إزالة غبار ما بعد البناء — هذه تندرج ضمن خدمات التنظيف العميق وتنظيف الأثاث المنفصلة لدينا، وسنوجهك للخدمة الصحيحة بدل تنفيذ عمل جزئي بالنطاق الخطأ.",
+        "السعر متفق عليه قبل الزيارة الأولى ويبقى ثابتًا للزيارات الدورية، ومغطى بضماننا 100% على العمل."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Weekly or bi-weekly recurring visits",
+        "Dusting, vacuuming, and mopping throughout the home",
+        "Bathroom and kitchen surface cleaning",
+        "Scope confirmed with you on the first visit",
+        "Standard products supplied, or use your own by preference",
+        "Villa and apartment cleaning, sized to your actual space",
+        "Flexible scheduling around your household routine",
+        "Clear price agreed before the first visit"
+      ],
+      ar: [
+        "زيارات دورية أسبوعية أو كل أسبوعين",
+        "إزالة الغبار والتنظيف بالمكنسة والمسح في أنحاء المنزل",
+        "تنظيف أسطح الحمام والمطبخ",
+        "تأكيد نطاق العمل معك في الزيارة الأولى",
+        "توفير مواد قياسية، أو استخدام موادك الخاصة حسب تفضيلك",
+        "تنظيف الفلل والشقق، بحجم يناسب مساحتك الفعلية",
+        "جدولة مرنة تناسب روتين منزلك",
+        "سعر واضح متفق عليه قبل الزيارة الأولى"
+      ]
+    },
+    relatedIds: ["furniture-cleaning", "home-clearing"]
+  },
+
+  "furniture-cleaning": {
+    h1: { en: "Furniture &amp; Upholstery Cleaning in Dubai, Sharjah &amp; Abu Dhabi", ar: "تنظيف الأثاث والمفروشات في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Furniture Cleaning Dubai | Procraftx", ar: "تنظيف أثاث دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Steam cleaning and stain removal for sofas, carpets, and mattresses in Dubai, Sharjah &amp; Abu Dhabi. Clear price, 100% guarantee.",
+      ar: "تنظيف بالبخار وإزالة بقع للأرائك والسجاد والمراتب في دبي والشارقة وأبوظبي. سعر واضح وضمان 100%."
+    },
+    overview: {
+      en: [
+        "This is different from general home cleaning in both method and purpose — steam cleaning and targeted stain removal for upholstery, carpets, and mattresses, rather than the routine dusting-and-vacuuming of a recurring home visit. People usually book it for one of two reasons: a specific stain or spill that needs treating, or a general deep refresh of furniture that's started to look and smell tired even though nothing specific happened to it.",
+        "Fabric type changes the approach — leather needs a different cleaning method than delicate woven upholstery, and antique or vintage pieces sometimes need a gentler, slower process to avoid damaging fabric that's already fragile with age. We identify fabric type before treating a stain, since the wrong product on the wrong material can set a stain permanently rather than lift it. Mattress cleaning is its own common request, usually for dust-mite and allergen reduction rather than a visible stain — relevant given how much indoor dust UAE homes deal with compared to milder climates.",
+        "Steam cleaning kills dust mites and bacteria without soaking the fabric the way a full wet-wash would, so furniture typically dries and is usable again within hours, not days. What's not included: fabric that's already structurally failing (torn, disintegrating) — cleaning won't fix physical damage, and if that's the actual issue we'll say so rather than cleaning around a problem that needs our furniture restoration service instead.",
+        "Every job is quoted at a clear price based on the furniture and fabric involved, and covered by our 100% guarantee."
+      ],
+      ar: [
+        "هذه خدمة مختلفة عن التنظيف المنزلي العام من ناحية الطريقة والهدف — تنظيف بالبخار وإزالة بقع مستهدفة للمفروشات والسجاد والمراتب، بدل إزالة الغبار والتنظيف بالمكنسة الروتيني لزيارة منزلية دورية. يحجزها الناس عادةً لأحد سببين: بقعة أو انسكاب محدد يحتاج معالجة، أو تجديد عميق عام لأثاث بدأ يبدو ويشم متعبًا رغم عدم حدوث شيء محدد له.",
+        "نوع القماش يغيّر طريقة التعامل — الجلد يحتاج طريقة تنظيف مختلفة عن المفروشات المنسوجة الرقيقة، والقطع العتيقة أو القديمة أحيانًا تحتاج عملية أهدأ وأبطأ لتجنب إتلاف قماش أصلًا هش بفعل العمر. نحدد نوع القماش قبل معالجة أي بقعة، لأن المادة الخاطئة على المادة الخاطئة قد تثبّت البقعة بشكل دائم بدل إزالتها. تنظيف المراتب طلب شائع بحد ذاته، غالبًا لتقليل عث الغبار ومسببات الحساسية لا لبقعة ظاهرة — وهذا مهم نظرًا لكمية الغبار الداخلي الذي تتعامل معه منازل الإمارات مقارنة بمناخات أكثر اعتدالًا.",
+        "التنظيف بالبخار يقتل عث الغبار والبكتيريا دون تشبيع القماش بالماء كما يفعل الغسيل الكامل، لذا يجف الأثاث ويصبح قابلًا للاستخدام خلال ساعات، لا أيام. ما لا يشمله العمل: القماش المتضرر إنشائيًا بالفعل (ممزق، متفكك) — التنظيف لا يصلح الضرر المادي، وإذا كانت هذه هي المشكلة الفعلية سنخبرك بصراحة بدل التنظيف حول مشكلة تحتاج خدمة ترميم الأثاث لدينا بدلًا من ذلك.",
+        "كل مهمة تُسعَّر بوضوح حسب الأثاث والقماش المعني، وتُغطى بضماننا 100%."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Steam cleaning for sofas, armchairs, and upholstered furniture",
+        "Carpet and rug deep cleaning",
+        "Mattress cleaning for dust mites and allergens",
+        "Targeted stain removal, fabric-matched treatment",
+        "Leather-specific cleaning method, separate from fabric upholstery",
+        "Antique and delicate-fabric handling",
+        "Fast drying — furniture usable again within hours",
+        "Clear price agreed before work starts"
+      ],
+      ar: [
+        "تنظيف بالبخار للأرائك والكراسي والمفروشات",
+        "تنظيف عميق للسجاد والموكيت",
+        "تنظيف المراتب من عث الغبار ومسببات الحساسية",
+        "إزالة بقع مستهدفة بمعالجة تناسب نوع القماش",
+        "طريقة تنظيف خاصة بالجلد، منفصلة عن المفروشات القماشية",
+        "التعامل مع القطع العتيقة والأقمشة الرقيقة",
+        "جفاف سريع — الأثاث قابل للاستخدام خلال ساعات",
+        "سعر واضح متفق عليه قبل بدء العمل"
+      ]
+    },
+    relatedIds: ["home-cleaning", "furniture-restoration"]
+  },
+
+  "water-tank-cleaning": {
+    h1: { en: "Water Tank Cleaning in Dubai, Sharjah &amp; Abu Dhabi", ar: "تنظيف خزانات المياه في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Water Tank Cleaning Dubai | Procraftx", ar: "تنظيف خزانات مياه دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Pressure cleaning for overhead and underground water tanks in Dubai, Sharjah &amp; Abu Dhabi. Clear price, 100% guarantee.",
+      ar: "تنظيف بالضغط لخزانات المياه العلوية والأرضية في دبي والشارقة وأبوظبي. سعر واضح وضمان 100%."
+    },
+    overview: {
+      en: [
+        "Household water tanks need cleaning roughly every 6-12 months — sediment, algae, and bacteria build up over time even with treated municipal water, and the usual trigger for calling is discolored water, an odd smell or taste from the tap, or simply knowing it's been too long since the last clean. This isn't optional maintenance the way some home upkeep is — stale tank water affects every tap in the house, not just one fixture.",
+        "Overhead and underground tanks are cleaned differently — overhead tanks (common on villa rooftops) are drained, scrubbed, and pressure-rinsed with direct access, while underground tanks need the same result through a confined access point, which changes the equipment and time involved. Either way, the process is: drain the tank, pressure-clean the interior walls and base to remove built-up sediment and biofilm, sanitize, then refill — done in a single visit for most residential tank sizes.",
+        "We check the tank's condition while we're in there, not just clean it blind — cracks, rust on a metal tank, or a failing lid seal are the kind of issues that cause the next buildup to happen faster, and we'll flag anything we see rather than just cleaning around it. What's not included: tank structural repair itself (a cracked tank or failing seal) — we'll identify it and can quote that as a separate job, but a cleaning visit isn't where that repair happens.",
+        "The price is agreed before we start based on tank size and access, and the work is covered by our 100% guarantee."
+      ],
+      ar: [
+        "خزانات المياه المنزلية تحتاج تنظيفًا كل 6-12 شهرًا تقريبًا — الرواسب والطحالب والبكتيريا تتراكم بمرور الوقت حتى مع مياه بلدية معالجة، والسبب المعتاد للاتصال هو تغيّر لون المياه، رائحة أو طعم غريب من الحنفية، أو ببساطة معرفة أنه مضى وقت طويل منذ آخر تنظيف. هذه ليست صيانة اختيارية كبعض أعمال العناية بالمنزل — مياه الخزان الراكدة تؤثر على كل حنفية بالمنزل، لا تجهيزة واحدة فقط.",
+        "تُنظَّف الخزانات العلوية والأرضية بطرق مختلفة — الخزانات العلوية (شائعة على أسطح الفلل) تُفرَّغ وتُفرَك وتُغسَل بالضغط بوصول مباشر، بينما الخزانات الأرضية تحتاج نفس النتيجة عبر نقطة وصول ضيقة، وهذا يغيّر المعدات والوقت المطلوب. في الحالتين، العملية هي: تفريغ الخزان، تنظيف جدرانه الداخلية وقاعدته بالضغط لإزالة الرواسب والطبقة الحيوية المتراكمة، التعقيم، ثم إعادة التعبئة — تتم خلال زيارة واحدة لمعظم أحجام الخزانات السكنية.",
+        "نفحص حالة الخزان أثناء وجودنا هناك، لا ننظفه بشكل أعمى فقط — الشقوق، صدأ الخزانات المعدنية، أو ضعف إحكام الغطاء من الأمور التي تجعل التراكم التالي يحدث أسرع، وسننبهك لأي شيء نلاحظه بدل التنظيف حوله فقط. ما لا يشمله العمل: إصلاح الخزان الإنشائي نفسه (خزان متشقق أو غطاء ضعيف الإحكام) — نحدده ويمكننا تقديم عرض سعر له كمهمة منفصلة، لكن زيارة التنظيف ليست المكان الذي يحدث فيه هذا الإصلاح.",
+        "السعر متفق عليه قبل البدء حسب حجم الخزان وسهولة الوصول إليه، والعمل مغطى بضماننا 100%."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Overhead (rooftop) tank cleaning",
+        "Underground tank cleaning",
+        "Full drain, pressure-clean, and sanitize cycle",
+        "Sediment, algae, and biofilm removal",
+        "Tank condition check — cracks, rust, seal wear",
+        "Same-visit completion for most residential tanks",
+        "Honest flagging of any structural tank issue found",
+        "Clear price agreed before work starts"
+      ],
+      ar: [
+        "تنظيف الخزانات العلوية (أسطح المنازل)",
+        "تنظيف الخزانات الأرضية",
+        "دورة كاملة من التفريغ والتنظيف بالضغط والتعقيم",
+        "إزالة الرواسب والطحالب والطبقة الحيوية",
+        "فحص حالة الخزان — شقوق، صدأ، تآكل الغطاء",
+        "الإنجاز خلال زيارة واحدة لمعظم الخزانات السكنية",
+        "تنبيه صريح لأي مشكلة إنشائية بالخزان",
+        "سعر واضح متفق عليه قبل بدء العمل"
+      ]
+    },
+    relatedIds: ["home-cleaning", "disinfection-pest-control"]
+  },
+
+  "disinfection-pest-control": {
+    h1: { en: "Pest Control &amp; Disinfection in Dubai, Sharjah &amp; Abu Dhabi", ar: "مكافحة الحشرات والتعقيم في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Pest Control &amp; Disinfection Dubai | Procraftx", ar: "مكافحة حشرات وتعقيم دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Pest control for bed bugs, ants &amp; cockroaches, plus surface disinfection, in Dubai, Sharjah &amp; Abu Dhabi. Pet &amp; child-safe products, 100% guarantee.",
+      ar: "مكافحة بق الفراش والنمل والصراصير، وتعقيم الأسطح، في دبي والشارقة وأبوظبي. منتجات آمنة للأطفال والحيوانات الأليفة، وضمان 100%."
+    },
+    overview: {
+      en: [
+        "Pest control and general disinfection are two different services that often get booked together but solve different problems: pest control targets a specific living infestation (bed bugs, ants, cockroaches — all common in this climate's heat and humidity), while disinfection is about surface sanitizing against bacteria and viruses, usually after illness in the household or simply as preventive upkeep, with nothing alive to target.",
+        "Pest treatment starts with identifying what you actually have, since bed bugs, ants, and cockroaches each need a different product and approach — treating for the wrong pest wastes a visit and leaves the real problem untouched. UAE's climate drives a genuine seasonal pattern: pest activity spikes with humidity, so a treatment timed around that is more effective than a one-off random-timed visit. Disinfection covers high-touch surfaces, bathrooms, and kitchens using products that kill bacteria and viruses without leaving a residue that's unsafe to touch afterward.",
+        "All products used are pet-safe and child-safe where exposure is possible — we confirm what's in the home before choosing a product, not after. What's not included: structural pest-proofing work like sealing entry points in walls or foundations — we treat the active infestation and can point you to that follow-up work, but it's a separate scope from the pest-control visit itself.",
+        "The price is agreed before we start based on the infestation or scope, and covered by our 100% guarantee."
+      ],
+      ar: [
+        "مكافحة الحشرات والتعقيم العام خدمتان مختلفتان غالبًا ما تُحجزان معًا لكنهما تحلّان مشكلتين مختلفتين: مكافحة الحشرات تستهدف انتشارًا حيًا محددًا (بق الفراش، النمل، الصراصير — كلها شائعة مع حرارة ورطوبة هذا المناخ)، بينما التعقيم يتعلق بتطهير الأسطح من البكتيريا والفيروسات، عادةً بعد مرض بالمنزل أو ببساطة كعناية وقائية، دون وجود شيء حي لاستهدافه.",
+        "معالجة الحشرات تبدأ بتحديد ما لديك فعليًا، لأن بق الفراش والنمل والصراصير يحتاج كل منها منتجًا وأسلوبًا مختلفًا — معالجة الحشرة الخطأ تهدر الزيارة وتترك المشكلة الحقيقية دون حل. مناخ الإمارات يخلق نمطًا موسميًا حقيقيًا: نشاط الحشرات يرتفع مع الرطوبة، فمعالجة مؤقتة بهذا التوقيت أكثر فعالية من زيارة عشوائية التوقيت. التعقيم يشمل الأسطح كثيرة اللمس والحمامات والمطابخ باستخدام منتجات تقتل البكتيريا والفيروسات دون ترك أثر غير آمن للمس بعدها.",
+        "كل المنتجات المستخدمة آمنة للحيوانات الأليفة والأطفال حيث يكون التعرض ممكنًا — نتأكد مما هو موجود بالمنزل قبل اختيار المنتج، لا بعده. ما لا يشمله العمل: أعمال منع دخول الحشرات الإنشائية مثل إغلاق نقاط الدخول بالجدران أو الأساسات — نعالج الانتشار النشط ويمكننا توجيهك لهذا العمل اللاحق، لكنه نطاق منفصل عن زيارة مكافحة الحشرات نفسها.",
+        "السعر متفق عليه قبل البدء حسب الانتشار أو نطاق العمل، ومغطى بضماننا 100%."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Bed bug, ant, and cockroach treatment",
+        "Identification-first approach — no guessing at the pest",
+        "Seasonal timing guidance for UAE's humidity-driven pest activity",
+        "Surface disinfection for bacteria and viruses",
+        "High-touch area and bathroom/kitchen sanitizing",
+        "Pet-safe and child-safe products, confirmed before treatment",
+        "Preventive disinfection, not just post-illness response",
+        "Clear price agreed before work starts"
+      ],
+      ar: [
+        "معالجة بق الفراش والنمل والصراصير",
+        "أسلوب يبدأ بالتحديد — بدون تخمين نوع الحشرة",
+        "إرشاد حول التوقيت الموسمي لنشاط الحشرات المرتبط برطوبة الإمارات",
+        "تعقيم الأسطح من البكتيريا والفيروسات",
+        "تعقيم المناطق كثيرة اللمس والحمامات والمطابخ",
+        "منتجات آمنة للحيوانات الأليفة والأطفال، مؤكدة قبل المعالجة",
+        "تعقيم وقائي، لا مجرد استجابة بعد المرض",
+        "سعر واضح متفق عليه قبل بدء العمل"
+      ]
+    },
+    relatedIds: ["water-tank-cleaning", "home-cleaning"]
+  },
+
+  "furniture-restoration": {
+    h1: { en: "Furniture Restoration &amp; Painting in Dubai, Sharjah &amp; Abu Dhabi", ar: "ترميم ودهان الأثاث في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Furniture Restoration Dubai | Procraftx", ar: "ترميم أثاث دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Sanding, staining &amp; painting to restore worn wood furniture in Dubai, Sharjah &amp; Abu Dhabi. Color matching, 100% guarantee.",
+      ar: "صنفرة وطلاء ودهان لترميم الأثاث الخشبي المتهالك في دبي والشارقة وأبوظبي. مطابقة ألوان وضمان 100%."
+    },
+    overview: {
+      en: [
+        "This is specifically for furniture that's structurally fine but worn, dated, or damaged in finish — it's deliberately not the same service as furniture cleaning (which addresses dirt and stains, not the wood or finish itself) and not the same as our custom furniture design &amp; build service (which creates new pieces rather than restoring ones you already own). If a piece is sound but looks tired, this is the right service; if it's genuinely broken or you're after something new, those are different pages.",
+        "The process depends on what the piece needs: sanding back to bare wood for a full refinish, or a lighter touch-up if the existing finish is mostly intact but chipped or faded in spots. Color and finish matching is standard — we sample against the piece (or the rest of a matching set) before committing to a full refinish, so a single restored chair doesn't end up visibly different from the rest of the set. Antique and vintage furniture gets a gentler process specifically, since aggressive sanding can remove character (and value) that a newer piece wouldn't have.",
+        "Small pieces are usually done within days; larger or more detailed restorations take one to two weeks, and we'll give you a realistic timeline before starting, not an optimistic one. What's not included: furniture with structural damage beyond repair — broken joints, rotted wood, or similar — we'll tell you honestly if a piece is better replaced than restored, rather than taking the job and delivering a weak result.",
+        "The price is agreed before any work starts, and the finished piece is covered by our 100% guarantee on materials and workmanship."
+      ],
+      ar: [
+        "هذه الخدمة مخصصة تحديدًا للأثاث السليم إنشائيًا لكنه متهالك أو قديم الطراز أو متضرر بالتشطيب — وهي مختلفة عمدًا عن خدمة تنظيف الأثاث (التي تعالج الأوساخ والبقع، لا الخشب أو التشطيب نفسه) ومختلفة عن خدمة تصميم وتصنيع الأثاث المخصص (التي تنشئ قطعًا جديدة بدل ترميم ما تملكه بالفعل). إذا كانت القطعة سليمة لكن تبدو متعبة، فهذه هي الخدمة المناسبة؛ وإذا كانت معطلة فعليًا أو تبحث عن شيء جديد، فتلك صفحات مختلفة.",
+        "العملية تعتمد على ما تحتاجه القطعة: صنفرة حتى الخشب الخام لإعادة طلاء كاملة، أو لمسة أخف إذا كان التشطيب الحالي سليمًا في معظمه لكن مقشرًا أو باهتًا ببعض المناطق. مطابقة اللون والتشطيب معيار أساسي — نأخذ عينة مقابل القطعة (أو بقية طقم مطابق) قبل الالتزام بإعادة طلاء كاملة، حتى لا ينتهي كرسي واحد مُرمَّم بشكل مختلف واضح عن بقية الطقم. الأثاث العتيق والقديم يحصل على معالجة أهدأ تحديدًا، لأن الصنفرة القوية قد تزيل طابعًا (وقيمة) لا تملكها قطعة أحدث.",
+        "القطع الصغيرة تُنجز عادةً خلال أيام؛ الترميمات الأكبر أو الأكثر تفصيلًا تستغرق أسبوعًا إلى أسبوعين، وسنعطيك جدولًا زمنيًا واقعيًا قبل البدء، لا متفائلًا. ما لا يشمله العمل: الأثاث بتلف إنشائي يتجاوز الإصلاح — مفاصل مكسورة، خشب متعفن، أو ما شابه — سنخبرك بصراحة إذا كانت القطعة أفضل استبدالها من ترميمها، بدل قبول المهمة وتقديم نتيجة ضعيفة.",
+        "السعر متفق عليه قبل بدء أي عمل، والقطعة المُنجزة مغطاة بضماننا 100% على المواد وجودة التنفيذ."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Sanding and full refinishing for worn wood furniture",
+        "Lighter touch-up for mostly-intact finishes",
+        "Color and finish matching to existing pieces or sets",
+        "Gentle process for antique and vintage furniture",
+        "Honest structural assessment — repair vs. replace",
+        "Pickup and delivery for off-site restoration work",
+        "Realistic timeline given before work starts",
+        "Clear price agreed before any work starts"
+      ],
+      ar: [
+        "صنفرة وإعادة طلاء كاملة للأثاث الخشبي المتهالك",
+        "لمسة تجديد أخف للتشطيبات السليمة في معظمها",
+        "مطابقة اللون والتشطيب مع القطع أو الأطقم الحالية",
+        "معالجة هادئة للأثاث العتيق والقديم",
+        "تقييم إنشائي صادق — إصلاح مقابل استبدال",
+        "استلام وتوصيل لأعمال الترميم خارج الموقع",
+        "جدول زمني واقعي قبل بدء العمل",
+        "سعر واضح متفق عليه قبل بدء أي عمل"
+      ]
+    },
+    relatedIds: ["furniture-design-build", "furniture-cleaning", "wall-painting-masonry"]
+  },
+
+  "handyman-services": {
+    h1: { en: "Handyman Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات الصيانة العامة في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Handyman Services Dubai | Procraftx", ar: "خدمات صيانة عامة دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Shelving, TV mounting, and small everyday fixes in Dubai, Sharjah &amp; Abu Dhabi — same-visit jobs, no dedicated trade booking needed. 100% guarantee.",
+      ar: "تعليق أرفف، تركيب شاشات، وإصلاحات منزلية بسيطة في دبي والشارقة وأبوظبي — مهام بنفس الزيارة دون حجز حرفة مستقلة. ضمان 100%."
+    },
+    overview: {
+      en: [
+        "This is specifically for the category of small jobs that don't justify booking a dedicated trade on their own — mounting a TV, hanging shelves, fixing a sticking door hinge, assembling flat-pack furniture, re-hanging a curtain rail. None of these need an AC technician or an electrician's full visit, but they pile up and become genuinely annoying if left undone, and most people don't want to split five small tasks across five separate service calls.",
+        "We bundle several small tasks into one visit whenever possible, which is both faster and cheaper than booking each separately — tell us everything on your list, and we'll quote the whole batch rather than one job at a time. This is also the service people most often book alongside a move (new place, several small things need fixing or mounting) or alongside furniture delivery (shelving and TV mounting right after new pieces arrive).",
+        "Wall type affects what's involved in mounting something securely — drywall needs different anchors than solid masonry, and we bring the right hardware for your wall rather than a generic kit that works poorly on one or the other. What's not included: anything that's actually a dedicated trade's job once we look at it closely — a 'simple' electrical fix that turns out to need a licensed electrician, for instance — we'll say so rather than attempting it outside our scope.",
+        "The price is agreed before we start, covering the full list of tasks, and the work is covered by our 100% guarantee."
+      ],
+      ar: [
+        "هذه الخدمة مخصصة تحديدًا لفئة المهام الصغيرة التي لا تستدعي حجز حرفة مستقلة بحد ذاتها — تركيب شاشة تلفزيون، تعليق أرفف، إصلاح مفصلة باب عالقة، تجميع أثاث مسطح التعبئة، إعادة تعليق سكة ستارة. لا شيء من هذا يحتاج فني تكييف أو زيارة كهربائي كاملة، لكنها تتراكم وتصبح مزعجة فعليًا إذا تُركت، ومعظم الناس لا يريدون تقسيم خمس مهام صغيرة على خمس زيارات خدمة منفصلة.",
+        "نجمع عدة مهام صغيرة بزيارة واحدة كلما أمكن، وهذا أسرع وأرخص من حجز كل واحدة منفصلة — أخبرنا بكل ما في قائمتك، وسنقدم عرض سعر للدفعة كاملة بدل مهمة واحدة في كل مرة. هذه أيضًا الخدمة التي يحجزها الناس غالبًا مع الانتقال (منزل جديد، عدة أشياء صغيرة تحتاج إصلاحًا أو تركيبًا) أو مع توصيل الأثاث (تعليق أرفف وتركيب شاشات فور وصول القطع الجديدة).",
+        "نوع الجدار يؤثر على ما يلزم لتركيب شيء بثبات — الجدار الجصي يحتاج مثبتات مختلفة عن البناء الصلب، ونحضر العتاد المناسب لجدارك بدل طقم عام يعمل بشكل ضعيف على أحدهما. ما لا يشمله العمل: أي شيء يتبين أنه فعليًا مهمة حرفة مستقلة عند فحصه عن قرب — إصلاح كهربائي 'بسيط' يتضح أنه يحتاج كهربائيًا مرخّصًا مثلًا — سنخبرك بذلك بدل محاولته خارج نطاقنا.",
+        "السعر متفق عليه قبل البدء، ويغطي قائمة المهام كاملة، والعمل مغطى بضماننا 100%."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "TV mounting and wall-mounted shelving",
+        "Flat-pack furniture assembly",
+        "Door hinge, handle, and lock adjustments",
+        "Curtain rail and blind installation",
+        "Correct anchoring for drywall or solid masonry",
+        "Multiple small tasks bundled into one visit",
+        "Often booked alongside a move or furniture delivery",
+        "Clear price agreed before work starts, covering the full list"
+      ],
+      ar: [
+        "تركيب شاشات التلفزيون والأرفف الحائطية",
+        "تجميع الأثاث مسطح التعبئة",
+        "تعديل مفصلات وأقفال ومقابض الأبواب",
+        "تركيب سكك الستائر والستائر المعتمة",
+        "تثبيت مناسب للجدران الجصية أو البناء الصلب",
+        "دمج عدة مهام صغيرة بزيارة واحدة",
+        "غالبًا ما يُحجز مع الانتقال أو توصيل الأثاث",
+        "سعر واضح متفق عليه قبل بدء العمل، يغطي القائمة كاملة"
+      ]
+    },
+    relatedIds: ["packers-movers", "furniture-design-build"]
+  },
+
+  "packers-movers": {
+    h1: { en: "Packing &amp; Moving Services in Dubai, Sharjah &amp; Abu Dhabi", ar: "خدمات التغليف والنقل في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Packers &amp; Movers Dubai | Procraftx", ar: "تغليف ونقل دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Safe local packing, loading &amp; moving between villas and apartments in Dubai, Sharjah &amp; Abu Dhabi. Clear price, 100% guarantee.",
+      ar: "تغليف ونقل آمن محلي بين الفلل والشقق في دبي والشارقة وأبوظبي. سعر واضح وضمان 100%."
+    },
+    overview: {
+      en: [
+        "This covers local moves — villa-to-villa, apartment-to-apartment, or between the two — within Dubai, Sharjah, and Abu Dhabi, not long-distance or international relocation. A move typically starts with wrapping and disassembling large pieces (wardrobes, bed frames, large tables) so they fit through doorways and stairwells without damage, since this is where most moving damage actually happens — not during transport itself, but at the doorway on the way out or in.",
+        "Fragile and large items get specific handling: glass and mirrors are wrapped and boxed separately from general items, and large furniture is disassembled rather than forced through a tight doorway, then reassembled correctly at the destination using the original hardware, not generic replacements that can loosen over time. We supply packing materials as standard, or work with materials you've already bought if you'd rather source your own boxes and wrap.",
+        "The full sequence is: wrap and disassemble, pack, load, transport, then unload and reassemble at the destination — we handle every stage rather than just the transport leg, so you're not coordinating packing separately from the actual move. What's not included: items requiring specialist handling beyond standard furniture and household goods (a piano, for instance, or high-value art) — we'll flag this during the quote rather than discovering it on moving day.",
+        "The price is agreed before the move based on volume and access, and covered by our 100% guarantee."
+      ],
+      ar: [
+        "هذه الخدمة تغطي الانتقالات المحلية — من فيلا لفيلا، شقة لشقة، أو بين الاثنين — داخل دبي والشارقة وأبوظبي، وليست انتقالًا بعيد المسافة أو دوليًا. الانتقال يبدأ عادةً بتغليف وفك القطع الكبيرة (خزائن، هياكل أسرّة، طاولات كبيرة) لتمر من الأبواب وأدراج السلالم دون تلف، لأن هذه هي النقطة التي يحدث فيها معظم ضرر النقل فعليًا — ليس أثناء النقل نفسه، بل عند الباب في الخروج أو الدخول.",
+        "القطع الهشة والكبيرة تحصل على تعامل خاص: الزجاج والمرايا تُغلَّف وتُعبَّأ بصناديق منفصلة عن الأغراض العامة، والأثاث الكبير يُفكَّك بدل إجباره عبر باب ضيق، ثم يُعاد تركيبه بشكل صحيح بالوجهة باستخدام عتاده الأصلي، لا بدائل عامة قد تتراخى بمرور الوقت. نوفر مواد التغليف كمعيار أساسي، أو نعمل بمواد اشتريتها مسبقًا إذا كنت تفضل توفير صناديقك وتغليفك الخاص.",
+        "التسلسل الكامل هو: التغليف والتفكيك، التعبئة، التحميل، النقل، ثم التفريغ وإعادة التركيب بالوجهة — نتولى كل مرحلة بدل مرحلة النقل فقط، حتى لا تضطر لتنسيق التغليف بشكل منفصل عن النقل الفعلي. ما لا يشمله العمل: الأغراض التي تحتاج تعاملًا متخصصًا يتجاوز الأثاث والأغراض المنزلية القياسية (بيانو مثلًا، أو أعمال فنية عالية القيمة) — سننبهك لذلك أثناء عرض السعر بدل اكتشافه يوم الانتقال.",
+        "السعر متفق عليه قبل الانتقال حسب الحجم وسهولة الوصول، ومغطى بضماننا 100%."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Wrapping and disassembly of large furniture",
+        "Fragile item packing — glass, mirrors, artwork",
+        "Loading, local transport, and unloading",
+        "Reassembly at the destination with original hardware",
+        "Packing materials supplied, or use your own",
+        "Villa and apartment moves across Dubai, Sharjah &amp; Abu Dhabi",
+        "Full-sequence service — not just the transport leg",
+        "Clear price agreed before the move"
+      ],
+      ar: [
+        "تغليف وتفكيك الأثاث الكبير",
+        "تعبئة الأغراض الهشة — زجاج، مرايا، أعمال فنية",
+        "التحميل والنقل المحلي والتفريغ",
+        "إعادة التركيب بالوجهة بالعتاد الأصلي",
+        "توفير مواد التغليف، أو استخدام موادك الخاصة",
+        "انتقالات الفلل والشقق عبر دبي والشارقة وأبوظبي",
+        "خدمة متكاملة للتسلسل الكامل — ليست مرحلة النقل فقط",
+        "سعر واضح متفق عليه قبل الانتقال"
+      ]
+    },
+    relatedIds: ["handyman-services", "furniture-restoration"]
   }
 };
