@@ -24,7 +24,7 @@ module.exports = {
   nav: {
     services: { en: "Services", ar: "خدماتنا" },
     specialties: { en: "Specialties", ar: "التخصصات" },
-    faqs: { en: "FAQs", ar: "الأسئلة" },
+    faqs: { en: "FAQs", ar: "الأسئلة الشائعة" },
     toggleAriaLabel: { en: "Switch to Arabic", ar: "التبديل إلى الإنجليزية" }
   },
 
@@ -84,7 +84,7 @@ module.exports = {
   },
 
   faqPreviewHead: {
-    eyebrow: { en: "FAQs", ar: "الأسئلة" },
+    eyebrow: { en: "FAQs", ar: "الأسئلة الشائعة" },
     h2: { en: "Answers to Common Questions About Procraftx Home Maintenance Services", ar: "إجابات على الأسئلة الشائعة حول خدمات الصيانة المنزلية لدى بروكرافتكس" },
     more: { en: "Learn More", ar: "اعرف المزيد" }
   },
