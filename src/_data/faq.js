@@ -310,6 +310,28 @@ module.exports = [
   ]
 },
 {
+  titleEn: "Furniture Design", titleAr: "تصميم الأثاث", anchor:"furniture-design",
+  linkEn:"See our furniture design service", linkAr:"اطّلع على خدمة تصميم الأثاث لدينا",
+  questions: [
+    {qEn:"Can I book just the design without committing to the build?", aEn:"Yes — this is a standalone service. Some customers use the design to get quotes from their own carpenter, or simply want a clear plan before deciding whether to build.",
+     qAr:"هل يمكنني حجز التصميم فقط دون الالتزام بالتصنيع؟", aAr:"نعم — هذه خدمة مستقلة. بعض العملاء يستخدمون التصميم للحصول على عروض أسعار من نجارهم الخاص، أو يريدون ببساطة خطة واضحة قبل قرار التصنيع."},
+    {qEn:"How many design revisions are included?", aEn:"Revisions are included until you approve the final concept — we don't move forward to materials or a build quote until you're satisfied with the design.",
+     qAr:"كم عدد التعديلات على التصميم المشمولة؟", aAr:"التعديلات مشمولة حتى تعتمد الفكرة النهائية — لا ننتقل للمواد أو عرض سعر التصنيع حتى تكون راضيًا عن التصميم."},
+    {qEn:"Do you provide 3D visuals, or just hand-drawn sketches?", aEn:"Both — sketches to develop the concept quickly, then a 3D visual so you can see scale, proportion, and finish before committing to anything.",
+     qAr:"هل تقدمون تصورات ثلاثية الأبعاد، أم رسومات يدوية فقط؟", aAr:"كلاهما — رسومات لتطوير الفكرة بسرعة، ثم تصور ثلاثي الأبعاد لترى المقياس والتناسب والتشطيب قبل الالتزام بأي شيء."},
+    {qEn:"If I approve the design, do I have to use Procraftx for the build?", aEn:"No — the design is yours to take to any fabricator. Most customers continue with us since the same team already understands the design, but it's not a requirement.",
+     qAr:"إذا اعتمدت التصميم، هل يجب أن أستخدم بروكرافتكس للتصنيع؟", aAr:"لا — التصميم ملكك وتستطيع أخذه لأي مُصنّع. معظم العملاء يكملون معنا لأن نفس الفريق يفهم التصميم بالفعل، لكنه ليس شرطًا."},
+    {qEn:"How long does the design phase take?", aEn:"Typically a few days to a week, depending on complexity and how many rounds of revisions you'd like before approving the final design.",
+     qAr:"كم تستغرق مرحلة التصميم؟", aAr:"عادةً بضعة أيام إلى أسبوع، حسب التعقيد وعدد جولات التعديل التي تريدها قبل اعتماد التصميم النهائي."},
+    {qEn:"Can you design around a specific material I already want to use?", aEn:"Yes — tell us the material or finish you have in mind and we'll design around it, or bring samples during the site visit if you'd like to see options first.",
+     qAr:"هل يمكنكم التصميم حول مادة محددة أريد استخدامها بالفعل؟", aAr:"نعم — أخبرنا بالمادة أو التشطيب الذي تفكر فيه وسنصمم حوله، أو نحضر عينات أثناء زيارة الموقع إذا أردت رؤية الخيارات أولًا."},
+    {qEn:"Is the site visit and measurement included in the design fee?", aEn:"Yes — measuring the actual space is the first step and is included, since a design that doesn't account for real dimensions isn't useful.",
+     qAr:"هل زيارة الموقع والقياس مشمولة ضمن أجرة التصميم؟", aAr:"نعم — قياس المساحة الفعلية هو الخطوة الأولى ومشمول، لأن التصميم الذي لا يراعي الأبعاد الحقيقية غير مفيد."},
+    {qEn:"What happens after I approve the design?", aEn:"We quote the build separately based on the approved design and chosen materials — a clear price before any fabrication starts, same as every other service we provide.",
+     qAr:"ماذا يحدث بعد اعتماد التصميم؟", aAr:"نقدم عرض سعر للتصنيع بشكل منفصل بناءً على التصميم المعتمد والمواد المختارة — سعر واضح قبل بدء أي تصنيع، تمامًا مثل أي خدمة أخرى نقدمها."}
+  ]
+},
+{
   titleEn: "Plumbing Services", titleAr: "خدمات السباكة", anchor:"plumbing-services",
   linkEn:"See our plumbing services", linkAr:"اطّلع على خدمات السباكة لدينا",
   questions: [

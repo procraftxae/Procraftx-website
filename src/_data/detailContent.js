@@ -607,6 +607,52 @@ module.exports = {
     relatedIds: ["furniture-services", "interior-design"]
   },
 
+  "furniture-design": {
+    h1: { en: "Custom Furniture Design in Dubai, Sharjah &amp; Abu Dhabi", ar: "تصميم الأثاث المخصص في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Furniture Design Dubai | Procraftx", ar: "تصميم أثاث دبي | بروكرافتكس" },
+    metaDescription: {
+      en: "Concept sketches, 3D visuals &amp; material selection for custom furniture in Dubai, Sharjah &amp; Abu Dhabi. Clear price, 100% guarantee.",
+      ar: "رسومات مفاهيمية وتصورات ثلاثية الأبعاد واختيار مواد للأثاث المخصص في دبي والشارقة وأبوظبي. سعر واضح وضمان 100%."
+    },
+    overview: {
+      en: [
+        "This is the design and planning phase for a custom furniture piece — concept sketches, 3D visuals, measurements, and material and finish selection — on its own, separate from the build itself. Some customers book this standalone because they already have a carpenter or want a finished design to compare quotes against; most go on to book our full <a href=\"furniture-design-build.html\">Custom Furniture Design &amp; Build service</a> once the design is approved, since the same team handles both.",
+        "We start with a site visit to measure the actual space a piece needs to fit — a wardrobe, TV unit, or something more specific — and talk through how you'll actually use it day to day, not just how it should look. From there we produce sketches and a 3D visual so you can see scale, proportion, and finish before committing to anything, and we walk through material options (wood type, laminate, veneer, or painted finish) with real samples, not just a catalog photo.",
+        "A design typically takes a few days to a week depending on complexity and how many revisions you want before approving it. What's not included: fabrication and installation — those are the build service, quoted and scheduled separately (though usually with the same team, so nothing gets lost in translation between a design and the person building it).",
+        "The design fee is agreed before we start, and if you're not happy with the initial concept, we revise it within the scope of that same fee — you only move forward once you've approved the final design."
+      ],
+      ar: [
+        "هذه مرحلة التصميم والتخطيط لقطعة أثاث مخصصة — رسومات مفاهيمية، تصورات ثلاثية الأبعاد، قياسات، واختيار المواد والتشطيب — بمفردها، منفصلة عن التصنيع نفسه. بعض العملاء يحجزون هذه الخدمة بشكل مستقل لأن لديهم نجارًا خاصًا بهم أو يريدون تصميمًا نهائيًا لمقارنة عروض الأسعار عليه؛ ومعظمهم ينتقل لحجز <a href=\"furniture-design-build.html\">خدمة تصميم وتصنيع الأثاث المخصص الكاملة</a> بعد اعتماد التصميم، لأن نفس الفريق يتولى الاثنين.",
+        "نبدأ بزيارة موقع لقياس المساحة الفعلية التي يجب أن تناسبها القطعة — خزانة، وحدة تلفزيون، أو شيء أكثر تحديدًا — ونناقش كيف ستستخدمها فعليًا يوميًا، لا فقط شكلها المرغوب. من هناك ننتج رسومات وتصورًا ثلاثي الأبعاد لترى المقياس والتناسب والتشطيب قبل الالتزام بأي شيء، ونستعرض معك خيارات المواد (نوع الخشب، اللامينيت، القشرة، أو التشطيب المطلي) بعينات حقيقية، لا مجرد صورة كتالوج.",
+        "يستغرق التصميم عادةً من بضعة أيام إلى أسبوع حسب التعقيد وعدد التعديلات التي تريدها قبل الاعتماد. ما لا يشمله العمل: التصنيع والتركيب — تلك خدمة التصنيع، تُسعَّر وتُجدوَل بشكل منفصل (رغم أنها عادةً بنفس الفريق، فلا يضيع شيء بين التصميم ومن يصنّعه).",
+        "أجرة التصميم متفق عليها قبل البدء، وإذا لم تكن راضيًا عن الفكرة الأولية، نعدّلها ضمن نطاق نفس الأجرة — تنتقل للخطوة التالية فقط بعد اعتماد التصميم النهائي."
+      ]
+    },
+    whatsIncluded: {
+      en: [
+        "Site visit and measurement of the actual space",
+        "Concept sketches for the piece",
+        "3D visuals to preview scale, proportion, and finish",
+        "Material and finish sampling — wood, laminate, veneer, or paint",
+        "Design revisions included until you approve the final concept",
+        "Design handed off directly to our build team if you proceed",
+        "Suitable as a standalone service if you have your own carpenter",
+        "Clear price agreed before any work starts"
+      ],
+      ar: [
+        "زيارة موقع وقياس المساحة الفعلية",
+        "رسومات مفاهيمية للقطعة",
+        "تصورات ثلاثية الأبعاد لمعاينة المقياس والتناسب والتشطيب",
+        "عينات مواد وتشطيبات — خشب، لامينيت، قشرة، أو طلاء",
+        "تعديلات على التصميم مشمولة حتى تعتمد الفكرة النهائية",
+        "تسليم التصميم مباشرة لفريق التصنيع إذا تابعت المشروع",
+        "مناسبة كخدمة مستقلة إذا كان لديك نجار خاص بك",
+        "سعر واضح متفق عليه قبل بدء أي عمل"
+      ]
+    },
+    relatedIds: ["furniture-design-build", "furniture-restoration", "interior-design"]
+  },
+
   "plumbing-services": {
     h1: { en: "Plumbing Repair &amp; Installation in Dubai, Sharjah &amp; Abu Dhabi", ar: "إصلاح وتركيب أعمال السباكة في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "Plumbing Services Dubai | Procraftx", ar: "خدمات سباكة دبي | بروكرافتكس" },

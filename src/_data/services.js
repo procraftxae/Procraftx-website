@@ -1,9 +1,11 @@
-// 11 core services grouped into 3 categories, in on-page order. Each has its
+// 12 core services grouped into 3 categories, in on-page order. Each has its
 // own detail page (src/detail.njk, kind: "service" in detailTopics.js) plus
-// a compact card here. "Custom Furniture Design & Build" is deliberately
-// NOT listed here — it already has its own specialty page
-// (furniture-design-build.html, in specialties.js) and listing it twice
-// would be duplicate content.
+// a compact card here. "furniture-design" covers the design/consultation
+// phase only (sketches, 3D visuals, material selection) — it's deliberately
+// distinct from the "Custom Furniture Design & Build" SPECIALTY page
+// (furniture-design-build.html, in specialties.js), which covers the full
+// design+fabrication+install process. Don't merge these or re-duplicate one
+// into the other.
 // dataService (en/ar) must exactly match the FAQ/booking-form option text.
 module.exports = {
   categories: [
@@ -82,6 +84,13 @@ module.exports = {
       comment: { en: "3. Furniture &amp; Moving Services", ar: "3. خدمات الأثاث والنقل" },
       title: { en: "Furniture &amp; Moving Services", ar: "خدمات الأثاث والنقل" },
       services: [
+        {
+          id: "furniture-design",
+          img: "assets/images/furniture-design-build-service.jpg",
+          alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" },
+          name: { en: "Furniture Design", ar: "تصميم الأثاث" },
+          desc: { en: "Concept sketches, 3D visuals, and material selection for custom pieces.", ar: "رسومات مفاهيمية، تصورات ثلاثية الأبعاد، واختيار مواد للقطع المخصصة." }
+        },
         {
           id: "furniture-restoration",
           img: "assets/images/restoration-service.jpg",

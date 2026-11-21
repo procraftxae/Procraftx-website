@@ -221,6 +221,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.procraftx.ae/furniture-design.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.procraftx.ae/ar/furniture-design.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.procraftx.ae/furniture-restoration.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
