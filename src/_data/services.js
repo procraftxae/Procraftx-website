@@ -2,7 +2,7 @@
 // own detail page (src/detail.njk, kind: "service" in detailTopics.js) plus
 // a compact card here. "furniture-design" covers the design/consultation
 // phase only (sketches, 3D visuals, material selection) — it's deliberately
-// distinct from the "Custom Furniture Design & Build" SPECIALTY page
+// distinct from the "Custom Furniture Build" SPECIALTY page
 // (furniture-design-build.html, in specialties.js), which covers the full
 // design+fabrication+install process. Don't merge these or re-duplicate one
 // into the other.

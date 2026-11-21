@@ -63,8 +63,8 @@ module.exports = [
      qAr:"هل تقدمون خدمة الاستلام والتوصيل للقطع الكبيرة من الأثاث؟", aAr:"نعم، خدمة الاستلام والتوصيل متاحة لأعمال الترميم أو التنظيف خارج الموقع — سننسق وقتًا مناسبًا عند جدولة العمل."},
     {qEn:"Do you help with the whole move, or just packing?", aEn:"The whole move — wrapping and packing your belongings, loading, transporting, and unloading at your new home, all by the same crew.",
      qAr:"هل تساعدون في عملية الانتقال بأكملها، أم التغليف فقط؟", aAr:"عملية الانتقال بأكملها — تغليف أغراضك وتحميلها ونقلها وتفريغها في منزلك الجديد، كل ذلك بواسطة نفس الفريق."},
-    {qEn:"Can you design and build a custom piece from scratch, like a wardrobe or TV unit?", aEn:"Yes — tell us the size, style, and space it needs to fit, and we'll design, build, and install a custom piece to match.",
-     qAr:"هل يمكنكم تصميم وتصنيع قطعة مخصصة من الصفر، مثل خزانة أو وحدة تلفزيون؟", aAr:"نعم — أخبرنا بالمقاس والطراز والمساحة التي يجب أن تناسبها، وسنصمم القطعة ونصنّعها ونركّبها لتطابق ذلك تمامًا."}
+    {qEn:"Can you design a custom piece from scratch, like a wardrobe or TV unit?", aEn:"Yes — our furniture design service covers sketches, 3D visuals, and material selection for anything custom. If you'd like it built and installed too, that's our separate Custom Furniture Build service, and the same team handles both.",
+     qAr:"هل يمكنكم تصميم قطعة مخصصة من الصفر، مثل خزانة أو وحدة تلفزيون؟", aAr:"نعم — خدمة تصميم الأثاث لدينا تشمل الرسومات والتصورات ثلاثية الأبعاد واختيار المواد لأي قطعة مخصصة. إذا أردت أيضًا تصنيعها وتركيبها، فتلك خدمة تفصيل الأثاث المخصص المنفصلة، ويتولاها نفس الفريق."}
   ]
 },
 {
@@ -266,8 +266,8 @@ module.exports = [
   ]
 },
 {
-  titleEn: "Custom Furniture Design &amp; Build", titleAr: "تصميم وتصنيع الأثاث المخصص", anchor:"furniture-design-build",
-  linkEn:"See custom furniture design &amp; build", linkAr:"اطّلع على تصميم وتصنيع الأثاث المخصص",
+  titleEn: "Custom Furniture Build", titleAr: "تفصيل الأثاث المخصص", anchor:"furniture-design-build",
+  linkEn:"See our custom furniture build", linkAr:"اطّلع على تفصيل الأثاث المخصص",
   questions: [
     {qEn:"Do you only build standard pieces like wardrobes, or can you design something more unusual?", aEn:"We design around whatever you need — if it can be built, we'll design it to fit your exact space and style, not just from a fixed list of pieces.",
      qAr:"هل تصنعون فقط قطعًا قياسية مثل الخزائن، أم يمكنكم تصميم شيء أكثر تميزًا؟", aAr:"نصمم حسب ما تحتاجه فعليًا — إذا كان بالإمكان تصنيعه، سنصممه ليناسب مساحتك وطرازك تمامًا، وليس فقط من قائمة قطع ثابتة."},
@@ -511,8 +511,8 @@ module.exports = [
   titleEn: "Furniture Restoration &amp; Painting", titleAr: "ترميم ودهان الأثاث", anchor:"furniture-restoration",
   linkEn:"See our furniture restoration services", linkAr:"اطّلع على خدمات ترميم الأثاث لدينا",
   questions: [
-    {qEn:"What's the difference between this and your custom furniture design &amp; build service?", aEn:"This restores furniture you already own — sanding, staining, painting worn or dated pieces. Custom design &amp; build creates new pieces from scratch. If your piece is sound but tired-looking, this is the right service.",
-     qAr:"ما الفرق بين هذه الخدمة وخدمة تصميم وتصنيع الأثاث المخصص لديكم؟", aAr:"هذه الخدمة تُرمّم أثاثًا تملكه بالفعل — صنفرة وطلاء ودهان للقطع المتهالكة أو القديمة الطراز. التصميم والتصنيع المخصص ينشئ قطعًا جديدة من الصفر. إذا كانت قطعتك سليمة لكن تبدو متعبة، فهذه هي الخدمة المناسبة."},
+    {qEn:"What's the difference between this and your custom furniture build service?", aEn:"This restores furniture you already own — sanding, staining, painting worn or dated pieces. Custom build creates new pieces from scratch. If your piece is sound but tired-looking, this is the right service.",
+     qAr:"ما الفرق بين هذه الخدمة وخدمة تفصيل الأثاث المخصص لديكم؟", aAr:"هذه الخدمة تُرمّم أثاثًا تملكه بالفعل — صنفرة وطلاء ودهان للقطع المتهالكة أو القديمة الطراز. التفصيل المخصص ينشئ قطعًا جديدة من الصفر. إذا كانت قطعتك سليمة لكن تبدو متعبة، فهذه هي الخدمة المناسبة."},
     {qEn:"Can you match the color exactly to the rest of my furniture set?", aEn:"Yes — we sample against the piece or the rest of a matching set before committing to a full refinish, so a single restored chair doesn't end up visibly different from the set.",
      qAr:"هل يمكنكم مطابقة اللون تمامًا مع بقية طقم أثاثي؟", aAr:"نعم — نأخذ عينة مقابل القطعة أو بقية الطقم المطابق قبل الالتزام بإعادة طلاء كاملة، حتى لا ينتهي كرسي واحد مُرمَّم بشكل مختلف واضح عن الطقم."},
     {qEn:"Is this safe for genuinely antique furniture, or will it lose its character?", aEn:"Antique and vintage pieces get a deliberately gentler process, since aggressive sanding can remove character and value that a newer piece wouldn't have — we treat these differently from a standard restoration.",

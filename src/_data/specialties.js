@@ -29,15 +29,15 @@ module.exports = [
   },
   {
     id: "furniture-design-build",
-    comment: { en: "5. Custom Furniture Design &amp; Build", ar: "5. تصميم وتصنيع الأثاث المخصص" },
-    dataService: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-    bookingGroupLabel: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
-    bookingOptions: [{ en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" }],
+    comment: { en: "5. Custom Furniture Build", ar: "5. تفصيل الأثاث المخصص" },
+    dataService: { en: "Custom Furniture Build", ar: "تفصيل الأثاث المخصص" },
+    bookingGroupLabel: { en: "Custom Furniture Build", ar: "تفصيل الأثاث المخصص" },
+    bookingOptions: [{ en: "Custom Furniture Build", ar: "تفصيل الأثاث المخصص" }],
     bookingOrder: 9,
     images: [
       { src: "assets/images/furniture-design-build-service.jpg", alt: { en: "Carpenter building a custom wooden furniture piece", ar: "نجار يصنع قطعة أثاث خشبية مخصصة" } }
     ],
-    h3: { en: "Custom Furniture Design &amp; Build", ar: "تصميم وتصنيع الأثاث المخصص" },
+    h3: { en: "Custom Furniture Build", ar: "تفصيل الأثاث المخصص" },
     shortDesc: { en: "Bespoke wardrobes, TV units, and cabinetry designed, built, and installed to fit your space — transparent pricing, 100% guarantee.", ar: "خزائن ووحدات تلفزيون وخزائن مطبخ تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك — تسعير شفاف وضمان 100%." },
     h4: { en: "Bespoke Furniture Design, Build &amp; Installation", ar: "تصميم وتصنيع وتركيب أثاث حسب الطلب" },
     longDesc: {

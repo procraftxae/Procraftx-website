@@ -386,8 +386,8 @@ module.exports = {
   },
 
   "furniture-design-build": {
-    h1: { en: "Custom Furniture Design &amp; Build in Dubai, Sharjah &amp; Abu Dhabi", ar: "تصميم وتصنيع الأثاث المخصص في دبي والشارقة وأبوظبي" },
-    metaTitle: { en: "Custom Furniture Design &amp; Build Dubai | Procraftx", ar: "تصميم وتصنيع أثاث مخصص دبي | بروكرافتكس" },
+    h1: { en: "Custom Furniture Build in Dubai, Sharjah &amp; Abu Dhabi", ar: "تفصيل الأثاث المخصص في دبي والشارقة وأبوظبي" },
+    metaTitle: { en: "Custom Furniture Build Dubai | Procraftx", ar: "تفصيل أثاث مخصص دبي | بروكرافتكس" },
     metaDescription: {
       en: "Bespoke wardrobes, TV units &amp; kitchen cabinetry designed, built &amp; installed in Dubai, Sharjah &amp; Abu Dhabi. 100% guarantee.",
       ar: "خزائن ملابس ووحدات تلفزيون وخزائن مطبخ مخصصة، تصميم وتصنيع وتركيب في دبي والشارقة وأبوظبي. ضمان 100%."
@@ -400,7 +400,7 @@ module.exports = {
         "What's not included: structural changes to the room itself (knocking through a wall to fit a larger piece, for instance) — that becomes a separate renovation scope we can quote alongside the furniture. Every project is given a clear price before any material is ordered, and the finished piece is covered by our 100% guarantee on materials and workmanship."
       ],
       ar: [
-        "تصميم وتصنيع الأثاث المخصص يبدأ بسؤال بسيط: ما الذي تحتاجه المساحة فعليًا؟ خزانة يجب أن تناسب فجوة غير معتادة، وحدة تلفزيون بمقاس مناسب لجدار معين وتجهيزات وسائط محددة، أو خزائن مطبخ تتناسب مع السباكة والأجهزة القائمة — الأثاث الجاهز نادرًا ما يحل هذه المشكلات بدقة، وهذا السبب المعتاد الذي يجعل الناس يأتون إلينا بدل صالة عرض. نقيس المساحة أولاً، ثم نصمم حولها بدل أن نطلب منك التصميم حول كتالوج جاهز.",
+        "تفصيل الأثاث المخصص يبدأ بسؤال بسيط: ما الذي تحتاجه المساحة فعليًا؟ خزانة يجب أن تناسب فجوة غير معتادة، وحدة تلفزيون بمقاس مناسب لجدار معين وتجهيزات وسائط محددة، أو خزائن مطبخ تتناسب مع السباكة والأجهزة القائمة — الأثاث الجاهز نادرًا ما يحل هذه المشكلات بدقة، وهذا السبب المعتاد الذي يجعل الناس يأتون إلينا بدل صالة عرض. نقيس المساحة أولاً، ثم نصمم حولها بدل أن نطلب منك التصميم حول كتالوج جاهز.",
         "اختيار المواد والتشطيب يحدث مبكرًا، قبل قص أي شيء: خشب صلب، لامينيت، قشرة خشبية، أو تشطيب مطلي، بأي لون وطراز أكسسوارات يناسب بقية الغرفة. لأي قطعة أكبر من الصغيرة، نُعِدّ تصورًا ثلاثي الأبعاد لترى النسب والتشطيب معًا قبل بدء التصنيع — وهذه هي المرحلة التي تحدث فيها معظم التعديلات، لأن تغيير مقاس أو لون على الشاشة أرخص بكثير من تغييره بعد تصنيع القطعة.",
         "يتولى التصنيع والتركيب فريق النجارة الداخلي نفسه من البداية حتى النهاية، دون تقسيم العمل بين ورشة ومُركِّب منفصل — وهذا يحافظ على تناسق التشطيب ويعني جهة تواصل واحدة إذا احتاج أي شيء للتعديل في الموقع أثناء التركيب. معظم القطع المفردة (خزانة أو وحدة تلفزيون) تكون جاهزة خلال أسبوع إلى أسبوعين؛ خزائن المطبخ الكاملة أو مشاريع الأثاث متعددة الغرف تستغرق وقتًا أطول، وسنؤكد ذلك بعد اعتماد التصميم.",
         "ما لا يشمله العمل: التعديلات الإنشائية على الغرفة نفسها (هدم جدار لتركيب قطعة أكبر مثلًا) — يصبح ذلك نطاق تجديد منفصل يمكننا تقديم عرض سعر له جنبًا إلى جنب مع الأثاث. كل مشروع يُسعَّر بوضوح قبل طلب أي مادة، والقطعة المُنجزة مغطاة بضماننا 100% على المواد وجودة التنفيذ."
@@ -480,15 +480,15 @@ module.exports = {
     },
     overview: {
       en: [
-        "Furniture and moving cover four services people usually assume are separate businesses: packing and moving, handyman tasks, restoration and painting, and custom design and build. We put them under one team because they follow a real sequence in practice — a move typically starts with wrapping and disassembling large pieces (wardrobes, bed frames) so they fit through doorways and don't get damaged in transit, then packing and transport, then reassembly at the destination, using the correct tools so hardware and joints aren't damaged in the process.",
+        "Furniture and moving cover four services people usually assume are separate businesses: packing and moving, handyman tasks, restoration and painting, and furniture design. We put them under one team because they follow a real sequence in practice — a move typically starts with wrapping and disassembling large pieces (wardrobes, bed frames) so they fit through doorways and don't get damaged in transit, then packing and transport, then reassembly at the destination, using the correct tools so hardware and joints aren't damaged in the process.",
         "Handyman tasks are a separate track — hanging shelves, mounting TVs, fixing door hinges, and other small everyday repairs that don't need a dedicated maintenance visit on their own; these are usually quick, same-visit jobs, often requested alongside a move. Restoration is another — sanding, staining, painting, or repairing wood furniture that's structurally fine but worn or dated, and we can match your existing colour and finish closely or refinish in a new one if you'd rather update the look. Small pieces are usually done within days; larger or more detailed restorations take one to two weeks.",
-        "Custom design and build is the last track — tell us the size, style, and space a piece needs to fit (a wardrobe, TV unit, or something more specific) and we design, build, and install it rather than sourcing something off-the-shelf that's close but not quite right — see our dedicated Custom Furniture Design &amp; Build page for the full process. Most handyman and moving work is done on-site at your home; larger restoration, painting, or custom-build jobs are usually collected and returned once finished, which we'll confirm when we quote. What's not included: furniture with structural damage beyond repair (rather than restoration) — we'll tell you honestly if a piece is better replaced than restored.",
+        "Furniture design is the last track — the planning phase on its own: sketches, 3D visuals, measurements, and material selection for a custom piece, whether it's a wardrobe, TV unit, or something more specific. Most handyman and moving work is done on-site at your home; design consultations and larger restoration or painting jobs are usually collected and returned once finished, which we'll confirm when we quote. If you want the approved design carried all the way through fabrication and installation, see our dedicated Custom Furniture Build page for the full process. What's not included: furniture with structural damage beyond repair (rather than restoration) — we'll tell you honestly if a piece is better replaced than restored.",
         "Whichever service you need, the price is agreed before we start and the work is covered by our 100% guarantee."
       ],
       ar: [
-        "الأثاث والنقل تغطي أربع خدمات يفترض الناس عادةً أنها أعمال منفصلة: التغليف والنقل، أعمال الصيانة العامة، الترميم والدهان، والتصميم والتصنيع المخصص. نضعها تحت فريق واحد لأنها تتبع تسلسلاً حقيقيًا في الواقع — الانتقال عادةً يبدأ بتغليف وفك القطع الكبيرة (خزائن، هياكل أسرّة) لتمر من الأبواب ولا تتلف أثناء النقل، ثم النقل، ثم إعادة التركيب في الوجهة، باستخدام الأدوات الصحيحة حتى لا تتلف القطع أو المفاصل أثناء العملية.",
+        "الأثاث والنقل تغطي أربع خدمات يفترض الناس عادةً أنها أعمال منفصلة: التغليف والنقل، أعمال الصيانة العامة، الترميم والدهان، وتصميم الأثاث. نضعها تحت فريق واحد لأنها تتبع تسلسلاً حقيقيًا في الواقع — الانتقال عادةً يبدأ بتغليف وفك القطع الكبيرة (خزائن، هياكل أسرّة) لتمر من الأبواب ولا تتلف أثناء النقل، ثم النقل، ثم إعادة التركيب في الوجهة، باستخدام الأدوات الصحيحة حتى لا تتلف القطع أو المفاصل أثناء العملية.",
         "أعمال الصيانة العامة مسار منفصل — تعليق الأرفف، تركيب شاشات التلفاز، إصلاح مفصلات الأبواب، وإصلاحات يومية بسيطة أخرى لا تحتاج زيارة صيانة مستقلة بحد ذاتها؛ عادةً ما تكون هذه مهام سريعة تُنجز في نفس الزيارة، وتُطلب غالبًا مع مهمة نقل. الترميم مسار آخر — صنفرة ودهان وطلاء أو إصلاح الأثاث الخشبي السليم إنشائيًا لكنه متهالك أو قديم الطراز، ويمكننا مطابقة لونك وطلائك الحالي بدقة أو إعادة الطلاء بلون جديد إذا كنت تفضل تحديث المظهر. تُنجز القطع الصغيرة عادةً خلال أيام؛ أعمال الترميم الأكبر أو الأكثر تفصيلًا تستغرق أسبوعًا إلى أسبوعين.",
-        "التصميم والتصنيع المخصص هو المسار الأخير — أخبرنا بالمقاس والطراز والمساحة التي يجب أن تناسبها القطعة (خزانة، وحدة تلفزيون، أو شيء أكثر تحديدًا) ونصممها ونصنّعها ونركّبها بدل توفير شيء جاهز قريب لكن ليس مطابقًا تمامًا — راجع صفحة تصميم وتصنيع الأثاث المخصص للتفاصيل الكاملة. معظم أعمال الصيانة العامة والنقل تُنجز في منزلك مباشرة؛ أعمال الترميم أو الدهان أو التصنيع المخصص الكبيرة تُنقل عادةً وتُعاد بعد الانتهاء، وسنؤكد ذلك عند تقديم عرض السعر. ما لا يشمله العمل: أثاث بتلف إنشائي يتجاوز الإصلاح (بدل الترميم) — سنخبرك بصراحة إذا كانت القطعة أفضل استبدالها من ترميمها.",
+        "تصميم الأثاث هو المسار الأخير — مرحلة التخطيط بمفردها: رسومات، تصورات ثلاثية الأبعاد، قياسات، واختيار مواد لقطعة مخصصة، سواء كانت خزانة أو وحدة تلفزيون أو شيء أكثر تحديدًا. معظم أعمال الصيانة العامة والنقل تُنجز في منزلك مباشرة؛ استشارات التصميم وأعمال الترميم أو الدهان الأكبر تُنقل عادةً وتُعاد بعد الانتهاء، وسنؤكد ذلك عند تقديم عرض السعر. إذا أردت أخذ التصميم المعتمد حتى التصنيع والتركيب الكامل، راجع صفحة تفصيل الأثاث المخصص للتفاصيل الكاملة. ما لا يشمله العمل: أثاث بتلف إنشائي يتجاوز الإصلاح (بدل الترميم) — سنخبرك بصراحة إذا كانت القطعة أفضل استبدالها من ترميمها.",
         "أيًا كانت الخدمة التي تحتاجها، السعر متفق عليه قبل البدء والعمل مغطى بضماننا 100%."
       ]
     },
@@ -498,7 +498,7 @@ module.exports = {
         "General handyman tasks — shelving, TV mounting, door hinges",
         "Furniture restoration — sanding, staining, painting",
         "Colour and finish matching, or a full refinish",
-        "Custom furniture design, build, and installation",
+        "Furniture design — sketches, 3D visuals, and material selection",
         "Pickup and delivery for restoration or off-site cleaning",
         "On-site service for most handyman and moving work",
         "Packing materials supplied, or use your own"
@@ -508,7 +508,7 @@ module.exports = {
         "أعمال صيانة عامة — أرفف، تركيب شاشات، مفصلات أبواب",
         "ترميم الأثاث — صنفرة، طلاء، دهان",
         "مطابقة اللون والطلاء، أو إعادة طلاء كاملة",
-        "تصميم وتصنيع وتركيب أثاث مخصص",
+        "تصميم الأثاث — رسومات، تصورات ثلاثية الأبعاد، واختيار المواد",
         "استلام وتوصيل لأعمال الترميم أو التنظيف خارج الموقع",
         "خدمة في الموقع لمعظم أعمال الصيانة العامة والنقل",
         "توفير مواد التغليف، أو استخدام موادك الخاصة"
@@ -616,13 +616,13 @@ module.exports = {
     },
     overview: {
       en: [
-        "This is the design and planning phase for a custom furniture piece — concept sketches, 3D visuals, measurements, and material and finish selection — on its own, separate from the build itself. Some customers book this standalone because they already have a carpenter or want a finished design to compare quotes against; most go on to book our full <a href=\"furniture-design-build.html\">Custom Furniture Design &amp; Build service</a> once the design is approved, since the same team handles both.",
+        "This is the design and planning phase for a custom furniture piece — concept sketches, 3D visuals, measurements, and material and finish selection — on its own, separate from the build itself. Some customers book this standalone because they already have a carpenter or want a finished design to compare quotes against; most go on to book our full <a href=\"furniture-design-build.html\">Custom Furniture Build service</a> once the design is approved, since the same team handles both.",
         "We start with a site visit to measure the actual space a piece needs to fit — a wardrobe, TV unit, or something more specific — and talk through how you'll actually use it day to day, not just how it should look. From there we produce sketches and a 3D visual so you can see scale, proportion, and finish before committing to anything, and we walk through material options (wood type, laminate, veneer, or painted finish) with real samples, not just a catalog photo.",
         "A design typically takes a few days to a week depending on complexity and how many revisions you want before approving it. What's not included: fabrication and installation — those are the build service, quoted and scheduled separately (though usually with the same team, so nothing gets lost in translation between a design and the person building it).",
         "The design fee is agreed before we start, and if you're not happy with the initial concept, we revise it within the scope of that same fee — you only move forward once you've approved the final design."
       ],
       ar: [
-        "هذه مرحلة التصميم والتخطيط لقطعة أثاث مخصصة — رسومات مفاهيمية، تصورات ثلاثية الأبعاد، قياسات، واختيار المواد والتشطيب — بمفردها، منفصلة عن التصنيع نفسه. بعض العملاء يحجزون هذه الخدمة بشكل مستقل لأن لديهم نجارًا خاصًا بهم أو يريدون تصميمًا نهائيًا لمقارنة عروض الأسعار عليه؛ ومعظمهم ينتقل لحجز <a href=\"furniture-design-build.html\">خدمة تصميم وتصنيع الأثاث المخصص الكاملة</a> بعد اعتماد التصميم، لأن نفس الفريق يتولى الاثنين.",
+        "هذه مرحلة التصميم والتخطيط لقطعة أثاث مخصصة — رسومات مفاهيمية، تصورات ثلاثية الأبعاد، قياسات، واختيار المواد والتشطيب — بمفردها، منفصلة عن التصنيع نفسه. بعض العملاء يحجزون هذه الخدمة بشكل مستقل لأن لديهم نجارًا خاصًا بهم أو يريدون تصميمًا نهائيًا لمقارنة عروض الأسعار عليه؛ ومعظمهم ينتقل لحجز <a href=\"furniture-design-build.html\">خدمة تفصيل الأثاث المخصص الكاملة</a> بعد اعتماد التصميم، لأن نفس الفريق يتولى الاثنين.",
         "نبدأ بزيارة موقع لقياس المساحة الفعلية التي يجب أن تناسبها القطعة — خزانة، وحدة تلفزيون، أو شيء أكثر تحديدًا — ونناقش كيف ستستخدمها فعليًا يوميًا، لا فقط شكلها المرغوب. من هناك ننتج رسومات وتصورًا ثلاثي الأبعاد لترى المقياس والتناسب والتشطيب قبل الالتزام بأي شيء، ونستعرض معك خيارات المواد (نوع الخشب، اللامينيت، القشرة، أو التشطيب المطلي) بعينات حقيقية، لا مجرد صورة كتالوج.",
         "يستغرق التصميم عادةً من بضعة أيام إلى أسبوع حسب التعقيد وعدد التعديلات التي تريدها قبل الاعتماد. ما لا يشمله العمل: التصنيع والتركيب — تلك خدمة التصنيع، تُسعَّر وتُجدوَل بشكل منفصل (رغم أنها عادةً بنفس الفريق، فلا يضيع شيء بين التصميم ومن يصنّعه).",
         "أجرة التصميم متفق عليها قبل البدء، وإذا لم تكن راضيًا عن الفكرة الأولية، نعدّلها ضمن نطاق نفس الأجرة — تنتقل للخطوة التالية فقط بعد اعتماد التصميم النهائي."
@@ -1037,7 +1037,7 @@ module.exports = {
         "The price is agreed before any work starts, and the finished piece is covered by our 100% guarantee on materials and workmanship."
       ],
       ar: [
-        "هذه الخدمة مخصصة تحديدًا للأثاث السليم إنشائيًا لكنه متهالك أو قديم الطراز أو متضرر بالتشطيب — وهي مختلفة عمدًا عن خدمة تنظيف الأثاث (التي تعالج الأوساخ والبقع، لا الخشب أو التشطيب نفسه) ومختلفة عن خدمة تصميم وتصنيع الأثاث المخصص (التي تنشئ قطعًا جديدة بدل ترميم ما تملكه بالفعل). إذا كانت القطعة سليمة لكن تبدو متعبة، فهذه هي الخدمة المناسبة؛ وإذا كانت معطلة فعليًا أو تبحث عن شيء جديد، فتلك صفحات مختلفة.",
+        "هذه الخدمة مخصصة تحديدًا للأثاث السليم إنشائيًا لكنه متهالك أو قديم الطراز أو متضرر بالتشطيب — وهي مختلفة عمدًا عن خدمة تنظيف الأثاث (التي تعالج الأوساخ والبقع، لا الخشب أو التشطيب نفسه) ومختلفة عن خدمة تفصيل الأثاث المخصص (التي تنشئ قطعًا جديدة بدل ترميم ما تملكه بالفعل). إذا كانت القطعة سليمة لكن تبدو متعبة، فهذه هي الخدمة المناسبة؛ وإذا كانت معطلة فعليًا أو تبحث عن شيء جديد، فتلك صفحات مختلفة.",
         "العملية تعتمد على ما تحتاجه القطعة: صنفرة حتى الخشب الخام لإعادة طلاء كاملة، أو لمسة أخف إذا كان التشطيب الحالي سليمًا في معظمه لكن مقشرًا أو باهتًا ببعض المناطق. مطابقة اللون والتشطيب معيار أساسي — نأخذ عينة مقابل القطعة (أو بقية طقم مطابق) قبل الالتزام بإعادة طلاء كاملة، حتى لا ينتهي كرسي واحد مُرمَّم بشكل مختلف واضح عن بقية الطقم. الأثاث العتيق والقديم يحصل على معالجة أهدأ تحديدًا، لأن الصنفرة القوية قد تزيل طابعًا (وقيمة) لا تملكها قطعة أحدث.",
         "القطع الصغيرة تُنجز عادةً خلال أيام؛ الترميمات الأكبر أو الأكثر تفصيلًا تستغرق أسبوعًا إلى أسبوعين، وسنعطيك جدولًا زمنيًا واقعيًا قبل البدء، لا متفائلًا. ما لا يشمله العمل: الأثاث بتلف إنشائي يتجاوز الإصلاح — مفاصل مكسورة، خشب متعفن، أو ما شابه — سنخبرك بصراحة إذا كانت القطعة أفضل استبدالها من ترميمها، بدل قبول المهمة وتقديم نتيجة ضعيفة.",
         "السعر متفق عليه قبل بدء أي عمل، والقطعة المُنجزة مغطاة بضماننا 100% على المواد وجودة التنفيذ."
