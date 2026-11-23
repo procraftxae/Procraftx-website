@@ -235,8 +235,8 @@
   .faq-group-link:hover{color:var(--red-dark);text-decoration:underline;}
 
   /* ---------- CTA / CONTACT ---------- */
-  .cta-section{background:var(--ink);color:#fff;border-radius:32px;margin:0 32px;padding:70px 60px;}
-  .cta-section .wrap{max-width:1100px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:60px;}
+  .cta-section{background:var(--ink);color:#fff;border-radius:32px;margin:0 32px;padding:54px 56px;}
+  .cta-section .wrap{max-width:1100px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
   .cta-section .eyebrow{color:rgba(255,255,255,0.85);}
   .cta-section .eyebrow::after{background:rgba(255,255,255,0.6);}
   .cta-section h2{font-size:clamp(28px,3.6vw,42px);margin:12px 0 16px;}
@@ -247,15 +247,15 @@
   .cta-compact p.lead{margin-bottom:28px;}
   .cta-compact .hero-ctas{justify-content:center;}
 
-  form.book-form{background:#fff;border-radius:20px;padding:30px;color:var(--ink);}
-  form.book-form .field{margin-bottom:15px;}
-  form.book-form label{display:block;font-size:15px;font-weight:600;color:var(--ink);margin-bottom:6px;}
+  form.book-form{background:#fff;border-radius:20px;padding:26px;color:var(--ink);}
+  form.book-form .field{margin-bottom:11px;}
+  form.book-form label{display:block;font-size:14px;font-weight:600;color:var(--ink);margin-bottom:4px;}
   form.book-form input,form.book-form select,form.book-form textarea{
     width:100%;border:1.5px solid var(--line);background:var(--bg-soft);border-radius:12px;
-    padding:12px 14px;font-family:'Montserrat',sans-serif;font-size:16px;color:var(--ink);
+    padding:10px 14px;font-family:'Montserrat',sans-serif;font-size:16px;color:var(--ink);
   }
   form.book-form input:focus,form.book-form select:focus,form.book-form textarea:focus{outline:2px solid var(--red);outline-offset:1px;}
-  form.book-form textarea{resize:vertical;min-height:78px;}
+  form.book-form textarea{resize:vertical;min-height:60px;}
   .field-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
   form.book-form .field.has-error input,
   form.book-form .field.has-error select,
@@ -290,8 +290,8 @@
   @media (max-width:980px){
     .testi-grid{grid-template-columns:1fr;}
     .cta-section .wrap{grid-template-columns:1fr;}
-    .cta-section{margin:0 16px;padding:50px 28px;}
-    .cta-intro{order:-1;margin-bottom:8px;}
+    .cta-section{margin:0 16px;padding:36px 24px;}
+    .cta-intro{order:-1;margin-bottom:6px;}
   }
   @media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important;}}
 
