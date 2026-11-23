@@ -100,28 +100,28 @@
   }
 
   /* ---------- NAV ---------- */
-  header{position:sticky;top:0;z-index:100;background:var(--bg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);box-shadow:0 4px 18px -8px rgba(20,10,8,0.06);}
+  header{position:sticky;top:0;z-index:100;background:var(--ink);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,0.12);box-shadow:0 4px 18px -8px rgba(0,0,0,0.35);}
   /* logo + nav links sit together on the leading edge; the lang toggle is
      pushed to the far edge by the margin-inline-start:auto on .nav-cta below */
   nav{display:flex;align-items:center;gap:36px;padding:16px 32px;max-width:1240px;margin:0 auto;}
-  .logo{font-family:'Montserrat',sans-serif;font-weight:500;font-size:20px;letter-spacing:0.06em;display:flex;align-items:center;gap:9px;color:var(--ink);}
+  .logo{font-family:'Montserrat',sans-serif;font-weight:500;font-size:20px;letter-spacing:0.06em;display:flex;align-items:center;gap:9px;color:#fff;}
   .logo-img img{height:64px;width:auto;display:block;}
   .nav-links{display:flex;gap:30px;align-items:center;}
   /* inline-block + padding so the tap target clears the 24px WCAG 2.5.8 minimum
      (text alone rendered only 22px tall) */
-  .nav-links a{font-size:15px;font-weight:500;letter-spacing:0.02em;color:var(--ink);position:relative;display:inline-block;padding:5px 2px;}
+  .nav-links a{font-size:15px;font-weight:500;letter-spacing:0.02em;color:#fff;position:relative;display:inline-block;padding:5px 2px;}
   .nav-links a:hover{color:var(--red);}
   .nav-links a:hover::after{content:"";position:absolute;left:2px;right:2px;bottom:1px;height:2px;background:var(--red);border-radius:2px;}
   .nav-cta{display:flex;gap:12px;align-items:center;margin-inline-start:auto;}
-  .nav-phone{font-weight:500;font-size:15px;display:flex;align-items:center;gap:8px;color:var(--ink);}
-  .nav-phone svg{width:17px;height:17px;stroke:var(--ink);}
+  .nav-phone{font-weight:500;font-size:15px;display:flex;align-items:center;gap:8px;color:#fff;}
+  .nav-phone svg{width:17px;height:17px;stroke:#fff;}
   .lang-toggle{
     font-family:'Montserrat',sans-serif;font-weight:500;font-size:14px;
-    background:transparent;border:1.5px solid var(--ink);border-radius:100px;
-    padding:9px 12px;cursor:pointer;color:var(--ink);transition:background .2s ease, color .2s ease;
+    background:transparent;border:1.5px solid rgba(255,255,255,0.5);border-radius:100px;
+    padding:9px 12px;cursor:pointer;color:#fff;transition:background .2s ease, color .2s ease, border-color .2s ease;
     width:99px;display:inline-flex;justify-content:center;
   }
-  .lang-toggle:hover{background:var(--ink);color:#fff;}
+  .lang-toggle:hover{background:#fff;color:var(--ink);border-color:#fff;}
   /* the toggle shows the language you'd switch TO, not the one you're reading:
      English page -> "عربي", Arabic page -> "EN" */
   .lang-toggle .lang-sep{display:none;}
@@ -585,8 +585,8 @@
      every same-specificity base rule declared above.
      ============================================================ */
   @media (max-width:720px){
-    /* ---- flat white header, inline nav, no hamburger ---- */
-    header{background:var(--bg);backdrop-filter:none;border-bottom:1px solid var(--line);box-shadow:none;}
+    /* ---- flat black header, inline nav, no hamburger ---- */
+    header{background:var(--ink);backdrop-filter:none;border-bottom:1px solid rgba(255,255,255,0.12);box-shadow:none;}
     nav{padding:8px 10px;gap:6px;}
     .logo{font-size:12px;flex:none;}
     .nav-links{
