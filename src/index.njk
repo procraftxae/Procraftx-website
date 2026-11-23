@@ -70,7 +70,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
     <h1>{{ site.hero.h1_main[lang] | safe }} <span>{{ site.hero.h1_span[lang] | safe }}</span></h1>
     <p>{{ site.hero.lead[lang] | safe }}</p>
     <div class="hero-ctas">
-      <a href="#contact" class="btn btn-red pulse-cta">{{ site.hero.ctaBook[lang] | safe }}</a>
+      <a href="#contact" class="btn btn-outline">{{ site.hero.ctaBook[lang] | safe }}</a>
       <a href="#specialties" class="btn btn-outline">{{ site.hero.ctaSee[lang] | safe }}</a>
     </div>
   </div>
@@ -132,7 +132,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
       </div>
     </div>
 
-    <hr class="section-divider">
+    <div class="section-divider"><img src="{{ '../' if isAr }}assets/images/logo.png" width="34" height="34" alt="" loading="lazy"></div>
 
     <div class="section-head reveal" id="services">
       <span class="eyebrow">{{ site.servicesHead.eyebrow[lang] | safe }}</span>
@@ -174,7 +174,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
   </div>
 </section>
 
-<hr class="section-divider">
+<div class="section-divider"><img src="{{ '../' if isAr }}assets/images/logo.png" width="34" height="34" alt="" loading="lazy"></div>
 
 <section class="section" id="faq-preview">
   <div class="wrap">
