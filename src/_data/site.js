@@ -50,7 +50,7 @@ module.exports = {
   ],
 
   stats: [
-    { count: 1000, suffix: { en: "+", ar: "+" }, label: { en: "Projects &amp; work completed", ar: "مشروع وعمل مكتمل" } },
+    { count: 500, suffix: { en: "+", ar: "+" }, label: { en: "Projects &amp; work completed", ar: "مشروع وعمل مكتمل" } },
     { staticText: { en: "Transparent Pricing Upfront", ar: "تسعير شفاف مسبقًا" }, label: { en: "Full commitment to delivery timelines", ar: "التزام تام بمواعيد التسليم" } },
     { count: 20, suffix: { en: "", ar: "" }, label: { en: "Engineering &amp; craft specialties", ar: "تخصصات هندسية وفنية" } }
   ],
