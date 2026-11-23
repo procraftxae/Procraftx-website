@@ -17,6 +17,8 @@
     font-size:16px;
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
+    overflow-x:hidden; /* the full-bleed .sub-card-wide breakout (100vw + negative margins)
+                           can overshoot by a scrollbar's width on some browsers otherwise */
   }
   img{max-width:100%;display:block;}
   a{color:inherit;text-decoration:none;}
@@ -345,11 +347,24 @@
   .sub-card button{position:relative;z-index:1;}
   .sub-card a.card-link:focus-visible{outline:none;}
   .sub-card:has(a.card-link:focus-visible){outline:2px solid var(--red);outline-offset:3px;}
-  .sub-card-wide{grid-column:1 / -1;max-width:640px;margin:0 auto;}
+  /* Full-bleed breakout: the card spans the full viewport width regardless of
+     the .wrap max-width it sits inside, so the specialty photography reads as
+     open and immersive instead of a narrow boxed card with dead space on
+     either side at wide viewports. Text content gets its own inner max-width
+     so it doesn't also stretch edge-to-edge (would hurt readability). */
+  .sub-card-wide{grid-column:1 / -1;}
+  .sub-card-wide:not(.sub-card-cta){
+    width:100vw;max-width:100vw;
+    margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);
+    border:none;border-radius:0;box-shadow:none;background:transparent;
+  }
+  /* the text-only CTA card ("All Custom Creations") has no photo, so it keeps
+     the normal boxed treatment at a readable width instead of breaking out */
+  .sub-card-cta{max-width:720px;margin:0 auto;}
   .sub-card .thumb{position:relative;height:140px;overflow:hidden;flex:none;}
   .sub-card .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease;}
   .sub-card:hover .thumb img{transform:scale(1.08);}
-  .sub-card-wide .thumb{height:320px;}
+  .sub-card-wide .thumb{height:min(70vh,640px);border-radius:0;}
   .sub-card .thumb.icon-thumb{
     display:flex;align-items:center;justify-content:center;
     background:var(--red);
@@ -369,7 +384,8 @@
   .hero .bg.img-fallback,
   .banner.img-fallback{background:var(--ink);}
   .sub-card .body{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1;}
-  .sub-card-wide .body h3{font-size:21px;margin-bottom:8px;font-family:'Montserrat',sans-serif;font-weight:500;color:var(--ink);}
+  .sub-card-wide .body{max-width:720px;margin:0 auto;padding:32px 32px 8px;}
+  .sub-card-wide .body h3{font-size:26px;margin-bottom:8px;font-family:'Montserrat',sans-serif;font-weight:500;color:var(--ink);}
   .sub-card-wide .body h3 + p{font-size:20px;padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--line);}
   /* text-only catch-all card: no photo, centered, CTA button instead of a text link */
   .sub-card-cta .body{text-align:center;padding:44px 32px;}
@@ -631,9 +647,13 @@
     /* ---- Shinex-style service cards: bold photo, uppercase heading, red pill CTA ---- */
     .subservice-grid{grid-template-columns:repeat(2, 1fr);gap:12px;}
     .sub-card{border-radius:14px;border-width:2px;}
-    .sub-card-wide{grid-column:1 / -1;max-width:100%;}
+    /* full-bleed breakout is desktop-only — on a narrow viewport the normal
+       boxed card (border, radius, shadow) already reads fine, so reset the
+       100vw breakout back to a normal grid item here */
+    .sub-card-wide{grid-column:1 / -1;width:auto;max-width:100%;margin-left:0;margin-right:0;border:1.5px solid #D9D9CF;border-radius:14px;box-shadow:var(--card-shadow);background:#fff;}
     .sub-card .thumb{height:150px;}
-    .sub-card-wide .thumb{height:220px;}
+    .sub-card-wide .thumb{height:220px;border-radius:0;}
+    .sub-card-wide .body{max-width:100%;margin:0;padding:12px 12px 14px;}
     .sub-card .body{padding:12px 12px 14px;align-items:center;text-align:center;}
     .sub-card h4{font-size:15px;line-height:1.3;margin-bottom:4px;font-weight:600;}
     .sub-card p{font-size:15px;line-height:1.45;margin-bottom:10px;}
