@@ -300,6 +300,13 @@
     .trust-card{grid-template-columns:repeat(2,1fr);}
     .trust-card .item:nth-child(2){border-right:none;}
   }
+  /* tablet portrait (iPads etc, 721-980px): object-fit:contain on a 16:9
+     video inside a tall min-height:92vh box letterboxes, exposing a hard
+     --bg-soft seam. cover fills the box instead — safe since .hero already
+     clips overflow. */
+  @media (min-width:721px) and (max-width:980px){
+    .hero-video{object-fit:cover;}
+  }
   @media (max-width:980px){
     .testi-grid{grid-template-columns:1fr;}
     .cta-section .wrap{grid-template-columns:1fr;}

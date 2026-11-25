@@ -51,7 +51,7 @@
     <div class="footer-col footer-contact">
       <h4>{{ site.footer.contactTitle[lang] | safe }}</h4>
       <ul>
-        <li><a href="{{ site.business.whatsapp }}" target="_blank" rel="noopener" dir="ltr">{{ site.business.phoneDisplay }}</a></li>
+        <li><a href="tel:{{ site.business.phone }}" dir="ltr">{{ site.business.phoneDisplay }}</a></li>
         <li><a href="mailto:{{ site.business.email }}">{{ site.business.email }}</a></li>
       </ul>
       <p class="footer-areas">{{ site.footer.areaServedLabel[lang] | safe }}: {% for a in site.business.areaServed %}{{ a[lang] | safe }}{{ ", " if not loop.last }}{% endfor %}</p>

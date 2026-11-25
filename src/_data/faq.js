@@ -1,4 +1,4 @@
-// 14 groups x 8 Q&A pairs, in on-page order. Relocated from the one-off
+// 26 groups x 8 Q&A pairs, in on-page order. Relocated from the one-off
 // substitution script used to hand-build the FAQ page earlier this session —
 // this IS that same reviewed content, just moved into the data layer.
 module.exports = [
