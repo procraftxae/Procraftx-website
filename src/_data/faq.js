@@ -393,8 +393,8 @@ module.exports = [
      qAr:"هل يمكنكم تعبئة غاز التكييف، أم يجب إيجاد التسرب أولًا؟", aAr:"نجد ونغلق التسرب أولًا كلما أمكن — التعبئة دون إصلاح التسرب تعني تسرب الغاز مجددًا خلال أسابيع، فالتعبئة وحدها ليست إصلاحًا حقيقيًا."},
     {qEn:"Why does my AC make a loud noise when it starts up?", aEn:"Usually a loose or worn part in the outdoor compressor unit — a fan blade, bearing, or mounting. Catching it early is almost always cheaper than waiting for it to fail completely.",
      qAr:"لماذا يصدر تكييفي صوتًا عاليًا عند التشغيل؟", aAr:"غالبًا قطعة فُكّت أو تآكلت بوحدة الضاغط الخارجية — شفرة مروحة، محمل، أو تثبيت. اكتشاف ذلك مبكرًا أرخص دائمًا من انتظار تعطلها الكامل."},
-    {qEn:"Do you offer priority or emergency AC callouts?", aEn:"Yes — AC issues get priority scheduling over most other work we do, since in this climate a unit that's not cooling is rarely something that can wait.",
-     qAr:"هل تقدمون زيارات تكييف ذات أولوية أو طارئة؟", aAr:"نعم — مشاكل التكييف تحصل على جدولة ذات أولوية فوق معظم الأعمال الأخرى، لأنه في هذا المناخ، الوحدة التي لا تبرّد نادرًا ما تحتمل الانتظار."}
+    {qEn:"Do you offer 24/7 emergency AC call-outs, or annual maintenance contracts (AMC)?", aEn:"Yes to both — a complete breakdown gets a 24/7 emergency call-out rather than next-business-day-only booking, and we also run Annual Maintenance Contracts for villas and buildings that would rather schedule preventive visits than react to failures.",
+     qAr:"هل تقدمون زيارات طوارئ على مدار الساعة، أو عقود صيانة سنوية (AMC)؟", aAr:"نعم لكليهما — العطل الكامل يحصل على زيارة طوارئ على مدار الساعة طوال أيام الأسبوع لا حجزاً ليوم العمل التالي فقط، كما نقدّم عقود صيانة سنوية للفلل والمباني التي تفضّل جدولة زيارات وقائية بدل التعامل مع الأعطال بعد وقوعها."}
   ]
 },
 {

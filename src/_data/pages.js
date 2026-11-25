@@ -206,10 +206,24 @@ module.exports = {
         }
       },
       {
+        h2: { en: "Fiberglass vs. gunite (concrete)", ar: "الفايبرجلاس مقابل الخرساني (gunite)" },
+        body: {
+          en: "Most Dubai villa pools are built in gunite — poured, reinforced concrete — rather than fiberglass, because concrete handles the summer heat well and allows custom shapes and depths; that's why it's the dominant choice here even though it costs more upfront. As a general guide, a fiberglass shell typically starts around AED 45,000–90,000 for a small plunge pool and AED 90,000–150,000 for a mid-size family pool — roughly 15–20% less than an equivalent gunite pool, and faster to install (often 2–3 weeks versus several weeks for concrete). Gunite typically starts around AED 120,000 for a standard shape. Fiberglass can cost less to maintain long-term (fewer chemicals, less resurfacing over the years), which can offset some of the upfront price gap over a decade — but it's limited in shape and size compared to a poured concrete shell.",
+          ar: "معظم مسابح الفلل في دبي تُبنى بالخرسانة المسلحة المصبوبة (gunite) وليس الفايبرجلاس، لأن الخرسانة تتحمل حرارة الصيف جيدًا وتسمح بأشكال وأعماق مخصصة — ولهذا هي الخيار السائد هنا رغم تكلفتها الأعلى في البداية. كدليل عام، هيكل الفايبرجلاس يبدأ عادةً من نحو 45,000–90,000 درهم لمسبح صغير (plunge pool) و90,000–150,000 درهم لمسبح عائلي متوسط — أي أقل بنسبة 15–20% تقريبًا من مسبح خرساني مماثل، وأسرع في التركيب (غالبًا 2-3 أسابيع مقابل عدة أسابيع للخرساني). الخرساني يبدأ عادةً من نحو 120,000 درهم للشكل القياسي. الفايبرجلاس قد يكون أقل تكلفة في الصيانة طويلة المدى (مواد كيميائية أقل، إعادة تلميع أقل عبر السنوات)، ما قد يعوّض جزءًا من فارق السعر الأولي خلال عقد من الزمن — لكنه محدود من ناحية الشكل والحجم مقارنة بالهيكل الخرساني المصبوب."
+        }
+      },
+      {
         h2: { en: "What actually moves your price", ar: "ما الذي يغيّر سعرك فعليًا" },
         body: {
-          en: "Soil and excavation conditions, pump/filtration equipment grade, tile vs. mosaic vs. pebble finish, whether a pool chiller is added (commonly AED 15,000–40,000 on its own), site access for machinery, and how far the pool is from existing water/electrical connections. This is why we visit the site before quoting — two pools that look identical on paper can genuinely cost different amounts to build.",
-          ar: "ظروف التربة والحفر، فئة معدات المضخة والفلترة، التشطيب بالبلاط مقابل الفسيفساء مقابل الحصى، إضافة مبرّد مسبح أو عدمها (يكلّف عادةً 15,000–40,000 درهم بمفرده)، سهولة وصول المعدات للموقع، ومدى بُعد المسبح عن توصيلات المياه والكهرباء القائمة. لهذا نزور الموقع قبل تقديم عرض السعر — مسبحان يبدوان متطابقين على الورق قد يختلف تكلفة بنائهما فعليًا."
+          en: "Soil and excavation conditions, tile vs. mosaic vs. pebble finish, site access for machinery, and how far the pool is from existing water/electrical connections all shift the price. Equipment grade is one of the biggest swing factors on its own: a basic filtration setup (pump + sand filter) typically runs AED 8,000–15,000, a premium setup (variable-speed pump + salt chlorinator) AED 15,000–25,000, and a full package — variable-speed pump, filter, salt chlorinator, and heat pump together — commonly adds AED 25,000–40,000 to the build. A standalone chiller or heat pump alone typically runs AED 15,000–40,000 depending on size. This is why we visit the site before quoting — two pools that look identical on paper can genuinely cost different amounts to build.",
+          ar: "ظروف التربة والحفر، التشطيب بالبلاط مقابل الفسيفساء مقابل الحصى، سهولة وصول المعدات للموقع، ومدى بُعد المسبح عن توصيلات المياه والكهرباء القائمة — كلها تغيّر السعر. فئة المعدات وحدها من أكبر عوامل التفاوت: نظام فلترة أساسي (مضخة + فلتر رملي) يتراوح عادةً بين 8,000–15,000 درهم، نظام متميز (مضخة متغيرة السرعة + معقّم ملحي) بين 15,000–25,000 درهم، والباقة الكاملة — مضخة متغيرة السرعة وفلتر ومعقّم ملحي ومضخة حرارية معًا — تضيف عادةً 25,000–40,000 درهم لتكلفة البناء. المبرّد أو المضخة الحرارية بمفردها تتراوح عادةً بين 15,000–40,000 درهم حسب الحجم. لهذا نزور الموقع قبل تقديم عرض السعر — مسبحان يبدوان متطابقين على الورق قد يختلف تكلفة بنائهما فعليًا."
+        }
+      },
+      {
+        h2: { en: "Ongoing monthly maintenance", ar: "تكلفة الصيانة الشهرية المستمرة" },
+        body: {
+          en: "The build price above is separate from what it costs to keep a pool running. As a general market guide, a villa pool typically costs AED 800–1,800 a month to maintain in Dubai depending on size, covering cleaning and servicing (AED 400–800), chemicals and water treatment (AED 250–400), and the electricity cost of running a chiller or heater (AED 300–700). Larger or heavily-used pools can run AED 1,800–3,000+ a month. Budgeting for this ongoing cost upfront avoids a surprise once the pool is actually built and in use.",
+          ar: "سعر البناء أعلاه منفصل عن تكلفة تشغيل المسبح لاحقًا. كدليل عام للسوق، يتكلف مسبح الفيلا عادةً 800–1,800 درهم شهريًا للصيانة في دبي حسب الحجم، ويشمل ذلك التنظيف والخدمة (400–800 درهم)، المواد الكيميائية ومعالجة المياه (250–400 درهم)، وتكلفة الكهرباء لتشغيل المبرّد أو السخان (300–700 درهم). المسابح الأكبر أو كثيرة الاستخدام قد تصل تكلفتها إلى 1,800–3,000 درهم أو أكثر شهريًا. التخطيط لهذه التكلفة المستمرة مسبقًا يجنّبك مفاجأة بعد بناء المسبح واستخدامه فعليًا."
         }
       },
       {

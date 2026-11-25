@@ -750,21 +750,21 @@ module.exports = {
     h1: { en: "Air Conditioning (AC) Repair &amp; Servicing in Dubai, Sharjah &amp; Abu Dhabi", ar: "إصلاح وصيانة التكييف في دبي والشارقة وأبوظبي" },
     metaTitle: { en: "AC Repair &amp; Servicing Dubai | Procraftx", ar: "صيانة وإصلاح تكييف دبي | بروكرافتكس" },
     metaDescription: {
-      en: "Split, central &amp; window AC servicing, gas refills, and leak repair in Dubai, Sharjah &amp; Abu Dhabi. Priority scheduling, 100% guarantee.",
-      ar: "صيانة تكييف سبليت ومركزي وشباك، تعبئة غاز، وإصلاح تسريبات في دبي والشارقة وأبوظبي. جدولة ذات أولوية وضمان 100%."
+      en: "Split, central &amp; window AC servicing, gas refills, leak repair, and AMC plans in Dubai, Sharjah &amp; Abu Dhabi. 24/7 emergency call-outs, 100% guarantee.",
+      ar: "صيانة تكييف سبليت ومركزي وشباك، تعبئة غاز، إصلاح تسريبات، وعقود صيانة سنوية (AMC) في دبي والشارقة وأبوظبي. طوارئ على مدار الساعة وضمان 100%."
     },
     overview: {
       en: [
-        "AC problems get priority scheduling over almost everything else we do, because in this climate a unit that's not cooling isn't a minor inconvenience — it's usually an urgent call. The most common issues are weak or warm airflow, a unit that's running constantly without actually cooling the room, water leaking or pooling around the indoor unit, and unusual noise from the outdoor compressor. We diagnose before quoting a fix, since a weak-airflow complaint and a warm-air complaint usually point to different problems — a blocked filter versus low refrigerant, for instance — and treating the wrong one wastes your money.",
+        "AC problems get priority scheduling over almost everything else we do, because in this climate a unit that's not cooling isn't a minor inconvenience — it's usually an urgent call. The most common issues are weak or warm airflow, a unit that's running constantly without actually cooling the room, water leaking or pooling around the indoor unit, and unusual noise from the outdoor compressor. We diagnose before quoting a fix, since a weak-airflow complaint and a warm-air complaint usually point to different problems — a blocked filter versus low refrigerant, for instance — and treating the wrong one wastes your money. For a complete breakdown, we run 24/7 emergency call-outs rather than next-business-day-only booking.",
         "We service split units (the most common setup in villas and apartments), central systems, and window units, each with different access points and failure patterns — a central system fault is often at the air handler, not the vents themselves, while a split unit issue is usually isolated to either the indoor or outdoor component. Filter cleaning and coil cleaning are routine maintenance; gas (refrigerant) top-ups and leak repair are a different tier of work, since a refrigerant leak means there's a specific point of failure to find and seal, not just a top-up to perform, or the gas leaks out again within weeks.",
-        "We recommend a service visit before peak summer rather than during it, since that's when units fail most and technicians are busiest — the honest best time to book is when the unit is still working but overdue (see our <a href=\"ac-maintenance-signs.html\">guide to AC warning signs</a> for what to watch for). What's not included: full unit replacement is handled as its own separate quote, not a servicing call — we'll tell you clearly if a unit is beyond economical repair rather than patching it repeatedly.",
-        "Every visit — servicing or repair — gets a clear price before we start, and the work is covered by our 100% guarantee on parts and labor."
+        "We recommend a service visit before peak summer rather than during it, since that's when units fail most and technicians are busiest — the honest best time to book is when the unit is still working but overdue (see our <a href=\"ac-maintenance-signs.html\">guide to AC warning signs</a> for what to watch for). We also run Annual Maintenance Contracts (AMC) — a set number of scheduled visits across the year, timed around peak summer, for villas and buildings that would rather prevent breakdowns than react to them. What's not included: full unit replacement is handled as its own separate quote, not a servicing call — we'll tell you clearly if a unit is beyond economical repair rather than patching it repeatedly.",
+        "Every visit — servicing, repair, or an AMC check-up — gets a clear price agreed upfront, and the work is covered by our 100% guarantee on parts and labor."
       ],
       ar: [
-        "مشاكل التكييف تحصل على جدولة ذات أولوية فوق كل شيء تقريبًا نعمل عليه، لأنه في هذا المناخ، الوحدة التي لا تبرّد ليست إزعاجًا بسيطًا — بل طلبًا عاجلًا غالبًا. أكثر المشاكل شيوعًا هي ضعف تدفق الهواء أو خروج هواء دافئ، وحدة تعمل باستمرار دون أن تبرّد الغرفة فعليًا، تسرب أو تجمع مياه حول الوحدة الداخلية، وأصوات غير طبيعية من الضاغط الخارجي. نشخّص قبل أن نقدّم عرض سعر للإصلاح، لأن شكوى ضعف الهواء وشكوى الهواء الدافئ تشيران غالبًا لمشكلتين مختلفتين — فلتر مسدود مقابل نقص غاز التبريد مثلًا — ومعالجة الخطأ منهما تهدر مالك.",
+        "مشاكل التكييف تحصل على جدولة ذات أولوية فوق كل شيء تقريبًا نعمل عليه، لأنه في هذا المناخ، الوحدة التي لا تبرّد ليست إزعاجًا بسيطًا — بل طلبًا عاجلًا غالبًا. أكثر المشاكل شيوعًا هي ضعف تدفق الهواء أو خروج هواء دافئ، وحدة تعمل باستمرار دون أن تبرّد الغرفة فعليًا، تسرب أو تجمع مياه حول الوحدة الداخلية، وأصوات غير طبيعية من الضاغط الخارجي. نشخّص قبل أن نقدّم عرض سعر للإصلاح، لأن شكوى ضعف الهواء وشكوى الهواء الدافئ تشيران غالبًا لمشكلتين مختلفتين — فلتر مسدود مقابل نقص غاز التبريد مثلًا — ومعالجة الخطأ منهما تهدر مالك. وفي حال تعطّل الوحدة بالكامل، نوفّر زيارات طوارئ على مدار الساعة طوال أيام الأسبوع، لا حجزاً ليوم العمل التالي فقط.",
         "نصون الوحدات السبليت (الأكثر انتشارًا بالفلل والشقق) والأنظمة المركزية والوحدات الشباك، ولكل منها نقاط وصول وأنماط أعطال مختلفة — عطل النظام المركزي غالبًا في وحدة معالجة الهواء، لا الفتحات نفسها، بينما عطل الوحدة السبليت عادةً منحصر بالوحدة الداخلية أو الخارجية. تنظيف الفلاتر والملفات صيانة روتينية؛ تعبئة الغاز (غاز التبريد) وإصلاح التسريبات مستوى مختلف من العمل، لأن تسرب الغاز يعني وجود نقطة عطل محددة يجب إيجادها وإغلاقها، لا مجرد إعادة تعبئة، وإلا تسرب الغاز مجددًا خلال أسابيع.",
-        "ننصح بزيارة صيانة قبل ذروة الصيف لا خلالها، لأنها الفترة التي تتعطل فيها الوحدات أكثر ويكون الفنيون فيها أكثر انشغالًا — أفضل وقت صادق للحجز هو عندما تكون الوحدة لا تزال تعمل لكن موعد صيانتها تأخر (راجع <a href=\"ac-maintenance-signs.html\">دليل علامات صيانة التكييف</a> لمعرفة ما تنتبه له). ما لا يشمله العمل: استبدال الوحدة بالكامل يُعامل كعرض سعر منفصل، وليس كزيارة صيانة — سنخبرك بوضوح إذا كانت الوحدة تجاوزت حد الإصلاح الاقتصادي بدل ترقيعها بشكل متكرر.",
-        "كل زيارة — صيانة أو إصلاح — تحصل على سعر واضح قبل البدء، والعمل مغطى بضماننا 100% على القطع والعمالة."
+        "ننصح بزيارة صيانة قبل ذروة الصيف لا خلالها، لأنها الفترة التي تتعطل فيها الوحدات أكثر ويكون الفنيون فيها أكثر انشغالًا — أفضل وقت صادق للحجز هو عندما تكون الوحدة لا تزال تعمل لكن موعد صيانتها تأخر (راجع <a href=\"ac-maintenance-signs.html\">دليل علامات صيانة التكييف</a> لمعرفة ما تنتبه له). كما نقدّم عقود صيانة سنوية (AMC) — عدد محدد من الزيارات المجدولة خلال العام، موزّعة حول ذروة الصيف، للفلل والمباني التي تفضّل منع الأعطال بدل التعامل معها بعد وقوعها. ما لا يشمله العمل: استبدال الوحدة بالكامل يُعامل كعرض سعر منفصل، وليس كزيارة صيانة — سنخبرك بوضوح إذا كانت الوحدة تجاوزت حد الإصلاح الاقتصادي بدل ترقيعها بشكل متكرر.",
+        "كل زيارة — صيانة أو إصلاح أو فحص ضمن عقد الصيانة السنوي — تحصل على سعر واضح متفق عليه مسبقًا، والعمل مغطى بضماننا 100% على القطع والعمالة."
       ]
     },
     whatsIncluded: {
@@ -773,7 +773,8 @@ module.exports = {
         "Filter and coil cleaning",
         "Refrigerant (gas) top-ups and leak detection",
         "Diagnosis before quoting — no guessing at the fix",
-        "Priority scheduling for no-cooling and emergency calls",
+        "24/7 emergency call-outs for no-cooling breakdowns",
+        "Annual Maintenance Contracts (AMC) available",
         "Pre-summer servicing to catch issues before peak heat",
         "Honest assessment of repair vs. replacement",
         "Clear price agreed before any work starts"
@@ -783,7 +784,8 @@ module.exports = {
         "تنظيف الفلاتر والملفات",
         "تعبئة غاز التبريد وكشف التسريبات",
         "تشخيص قبل عرض السعر — بدون تخمين للإصلاح",
-        "جدولة ذات أولوية لحالات انعدام التبريد والطوارئ",
+        "زيارات طوارئ على مدار الساعة لحالات انعدام التبريد",
+        "عقود صيانة سنوية (AMC) متاحة",
         "صيانة ما قبل الصيف لاكتشاف المشاكل قبل الذروة",
         "تقييم صادق بين الإصلاح والاستبدال",
         "سعر واضح متفق عليه قبل بدء أي عمل"
@@ -850,13 +852,13 @@ module.exports = {
         "This is routine upkeep cleaning — weekly or bi-weekly visits to keep a home consistently clean — not the one-off deep clean people book for a move-in, move-out, or post-renovation handover (that's a separate, more intensive service). A recurring visit covers dusting, vacuuming, mopping, bathroom and kitchen surface cleaning, and general tidying — the goal is maintaining a baseline, not restoring a home that's fallen behind.",
         "Frequency is set around your household, not a fixed package — a smaller apartment with no pets might need a lighter weekly visit, while a larger villa with kids or pets often needs more time per visit even at the same frequency. We confirm scope during the first visit rather than assuming: which rooms, which surfaces need extra attention, and any areas you'd rather we skip (a home office, for instance).",
         "Cleaning products are supplied as standard, or we're happy to use products you already have if you have a preference (allergy-sensitive, pet-safe, or otherwise). What's not included: deep-clean tasks like oven interior degreasing, full carpet shampooing, or post-construction dust removal — those fall under our separate deep-cleaning and furniture-cleaning services, and we'll point you to the right one rather than doing a partial job under the wrong scope.",
-        "The price is agreed before the first visit and stays consistent for recurring bookings, covered by our 100% guarantee on the work."
+        "We agree the price before the first visit, and it doesn't creep up on recurring bookings — the work stays covered by our 100% guarantee throughout."
       ],
       ar: [
         "هذه خدمة صيانة دورية — زيارات أسبوعية أو كل أسبوعين للحفاظ على نظافة المنزل باستمرار — وليست التنظيف العميق لمرة واحدة الذي يُحجز عند الانتقال لمنزل جديد أو مغادرته أو بعد التجديد (تلك خدمة منفصلة وأكثر كثافة). الزيارة الدورية تشمل إزالة الغبار والتنظيف بالمكنسة والمسح وتنظيف أسطح الحمام والمطبخ والترتيب العام — الهدف الحفاظ على مستوى نظافة ثابت، لا استعادة منزل تراكم فيه الإهمال.",
         "التكرار يُحدَّد حسب منزلك، وليس باقة ثابتة — شقة صغيرة بدون حيوانات أليفة قد تحتاج زيارة أسبوعية أخف، بينما فيلا أكبر فيها أطفال أو حيوانات أليفة غالبًا تحتاج وقتًا أطول بالزيارة حتى بنفس التكرار. نؤكد نطاق العمل أثناء الزيارة الأولى بدل الافتراض: أي الغرف، أي الأسطح تحتاج عناية إضافية، وأي مناطق تفضل أن نتجنبها (مكتب منزلي مثلًا).",
         "مواد التنظيف تُوفَّر كمعيار أساسي، أو يسعدنا استخدام مواد تملكها بالفعل إذا كان لديك تفضيل (حساسية، آمنة للحيوانات الأليفة، أو غير ذلك). ما لا يشمله العمل: مهام التنظيف العميق مثل إزالة الدهون من داخل الفرن، غسيل السجاد الكامل، أو إزالة غبار ما بعد البناء — هذه تندرج ضمن خدمات التنظيف العميق وتنظيف الأثاث المنفصلة لدينا، وسنوجهك للخدمة الصحيحة بدل تنفيذ عمل جزئي بالنطاق الخطأ.",
-        "السعر متفق عليه قبل الزيارة الأولى ويبقى ثابتًا للزيارات الدورية، ومغطى بضماننا 100% على العمل."
+        "نتفق على السعر قبل الزيارة الأولى، ولا يرتفع تدريجيًا مع الحجوزات الدورية — ويبقى العمل مغطى بضماننا 100% طوال الوقت."
       ]
     },
     whatsIncluded: {
@@ -896,13 +898,13 @@ module.exports = {
         "This is different from general home cleaning in both method and purpose — steam cleaning and targeted stain removal for upholstery, carpets, and mattresses, rather than the routine dusting-and-vacuuming of a recurring home visit. People usually book it for one of two reasons: a specific stain or spill that needs treating, or a general deep refresh of furniture that's started to look and smell tired even though nothing specific happened to it.",
         "Fabric type changes the approach — leather needs a different cleaning method than delicate woven upholstery, and antique or vintage pieces sometimes need a gentler, slower process to avoid damaging fabric that's already fragile with age. We identify fabric type before treating a stain, since the wrong product on the wrong material can set a stain permanently rather than lift it. Mattress cleaning is its own common request, usually for dust-mite and allergen reduction rather than a visible stain — relevant given how much indoor dust UAE homes deal with compared to milder climates.",
         "Steam cleaning kills dust mites and bacteria without soaking the fabric the way a full wet-wash would, so furniture typically dries and is usable again within hours, not days. What's not included: fabric that's already structurally failing (torn, disintegrating) — cleaning won't fix physical damage, and if that's the actual issue we'll say so rather than cleaning around a problem that needs our furniture restoration service instead.",
-        "Every job is quoted at a clear price based on the furniture and fabric involved, and covered by our 100% guarantee."
+        "What you're having cleaned and its fabric decide the quote, confirmed before we start — and the result is covered by our 100% guarantee."
       ],
       ar: [
         "هذه خدمة مختلفة عن التنظيف المنزلي العام من ناحية الطريقة والهدف — تنظيف بالبخار وإزالة بقع مستهدفة للمفروشات والسجاد والمراتب، بدل إزالة الغبار والتنظيف بالمكنسة الروتيني لزيارة منزلية دورية. يحجزها الناس عادةً لأحد سببين: بقعة أو انسكاب محدد يحتاج معالجة، أو تجديد عميق عام لأثاث بدأ يبدو ويشم متعبًا رغم عدم حدوث شيء محدد له.",
         "نوع القماش يغيّر طريقة التعامل — الجلد يحتاج طريقة تنظيف مختلفة عن المفروشات المنسوجة الرقيقة، والقطع العتيقة أو القديمة أحيانًا تحتاج عملية أهدأ وأبطأ لتجنب إتلاف قماش أصلًا هش بفعل العمر. نحدد نوع القماش قبل معالجة أي بقعة، لأن المادة الخاطئة على المادة الخاطئة قد تثبّت البقعة بشكل دائم بدل إزالتها. تنظيف المراتب طلب شائع بحد ذاته، غالبًا لتقليل عث الغبار ومسببات الحساسية لا لبقعة ظاهرة — وهذا مهم نظرًا لكمية الغبار الداخلي الذي تتعامل معه منازل الإمارات مقارنة بمناخات أكثر اعتدالًا.",
         "التنظيف بالبخار يقتل عث الغبار والبكتيريا دون تشبيع القماش بالماء كما يفعل الغسيل الكامل، لذا يجف الأثاث ويصبح قابلًا للاستخدام خلال ساعات، لا أيام. ما لا يشمله العمل: القماش المتضرر إنشائيًا بالفعل (ممزق، متفكك) — التنظيف لا يصلح الضرر المادي، وإذا كانت هذه هي المشكلة الفعلية سنخبرك بصراحة بدل التنظيف حول مشكلة تحتاج خدمة ترميم الأثاث لدينا بدلًا من ذلك.",
-        "كل مهمة تُسعَّر بوضوح حسب الأثاث والقماش المعني، وتُغطى بضماننا 100%."
+        "ما ستنظّفه ونوع قماشه يحددان عرض السعر، المؤكد قبل البدء — والنتيجة مغطاة بضماننا 100%."
       ]
     },
     whatsIncluded: {
@@ -942,13 +944,13 @@ module.exports = {
         "Household water tanks need cleaning roughly every 6-12 months — sediment, algae, and bacteria build up over time even with treated municipal water, and the usual trigger for calling is discolored water, an odd smell or taste from the tap, or simply knowing it's been too long since the last clean. This isn't optional maintenance the way some home upkeep is — stale tank water affects every tap in the house, not just one fixture.",
         "Overhead and underground tanks are cleaned differently — overhead tanks (common on villa rooftops) are drained, scrubbed, and pressure-rinsed with direct access, while underground tanks need the same result through a confined access point, which changes the equipment and time involved. Either way, the process is: drain the tank, pressure-clean the interior walls and base to remove built-up sediment and biofilm, sanitize, then refill — done in a single visit for most residential tank sizes.",
         "We check the tank's condition while we're in there, not just clean it blind — cracks, rust on a metal tank, or a failing lid seal are the kind of issues that cause the next buildup to happen faster, and we'll flag anything we see rather than just cleaning around it. What's not included: tank structural repair itself (a cracked tank or failing seal) — we'll identify it and can quote that as a separate job, but a cleaning visit isn't where that repair happens.",
-        "The price is agreed before we start based on tank size and access, and the work is covered by our 100% guarantee."
+        "Tank size and access decide the price, which we confirm with you before any cleaning begins — and like every job we do, it's backed by our 100% guarantee."
       ],
       ar: [
         "خزانات المياه المنزلية تحتاج تنظيفًا كل 6-12 شهرًا تقريبًا — الرواسب والطحالب والبكتيريا تتراكم بمرور الوقت حتى مع مياه بلدية معالجة، والسبب المعتاد للاتصال هو تغيّر لون المياه، رائحة أو طعم غريب من الحنفية، أو ببساطة معرفة أنه مضى وقت طويل منذ آخر تنظيف. هذه ليست صيانة اختيارية كبعض أعمال العناية بالمنزل — مياه الخزان الراكدة تؤثر على كل حنفية بالمنزل، لا تجهيزة واحدة فقط.",
         "تُنظَّف الخزانات العلوية والأرضية بطرق مختلفة — الخزانات العلوية (شائعة على أسطح الفلل) تُفرَّغ وتُفرَك وتُغسَل بالضغط بوصول مباشر، بينما الخزانات الأرضية تحتاج نفس النتيجة عبر نقطة وصول ضيقة، وهذا يغيّر المعدات والوقت المطلوب. في الحالتين، العملية هي: تفريغ الخزان، تنظيف جدرانه الداخلية وقاعدته بالضغط لإزالة الرواسب والطبقة الحيوية المتراكمة، التعقيم، ثم إعادة التعبئة — تتم خلال زيارة واحدة لمعظم أحجام الخزانات السكنية.",
         "نفحص حالة الخزان أثناء وجودنا هناك، لا ننظفه بشكل أعمى فقط — الشقوق، صدأ الخزانات المعدنية، أو ضعف إحكام الغطاء من الأمور التي تجعل التراكم التالي يحدث أسرع، وسننبهك لأي شيء نلاحظه بدل التنظيف حوله فقط. ما لا يشمله العمل: إصلاح الخزان الإنشائي نفسه (خزان متشقق أو غطاء ضعيف الإحكام) — نحدده ويمكننا تقديم عرض سعر له كمهمة منفصلة، لكن زيارة التنظيف ليست المكان الذي يحدث فيه هذا الإصلاح.",
-        "السعر متفق عليه قبل البدء حسب حجم الخزان وسهولة الوصول إليه، والعمل مغطى بضماننا 100%."
+        "حجم الخزان وسهولة الوصول إليه يحددان السعر، الذي نؤكده معك قبل بدء أي تنظيف — وكغيره من أعمالنا، هذا العمل مدعوم بضماننا 100%."
       ]
     },
     whatsIncluded: {
@@ -988,13 +990,13 @@ module.exports = {
         "Pest control and general disinfection are two different services that often get booked together but solve different problems: pest control targets a specific living infestation (bed bugs, ants, cockroaches — all common in this climate's heat and humidity), while disinfection is about surface sanitizing against bacteria and viruses, usually after illness in the household or simply as preventive upkeep, with nothing alive to target.",
         "Pest treatment starts with identifying what you actually have, since bed bugs, ants, and cockroaches each need a different product and approach — treating for the wrong pest wastes a visit and leaves the real problem untouched. UAE's climate drives a genuine seasonal pattern: pest activity spikes with humidity, so a treatment timed around that is more effective than a one-off random-timed visit. Disinfection covers high-touch surfaces, bathrooms, and kitchens using products that kill bacteria and viruses without leaving a residue that's unsafe to touch afterward.",
         "All products used are pet-safe and child-safe where exposure is possible — we confirm what's in the home before choosing a product, not after. What's not included: structural pest-proofing work like sealing entry points in walls or foundations — we treat the active infestation and can point you to that follow-up work, but it's a separate scope from the pest-control visit itself.",
-        "The price is agreed before we start based on the infestation or scope, and covered by our 100% guarantee."
+        "Because every infestation is different, we price the job after seeing it — not from a flat rate card — and back the treatment with our 100% guarantee."
       ],
       ar: [
         "مكافحة الحشرات والتعقيم العام خدمتان مختلفتان غالبًا ما تُحجزان معًا لكنهما تحلّان مشكلتين مختلفتين: مكافحة الحشرات تستهدف انتشارًا حيًا محددًا (بق الفراش، النمل، الصراصير — كلها شائعة مع حرارة ورطوبة هذا المناخ)، بينما التعقيم يتعلق بتطهير الأسطح من البكتيريا والفيروسات، عادةً بعد مرض بالمنزل أو ببساطة كعناية وقائية، دون وجود شيء حي لاستهدافه.",
         "معالجة الحشرات تبدأ بتحديد ما لديك فعليًا، لأن بق الفراش والنمل والصراصير يحتاج كل منها منتجًا وأسلوبًا مختلفًا — معالجة الحشرة الخطأ تهدر الزيارة وتترك المشكلة الحقيقية دون حل. مناخ الإمارات يخلق نمطًا موسميًا حقيقيًا: نشاط الحشرات يرتفع مع الرطوبة، فمعالجة مؤقتة بهذا التوقيت أكثر فعالية من زيارة عشوائية التوقيت. التعقيم يشمل الأسطح كثيرة اللمس والحمامات والمطابخ باستخدام منتجات تقتل البكتيريا والفيروسات دون ترك أثر غير آمن للمس بعدها.",
         "كل المنتجات المستخدمة آمنة للحيوانات الأليفة والأطفال حيث يكون التعرض ممكنًا — نتأكد مما هو موجود بالمنزل قبل اختيار المنتج، لا بعده. ما لا يشمله العمل: أعمال منع دخول الحشرات الإنشائية مثل إغلاق نقاط الدخول بالجدران أو الأساسات — نعالج الانتشار النشط ويمكننا توجيهك لهذا العمل اللاحق، لكنه نطاق منفصل عن زيارة مكافحة الحشرات نفسها.",
-        "السعر متفق عليه قبل البدء حسب الانتشار أو نطاق العمل، ومغطى بضماننا 100%."
+        "لأن كل حالة انتشار حشرات مختلفة، نُسعّر العمل بعد معاينته — وليس من قائمة أسعار ثابتة — وندعم المعالجة بضماننا 100%."
       ]
     },
     whatsIncluded: {
@@ -1034,13 +1036,13 @@ module.exports = {
         "This is specifically for furniture that's structurally fine but worn, dated, or damaged in finish — it's deliberately not the same service as furniture cleaning (which addresses dirt and stains, not the wood or finish itself) and not the same as our custom furniture design &amp; build service (which creates new pieces rather than restoring ones you already own). If a piece is sound but looks tired, this is the right service; if it's genuinely broken or you're after something new, those are different pages.",
         "The process depends on what the piece needs: sanding back to bare wood for a full refinish, or a lighter touch-up if the existing finish is mostly intact but chipped or faded in spots. Color and finish matching is standard — we sample against the piece (or the rest of a matching set) before committing to a full refinish, so a single restored chair doesn't end up visibly different from the rest of the set. Antique and vintage furniture gets a gentler process specifically, since aggressive sanding can remove character (and value) that a newer piece wouldn't have.",
         "Small pieces are usually done within days; larger or more detailed restorations take one to two weeks, and we'll give you a realistic timeline before starting, not an optimistic one. What's not included: furniture with structural damage beyond repair — broken joints, rotted wood, or similar — we'll tell you honestly if a piece is better replaced than restored, rather than taking the job and delivering a weak result.",
-        "The price is agreed before any work starts, and the finished piece is covered by our 100% guarantee on materials and workmanship."
+        "We quote the restoration once we've seen the piece in person, and stand behind the finished result with our 100% guarantee on materials and workmanship."
       ],
       ar: [
         "هذه الخدمة مخصصة تحديدًا للأثاث السليم إنشائيًا لكنه متهالك أو قديم الطراز أو متضرر بالتشطيب — وهي مختلفة عمدًا عن خدمة تنظيف الأثاث (التي تعالج الأوساخ والبقع، لا الخشب أو التشطيب نفسه) ومختلفة عن خدمة تفصيل الأثاث المخصص (التي تنشئ قطعًا جديدة بدل ترميم ما تملكه بالفعل). إذا كانت القطعة سليمة لكن تبدو متعبة، فهذه هي الخدمة المناسبة؛ وإذا كانت معطلة فعليًا أو تبحث عن شيء جديد، فتلك صفحات مختلفة.",
         "العملية تعتمد على ما تحتاجه القطعة: صنفرة حتى الخشب الخام لإعادة طلاء كاملة، أو لمسة أخف إذا كان التشطيب الحالي سليمًا في معظمه لكن مقشرًا أو باهتًا ببعض المناطق. مطابقة اللون والتشطيب معيار أساسي — نأخذ عينة مقابل القطعة (أو بقية طقم مطابق) قبل الالتزام بإعادة طلاء كاملة، حتى لا ينتهي كرسي واحد مُرمَّم بشكل مختلف واضح عن بقية الطقم. الأثاث العتيق والقديم يحصل على معالجة أهدأ تحديدًا، لأن الصنفرة القوية قد تزيل طابعًا (وقيمة) لا تملكها قطعة أحدث.",
         "القطع الصغيرة تُنجز عادةً خلال أيام؛ الترميمات الأكبر أو الأكثر تفصيلًا تستغرق أسبوعًا إلى أسبوعين، وسنعطيك جدولًا زمنيًا واقعيًا قبل البدء، لا متفائلًا. ما لا يشمله العمل: الأثاث بتلف إنشائي يتجاوز الإصلاح — مفاصل مكسورة، خشب متعفن، أو ما شابه — سنخبرك بصراحة إذا كانت القطعة أفضل استبدالها من ترميمها، بدل قبول المهمة وتقديم نتيجة ضعيفة.",
-        "السعر متفق عليه قبل بدء أي عمل، والقطعة المُنجزة مغطاة بضماننا 100% على المواد وجودة التنفيذ."
+        "نقدّم عرض سعر الترميم بعد معاينة القطعة شخصيًا، وندعم النتيجة النهائية بضماننا 100% على المواد وجودة التنفيذ."
       ]
     },
     whatsIncluded: {
@@ -1080,13 +1082,13 @@ module.exports = {
         "This is specifically for the category of small jobs that don't justify booking a dedicated trade on their own — mounting a TV, hanging shelves, fixing a sticking door hinge, assembling flat-pack furniture, re-hanging a curtain rail. None of these need an AC technician or an electrician's full visit, but they pile up and become genuinely annoying if left undone, and most people don't want to split five small tasks across five separate service calls.",
         "We bundle several small tasks into one visit whenever possible, which is both faster and cheaper than booking each separately — tell us everything on your list, and we'll quote the whole batch rather than one job at a time. This is also the service people most often book alongside a move (new place, several small things need fixing or mounting) or alongside furniture delivery (shelving and TV mounting right after new pieces arrive).",
         "Wall type affects what's involved in mounting something securely — drywall needs different anchors than solid masonry, and we bring the right hardware for your wall rather than a generic kit that works poorly on one or the other. What's not included: anything that's actually a dedicated trade's job once we look at it closely — a 'simple' electrical fix that turns out to need a licensed electrician, for instance — we'll say so rather than attempting it outside our scope.",
-        "The price is agreed before we start, covering the full list of tasks, and the work is covered by our 100% guarantee."
+        "One quote covers the whole task list, agreed before anyone picks up a tool — and it's backed by our 100% guarantee like everything else we do."
       ],
       ar: [
         "هذه الخدمة مخصصة تحديدًا لفئة المهام الصغيرة التي لا تستدعي حجز حرفة مستقلة بحد ذاتها — تركيب شاشة تلفزيون، تعليق أرفف، إصلاح مفصلة باب عالقة، تجميع أثاث مسطح التعبئة، إعادة تعليق سكة ستارة. لا شيء من هذا يحتاج فني تكييف أو زيارة كهربائي كاملة، لكنها تتراكم وتصبح مزعجة فعليًا إذا تُركت، ومعظم الناس لا يريدون تقسيم خمس مهام صغيرة على خمس زيارات خدمة منفصلة.",
         "نجمع عدة مهام صغيرة بزيارة واحدة كلما أمكن، وهذا أسرع وأرخص من حجز كل واحدة منفصلة — أخبرنا بكل ما في قائمتك، وسنقدم عرض سعر للدفعة كاملة بدل مهمة واحدة في كل مرة. هذه أيضًا الخدمة التي يحجزها الناس غالبًا مع الانتقال (منزل جديد، عدة أشياء صغيرة تحتاج إصلاحًا أو تركيبًا) أو مع توصيل الأثاث (تعليق أرفف وتركيب شاشات فور وصول القطع الجديدة).",
         "نوع الجدار يؤثر على ما يلزم لتركيب شيء بثبات — الجدار الجصي يحتاج مثبتات مختلفة عن البناء الصلب، ونحضر العتاد المناسب لجدارك بدل طقم عام يعمل بشكل ضعيف على أحدهما. ما لا يشمله العمل: أي شيء يتبين أنه فعليًا مهمة حرفة مستقلة عند فحصه عن قرب — إصلاح كهربائي 'بسيط' يتضح أنه يحتاج كهربائيًا مرخّصًا مثلًا — سنخبرك بذلك بدل محاولته خارج نطاقنا.",
-        "السعر متفق عليه قبل البدء، ويغطي قائمة المهام كاملة، والعمل مغطى بضماننا 100%."
+        "عرض سعر واحد يغطي قائمة المهام كاملة، متفق عليه قبل أن يبدأ أي عمل — ومدعوم بضماننا 100% مثل كل أعمالنا."
       ]
     },
     whatsIncluded: {
@@ -1126,13 +1128,13 @@ module.exports = {
         "This covers local moves — villa-to-villa, apartment-to-apartment, or between the two — within Dubai, Sharjah, and Abu Dhabi, not long-distance or international relocation. A move typically starts with wrapping and disassembling large pieces (wardrobes, bed frames, large tables) so they fit through doorways and stairwells without damage, since this is where most moving damage actually happens — not during transport itself, but at the doorway on the way out or in.",
         "Fragile and large items get specific handling: glass and mirrors are wrapped and boxed separately from general items, and large furniture is disassembled rather than forced through a tight doorway, then reassembled correctly at the destination using the original hardware, not generic replacements that can loosen over time. We supply packing materials as standard, or work with materials you've already bought if you'd rather source your own boxes and wrap.",
         "The full sequence is: wrap and disassemble, pack, load, transport, then unload and reassemble at the destination — we handle every stage rather than just the transport leg, so you're not coordinating packing separately from the actual move. What's not included: items requiring specialist handling beyond standard furniture and household goods (a piano, for instance, or high-value art) — we'll flag this during the quote rather than discovering it on moving day.",
-        "The price is agreed before the move based on volume and access, and covered by our 100% guarantee."
+        "Volume and access at both ends set the price, which we confirm before moving day — and the move itself is covered by our 100% guarantee."
       ],
       ar: [
         "هذه الخدمة تغطي الانتقالات المحلية — من فيلا لفيلا، شقة لشقة، أو بين الاثنين — داخل دبي والشارقة وأبوظبي، وليست انتقالًا بعيد المسافة أو دوليًا. الانتقال يبدأ عادةً بتغليف وفك القطع الكبيرة (خزائن، هياكل أسرّة، طاولات كبيرة) لتمر من الأبواب وأدراج السلالم دون تلف، لأن هذه هي النقطة التي يحدث فيها معظم ضرر النقل فعليًا — ليس أثناء النقل نفسه، بل عند الباب في الخروج أو الدخول.",
         "القطع الهشة والكبيرة تحصل على تعامل خاص: الزجاج والمرايا تُغلَّف وتُعبَّأ بصناديق منفصلة عن الأغراض العامة، والأثاث الكبير يُفكَّك بدل إجباره عبر باب ضيق، ثم يُعاد تركيبه بشكل صحيح بالوجهة باستخدام عتاده الأصلي، لا بدائل عامة قد تتراخى بمرور الوقت. نوفر مواد التغليف كمعيار أساسي، أو نعمل بمواد اشتريتها مسبقًا إذا كنت تفضل توفير صناديقك وتغليفك الخاص.",
         "التسلسل الكامل هو: التغليف والتفكيك، التعبئة، التحميل، النقل، ثم التفريغ وإعادة التركيب بالوجهة — نتولى كل مرحلة بدل مرحلة النقل فقط، حتى لا تضطر لتنسيق التغليف بشكل منفصل عن النقل الفعلي. ما لا يشمله العمل: الأغراض التي تحتاج تعاملًا متخصصًا يتجاوز الأثاث والأغراض المنزلية القياسية (بيانو مثلًا، أو أعمال فنية عالية القيمة) — سننبهك لذلك أثناء عرض السعر بدل اكتشافه يوم الانتقال.",
-        "السعر متفق عليه قبل الانتقال حسب الحجم وسهولة الوصول، ومغطى بضماننا 100%."
+        "الحجم وسهولة الوصول في الموقعين يحددان السعر، الذي نؤكده قبل يوم الانتقال — والانتقال نفسه مغطى بضماننا 100%."
       ]
     },
     whatsIncluded: {
