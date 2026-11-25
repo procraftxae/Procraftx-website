@@ -152,8 +152,12 @@
   .hero-content p{font-size:17px;font-weight:300;color:rgba(255,255,255,0.88);max-width:520px;margin-bottom:34px;}
   .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;}
 
+  /* top corner, not bottom: both bottom corners are permanently occupied by
+     the fixed WhatsApp/call buttons sitewide, and the hero is ~92vh tall so
+     a bottom-anchored button here would sit directly behind them at the
+     initial scroll position. */
   .hero-video-toggle{
-    position:absolute;z-index:3;bottom:24px;right:24px;
+    position:absolute;z-index:3;top:24px;right:24px;
     width:40px;height:40px;border-radius:50%;
     background:rgba(10,10,8,0.5);border:1px solid rgba(255,255,255,0.3);
     display:flex;align-items:center;justify-content:center;cursor:pointer;
@@ -644,7 +648,7 @@
     .hero-content .hero-ctas .btn{padding:7px 14px;font-size:13px;}
     .hero-ctas a:last-child{display:none;}
     .trust-float{margin-top:0;}
-    .hero-video-toggle{width:32px;height:32px;bottom:12px;right:12px;}
+    .hero-video-toggle{width:32px;height:32px;top:12px;right:12px;}
     .hero-video-toggle svg{width:13px;height:13px;}
     html[dir="rtl"] .hero-video-toggle{right:auto;left:12px;}
 
