@@ -33,8 +33,8 @@ module.exports = {
     h1_main: { en: "Interior Design &amp; Home Maintenance.", ar: "تصميم داخلي وصيانة منزلية." },
     h1_span: { en: "And more.", ar: "وأكثر." },
     lead: {
-      en: "Interior design, custom majlis, swimming pools, and landscaping — plus core home maintenance, furniture care, and deep cleaning. One trusted crew handles it all, with a clear quote before we start and a guarantee behind every job.",
-      ar: "تصميم داخلي، مجالس مخصصة، مسابح سباحة، وتنسيق حدائق — بالإضافة إلى الصيانة المنزلية الأساسية والعناية بالأثاث والتنظيف العميق. فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل."
+      en: "Interior design, custom majlis, swimming pools, and landscaping — plus core home maintenance, furniture care, and deep cleaning. One trusted crew handles it all, with a clear quote before we start and a guarantee behind every job. Based in Dubai, Sharjah and Abu Dhabi.",
+      ar: "تصميم داخلي، مجالس مخصصة، مسابح سباحة، وتنسيق حدائق — بالإضافة إلى الصيانة المنزلية الأساسية والعناية بالأثاث والتنظيف العميق. فريق واحد موثوق يتولى كل شيء، بسعر واضح قبل البدء وضمان على كل عمل. مقرّنا في دبي والشارقة وأبوظبي."
     },
     ctaBook: { en: "Book a Free Visit", ar: "احجز زيارة مجانية" },
     ctaSee: { en: "See Specialties &amp; Services", ar: "استعرض التخصصات والخدمات" },
@@ -77,8 +77,8 @@ module.exports = {
     photoAlt: { en: "Procraftx crew standing in front of a villa with their service van", ar: "طاقم بروكرافتكس أمام فيلا مع سيارة الخدمة" },
     h2: { en: "One trusted crew for everything your home needs.", ar: "فريق موثوق واحد لكل ما يحتاجه منزلك." },
     body: {
-      en: "Welcome to Procraftx! Our mission is to give every home in Dubai and Sharjah one trusted crew for everything it needs, instead of a different contractor for every job. We believe your home deserves the same care and attention to detail as any showroom — so our licensed, background-checked technicians handle it that way, backed by a 100% guarantee on every visit. Whether it's a leaking tap, a full furniture restoration, or a custom-built majlis, we quote fairly, show up on time, and get it right the first time.",
-      ar: "مرحبًا بك في بروكرافتكس! مهمتنا هي أن نمنح كل منزل في دبي والشارقة فريقًا موثوقًا واحدًا لكل ما يحتاجه، بدلاً من مقاول مختلف لكل مهمة. نؤمن أن منزلك يستحق نفس العناية والاهتمام بالتفاصيل التي يحظى بها أي صالة عرض — لذا يتعامل فنيونا المرخّصون والمدقّق في خلفياتهم بهذه الروح، مدعومين بضمان 100% على كل زيارة. سواء كانت حنفية تسرّب، أو ترميم أثاث كامل، أو مجلس مبني حسب الطلب، نقدّم عرض سعر عادل، ونصل في الوقت المحدد، وننجز العمل بشكل صحيح من أول مرة."
+      en: "Welcome to Procraftx! Our mission is to give every home in Dubai, Sharjah and Abu Dhabi one trusted crew for everything it needs, instead of a different contractor for every job. We believe your home deserves the same care and attention to detail as any showroom — so our licensed, background-checked technicians handle it that way, backed by a 100% guarantee on every visit. Whether it's a leaking tap, a full furniture restoration, or a custom-built majlis, we quote fairly, show up on time, and get it right the first time.",
+      ar: "مرحبًا بك في بروكرافتكس! مهمتنا هي أن نمنح كل منزل في دبي والشارقة وأبوظبي فريقًا موثوقًا واحدًا لكل ما يحتاجه، بدلاً من مقاول مختلف لكل مهمة. نؤمن أن منزلك يستحق نفس العناية والاهتمام بالتفاصيل التي يحظى بها أي صالة عرض — لذا يتعامل فنيونا المرخّصون والمدقّق في خلفياتهم بهذه الروح، مدعومين بضمان 100% على كل زيارة. سواء كانت حنفية تسرّب، أو ترميم أثاث كامل، أو مجلس مبني حسب الطلب، نقدّم عرض سعر عادل، ونصل في الوقت المحدد، وننجز العمل بشكل صحيح من أول مرة."
     },
     cta: { en: "Chat on WhatsApp", ar: "تواصل عبر واتساب" }
   },

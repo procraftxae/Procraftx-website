@@ -1,6 +1,6 @@
 module.exports = {
   index: {
-    title: { en: "Interior Design &amp; Home Maintenance Dubai &amp; Sharjah | Procraftx", ar: "تصميم داخلي وصيانة منزلية دبي والشارقة وأبوظبي | بروكرافتكس" },
+    title: { en: "Interior Design &amp; Home Maintenance Dubai, Sharjah &amp; Abu Dhabi | Procraftx", ar: "تصميم داخلي وصيانة منزلية دبي والشارقة وأبوظبي | بروكرافتكس" },
     description: {
       en: "Interior design, renovation, custom majlis, pools &amp; more — transparent pricing, 100% guarantee. Home specialties in Dubai, Sharjah &amp; Abu Dhabi. Call 050 791 7075.",
       ar: "تصميم داخلي، تجديد، مجالس مخصصة، مسابح والمزيد — تسعير شفاف وضمان 100%. تخصصات منزلية في دبي والشارقة وأبوظبي. اتصل 050 791 7075."
