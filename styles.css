@@ -334,10 +334,9 @@
   .sub-card{
     display:flex;flex-direction:column;height:100%;
     background:#fff;border:1.5px solid #D9D9CF;border-radius:18px;overflow:hidden;
-    box-shadow:var(--card-shadow);transition:transform .3s ease, border-color .25s ease;
+    box-shadow:var(--card-shadow);transition:box-shadow .3s ease;
   }
-  .sub-card:hover{border-color:var(--red);}
-  .sub-card:hover{transform:translateY(-6px);}
+  .sub-card:hover{box-shadow:0 24px 52px -20px rgba(20,20,15,0.26);}
   /* stretched-link: the whole card navigates via the "Learn more" link,
      while "Request quote" and the thumb-nav buttons stay independently
      clickable above the overlay. */
