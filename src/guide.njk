@@ -18,6 +18,7 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ pages[page.pageKey].slug }}.html{% e
 <link rel="icon" href="{{ '../' if isAr }}assets/images/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{{ '../' if isAr }}assets/images/favicon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="{{ '../' if isAr }}assets/images/apple-touch-icon.png">
+<meta name="theme-color" content="#000000">
 <title>{{ g.title[lang] | safe }}</title>
 <meta name="description" content="{{ g.description[lang] | safe }}">
 <link rel="canonical" href="https://www.procraftx.ae/{{ 'ar/' if isAr }}{{ g.slug }}.html">
@@ -37,10 +38,14 @@ permalink: "{% if page.lang == 'ar' %}ar/{{ pages[page.pageKey].slug }}.html{% e
 <meta name="twitter:description" content="{{ g.twitterDescription[lang] | safe }}">
 <meta name="twitter:image" content="https://www.procraftx.ae/assets/images/service-promo-poster.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '../styles.css' if isAr else 'styles.css' }}">
 <script type="application/ld+json">
 {{ page.pageKey | articleJsonLd(lang) | safe }}
+</script>
+<script type="application/ld+json">
+{{ page.pageKey | guideBreadcrumbJsonLd(lang) | safe }}
 </script>
 </head>
 <body>

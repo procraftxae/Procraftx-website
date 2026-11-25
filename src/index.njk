@@ -19,6 +19,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 <link rel="icon" href="{{ '../' if isAr }}assets/images/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{{ '../' if isAr }}assets/images/favicon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="{{ '../' if isAr }}assets/images/apple-touch-icon.png">
+<meta name="theme-color" content="#000000">
 <title>{{ pages.index.title[lang] | safe }}</title>
 <meta name="description" content="{{ pages.index.description[lang] | safe }}">
 <link rel="canonical" href="https://www.procraftx.ae/{{ 'ar/' if isAr }}">
@@ -38,6 +39,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 <meta name="twitter:description" content="{{ pages.index.twitterDescription[lang] | safe }}">
 <meta name="twitter:image" content="https://www.procraftx.ae/assets/images/service-promo-poster.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '../styles.css' if isAr else 'styles.css' }}">
 <script type="application/ld+json">
@@ -55,9 +57,13 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 
 <section class="hero" id="top">
   <div class="bg">
-    <video class="hero-video" autoplay muted loop playsinline preload="auto" disablePictureInPicture disableRemotePlayback aria-label="{{ site.hero.videoAriaLabel[lang] | safe }}">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="auto" disablePictureInPicture disableRemotePlayback width="1280" height="720" poster="{{ '../' if isAr }}assets/images/service-promo-poster.jpg" aria-label="{{ site.hero.videoAriaLabel[lang] | safe }}">
       <source src="{{ '../assets/hero-workers.mp4' if isAr else 'assets/hero-workers.mp4' }}" type="video/mp4">
     </video>
+    <button type="button" id="heroVideoToggle" class="hero-video-toggle" aria-pressed="false" aria-label="{{ site.hero.pauseVideo[lang] | safe }}" data-pause-label="{{ site.hero.pauseVideo[lang] | safe }}" data-play-label="{{ site.hero.playVideo[lang] | safe }}">
+      <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>
+      <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M8 5v14l11-7z"/></svg>
+    </button>
   </div>
   <div class="hero-chips" aria-hidden="true">
     <div class="hero-chip c1"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M14.7 6.3a4 4 0 0 0-5.66 5.66L3 18v3h3l6.04-6.04a4 4 0 0 0 5.66-5.66l-2.5 2.5-2-2 2.5-2.5z"/></svg></div>
@@ -105,7 +111,7 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
 <section class="section">
   <div class="wrap">
     <div class="section-head reveal" id="specialties">
-      <span class="eyebrow">{{ site.specialtiesHead.eyebrow[lang] | safe }}</span>
+      <h2 class="eyebrow">{{ site.specialtiesHead.eyebrow[lang] | safe }}</h2>
     </div>
 
     {% for sp in specialties %}
@@ -135,14 +141,14 @@ permalink: "{% if lang == 'ar' %}ar/index.html{% else %}index.html{% endif %}"
     <div class="section-divider"><img src="{{ '../' if isAr }}assets/images/logo.png" width="34" height="34" alt="" loading="lazy"></div>
 
     <div class="section-head reveal" id="services">
-      <span class="eyebrow">{{ site.servicesHead.eyebrow[lang] | safe }}</span>
+      <h2 class="eyebrow">{{ site.servicesHead.eyebrow[lang] | safe }}</h2>
     </div>
 
     {% for cat in services.categories %}
     <!-- {{ cat.comment[lang] | safe }} -->
     <div class="category-block" id="{{ cat.id }}">
       <div class="category-head reveal">
-        <div><h3>{{ cat.title[lang] | safe }}</h3><a href="{{ cat.id }}.html" class="link link-secondary category-learn-more">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        <div><h3>{{ cat.title[lang] | safe }}</h3><a href="{{ cat.id }}.html" class="link link-secondary category-learn-more" aria-label="{{ (site.detailPage.learnMore[lang] ~ " — " ~ cat.title[lang]) | safe }}">{{ site.detailPage.learnMore[lang] | safe }} <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
       </div>
       <div class="subservice-grid">
         {% for s in cat.services %}

@@ -44,6 +44,19 @@ function deEnt(s) {
   return s.replace(/&amp;/g, "&");
 }
 
+// Referenced from pages (Service/Article) that don't themselves carry the
+// full HomeAndConstructionBusiness node (only index.njk does) — a bare
+// {"@id": "...#business"} only resolves within the SAME document's JSON-LD
+// graph, so it was a dangling reference on every other page. Inlining the
+// identifying properties alongside the @id lets it stand on its own while
+// still merging with the full node where that is present.
+const BUSINESS_REF = {
+  "@type": "HomeAndConstructionBusiness",
+  "@id": "https://www.procraftx.ae/#business",
+  name: "Procraftx",
+  url: "https://www.procraftx.ae/"
+};
+
 function buildOfferCatalog(lang) {
   const prefix = `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
   const items = [];
@@ -109,6 +122,7 @@ module.exports = function (eleventyConfig) {
       logo: "https://www.procraftx.ae/assets/images/logo.png",
       telephone: siteData.business.phone,
       email: siteData.business.email,
+      address: { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" },
       identifier: {
         "@type": "PropertyValue",
         name: "Trade License Number",
@@ -141,15 +155,30 @@ module.exports = function (eleventyConfig) {
       "@type": "Article",
       headline: deEnt(p.heroH1[lang]),
       description: deEnt(p.description[lang]),
+      image: "https://www.procraftx.ae/assets/images/service-promo-poster.jpg",
       inLanguage: lang,
       datePublished: p.datePublished,
       dateModified: p.datePublished,
       author: { "@type": "Organization", name: "Procraftx" },
-      publisher: { "@id": "https://www.procraftx.ae/#business" },
+      publisher: BUSINESS_REF,
       mainEntityOfPage: url,
       url
     };
     return JSON.stringify(obj, null, 2);
+  });
+
+  eleventyConfig.addFilter("guideBreadcrumbJsonLd", function (pageKey, lang) {
+    const p = pagesData[pageKey];
+    const prefix = `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}`;
+    const itemListElement = [
+      { "@type": "ListItem", position: 1, name: siteData.detailPage.breadcrumbHome[lang], item: prefix },
+      { "@type": "ListItem", position: 2, name: lang === "ar" ? p.heroH1.ar : deEnt(p.heroH1.en), item: `${prefix}${p.slug}.html` }
+    ];
+    return JSON.stringify(
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement },
+      null,
+      2
+    );
   });
 
   eleventyConfig.addFilter("faqJsonLd", function (lang) {
@@ -181,7 +210,7 @@ module.exports = function (eleventyConfig) {
       "@type": "Service",
       name: lang === "ar" ? content.h1.ar : deEnt(content.h1.en),
       description: lang === "ar" ? content.metaDescription.ar : deEnt(content.metaDescription.en),
-      provider: { "@id": "https://www.procraftx.ae/#business" },
+      provider: BUSINESS_REF,
       areaServed: siteData.business.areaServed.map((c) => ({ "@type": "City", name: c[lang] })),
       inLanguage: lang,
       url: `https://www.procraftx.ae/${lang === "ar" ? "ar/" : ""}${topic.id}.html`

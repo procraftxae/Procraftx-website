@@ -39,7 +39,9 @@ module.exports = {
     ctaBook: { en: "Book a Free Visit", ar: "احجز زيارة مجانية" },
     ctaSee: { en: "See Specialties &amp; Services", ar: "استعرض التخصصات والخدمات" },
     videoAriaLabel: { en: "Procraftx crew at work", ar: "طاقم بروكرافتكس أثناء العمل" },
-    mobileLinkAriaLabel: { en: "See all specialties and services", ar: "عرض كل التخصصات والخدمات" }
+    mobileLinkAriaLabel: { en: "See all specialties and services", ar: "عرض كل التخصصات والخدمات" },
+    pauseVideo: { en: "Pause background video", ar: "إيقاف الفيديو مؤقتًا" },
+    playVideo: { en: "Play background video", ar: "تشغيل الفيديو" }
   },
 
   trustCards: [

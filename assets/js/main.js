@@ -38,6 +38,31 @@
     update();
   })();
 
+  // hero video pause/play control — required alongside autoplay/loop so the
+  // motion is user-interruptible, and defaults to paused for anyone who
+  // prefers reduced motion instead of relying on muted-loop alone.
+  (function(){
+    const video = document.getElementById('heroVideo');
+    const btn = document.getElementById('heroVideoToggle');
+    if(!video || !btn) return;
+    const pauseIcon = btn.querySelector('.icon-pause');
+    const playIcon = btn.querySelector('.icon-play');
+    function setState(playing){
+      pauseIcon.style.display = playing ? '' : 'none';
+      playIcon.style.display = playing ? 'none' : '';
+      btn.setAttribute('aria-pressed', String(!playing));
+      btn.setAttribute('aria-label', playing ? btn.dataset.pauseLabel : btn.dataset.playLabel);
+    }
+    btn.addEventListener('click', ()=>{
+      if(video.paused){ video.play(); setState(true); }
+      else { video.pause(); setState(false); }
+    });
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      video.pause();
+      setState(false);
+    }
+  })();
+
   // animated stat counters
   const counters = document.querySelectorAll('.stats-grid .num:not(.num-text)');
   const countIO = new IntersectionObserver((entries)=>{

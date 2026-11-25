@@ -15,6 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../assets/images/favicon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+<meta name="theme-color" content="#000000">
 <title>تصميم داخلي وصيانة منزلية دبي والشارقة وأبوظبي | بروكرافتكس</title>
 <meta name="description" content="تصميم داخلي، تجديد، مجالس مخصصة، مسابح والمزيد — تسعير شفاف وضمان 100%. تخصصات منزلية في دبي والشارقة وأبوظبي. اتصل 050 791 7075.">
 <link rel="canonical" href="https://www.procraftx.ae/ar/">
@@ -34,6 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:description" content="مقرّنا في دبي والشارقة وأبوظبي. سعر واضح قبل البدء، وضمان 100%.">
 <meta name="twitter:image" content="https://www.procraftx.ae/assets/images/service-promo-poster.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
 <script type="application/ld+json">
@@ -49,6 +51,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "logo": "https://www.procraftx.ae/assets/images/logo.png",
   "telephone": "+971507917075",
   "email": "Procraftx.ae@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dubai",
+    "addressCountry": "AE"
+  },
   "identifier": {
     "@type": "PropertyValue",
     "name": "Trade License Number",
@@ -315,9 +322,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <section class="hero" id="top">
   <div class="bg">
-    <video class="hero-video" autoplay muted loop playsinline preload="auto" disablePictureInPicture disableRemotePlayback aria-label="طاقم بروكرافتكس أثناء العمل">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="auto" disablePictureInPicture disableRemotePlayback width="1280" height="720" poster="../assets/images/service-promo-poster.jpg" aria-label="طاقم بروكرافتكس أثناء العمل">
       <source src="../assets/hero-workers.mp4" type="video/mp4">
     </video>
+    <button type="button" id="heroVideoToggle" class="hero-video-toggle" aria-pressed="false" aria-label="إيقاف الفيديو مؤقتًا" data-pause-label="إيقاف الفيديو مؤقتًا" data-play-label="تشغيل الفيديو">
+      <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>
+      <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M8 5v14l11-7z"/></svg>
+    </button>
   </div>
   <div class="hero-chips" aria-hidden="true">
     <div class="hero-chip c1"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M14.7 6.3a4 4 0 0 0-5.66 5.66L3 18v3h3l6.04-6.04a4 4 0 0 0 5.66-5.66l-2.5 2.5-2-2 2.5-2.5z"/></svg></div>
@@ -392,7 +403,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <section class="section">
   <div class="wrap">
     <div class="section-head reveal" id="specialties">
-      <span class="eyebrow">تخصصاتنا</span>
+      <h2 class="eyebrow">تخصصاتنا</h2>
     </div>
 
     
@@ -445,8 +456,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>التصميم الداخلي</h3>
     <p>تصميم وتخطيط مساحات وتنسيق كامل لأي غرفة أو تجديد منزل كامل — تسعير شفاف وضمان 100%.</p>
-    <a href="#contact" class="link" data-service="التصميم الداخلي">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="interior-design.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="التصميم الداخلي" aria-label="اطلب عرض سعر — التصميم الداخلي">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="interior-design.html" class="link link-secondary card-link" aria-label="اعرف المزيد — التصميم الداخلي">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -474,8 +485,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>تفصيل الأثاث المخصص</h3>
     <p>خزائن ووحدات تلفزيون وخزائن مطبخ تُصمَّم وتُصنَّع وتُركَّب لتناسب مساحتك — تسعير شفاف وضمان 100%.</p>
-    <a href="#contact" class="link" data-service="تفصيل الأثاث المخصص">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="furniture-design-build.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تفصيل الأثاث المخصص" aria-label="اطلب عرض سعر — تفصيل الأثاث المخصص">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="furniture-design-build.html" class="link link-secondary card-link" aria-label="اعرف المزيد — تفصيل الأثاث المخصص">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -531,8 +542,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>المجالس الخارجية المخصصة والبرجولات</h3>
     <p>مجالس زجاجية وتقليدية وبألواح ساندويتش وبرجولات وملحقات ضيافة — تُبنى من الألف إلى الياء بضمان 100%.</p>
-    <a href="#contact" class="link" data-service="المجالس الخارجية المخصصة والبرجولات">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="outdoor-majlis.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="المجالس الخارجية المخصصة والبرجولات" aria-label="اطلب عرض سعر — المجالس الخارجية المخصصة والبرجولات">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="outdoor-majlis.html" class="link link-secondary card-link" aria-label="اعرف المزيد — المجالس الخارجية المخصصة والبرجولات">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -588,8 +599,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>كراجات السيارات والمظلات الخارجية المخصصة</h3>
     <p>كراجات ومظلات سيارات مخصصة بالفولاذ أو الألمنيوم أو الألواح الساندويتش — تسعير شفاف وضمان 100%.</p>
-    <a href="#contact" class="link" data-service="كراجات السيارات والمظلات الخارجية المخصصة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="car-garage.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="كراجات السيارات والمظلات الخارجية المخصصة" aria-label="اطلب عرض سعر — كراجات السيارات والمظلات الخارجية المخصصة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="car-garage.html" class="link link-secondary card-link" aria-label="اعرف المزيد — كراجات السيارات والمظلات الخارجية المخصصة">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -645,8 +656,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>إنشاء وتصميم حمامات السباحة</h3>
     <p>تصميم وإنشاء وتجديد وصيانة مستمرة لحمامات السباحة — بسعر متفق عليه مسبقًا وضمان 100%.</p>
-    <a href="#contact" class="link" data-service="إنشاء وتصميم حمامات السباحة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="swimming-pools.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="إنشاء وتصميم حمامات السباحة" aria-label="اطلب عرض سعر — إنشاء وتصميم حمامات السباحة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="swimming-pools.html" class="link link-secondary card-link" aria-label="اعرف المزيد — إنشاء وتصميم حمامات السباحة">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -702,8 +713,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>تنسيق الحدائق والبستنة وأنظمة الري</h3>
     <p>تصميم حدائق وزراعة وري وصيانة مستمرة طوال العام — تسعير شفاف وضمان 100%.</p>
-    <a href="#contact" class="link" data-service="تنسيق الحدائق والبستنة وأنظمة الري">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="gardening-irrigation.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تنسيق الحدائق والبستنة وأنظمة الري" aria-label="اطلب عرض سعر — تنسيق الحدائق والبستنة وأنظمة الري">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="gardening-irrigation.html" class="link link-secondary card-link" aria-label="اعرف المزيد — تنسيق الحدائق والبستنة وأنظمة الري">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -759,8 +770,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>الأبواب والنوافذ المخصصة</h3>
     <p>أبواب ونوافذ مخصصة — تصميم وتركيب واستبدال وإصلاح، بتسعير شفاف وضمان 100%.</p>
-    <a href="#contact" class="link" data-service="تصميم وتركيب أبواب مخصصة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="doors-windows.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تصميم وتركيب أبواب مخصصة" aria-label="اطلب عرض سعر — الأبواب والنوافذ المخصصة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="doors-windows.html" class="link link-secondary card-link" aria-label="اعرف المزيد — الأبواب والنوافذ المخصصة">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -816,8 +827,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>أعمال الزجاج والمرايا المخصصة</h3>
     <p>زجاج الحمام والمرايا والفواصل وأعمال الزجاج المخصصة — تسعير شفاف وضمان 100%.</p>
-    <a href="#contact" class="link" data-service="تركيب زجاج الحمام">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="windows-glass.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تركيب زجاج الحمام" aria-label="اطلب عرض سعر — أعمال الزجاج والمرايا المخصصة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="windows-glass.html" class="link link-secondary card-link" aria-label="اعرف المزيد — أعمال الزجاج والمرايا المخصصة">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -873,8 +884,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h3>تظليل النوافذ وأفلام الخصوصية والحماية</h3>
     <p>أفلام عازلة للحرارة وخصوصية وحماية تُركّب على زجاج الفلل والشقق — تسعير شفاف وضمان 100%.</p>
-    <a href="#contact" class="link" data-service="تظليل النوافذ وأفلام الخصوصية والحماية">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="window-tinting.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تظليل النوافذ وأفلام الخصوصية والحماية" aria-label="اطلب عرض سعر — تظليل النوافذ وأفلام الخصوصية والحماية">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="window-tinting.html" class="link link-secondary card-link" aria-label="اعرف المزيد — تظليل النوافذ وأفلام الخصوصية والحماية">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -900,14 +911,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="section-divider"><img src="../assets/images/logo.png" width="34" height="34" alt="" loading="lazy"></div>
 
     <div class="section-head reveal" id="services">
-      <span class="eyebrow">خدماتنا</span>
+      <h2 class="eyebrow">خدماتنا</h2>
     </div>
 
     
     <!-- 1. الصيانة المنزلية الأساسية -->
     <div class="category-block" id="core-home-maintenance">
       <div class="category-head reveal">
-        <div><h3>الصيانة المنزلية الأساسية</h3><a href="core-home-maintenance.html" class="link link-secondary category-learn-more">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        <div><h3>الصيانة المنزلية الأساسية</h3><a href="core-home-maintenance.html" class="link link-secondary category-learn-more" aria-label="اعرف المزيد — الصيانة المنزلية الأساسية">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
       </div>
       <div class="subservice-grid">
         
@@ -924,8 +935,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>خدمات السباكة</h4>
     <p>إصلاح التسريبات، تسليك المصارف، وتركيب التجهيزات.</p>
-    <a href="#contact" class="link" data-service="خدمات السباكة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="plumbing-services.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="خدمات السباكة" aria-label="اطلب عرض سعر — خدمات السباكة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="plumbing-services.html" class="link link-secondary card-link" aria-label="اعرف المزيد — خدمات السباكة">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -943,8 +954,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>الأعمال الكهربائية</h4>
     <p>تركيب الإضاءة، إصلاح الأسلاك، واستبدال المقابس.</p>
-    <a href="#contact" class="link" data-service="الأعمال الكهربائية">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="electrical-services.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="الأعمال الكهربائية" aria-label="اطلب عرض سعر — الأعمال الكهربائية">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="electrical-services.html" class="link link-secondary card-link" aria-label="اعرف المزيد — الأعمال الكهربائية">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -962,8 +973,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>خدمات تكييف الهواء</h4>
     <p>تنظيف الفلاتر، تعبئة الغاز، وإصلاح التسريبات.</p>
-    <a href="#contact" class="link" data-service="خدمات تكييف الهواء">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="ac-services.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="خدمات تكييف الهواء" aria-label="اطلب عرض سعر — خدمات تكييف الهواء">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="ac-services.html" class="link link-secondary card-link" aria-label="اعرف المزيد — خدمات تكييف الهواء">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -981,8 +992,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>دهان الجدران والبناء</h4>
     <p>دهان الجدران، إصلاح الشقوق، وإصلاح البلاط أو الطوب.</p>
-    <a href="#contact" class="link" data-service="دهان الجدران والبناء">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="wall-painting-masonry.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="دهان الجدران والبناء" aria-label="اطلب عرض سعر — دهان الجدران والبناء">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="wall-painting-masonry.html" class="link link-secondary card-link" aria-label="اعرف المزيد — دهان الجدران والبناء">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -993,7 +1004,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- 2. التنظيف العميق والتعقيم -->
     <div class="category-block" id="home-clearing">
       <div class="category-head reveal">
-        <div><h3>التنظيف العميق والتعقيم</h3><a href="home-clearing.html" class="link link-secondary category-learn-more">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        <div><h3>التنظيف العميق والتعقيم</h3><a href="home-clearing.html" class="link link-secondary category-learn-more" aria-label="اعرف المزيد — التنظيف العميق والتعقيم">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
       </div>
       <div class="subservice-grid">
         
@@ -1010,8 +1021,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>تنظيف المنزل</h4>
     <p>إزالة الغبار والتنظيف بالمكنسة والمسح للصيانة الدورية.</p>
-    <a href="#contact" class="link" data-service="تنظيف المنزل">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="home-cleaning.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تنظيف المنزل" aria-label="اطلب عرض سعر — تنظيف المنزل">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="home-cleaning.html" class="link link-secondary card-link" aria-label="اعرف المزيد — تنظيف المنزل">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -1029,8 +1040,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>تنظيف الأثاث</h4>
     <p>تنظيف بالبخار وإزالة بقع للمفروشات والسجاد.</p>
-    <a href="#contact" class="link" data-service="تنظيف الأثاث">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="furniture-cleaning.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تنظيف الأثاث" aria-label="اطلب عرض سعر — تنظيف الأثاث">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="furniture-cleaning.html" class="link link-secondary card-link" aria-label="اعرف المزيد — تنظيف الأثاث">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -1048,8 +1059,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>تنظيف خزانات المياه</h4>
     <p>تنظيف بالضغط لخزانات المياه العلوية والأرضية.</p>
-    <a href="#contact" class="link" data-service="تنظيف خزانات المياه">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="water-tank-cleaning.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تنظيف خزانات المياه" aria-label="اطلب عرض سعر — تنظيف خزانات المياه">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="water-tank-cleaning.html" class="link link-secondary card-link" aria-label="اعرف المزيد — تنظيف خزانات المياه">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -1067,8 +1078,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>التعقيم ومكافحة الحشرات</h4>
     <p>مكافحة الحشرات وتعقيم الأسطح من البكتيريا.</p>
-    <a href="#contact" class="link" data-service="التعقيم ومكافحة الحشرات">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="disinfection-pest-control.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="التعقيم ومكافحة الحشرات" aria-label="اطلب عرض سعر — التعقيم ومكافحة الحشرات">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="disinfection-pest-control.html" class="link link-secondary card-link" aria-label="اعرف المزيد — التعقيم ومكافحة الحشرات">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -1079,7 +1090,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- 3. خدمات الأثاث والنقل -->
     <div class="category-block" id="furniture-services">
       <div class="category-head reveal">
-        <div><h3>خدمات الأثاث والنقل</h3><a href="furniture-services.html" class="link link-secondary category-learn-more">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+        <div><h3>خدمات الأثاث والنقل</h3><a href="furniture-services.html" class="link link-secondary category-learn-more" aria-label="اعرف المزيد — خدمات الأثاث والنقل">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
       </div>
       <div class="subservice-grid">
         
@@ -1096,8 +1107,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>تصميم الأثاث</h4>
     <p>رسومات مفاهيمية، تصورات ثلاثية الأبعاد، واختيار مواد للقطع المخصصة.</p>
-    <a href="#contact" class="link" data-service="تصميم الأثاث">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="furniture-design.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="تصميم الأثاث" aria-label="اطلب عرض سعر — تصميم الأثاث">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="furniture-design.html" class="link link-secondary card-link" aria-label="اعرف المزيد — تصميم الأثاث">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -1115,8 +1126,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>ترميم ودهان الأثاث</h4>
     <p>صنفرة وطلاء وترميم الأثاث الخشبي القديم.</p>
-    <a href="#contact" class="link" data-service="ترميم ودهان الأثاث">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="furniture-restoration.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="ترميم ودهان الأثاث" aria-label="اطلب عرض سعر — ترميم ودهان الأثاث">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="furniture-restoration.html" class="link link-secondary card-link" aria-label="اعرف المزيد — ترميم ودهان الأثاث">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -1134,8 +1145,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>أعمال الصيانة العامة</h4>
     <p>تعليق أرفف وتركيب شاشات وإصلاحات منزلية بسيطة.</p>
-    <a href="#contact" class="link" data-service="أعمال الصيانة العامة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="handyman-services.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="أعمال الصيانة العامة" aria-label="اطلب عرض سعر — أعمال الصيانة العامة">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="handyman-services.html" class="link link-secondary card-link" aria-label="اعرف المزيد — أعمال الصيانة العامة">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
@@ -1153,8 +1164,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="body">
     <h4>التغليف والنقل</h4>
     <p>تغليف وتحميل ونقل آمن إلى منزلك الجديد.</p>
-    <a href="#contact" class="link" data-service="التغليف والنقل">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    <a href="packers-movers.html" class="link link-secondary card-link">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="#contact" class="link" data-service="التغليف والنقل" aria-label="اطلب عرض سعر — التغليف والنقل">اطلب عرض سعر <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <a href="packers-movers.html" class="link link-secondary card-link" aria-label="اعرف المزيد — التغليف والنقل">اعرف المزيد <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
   </div>
 </article>
 
